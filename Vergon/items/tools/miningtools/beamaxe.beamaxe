@@ -1,0 +1,30 @@
+{
+  "itemName" : "beamaxe",
+  "price" : 0,
+  "inventoryIcon" : "gravgunicon.png",
+  "rarity" : "Essential",
+  "maxStack" : 1,
+  "description" : "The most basic of tools. ^green;Quick select with [R] key.",
+  "shortdescription" : "Your Hands",
+  "largeImage" : "gravgunlarge.png",
+  "tooltipKind" : "mm",
+  "category" : "Tool",
+  "fireTime" : 0.25,
+  "blockRadius" : 2,
+  "altBlockRadius" : 1,
+  "tileDamage" : 1.2,
+  "harvestLevel" : 99,
+  "canCollectLiquid" : true,
+  "twoHanded" : true,
+  "strikeSounds" : [ "/sfx/blocks/footstep_ash.ogg", "/sfx/blocks/footstep_dirt.ogg" ],
+
+  "image" : "/items/tools/miningtools/beamaxe.png",
+  "endImages" : [ "/humanoid/any/ball.png", "/humanoid/any/tileglow.png", "/humanoid/any/4tileglow.png", "/humanoid/any/ball.png" ],
+  "handPosition" : [-2, 0],
+  "firePosition" : [5, 0],
+
+  "scripts" : ["/items/tools/miningtools/beamaxe.lua"],
+  "scriptDelta" : 10,
+
+  "notifyEntityTime" : 0.5
+}
