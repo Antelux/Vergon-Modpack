@@ -470,8 +470,8 @@ function update()
 
 					end
 
-					local VelocityX = mcontroller.xVelocity() / Tech.factor
-					local VelocityY = mcontroller.yVelocity() / Tech.factor
+					local VelocityX = mcontroller.xVelocity() --/ Tech.factor
+					local VelocityY = mcontroller.yVelocity() --/ Tech.factor
 
 					--sb.setLogMap('adj_vel', '%s, %s', VelocityX, VelocityY)
 					--sb.setLogMap('FPS', '%s', Tech.FPS or '??')
@@ -553,8 +553,8 @@ function update()
 
 			local Divisor = 500 * (ItemIsAimable and 0.5 or 1)
 
-			local xFactor = EaseInOutSine(Clamp(math.abs(TargetPosition[1] - MonsterPosition[1]) / Divisor, 0.09, 1.0)) * Tech.factor
-			local yFactor = EaseInOutSine(Clamp(math.abs(TargetPosition[2] - MonsterPosition[2]) / Divisor, 0.09, 1.0)) * Tech.factor
+			local xFactor = EaseInOutSine(Clamp(math.abs((TargetPosition[1] - MonsterPosition[1]) * Tech.factor) / Divisor, 0.09, 1.0))
+			local yFactor = EaseInOutSine(Clamp(math.abs((TargetPosition[2] - MonsterPosition[2]) * Tech.factor) / Divisor, 0.09, 1.0))
 
 			OldPosition[1] = MonsterPosition[1]
 			OldPosition[2] = MonsterPosition[2]

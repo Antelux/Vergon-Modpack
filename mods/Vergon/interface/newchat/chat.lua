@@ -776,6 +776,9 @@ local MessageHighlightColor = {0, 0, 0, 128}
 local CommandColor = {0, 0, 0, 192}
 local ButtonPosition = {0, 0}
 
+-- BUG: Character widths aren't accurate over many many lines.
+-- BUG: Font width still isn't entirely accurate.
+
 local function RenderChat(ChatLog, MousePosition)
 
 	local Size = ChatLog:size()
@@ -973,7 +976,7 @@ local function RenderChat(ChatLog, MousePosition)
 			if IsDifferentAuthor or (not IsNextMessageVisible) then -- Avatar
 
 				local Drawables = Message.avatar
-				local IsPinned = ((StartY + 20) < Height) or (not Messages[i - 1]) or (Messages[i - 1].authorID == Message.authorID)
+				local IsPinned = ((StartY + 22) < Height) or (not Messages[i - 1]) or (Messages[i - 1].authorID == Message.authorID)
 
 				for i = 1, #Drawables do
 
@@ -983,11 +986,11 @@ local function RenderChat(ChatLog, MousePosition)
 
 					if IsPinned then
 
-						TextFormat.position[2] = math.min(Drawable.position[2] + offsetY - 13 - 5, Height - 10 - 8)
+						TextFormat.position[2] = Drawable.position[2] + math.min(offsetY - 13 - 2, Height - 10 - 5) --math.min(Drawable.position[2] + offsetY - 13 - 2, Height - 10 - 5)
 
 					else
 
-						TextFormat.position[2] = Drawable.position[2] + StartY + 7 - 5
+						TextFormat.position[2] = Drawable.position[2] + StartY + 7 
 
 					end
 
