@@ -543,23 +543,23 @@ function update()
 		lastItem = Item
 
 		if (MonsterPosition[1] ~= TargetPosition[1]) or (MonsterPosition[2] ~= TargetPosition[2]) then
-			
-			-- Crossing world seam detection.
-			if math.abs(TargetPosition[1] - MonsterPosition[1]) >= (Size[1] / 2) then
 
-				if MonsterPosition[1] < 0 then -- Eastward
+			local function Approach(from, to, amount, isX)
 
-					MonsterPosition[1] = MonsterPosition[1] + Size[1]
+				-- Crossing world seam detection.
+				if isX and (math.abs(from - to) >= (Size[1] / 2)) then
 
-				else -- Westward
+					if from < 0 then -- Eastward
 
-					MonsterPosition[1] = MonsterPosition[1] - Size[1]
+						from = from + Size[1]
+
+					else -- Westward
+
+						from = from - Size[1]
+
+					end
 
 				end
-
-			end
-
-			local function Approach(from, to, amount)
 
 				if from < to then
 
@@ -589,7 +589,7 @@ function update()
 			OldPosition[1] = MonsterPosition[1]
 			OldPosition[2] = MonsterPosition[2]
 
-			MonsterPosition[1] = Approach(OldPosition[1], TargetPosition[1], math.max(math.abs(xFactor), MinXFactor))
+			MonsterPosition[1] = Approach(OldPosition[1], TargetPosition[1], math.max(math.abs(xFactor), MinXFactor), true)
 			MonsterPosition[2] = Approach(OldPosition[2], TargetPosition[2], math.max(math.abs(yFactor), MinYFactor))
 
 			SetMonsterPosition()

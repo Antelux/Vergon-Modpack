@@ -812,16 +812,35 @@ local function ResetAvatarCanvases()
 
 end
 
+local HCanvas;
+
+local function RenderChatTextBar()
+
+	if HCanvas then return end
+	HCanvas = widget.bindCanvas('hideCanvas')
+
+	local Size = HCanvas:size()
+	local GRAY = {25, 25, 25}
+
+	HCanvas:clear()
+	HCanvas:drawRect({0, 0, Size[1], Size[2]}, {25/2, 25/2, 25/2})
+
+	HCanvas:drawRect({0, 0, Size[1], 1}, GRAY)
+	HCanvas:drawRect({0, Size[2] - 1, Size[1], Size[2]}, GRAY)
+
+	HCanvas:drawRect({0, 0, 1, Size[2]}, GRAY)
+	HCanvas:drawRect({Size[1] - 30, 0, Size[1], Size[2]}, GRAY)
+end
+
 -- NOTE: Y-axis is ascending, so 0 is at bottom.
 
 local MessageHighlightColor = {0, 0, 0, 128}
 local CommandColor = {0, 0, 0, 192}
 local ButtonPosition = {0, 0}
 
--- BUG: Character widths aren't accurate over many many lines.
--- BUG: Font width still isn't entirely accurate.
-
 local function RenderChat(ChatLog, MousePosition)
+
+	RenderChatTextBar()
 
 	local Size = ChatLog:size()
 	local Width, Height = Size[1], Size[2]
@@ -943,6 +962,12 @@ local function RenderChat(ChatLog, MousePosition)
 
 				end
 
+				-- 
+
+				local Timestamp = os.date(false and '^darkgray;%H:%M' or '^darkgray;%I:%M %p', true and Message.realtime or Message.gametime)
+
+				RenderShadow(ChatLog, Timestamp, Width - 29, (HighlightEndY < 20) and (HighlightEndY + 5) or (HighlightEndY - 12), 6)
+
 			end
 
 			do -- Message
@@ -992,14 +1017,12 @@ local function RenderChat(ChatLog, MousePosition)
 
 				if authorPixelWidth then  -- Timestamp / Discord Tag
 
-					local Edited = Message.edited and ' (edited)' or ''
+					local Edited = Message.edited and ' ^darkgray;(edited)' or ''
 
 					local Secondary = 
 						(isAuthorHighlighted and Message.discord) and
 						-- Discord Tag
-						('^lightgray;' .. Message.discord) or
-						-- Timestamp
-						(os.date(false and '^darkgray;%H:%M' or '^darkgray;%I:%M %p', true and Message.realtime or Message.gametime) .. Edited)
+						('^lightgray;' .. Message.discord) or Edited
 
 					if Message.owner and (Message.messageID < 0) then
 
@@ -1078,6 +1101,9 @@ local function RenderChat(ChatLog, MousePosition)
 	-- Command stuff.
 
 	local Autocomplete = autocompleteMatches
+	local CommandCanvas = widget.bindCanvas('commandCanvas')
+
+	CommandCanvas:clear()
 	
 	if Autocomplete.length == 1 then
 
@@ -1087,10 +1113,10 @@ local function RenderChat(ChatLog, MousePosition)
 		local Lines = Chat.stringLineCount(Command.description, Width - (15*2)) * 10 + 10
 		local PositionX = Chat.stringPixelWidth(Command.command) + SpaceWidth + 15
 
-		RenderVerticalGradient(ChatLog, 0, 0, Width, Lines + 30)
+		RenderVerticalGradient(CommandCanvas, 0, 0, Width, Lines + 30)
 		
-		RenderShadow(ChatLog, Chat.formatText(Command.command), 15, Lines + 5, 8)
-		RenderShadow(ChatLog, Chat.formatText('^lightgray;' .. Command.description), 15, Lines - 10 + 5, 8)
+		RenderShadow(CommandCanvas, Chat.formatText(Command.command), 15, Lines + 5, 8)
+		RenderShadow(CommandCanvas, Chat.formatText('^lightgray;' .. Command.description), 15, Lines - 10 + 5, 8)
 
 		local Rect = {0, 0, 0, 0}
 		local Color = {255, 255, 255, 255}
@@ -1120,9 +1146,9 @@ local function RenderChat(ChatLog, MousePosition)
 			Rect[3] = PositionX - SpaceWidth
 			Rect[4] = Lines + 5 + 1
 
-			ChatLog:drawRect(Rect, Color)
+			CommandCanvas:drawRect(Rect, Color)
 
-			RenderShadow(ChatLog, Text, StartX, Lines + 5, 8)
+			RenderShadow(CommandCanvas, Text, StartX, Lines + 5, 8)
 
 		end
 
@@ -1147,9 +1173,9 @@ local function RenderChat(ChatLog, MousePosition)
 
 		local Lines = Chat.stringLineCount(text, Width - (15*2)) * 10
 
-		RenderVerticalGradient(ChatLog, 0, 0, Width, Lines + 30)
+		RenderVerticalGradient(CommandCanvas, 0, 0, Width, Lines + 30)
 
-		RenderShadow(ChatLog, text, 15, Lines + 5, 8)
+		RenderShadow(CommandCanvas, text, 15, Lines + 5, 8)
 
 	end
 
@@ -1354,12 +1380,12 @@ function updateLetterCount()
 	local LetterCount = #CurrentMessage
 	local Color;
 
-		if LetterCount > 1000 then Color = '^red;'
-	elseif LetterCount > 850 then Color = '^lightgray;'
-	elseif LetterCount > 600 then Color = '^gray;'
-	else                          Color = '^darkgray;' end
+		 if LetterCount > (800 * 1.00) then Color = '^red;'
+	elseif LetterCount > (800 * 0.85) then Color = '^lightgray;'
+	elseif LetterCount > (800 * 0.60) then Color = '^gray;'
+	else                                   Color = '^darkgray;' end
 
-	widget.setText('letterCount', Color .. ((LetterCount <= 9999) and (1000 - LetterCount) or '>:o'))
+	widget.setText('letterCount', Color .. ((LetterCount <= 9999) and (800 - LetterCount) or '>:o'))
 
 	if autocompleteMatches.length ~= 0 then
 
@@ -1600,7 +1626,7 @@ function sendMessage()
 			widget.blur('textBox')
 			bottomButton()
 
-		elseif Length <= 1000 then -- Chat
+		elseif Length <= 800 then -- Chat
 
 			local PlayerID = player.id()
 

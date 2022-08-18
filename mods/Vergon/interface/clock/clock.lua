@@ -279,9 +279,10 @@ function init()
 
 		serverTime = time
 		serverTimeOffset = os.time()
+		rerender = true
 
 	end)
-	
+
 
 	Canvas = widget.bindCanvas('clockCanvas')
 
@@ -563,7 +564,7 @@ local function Render()
 		local Colon = blinkColon and '^#CCCCCC;:' or '^#E6E6E6;:'
 		local TimeOfDay = TIME_OF_DAY[tonumber(os.date('%H', WorldTime))] or '???'
 		local Time = os.date((Clock.useMilitaryTime and ('^#FFFFFF;%H' .. Colon .. '^#FFFFFF;%M') or ('^#FFFFFF;%I' .. Colon .. '^#FFFFFF;%M %p')), WorldTime)
-		local Date = '^#F2F2F2;' .. os.date('%B ', WorldTime) .. (DAY_OF_MONTH[tonumber(os.date('%d', WorldTime))] or '??') .. os.date(', %Y', WorldTime)
+		local Date = '^#F2F2F2;' .. os.date('%B ', WorldTime) .. (DAY_OF_MONTH[tonumber(os.date('%d', WorldTime))] or '??') .. ', ' .. math.floor(tonumber(os.date('%Y', WorldTime) + 200))
 		local Day  = '^#E6E6E6;' .. os.date('%A ', WorldTime) .. TimeOfDay
 		
 		local Alpha = string.format('%02X', ((alpha ^ 2) * 255) // 1)
