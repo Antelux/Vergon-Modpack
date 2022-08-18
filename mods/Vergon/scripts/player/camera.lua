@@ -33,6 +33,7 @@ local MonsterHasFocus = false
 local cameraEnabled = true
 local lastTime;
 local cameraDelay = 0
+local cameraTimer = 0
 local lastMoveUp;
 local lastItem;
 local lastUpdate = 0;
@@ -363,6 +364,10 @@ function update()
 		local LookUp = Tech.args.moves.up
 		local PeriodicUpdate = (os.clock() - lastUpdate) >= 3
 
+		cameraTimer =
+			((MonsterPosition[1] ~= TargetPosition[1]) or (MonsterPosition[2] ~= TargetPosition[2])) and
+			(cameraTimer + deltaTime) or 0
+
 		if 
 			(LastPosition[1] ~= PlayerX) or (LastPosition[2] ~= PlayerY) or 
 			(lastMoveUp ~= LookUp) or (lastItem ~= Item) or
@@ -371,7 +376,7 @@ function update()
 
 			cameraDelay = ((lastMoveUp ~= LookUp) or (lastItem ~= Item) or PeriodicUpdate) and 1 or (cameraDelay + deltaTime)
 
-			if cameraDelay > 0.1 then
+			if cameraDelay >= 0.1 then
 
 				LastPosition[1] = PlayerX
 				LastPosition[2] = PlayerY
@@ -470,8 +475,8 @@ function update()
 
 					end
 
-					local VelocityX = mcontroller.xVelocity() --/ Tech.factor
-					local VelocityY = mcontroller.yVelocity() --/ Tech.factor
+					local VelocityX = mcontroller.xVelocity() / Tech.factor
+					local VelocityY = mcontroller.yVelocity() / Tech.factor
 
 					--sb.setLogMap('adj_vel', '%s, %s', VelocityX, VelocityY)
 					--sb.setLogMap('FPS', '%s', Tech.FPS or '??')
@@ -519,6 +524,9 @@ function update()
 
 					end
 
+					TargetPosition[1] = Clamp(TargetPosition[1], PlayerX - (tileWidth/2.5), PlayerX + (tileWidth/2.5))
+					TargetPosition[2] = Clamp(TargetPosition[2], PlayerY - (tileHeight/2.5), PlayerY + (tileHeight/2.5))
+
 				end
 
 			end
@@ -551,16 +559,38 @@ function update()
 
 			end
 
-			local Divisor = 500 * (ItemIsAimable and 0.5 or 1)
+			local function Approach(from, to, amount)
 
-			local xFactor = EaseInOutSine(Clamp(math.abs((TargetPosition[1] - MonsterPosition[1]) * Tech.factor) / Divisor, 0.09, 1.0))
-			local yFactor = EaseInOutSine(Clamp(math.abs((TargetPosition[2] - MonsterPosition[2]) * Tech.factor) / Divisor, 0.09, 1.0))
+				if from < to then
+
+					return math.min(from + amount, to)
+
+				elseif from > to then
+
+					return math.max(from - amount, to)
+
+				else
+
+					return from
+
+				end
+
+			end
+
+			local xDivisor = (ItemIsAimable and (tileWidth/2.75) or (tileWidth/2)) * ((1 - EaseInOutSine(Clamp(cameraTimer * 3, 0, 1))) + 1)
+			local yDivisor = (ItemIsAimable and (tileHeight/2.75) or (tileHeight/2)) * ((1 - EaseInOutSine(Clamp(cameraTimer * 3, 0, 1))) + 1)
+
+			local MinXFactor = 1 / (tileWidth * 50)
+			local MinYFactor = 1 / (tileHeight * 50)
+
+			local xFactor = ((TargetPosition[1] - MonsterPosition[1]) * Tech.factor) / xDivisor
+			local yFactor = ((TargetPosition[2] - MonsterPosition[2]) * Tech.factor) / yDivisor
 
 			OldPosition[1] = MonsterPosition[1]
 			OldPosition[2] = MonsterPosition[2]
 
-			MonsterPosition[1] = Mix(OldPosition[1], TargetPosition[1], math.min(xFactor, 1.0))
-			MonsterPosition[2] = Mix(OldPosition[2], TargetPosition[2], math.min(yFactor, 1.0))
+			MonsterPosition[1] = Approach(OldPosition[1], TargetPosition[1], math.max(math.abs(xFactor), MinXFactor))
+			MonsterPosition[2] = Approach(OldPosition[2], TargetPosition[2], math.max(math.abs(yFactor), MinYFactor))
 
 			SetMonsterPosition()
 

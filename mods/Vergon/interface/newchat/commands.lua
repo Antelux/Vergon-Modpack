@@ -1,5 +1,9 @@
 -----------------------------------------------------------------------
 
+require '/scripts/util/json.lua'
+
+-----------------------------------------------------------------------
+
 local Chat   = math.__chat
 
 -- TODO: Steal more from https://starbounder.org/Commands
@@ -112,7 +116,7 @@ Chat.addCommand
 
 Chat.addCommand
 (
-	'spawnitem (itemName: string) (count: uint?) (parameters: json?)',
+	'spawnitem (itemName: string) (count: uint?) (parameters: json?)',	
 
 	'Spawn the specified item into your inventory. Count defaults to 1. If the item does not exist, it will spawn a perfectly generic item.',
 
@@ -122,7 +126,28 @@ Chat.addCommand
 
 		local ItemName = args[1]
 		local Count = tonumber(args[2] or 1)
-		local Parameters = args[3] or {}
+		local Parameters = {};
+
+		if args[3] then
+
+			Parameters = ''
+
+			for i = 3, #args do
+
+				Parameters = Parameters .. args[i] .. ' '
+
+			end
+
+			-- Remove trailing whitespace.
+			Parameters = Parameters:sub(1, -2)
+			-- Grab JSON string.
+			sb.logInfo('|' .. Parameters .. '|')
+			Parameters = Parameters:match("^'(.*)'$") or Parameters
+			sb.logInfo('|' .. Parameters .. '|')
+			-- Decode.
+			Parameters = json.decode(Parameters) or {}
+
+		end
 
 		if type(ItemName) ~= 'string' then
 
@@ -151,6 +176,8 @@ Chat.addCommand
 			count = Count,
 			parameters = Parameters
 		})
+
+		Chat.clientMessage('Spawned \'^yellow;' .. ItemName .. '^reset;\' x^yellow;' .. Count)
 
 	end
 )

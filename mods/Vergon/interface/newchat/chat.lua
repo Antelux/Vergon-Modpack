@@ -770,6 +770,48 @@ local function AdjustTextBrightness(message, percent)
 
 end
 
+local AvatarCanvases = {
+	'avatarCanvas1',
+	'avatarCanvas2',
+	'avatarCanvas3',
+	'avatarCanvas4',
+	'avatarCanvas5',
+	'avatarCanvas6',
+	'avatarCanvas7',
+	'avatarCanvas8',
+	'avatarCanvas9',
+	'avatarCanvas10'
+}; local AvatarIndex = 1
+
+local function GetAvatarCanvas(position)
+
+	local Name = AvatarCanvases[AvatarIndex]
+	if not Name then return end
+
+	AvatarIndex = AvatarIndex + 1
+
+	widget.setPosition(Name, position)
+
+	local Canvas = widget.bindCanvas(Name)
+
+	Canvas:clear()
+
+	return widget.bindCanvas(Name)
+
+end
+
+local function ResetAvatarCanvases()
+
+	for i = AvatarIndex, #AvatarCanvases do
+
+		widget.bindCanvas(AvatarCanvases[i]):clear()
+
+	end
+
+	AvatarIndex = 1
+
+end
+
 -- NOTE: Y-axis is ascending, so 0 is at bottom.
 
 local MessageHighlightColor = {0, 0, 0, 128}
@@ -975,26 +1017,29 @@ local function RenderChat(ChatLog, MousePosition)
 
 			if IsDifferentAuthor or (not IsNextMessageVisible) then -- Avatar
 
-				local Drawables = Message.avatar
 				local IsPinned = ((StartY + 22) < Height) or (not Messages[i - 1]) or (Messages[i - 1].authorID == Message.authorID)
 
-				for i = 1, #Drawables do
+				TextFormat.position[1] = (4.5 + 4) + 5
+				TextFormat.position[2] = (IsPinned and (math.min(offsetY - 13 - 2, Height - 10 - 5)) or StartY + 7) + 12
 
-					local Drawable = Drawables[i]
+				local AvatarCanvas = GetAvatarCanvas(TextFormat.position)
 
-					TextFormat.position[1] = Drawable.position[1] + (4.5 + 4) + 5
+				if AvatarCanvas then
 
-					if IsPinned then
+					--AvatarCanvas:drawRect({0, 0, 100, 100}, {255, 0, 0})
 
-						TextFormat.position[2] = Drawable.position[2] + math.min(offsetY - 13 - 2, Height - 10 - 5) --math.min(Drawable.position[2] + offsetY - 13 - 2, Height - 10 - 5)
+					local Drawables = Message.avatar
 
-					else
+					for i = 1, #Drawables do
 
-						TextFormat.position[2] = Drawable.position[2] + StartY + 7 
+						local Drawable = Drawables[i]
+
+						TextFormat.position[1] = Drawable.position[1] + 8.5
+						TextFormat.position[2] = Drawable.position[2] + 2.5
+
+						AvatarCanvas:drawImage(Drawable.image, TextFormat.position, 1, TextColor, true)
 
 					end
-
-					ChatLog:drawImage(Drawable.image, TextFormat.position, 1, TextColor, true)
 
 				end
 
@@ -1019,6 +1064,8 @@ local function RenderChat(ChatLog, MousePosition)
 		end
 
 	end
+
+	ResetAvatarCanvases()
 
 	maxYOffset = offsetY - Chat.__scrollOffset
 
@@ -1168,7 +1215,7 @@ function customButton2()
 	widget.setText('textBox', 
 		Message.owner and
 		('/edit ' .. Message.messageID .. ' ' .. UnformatMessage(Message.message)) or
-		('/party invite ' .. Message.authorID)
+		('/party_invite ' .. Message.authorID)
 	)
 
 	widget.focus('textBox')
@@ -1185,7 +1232,7 @@ function customButton3()
 	widget.setText('textBox', 
 		Message.owner and
 		('/delete ' .. Message.messageID) or
-		(Message.discord and ('/ping ' .. Message.discord) or 'User lacks discord.')
+		'' --(Message.discord and ('/ping ' .. Message.discord) or 'User lacks discord.')
 	)
 
 	widget.focus('textBox')

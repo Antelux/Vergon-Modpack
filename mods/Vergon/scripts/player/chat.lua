@@ -112,28 +112,22 @@ local function GetAvatar(id)
 
 		if Portrait then
 
-			for i = 1, #Portrait do
+      for i = 1, #Portrait do
 
-				local Drawable = Portrait[i]
+        local Drawable = Portrait[i]
 
-				if not (Drawable.image:find('^/.-/back%.png') or Drawable.image:find('^/.-/pants%.png:')) then
+        if not (Drawable.image:find('^/.-/back%.png') or Drawable.image:find('^/.-/pants%.png:')) then
 
-					if not Drawable.image:find('?blendmult=') then
+          table.insert(Drawables, {
 
-						Drawable.image = Drawable.image .. '?addmask=/humanoid/portraitMask.png;0;0'
+            image    = Drawable.image,
+            position = Drawable.position
 
-					end
+          })
 
-					table.insert(Drawables, {
+        end
 
-						image    = Drawable.image,
-						position = Drawable.position
-
-					})
-
-				end
-
-			end
+      end
 
 		end
 
