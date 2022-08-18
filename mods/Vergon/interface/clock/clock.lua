@@ -255,13 +255,6 @@ function init()
 
 		end)
 
-		Message.setHandler('SET_TIME', function(_, _, time)
-
-			serverTime = time
-			serverTimeOffset = os.time()
-
-		end)
-
 	end
 
 	Clock.__pane = pane
@@ -281,6 +274,14 @@ function init()
 	--
 
 	world.sendEntityMessage('SERVER', 'GET_TIME')
+
+	Message.setHandler('SET_TIME', function(_, _, time)
+
+		serverTime = time
+		serverTimeOffset = os.time()
+
+	end)
+	
 
 	Canvas = widget.bindCanvas('clockCanvas')
 
