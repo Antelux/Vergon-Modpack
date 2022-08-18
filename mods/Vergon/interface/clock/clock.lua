@@ -280,6 +280,8 @@ function init()
 
 	--
 
+	world.sendEntityMessage('SERVER', 'GET_TIME')
+
 	Canvas = widget.bindCanvas('clockCanvas')
 
 	local Size = Canvas:size()
