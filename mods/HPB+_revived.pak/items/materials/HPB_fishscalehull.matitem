@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_fishscalehull",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "fishscalehull_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Fish Scale Plating",
+  "description" : "Sheets of ship hull plating.",
+  "glitchdescription" : "Statement. Star ship hull plating.",
+  "florandescription" : "Ssship ssskin.",
+
+  "materialId" : 42048
+}

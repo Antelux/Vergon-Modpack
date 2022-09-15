@@ -1,0 +1,15 @@
+{
+  "itemName" : "HPB_gelledfuelblock",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "gelledfuelblock_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Gelled Fuel Block",
+  "description" : "Block of gelled liquid erchius fuel.",
+  "glitchdescription" : "Statement. Fuel block.",
+  "florandescription" : "Wiggly fuel!",
+
+  "fuelAmount" : 10,
+
+  "materialId" : 42292
+}

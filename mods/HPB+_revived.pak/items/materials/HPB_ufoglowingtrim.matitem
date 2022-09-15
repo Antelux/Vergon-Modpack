@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_ufoglowingtrim",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "ufoglowingtrim_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "UFO Glowing Trim",
+  "description" : "Fancy tubing to add some detail to a ship.",
+  "glitchdescription" : "Statement. Star ship trim.",
+  "florandescription" : "Ssship tubesss.",
+
+  "materialId" : 42262
+}

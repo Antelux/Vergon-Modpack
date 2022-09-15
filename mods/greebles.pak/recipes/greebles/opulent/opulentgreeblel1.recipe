@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "opulentpanel", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "opulentgreebleL1",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

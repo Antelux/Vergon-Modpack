@@ -1,0 +1,23 @@
+{
+  "materialId": 42971,
+  "materialName": "HPBA_violiumshiphulldark",
+  "particleColor": [50, 12, 64, 255],
+  "itemDrop": "HPBA_violiumshiphulldark",
+  "shortdescription": "Dark Violium Plating",
+  "description": "Sheets of ship hull plating.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/slopedmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "HPBA_violiumhulldark.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

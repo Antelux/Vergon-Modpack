@@ -1,0 +1,24 @@
+{
+  "objectName" : "plushienumismall",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Awww, it's a tiny Numi.",
+  "shortdescription" : "Small Numi Plushie",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 100,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "plushienumismall.png:<color>",
+      "imagePosition" : [-8, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

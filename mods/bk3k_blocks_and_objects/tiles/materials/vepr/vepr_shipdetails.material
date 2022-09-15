@@ -1,0 +1,23 @@
+{
+  "materialId" : 7173,
+  "materialName" : "vepr_shipdetails",
+  "particleColor" : [0, 255, 255, 255],
+  "itemDrop" : "vepr_shipdetails",
+  "description" : "A smooth beam full of circuitry.",
+  "shortdescription" : "Vepr Ship Beam",
+  "glitchDescription" : "Statement. A horizontal beam housing extensive wiring.",
+  "floranDescription" : "Ssstrange noises coming from this block.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 20,
+  
+  "category" : "materials",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vepr_shipdetails.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 3169
+  }
+}

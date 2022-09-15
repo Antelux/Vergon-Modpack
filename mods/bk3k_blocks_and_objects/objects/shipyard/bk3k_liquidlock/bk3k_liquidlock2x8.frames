@@ -1,0 +1,19 @@
+{
+
+  "frameGrid" : {
+    "size" : [16, 64],
+    "dimensions" : [18, 1],
+    "names" : [ 
+		[ "closed.1", "closed.2", "closed.3", "closed.4", "opening.1", "opening.2","opening.3","opening.4","opening.5", "open.1", "open.2", "open.3", "closing.1", "closing.2", "closing.3", "closing.4", "closing.5", "locked" ]
+    ]
+  },
+
+  "aliases" : {
+    "default" : "closed.1",
+	"locking.1" : "closing.1",
+	"locking.2" : "closing.2",
+	"locking.3" : "closing.3",
+	"locking.4" : "closing.4",
+	"locking.5" : "closing.5"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "pizzicato_bass",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "pizzicato_bassicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A pizzicato bass. Hmm, where'd the bow go?",
+  "shortdescription" : "Pizzicato Bass",
+  "largeImage" : "pizzicato_bass.png",
+  "image" : "pizzicato_bass.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "pizzicato_bass.png",
+  "activeAngle" : 10,
+  "activeHandPosition" : [-0.3,0.15],
+
+  "handPosition" : [-0.3,0.15],
+  "twoHanded" : true,
+  "kind" : "pizzicato_bass"
+}

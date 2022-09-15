@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 1 },
+    { "item" : "concretematerial", "count" : 1 }
+  ],
+  "output" : { "item" : "HPBA_slopedoutpostpanel", "count" : 20 },
+  "duration" : 0.25,
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

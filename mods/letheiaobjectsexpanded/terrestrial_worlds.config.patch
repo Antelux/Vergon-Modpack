@@ -1,0 +1,17 @@
+[
+{
+	"op" : "add", 
+	"path" : "/planetTypes/desert/layers/surface/dungeons/-", 	
+	"value" : [4.5, "letheiaexpandedlegion1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/tundra/layers/surface/dungeons/-", 	
+	"value" : [1.0, "letheiaexpandedlegion1"] 
+},
+{
+	"op" : "add", 
+	"path" : "/planetTypes/snow/layers/surface/dungeons/-", 	
+	"value" : [1.0, "letheiaexpandedlegion1"] 
+}
+]

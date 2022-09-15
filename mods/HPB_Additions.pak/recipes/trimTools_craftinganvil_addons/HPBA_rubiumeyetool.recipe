@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 6 },
+    { "item": "siliconboard",
+      "count": 1 },
+    { "item": "refinedviolium", "count": 3 },
+    { "item": "goldbar", "count": 3 }
+  ],
+  "output": { "item": "HPB_rubiumeyetool",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingaccelerator", "craftingmanipulator", "craftingseparator", "weapons", "all" ]
+}

@@ -1,0 +1,34 @@
+{
+  "itemName" : "letheia_vehiclecontroller_1",
+  "level" : 1,
+  "price" : 15000,
+  "rarity" : "Rare",
+  "category" : "vehicleController",
+  "description" : "Create a Letheia Sentry from stored nanites.",
+  "shortdescription" : "Sentry MK-II Controller",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "letheia_vehiclecontroller_1.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+"largeImage" : "/vehicles/letheia_mech_1/letheia_mech_1.png:move.undamaged",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "letheia_mech_1",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/vehicles/letheia_mech_1/warp.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "letheia_vehiclecontroller_1.png"
+  },
+
+  "inventoryIcon" : "letheia_vehiclecontroller_1.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/letheia_vehiclecontroller_1.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/letheia_vehiclecontroller_1.png:full"
+
+}

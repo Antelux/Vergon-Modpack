@@ -1,0 +1,161 @@
+{
+  "itemName" : "legionstaff1",
+  "price" : 10000,
+  "maxStack" : 1,
+  "level" : 5,
+  "rarity" : "Legendary",
+  "description" : "A nullasteel crucible staff.",
+  "shortdescription" : "LE Ardent",
+  "category" : "staff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","staff"],
+  "tooltipKind" : "staff",
+
+  "animation" : "/items/active/weapons/staff/longstaffanimated.animation",
+  "animationParts" : {
+    "staff" : "legionstaff1.png",
+    "stone" : "stone.png",
+    "chargeEffect" : "staffglow.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "glow" : {
+        "color" : [140, 20, 54]
+      }
+    },
+
+    "sounds" : {
+      "physicalactivate" : ["/sfx/npc/boss/cultistboss_recharge.ogg"],
+      "zoneactivate" : ["/sfx/melee/giantsword_charge_full.ogg"]
+    }
+  },
+
+  "inventoryIcon" : "icon.png",
+
+  "scripts" : ["/items/active/weapons/staff/staff.lua"],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "twoHanded" : false,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charge" : {
+      "duration" : 0.8,
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "charged" : {
+      "armRotation" : 20,
+      "weaponRotation" : -20,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "discharge" : {
+      "duration" : 0.5,
+      "armRotation" : -10,
+      "weaponRotation" : -50,
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "cooldown" : {
+      "duration" : 0.5,
+      "armRotation" : -45,
+      "weaponRotation" : 0,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "plasmabladebarrage",
+  "primaryAbility" : {
+
+    "name" : "Arden Decima",
+
+    "maxCastRange" : 50,
+	
+	"projectileType" : "redplasmablade6",
+	
+	"projectileCount" : 3,
+    "projectileDistance" : 4,
+
+    "projectileParameters" : {
+      "baseDamage" : 30,
+	  "piercing" : true
+    },
+	
+    "projectileDelayFirst" : 5.0,
+    "projectileDelayEach" : 0.3,
+
+    "stances" : {
+      "idle" : {
+        "weaponOffset" : [0, -0.5]
+      },
+      "charge" : {
+        "weaponOffset" : [0, 0.75]
+      },
+      "charged" : {
+        "weaponOffset" : [0, 0.75]
+      },
+      "discharge" : {
+        "weaponOffset" : [0, 0.75]
+      },
+      "cooldown" : {
+        "weaponOffset" : [0, -0.25]
+      }
+    }
+  },
+
+  "altAbilityType" : "plasmabladebarrage",
+  "altAbility" : {
+    "name" : "Arden Blight",
+    "maxCastRange" : 40,
+	
+	"projectileType" : "redplasmablade5",
+	
+	"projectileCount" : 9,
+    "projectileDistance" : 6,
+
+    "projectileParameters" : {
+      "baseDamage" : 40
+    },
+	
+    "projectileDelayFirst" : 4.0,
+    "projectileDelayEach" : 0.2,
+
+    "stances" : {
+      "idle" : {
+        "weaponOffset" : [0, -0.5]
+      },
+      "charge" : {
+        "weaponOffset" : [0, 0.75]
+      },
+      "charged" : {
+        "weaponOffset" : [0, 0.75]
+      },
+      "discharge" : {
+        "weaponOffset" : [0, 0.75]
+      },
+      "cooldown" : {
+        "weaponOffset" : [0, -0.25]
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

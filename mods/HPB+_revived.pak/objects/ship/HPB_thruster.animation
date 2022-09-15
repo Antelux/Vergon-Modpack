@@ -1,0 +1,136 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "thrustState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 3,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          },
+          "turnOn" : {
+            "frames" : 3,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "on"
+          },
+          "on" : {
+            "frames" : 3,
+            "cycle" : 0.4,
+            "mode" : "loop"
+          },
+          "turnOff" : {
+            "frames" : 3,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "off"
+          }
+        }
+      },
+      "thrusterState" : {
+        "default" : "static",
+        "states" : {
+          "static" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "thrust" : {
+        "properties" : {
+          "offset" : [0, -2.0],
+          "centered" : false,
+          "fullbright" : true,
+          "zLevel" : -1
+        },
+
+        "partStates" : {
+          "thrustState" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:on.<frame>"
+              }
+            },
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:off.<frame>"
+              }
+            },
+            "turnOn" : {
+              "properties" : {
+                "image" : "<partImage>:turnOn.<frame>"
+              }
+            },
+            "turnOff" : {
+              "properties" : {
+                "image" : "<partImage>:turnOff.<frame>"
+              }
+            }
+          }
+        }
+      },
+      
+      "thruster_FB" : {
+        "properties" : {
+          "centered" : false,
+          "fullbright" : true,
+          "zLevel" : 0
+        },
+
+        "partStates" : {
+          "thrusterState" : {
+            "static" : {
+              "properties" : {
+                "image" : "<partImage>:default"
+              }
+            }
+          }
+        }
+      },
+      "thruster" : {
+        "properties" : {
+          "centered" : false,
+          "fullbright" : false,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "thrusterState" : {
+            "static" : {
+              "properties" : {
+                "image" : "<partImage>:default"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /*
+  "lights" : {
+    "glow" : {
+      "lightColor" : [59, 183, 255],
+      "pointLight" : true,
+      "flickerDistance" : 0.2,
+      "flickerStrength" : 0.05,
+      "flickerTiming" : 4,
+      "active" : true,
+      "position" : [3, 2]
+      //
+      "color" : [100, 25, 0],
+      "flickerPeriod" : 1.0,
+      "flickerMinIntensity" : 0.8,
+      "flickerMaxIntensity" : 1.0,
+      "flickerPeriodVariance" : 0.1,
+      "flickerIntensityVariance" : 0.1
+      
+  
+    }
+  }
+  //I was considering making the light source from the animation file,
+  //thus I can have different output when the boosters is active... but meh it isn't active for much time at all anyhow.
+  */
+}

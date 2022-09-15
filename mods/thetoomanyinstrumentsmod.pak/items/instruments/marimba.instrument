@@ -1,0 +1,20 @@
+{
+  "itemName" : "marimba",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "marimbaicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A marimba. Knock on wood.",
+  "shortdescription" : "Marimba",
+  "largeImage" : "marimba.png",
+  "image" : "marimba.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "marimba.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.5,0],
+
+  "handPosition" : [0,0],
+  "twoHanded" : true,
+  "kind" : "marimba"
+}

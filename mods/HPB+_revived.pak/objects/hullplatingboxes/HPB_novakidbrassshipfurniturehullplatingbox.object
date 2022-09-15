@@ -1,0 +1,31 @@
+{
+  "objectName": "HPB_novakidbrassshipfurniturehullplatingbox",
+  "rarity": "Common",
+  "category": "pot",
+  "price": 0,
+  "colonyTags": [ "misc" ],
+  "description": "Contains a set of ship furniture on a brass Novakid theme.",
+  "shortdescription": "Novakid Brass Ship In A Box",
+  "race": "generic",
+
+  "inventoryIcon": "/objects/generic/cardboard2/cardboard2icon.png",
+  "orientations": [
+    {
+      "leftImage": "/objects/generic/cardboard2/cardboard2left.png:default",
+      "rightImage": "/objects/generic/cardboard2/cardboard2right.png:default",
+
+      "imagePosition": [-8, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+
+      "spaceScan": 0.1,
+      "anchors": [ "bottom" ],
+      "collision": "platform"
+
+    }
+  ],
+
+  "smashSounds": [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropPool": "novakidbrassshipfurniturehullplatingbox", 
+  "breakDropPool": "novakidbrassshipfurniturehullplatingbox"
+}

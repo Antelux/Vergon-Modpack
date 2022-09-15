@@ -1,0 +1,16 @@
+{
+  "modId" : 42017,
+  "modName" : "HPB_emeraldgemsparktrim",
+  "description" : "Emerald gemspark trim.",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "/tiles/materials/emeraldgemsparktrim_HPB.png",
+    "variants" : 1,
+    "multiColored" : true,
+    "zLevel" : 0,
+    "radiantLight" : [0, 220, 0]
+  }
+}

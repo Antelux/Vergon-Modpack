@@ -1,0 +1,22 @@
+{
+  "materialId": 42029,
+  "materialName": "HPB_avianshipplatform",
+  "collisionKind": "platform",
+  "transparent": true,
+  "itemDrop": "HPB_avianshipplatform",
+  "shortdescription": "Avian Ship Platform",
+  "description": "Platform suitable for a ship.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate": "/tiles/platformtemplate.config",
+  "renderParameters": {
+    "texture": "avianshipplatform_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "platform": true
+  }
+}

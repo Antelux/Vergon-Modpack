@@ -1,0 +1,10 @@
+{
+  "itemName" : "solarisbeam",
+  "rarity" : "Rare",
+  "inventoryIcon" : "solarisbeamicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Solaris beam.",
+  "shortdescription" : "Solaris Beam",
+
+  "materialId" : 2425
+}

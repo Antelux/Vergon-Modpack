@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 1 },
+	{ "item" : "solariumstar", "count" : 1 }
+  ],
+  "output" : { "item" : "MCB_ceruliumblock", "count" : 100 },
+  "duration" : 0.0,
+  "groups" : [ "craftingfurniture2", "materials", "all" ]
+}

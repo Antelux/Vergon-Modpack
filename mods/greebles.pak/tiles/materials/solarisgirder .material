@@ -1,0 +1,25 @@
+{
+  "materialId" : 2445,
+  "materialName" : "solarisgirder",
+  "frames" : "solarisgirder.png",
+  "particleColor" : [255, 225, 113, 255],
+  "variants" : 1,
+  "itemDrop" : "solarisgirder",
+  "description" : "Girder made of a solarium-gold alloy.",
+  "shortdescription" : "Solaris Girder",
+  "glitchDescription" : "Analysis. Solaris girder.",
+  "floranDescription" : "Shiney golden metal thing.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 18,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "solarisgirder.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" :true,
+    "zLevel" : 3320
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "objectName": "HPB_castlewalls2storagelocker",
+  "rarity": "Rare",
+  "printable": false,
+  "price": 900,
+  "objectType": "container",
+  "tooltipKind": "container",
+
+  "category": "storage",
+  "colonyTags": [ "storage" ],
+  "description": "A nice, spacious, wall-mounted storage solution.",
+  "shortdescription": "Small Stone Brick Locker",
+  "race": "generic",
+
+  "inventoryIcon": "castlewalls2storagelockericon_HPB.png",
+  "orientations": [
+    {
+      "image": "castlewalls2storagelocker_HPB.png:<color>.<key>",
+      "imagePosition": [-16, -8],
+
+      "spaceScan": 0.1,
+      "anchors": [ "background" ]
+    }
+  ],
+
+  "openSounds": [ "/sfx/objects/stonedoor_open.ogg" ],
+  "closeSounds": [ "/sfx/objects/stonedoor_close.ogg" ],
+  "slotCount": 48,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "openFrameIndex": 4,
+  "autoCloseCooldown": 3600
+}

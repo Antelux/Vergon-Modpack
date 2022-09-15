@@ -1,0 +1,23 @@
+{
+  "materialId" : 7184,
+  "materialName" : "bk3k_mediumBlackGlass",
+  "particleColor" : [25, 25, 25, 255],
+  "itemDrop" : "bk3k_mediumBlackGlass",
+  "description" : "A medium tinted glass material.",
+  "shortdescription" : "Black Glass(medium tint)",
+  "glitchDescription" : "Statement. Black glass.",
+  "floranDescription" : "Floran see Floran in black glass.",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 4,
+  "category": "materials",
+  //"renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderTemplate" : "/tiles/bk3k_blackGlass_Template.config",
+  "renderParameters" : {
+    "texture" : "bk3k_mediumBlackGlass.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : false,
+    "zLevel" : 480
+  }
+}

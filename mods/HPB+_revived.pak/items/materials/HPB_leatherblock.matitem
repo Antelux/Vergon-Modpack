@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_leatherblock",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "leatherblock_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Leather Block",
+  "description" : "It's a solid block of leather.",
+  "glitchdescription" : "Statement. Leather block.",
+  "florandescription" : "Ssskin.",
+
+  "materialId" : 42285
+}

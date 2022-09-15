@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheiaexpandedplantboxwall",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A black and red wall planter.",
+  "shortdescription" : "Letheia Wall Planter",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 200,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedplantboxwall.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 8 },
+    { "item" : "corefragmentore", "count" : 2 },	
+	{ "item" : "refinedferozium", "count" : 2 }
+  ],
+  "output" : { "item" : "pallasteelalloy", "count" : 1 },
+  "duration" : 0.4,
+  "groups"  : [ "letheiacraftingmaterials","letheiacrafting1","letheiastaves","letheiacrafting3" ]
+}

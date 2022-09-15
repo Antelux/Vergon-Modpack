@@ -1,0 +1,23 @@
+{
+  "materialId": 42077,
+  "materialName": "HPB_durasteeltrim",
+  "particleColor": [151, 165, 176, 255],
+  "itemDrop": "HPB_durasteeltrim",
+  "shortdescription": "Durasteel Trim",
+  "description": "Fancy tubing to add some detail to a ship.",
+  "glitchDescription": "Statement. Star ship trim.",
+  "floranDescription": "Ssship tubesss.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "durasteeltrim_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0
+  }
+}

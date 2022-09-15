@@ -1,0 +1,54 @@
+{
+  "objectName" : "vepr_lexshipdoor",
+  "rarity" : "uncommon",
+  //"objectType" : "wire",
+
+  "category" : "door",
+  "price" : 2000,
+  "description" : "Sleek and sexy. Get the vepr Dubbershard doors for your ship today, and impress all the girls!",
+  "shortdescription" : "vepr LEX Door",
+  "race" : "generic",
+  "colonyTags" : [ "pretty",  "door" ],
+
+  "apexDescription" : "This looks brand new.",
+  "avianDescription" : "A sleek door.",
+  "floranDescription" : "Ssssmooth! Floran want to lick it.",
+  "glitchDescription" : "Statement. A door with no imperfections.",
+  "humanDescription" : "Wow, what sci-fi movie did this spring out of? It's spankin'!",
+  "hylotlDescription" : "A work of art.",
+
+  "inventoryIcon" : "vepr_lexshipdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vepr_lexshipdoor2.png:default",
+      //"imagePosition" : [-20, 0],
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  //"scripts" : [ "/objects/wired/door/door.lua" ],
+  "scripts" : [ "/scripts/bk3k/inc_door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "vepr_lexshipdoor.animation",
+  "animationParts" : {
+    "door" : "vepr_lexshipdoor2.png"
+  },
+  "animationPosition" : [0, 0],
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
+    }
+  },
+  
+  "openingAnimation" : "opening",  //seperated opening animation, else skip to open
+  "lockingAnimation" : "locked",  //has an actual locked frame to use when locked, or closed by wire
+  "lockedAnimation" : "locked",
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [1, 0] ]
+}

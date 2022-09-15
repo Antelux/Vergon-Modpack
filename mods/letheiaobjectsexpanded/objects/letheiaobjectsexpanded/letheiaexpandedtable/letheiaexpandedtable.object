@@ -1,0 +1,33 @@
+{
+  "objectName" : "letheiaexpandedtable",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A table with a red surface, commonly used by the Letheia Corporation.",
+  "shortdescription" : "Letheia Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 200,
+
+  "apexDescription" : "A table.",
+  "avianDescription" : "A table.",
+  "floranDescription" : "Table. Looksss red.",
+  "glitchDescription" : "Depressed. Table devoid of joy.",
+  "humanDescription" : "A table.",
+  "hylotlDescription" : "A red letheia table.",
+  "novakidDescription" : "It's a table.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedtable.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

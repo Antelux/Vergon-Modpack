@@ -1,0 +1,23 @@
+{
+  "materialId" : 2447,
+  "materialName" : "solarisframedglass",
+  "particleColor" : [255, 225, 113, 255],
+  "itemDrop" : "solarisframedglass",
+  "description" : "Framed glass reinforced with solarisium wire.",
+  "shortdescription" : "Solarisium Window",
+  "glitchDescription" : "Analysis. Glass reinforced with solarisium.",
+  "floranDescription" : "Sssmash tough glass! Prove me strong!",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 12,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "solarisframedglass.png",
+    "variants" : 8,
+    "lightTransparent" : true,
+    "multiColored" :true,
+    "occludesBelow" : false,
+    "zLevel" : 3500
+  }
+}

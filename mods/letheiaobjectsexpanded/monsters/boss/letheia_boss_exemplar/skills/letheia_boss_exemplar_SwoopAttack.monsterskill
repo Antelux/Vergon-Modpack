@@ -1,0 +1,13 @@
+{
+  "name" : "letheia_boss_exemplar_SwoopAttack",
+  "label" : "MEGA SWOOP",
+  "image" : "/monsters/generated/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/boss/letheia_boss_exemplar/skills/letheia_boss_exemplar_SwoopAttack.lua" ],
+
+    "ufoSwoopAttack" : {
+      "swoopTime" : 2
+    }
+  }
+}

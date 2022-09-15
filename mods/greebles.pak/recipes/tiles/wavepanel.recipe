@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 1 },
+    { "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : { "item" : "wavepanel", "count" : 50 },
+  "duration" : 0.5,
+  "groups" : [ "craftingfurniture2", "materials", "all" ]
+}

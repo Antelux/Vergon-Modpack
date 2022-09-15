@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_steelshiphull",
+      "count": 20 }
+  ],
+  "output": { "item": "HPB_steelshiphullalt",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

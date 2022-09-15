@@ -1,0 +1,23 @@
+{
+  "materialId": 42973,
+  "materialName": "HPBA_rubiumshiphulldark",
+  "particleColor": [96, 17, 25, 255],
+  "itemDrop": "HPBA_rubiumshiphulldark",
+  "shortdescription": "Dark Rubium Plating",
+  "description": "Sheets of ship hull plating.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/slopedmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "HPBA_rubiumhulldark.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

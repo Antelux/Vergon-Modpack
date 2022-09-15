@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheia_extra_32",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A small decorative poster.",
+  "shortdescription" : "Decorative Poster",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 50,
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheia_extra_32.png:<color>",
+      "imagePosition" : [-8, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

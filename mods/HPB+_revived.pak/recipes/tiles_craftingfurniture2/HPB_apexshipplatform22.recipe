@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_apexshiphullcomplex",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_apexshipplatform2",
+      "count": 3 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

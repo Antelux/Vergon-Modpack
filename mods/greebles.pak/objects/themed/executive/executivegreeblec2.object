@@ -1,0 +1,55 @@
+{
+  "objectName" : "executivegreebleC2",
+  "colonyTags" : ["executive"],
+  "printable" : false,
+  "rarity" : "legendary",  
+  "category" : "decorative",
+  
+  "price" : 55,
+  "description" : "An aesthetic impervium embellishment.",
+  "shortdescription" : "Greeble-Ex2C",
+  "race" : "generic",
+ 
+  "apexDescription" : "A tasteful aesthetic impervium embellishment.",
+  "avianDescription" : "An aesthetic impervium embellishment.",
+  "floranDescription" : "Impervium thing doesss what?",
+  "glitchDescription" : "Curious. This impervium object appears to have no function.",
+  "humanDescription" : "I believe they call this kind of embellishment a greeble.",
+  "hylotlDescription" : "An aesthetic impervium embellishment.",
+  "novakidDescription" : "Purdy piece o' impervium styling there.",
+ 
+  "inventoryIcon" : "executivegreebleC2icon.png",
+ 
+  "orientations" : [
+    {
+      "image" : "executivegreebleC2.png",
+      "imagePosition" : [0,-16],
+      "spaces" : [ [0,1],[0,0],[0,-1] ],
+      "fgAnchors" : [ [1,2],[1,-2] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "executivegreebleC2.png?flipx",   
+      "imagePosition" : [-8,-16],
+      "spaces" : [ [0,1],[0,0],[0,-1] ],
+      "fgAnchors" : [ [-1,2],[-1,-2] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "executivegreebleC2bottom.png",     
+      "imagePosition" : [-16,-8],
+      "spaces" : [ [-1,0],[0,0],[1,0] ],
+      "fgAnchors" : [ [-2,-1],[2,-1] ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "executivegreebleC2top.png", 
+      "imagePosition" : [-16,-1],
+      "spaces" : [ [-1,0],[0,0],[1,0] ],
+      "fgAnchors" : [ [-2,1],[2,1] ],
+      "collision" : "solid"
+    }
+  ]
+}

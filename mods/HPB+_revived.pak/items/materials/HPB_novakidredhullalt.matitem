@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_novakidredhullalt",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "novakidredhull_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Rivetless Red Plating",
+  "description" : "Sheets of ship hull plating.",
+  "glitchdescription" : "Statement. Star ship hull plating.",
+  "florandescription" : "Ssship ssskin.",
+
+  "materialId" : 42139
+}

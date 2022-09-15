@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "marinesign", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "Q_unwrecked_spacemarinesign",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

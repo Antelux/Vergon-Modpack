@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_hylotlcolumn",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "hylotlcolumn_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Hylotl Column",
+  "description" : "Columns for decorating or supporting upper floors in large rooms.",
+  "glitchdescription" : "Statement. Stately column.",
+  "florandescription" : "Pole.",
+
+  "materialId" : 42246
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "Q_unwrecked_prisonlocker2",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture", "storage", "all" ]
+}

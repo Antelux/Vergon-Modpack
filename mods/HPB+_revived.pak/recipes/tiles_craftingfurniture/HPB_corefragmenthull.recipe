@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "corefragmentore",
+      "count": 2 }
+  ],
+  "output": { "item": "HPB_corefragmenthull",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

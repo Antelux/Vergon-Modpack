@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPBA_imperviumshiphulldark",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "HPBA_imperviumhulldarkicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Dark Impervium Plating",
+  "description" : "Sheets of ship hull plating.",
+  "glitchdescription" : "Statement. Star ship hull plating.",
+  "florandescription" : "Ssship ssskin.",
+
+  "materialId" : 42976
+}

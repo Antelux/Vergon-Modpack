@@ -1,0 +1,136 @@
+{
+  "objectName" : "bk3k_liquidlock",
+  "colonyTags" : ["door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "printable" : false,
+  "description" : "This door is airtight when closed and doesn't permit liquids to pass even when open.",
+  "shortdescription" : "LiquidLock",
+  "race" : "generic",
+  
+  //"health" : 15,
+  
+  //"horizontal_door" : false,
+  //"defaultState" : "closed",
+	//defaultLocked : false,
+	"noAutomaticDoors" : false,  //default assumption is false but if true will ignore all other automatic related attributes
+	
+ 
+  "closedLight" : [20, 20, 20],
+  "inventoryIcon" : "bk3k_liquidlock_icon.png",
+  "orientations" : [
+    {
+      "image" : "bk3k_liquidlock2x8.png:default",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      //"fgAnchors" : [ [-2, -1], [-1, -1], [4, 6], [5, 6] ],
+      "animationPosition" : [0, 0]
+    },
+    {
+      "image" : "bk3k_liquidlock2x8.png:default",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      //"fgAnchors" : [ [-5, 6], [-4, 6], [1, -1], [2, -1] ],
+      "animationPosition" : [0, 0]
+    }
+  ],
+  "scripts" : [ "/scripts/bk3k/inc_door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "bk3k_liquidlock.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "bk3k_liquidlock2x8.png"
+  },
+  "openingAnimation" : "opening",  //seperated opening animation, else skip to open
+  "lockingAnimation" : "locked",  //has an actual locked frame to use when locked, or closed by wire(thus not interactive)
+  "lockedAnimation" : "locked",
+  
+  "closedMaterials" : [
+    "bk3k_liquidBlockDoor", "bk3k_liquidBlockDoor"
+    ],
+  "openMaterials" : [
+    //"bk3k_liquidBlock"
+    ],
+  
+  "openMaterialSpaces" : [
+    [
+      [ 0, 0 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 0, 1 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 0, 2 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 0, 3 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 0, 4 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 0, 5 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 0, 6 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 0, 7 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 1, 0 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 1, 1 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 1,  2 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 1, 3 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 1, 4 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 1, 5 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 1, 6 ],
+      "bk3k_liquidBlock"
+    ],
+    [
+      [ 1, 7 ],
+      "bk3k_liquidBlock"
+    ]
+  ],
+  
+ 
+  "inputNodes" : [ [0, 7], [1, 7] ], 
+  "outputNodes" : [ [0, 0], [1,0] ]
+}

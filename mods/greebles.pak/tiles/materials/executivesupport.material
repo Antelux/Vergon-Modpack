@@ -1,0 +1,23 @@
+{
+  "materialId" : 2330,
+  "materialName" : "executivesupport",
+  "particleColor" : [20, 20, 20, 255],
+  "itemDrop" : "executivesupport",
+  "description" : "Support block made of impervium.",
+  "shortdescription" : "Executive Support",
+  "glitchDescription" : "Analysis. Impervium support.",
+  "floranDescription" : "Ssstrong impervium!",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 24,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "executivesupport.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3340
+  }
+}

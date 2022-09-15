@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "executivepanel", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "executivegreebleL3",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

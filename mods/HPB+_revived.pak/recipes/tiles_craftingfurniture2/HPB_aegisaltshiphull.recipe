@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "refinedaegisalt",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_aegisaltshiphull",
+      "count": 50 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

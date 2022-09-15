@@ -1,0 +1,15 @@
+{
+  "modId" : 42028,
+  "modName" : "HPB_hullrivetsmall",
+  "description" : "Small rivets to hold a ship together.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "hullrivetsmall_HPB.png",
+    "variants" : 1,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

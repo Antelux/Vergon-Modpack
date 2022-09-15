@@ -1,0 +1,10 @@
+{
+  "itemName" : "serenebeam",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "serenebeamicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Aegisalt beam.",
+  "shortdescription" : "Serene Beam",
+
+  "materialId" : 2335
+}

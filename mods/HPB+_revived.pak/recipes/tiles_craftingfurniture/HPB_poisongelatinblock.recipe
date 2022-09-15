@@ -1,0 +1,12 @@
+{
+  "input": [
+    { "item": "liquidpoison",
+      "count": 10 },
+    { "item": "HPB_gelatin",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_poisongelatinblock",
+      "count": 10 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

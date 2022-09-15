@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "laserdiode", "count" : 1 },
+    { "item" : "phasematter", "count" : 1 },
+    { "item" : "corefragmentore", "count" : 10 }
+  ],
+  "output" : { "item" : "bk3k_ancientlightplatform", "count" : 20 },
+  "groups" : [ "mod", "bk3k", "bk3k_object" ]
+}

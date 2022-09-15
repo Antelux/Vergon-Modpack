@@ -1,0 +1,46 @@
+{
+  "objectName" : "letheia_extra_12",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "description" : "A store selling Letheia furnitures and objects.",
+  "shortdescription" : "Letheia Store",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1000,
+  
+  "requiresBlueprint" : false,
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/letheiacrafting.config",
+	"filter" : ["letheiacrafting"]
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "letheia_extra_12_right.png:<color>",
+	  "direction" : "right",
+      "flipImages" : false,
+      "imagePosition" : [-48, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+	{
+      "image" : "letheia_extra_12_left.png:<color>",
+	  "direction" : "left",
+      "flipImages" : false,
+      "imagePosition" : [-48, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

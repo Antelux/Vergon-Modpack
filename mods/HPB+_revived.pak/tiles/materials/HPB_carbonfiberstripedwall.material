@@ -1,0 +1,23 @@
+{
+  "materialId": 42207,
+  "materialName": "HPB_carbonfiberstripedwall",
+  "particleColor": [174, 174, 174, 255],
+  "itemDrop": "HPB_carbonfiberstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Carbon Fiber Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "carbonfiberstripedwall_HPB.png", 
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2690
+  }
+}

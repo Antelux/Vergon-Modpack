@@ -1,0 +1,17 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 1 },
+    { "item": "platinumbar",
+      "count": 1 },
+    { "item": "largewoodencrate",
+      "count": 1 },
+    { "item": "signlibrary",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_librarystoragelocker",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "objects", "storage", "all" ]
+}

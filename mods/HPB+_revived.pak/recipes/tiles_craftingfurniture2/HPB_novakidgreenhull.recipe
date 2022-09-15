@@ -1,0 +1,12 @@
+{
+  "input": [
+    { "item": "tungstenbar",
+      "count": 1 },
+    { "item": "greendye",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_novakidgreenhull",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

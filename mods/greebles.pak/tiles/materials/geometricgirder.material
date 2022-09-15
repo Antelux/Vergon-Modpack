@@ -1,0 +1,25 @@
+{
+  "materialId" : 2346,
+  "materialName" : "geometricgirder",
+  "frames" : "geometricgirder.png",
+  "particleColor" : [50, 100, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "geometricgirder",
+  "description" : "Girder made of ferozium.",
+  "shortdescription" : "Geometric Girder",
+  "glitchDescription" : "Analysis. Ferozium girder.",
+  "floranDescription" : "Metal thing.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 14,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "geometricgirder.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" :true,
+    "zLevel" : 3320
+  }
+}

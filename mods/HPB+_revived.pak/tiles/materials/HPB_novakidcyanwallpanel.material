@@ -1,0 +1,23 @@
+{
+  "materialId": 42108,
+  "materialName": "HPB_novakidcyanwallpanel",
+  "particleColor": [89, 123, 132, 255],
+  "itemDrop": "HPB_novakidcyanwallpanel",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Novakid Cyan Panel",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "novakidcyanwallpanel_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2630
+  }
+}

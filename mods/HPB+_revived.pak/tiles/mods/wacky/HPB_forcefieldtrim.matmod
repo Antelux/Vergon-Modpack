@@ -1,0 +1,16 @@
+{
+  "modId" : 42032,
+  "modName" : "HPB_forcefieldtrim",
+  "description" : "Fancy tubing to add some detail to a ship.",
+  "footstepSound" : "/sfx/tech/tech_dashftl1.ogg",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "/tiles/materials/forcefieldtrim_HPB.png",
+    "variants" : 1,
+    "multiColored" : true,
+    "zLevel" : 0,
+    "radiantLight" : [115, 115, 115]
+  }
+}

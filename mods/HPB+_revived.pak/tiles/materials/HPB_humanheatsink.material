@@ -1,0 +1,24 @@
+{
+  "materialId": 42164,
+  "materialName": "HPB_humanheatsink",
+  "particleColor": [71, 71, 71, 255],
+  "itemDrop": "HPB_humanheatsink",
+  "shortdescription": "Human Heat Sink",
+  "description": "Star ship heat sink, for shedding excess heat.",
+  "glitchDescription": "Statement. Star ship heat sink.",
+  "floranDescription": "Warm.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+  "blocksLiquidFlow": false,
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "humanheatsink_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": false,
+    "zLevel": 3000
+  }
+}

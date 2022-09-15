@@ -1,0 +1,76 @@
+{
+  "objectName" : "bk3k_ancientlightplatform",
+  "colonyTags" : ["ancient"],
+  "tags" : ["ancient"],
+  "rarity" : "Legendary",
+
+  "category" : "door",
+  "price" : 0,
+  "description" : "Do they even exist?",
+  "shortdescription" : "Etherial Platform",
+  "race" : "ancient",
+
+  "openLight" : [103, 250, 255],
+
+  "apexDescription" : "Some of these platforms are misplaced.",
+  "avianDescription" : "These platforms don't look real.",
+  "floranDescription" : "platformss ssmell different to other platformss.",
+  "glitchDescription" : "Scanning. Something is hidden here.",
+  "humanDescription" : "These platforms have an unnatural shine.",
+  "hylotlDescription" : "Something about the way these platforms are crafted is odd.",
+  "novakidDescription" : "Solid energy, just like us Novakid.",
+  
+  "inventoryIcon" : "bk3k_ancientlightplatform.png:icon",
+  
+  "horizontal_door" : true,
+  "interactive" : false,
+  "scripts" : [ "/scripts/bk3k/inc_door.lua", "ancientPlatforms.lua" ],
+  "scriptDelta" : 3,
+
+  "animation" : "bk3k_ancientlightplatform.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/ancientlightplatform_off.ogg" ],
+      "close" : [ "/sfx/objects/ancientlightplatform_on.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "bk3k_ancientlightplatform.png"
+  },
+  "renderLayer" : "Object+5",
+  
+  "orientations" : [
+    {
+      "image" : "bk3k_ancientlightplatform.png:transition.posA.1",
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      //"flipImages" : true,
+      "direction" : "left",
+      "flipImages" : false,
+      "scanBox" : [ [-5, 1] , [9, 5] ], //7 each x direction, [2,0] is center
+                                        //lower left, upper right
+      "spaces" : [ [0, 0], [1, 0], [2, 0], [3, 0], [4, 0] ]
+      //"anchors" : [ "background" ]
+    }
+  ],
+  "openMaterialSpaces" : [
+    [ [ 0, 0 ], "metamaterial:objectplatform" ],
+    [ [ 1, 0 ], "metamaterial:objectplatform" ],
+    [ [ 2, 0 ], "metamaterial:objectplatform" ],
+    [ [ 3, 0 ], "metamaterial:objectplatform" ],
+    [ [ 4, 0 ], "metamaterial:objectplatform" ]
+  ],
+  "openMaterials" : [ "metamaterial:objectplatform" ],
+  //"closedMaterialSpaces" : [ ],
+  "closedMaterialSpaces" : [
+    [ [ 0, 0 ], "metamaterial:empty" ],
+    [ [ 1, 0 ], "metamaterial:empty" ],
+    [ [ 2, 0 ], "metamaterial:empty" ],
+    [ [ 3, 0 ], "metamaterial:empty" ],
+    [ [ 4, 0 ], "metamaterial:empty" ]
+  ],
+  "closedMaterials" : ["metamaterial:empty", "metamaterial:empty"],
+  //"inputNodes" : [ [0, 0], [1, 0] ],
+  //"outputNodes" : [ [3, 0], [4, 0] ],
+  "debugObject" : false
+}

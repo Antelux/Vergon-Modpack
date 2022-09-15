@@ -1,0 +1,13 @@
+
+{
+  "input": [
+    { "item": "crystalblock",
+      "count": 20 },
+    { "item": "refinedviolium",
+      "count": 1 }
+  ],
+  "output": { "item": "violiumcrystal",
+      "count": 20
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

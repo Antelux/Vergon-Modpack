@@ -1,0 +1,17 @@
+{
+  "itemName": "HPB_shippartplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "grayplans_HPB.png",
+  "description": "These plans reveal how to make various miscellaneous ship blocks.",
+  "shortdescription": "Ship Part Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_shipengineblock",
+    "HPB_shipdoorframe",
+    "HPB_shiphatchframe",
+    "HPB_heatsink",
+    "HPB_shipwindow",
+    "HPB_transparentplastic",
+    "HPB_plasticshipwindow"
+ ]
+}

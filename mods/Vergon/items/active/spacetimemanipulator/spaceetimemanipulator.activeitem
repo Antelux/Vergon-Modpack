@@ -1,0 +1,25 @@
+{
+  "itemName" : "spacetimemanipulator",
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Manipulate everything.",
+  "shortdescription" : "Spacetime Manipulator",
+  "twoHanded" : true,
+  "category" : "Tool",
+  "itemTags" : ["tool"],
+
+  "inventoryIcon" : "oredetectoricon.png",
+  "animation" : "oredetector.animation",
+  "animationParts" : {
+    "detector" : "oredetector.png",
+    "detectorfullbright" : "oredetectorfullbright.png"
+  },
+  "animationCustom" : {},
+
+  "animationScripts" : ["/items/active/effects/editor.lua"],
+  "animationDelta" : 5,
+
+  "scripts" : ["manipulator.lua"],
+  "scriptDelta" : 1
+}

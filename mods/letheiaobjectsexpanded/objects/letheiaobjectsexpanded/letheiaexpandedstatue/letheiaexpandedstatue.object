@@ -1,0 +1,26 @@
+{
+  "objectName" : "letheiaexpandedstatue",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A large statue of the Letheia Corporation logo.",
+  "shortdescription" : "Letheia Statue",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 200,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "letheiaexpandedstatue.png:<color>",
+	  "direction" : "right",
+      "flipImages" : false,
+      "imagePosition" : [-24, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

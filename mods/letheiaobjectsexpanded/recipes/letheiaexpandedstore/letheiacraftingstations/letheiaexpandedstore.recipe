@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 3000 }
+  ],
+  "output" : { "item" : "letheiaexpandedstore", "count" : 1 },
+  "duration" : 0.1,
+  "groups"  : [ "letheiacraftingstations","letheiacrafting","inventorstable","craftingstations","all" ]
+}

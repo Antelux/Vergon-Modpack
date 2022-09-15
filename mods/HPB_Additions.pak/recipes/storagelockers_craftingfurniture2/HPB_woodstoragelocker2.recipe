@@ -1,0 +1,15 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 1 },
+    { "item": "silverbar",
+      "count": 1 },
+    { "item": "woodencrate1",
+      "count": 2 }
+  ],
+  "output": { "item": "HPB_woodstoragelocker",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "objects", "storage", "all" ]
+}

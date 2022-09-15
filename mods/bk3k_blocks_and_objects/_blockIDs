@@ -1,0 +1,10 @@
+{
+  "materialId" : [
+    4995, 4996, 4997, 4998, 4999,  //eLe's T9 ships
+    7172, 7173, 7174  //vepr ship
+    7175, 7176, 7177, 7178, 7179, 7180, 7181, 7182, 7183, 7184, 7185,//regular materials
+    7186, 7187,  //liquid blockers(originally meta, now not)
+    7188,  //regular
+    
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "geometricgirder",
+  "category" : "Block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "geometricgirdericon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A strong looking ferozium girder.",
+  "shortdescription" : "Geometric Girder",
+  "glitchdescription" : "Statement. A ferozium girder.",
+  "florandescription" : "Metal thing.",
+
+  "materialId" : 2346
+}

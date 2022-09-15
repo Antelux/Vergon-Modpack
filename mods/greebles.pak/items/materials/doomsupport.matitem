@@ -1,0 +1,11 @@
+{
+  "itemName" : "doomsupport",
+  "category" : "Block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "doomsupporticon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Rubium support block.",
+  "shortdescription" : "Doom Support",
+
+  "materialId" : 2329
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 1 }
+  ],
+  "output" : { "item" : "opulentbeam", "count" : 20 },
+  "duration" : 0.5,
+  "groups" : [ "craftingfurniture2", "materials", "all" ]
+}

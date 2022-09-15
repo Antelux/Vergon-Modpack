@@ -1,0 +1,33 @@
+{
+  "objectName": "HPB_forcefieldstoragelocker",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 900,
+  "printable": false,
+  "objectType": "container",
+  "tooltipKind": "container",
+  "colonyTags": [ "storage" ],
+  "description": "A nice, spacious, wall-mounted storage solution.",
+  "shortdescription": "Force Field Storage Locker",
+  "race": "generic",
+  "lightColor": [115, 115, 115],
+
+  "inventoryIcon": "forcefieldstoragelockericon_HPB.png",
+  "orientations": [
+    {
+      "image": "forcefieldstoragelocker_HPB.png:<color>.<key>",
+      "imagePosition": [-16, -8],
+
+      "spaceScan": 0.1,
+      "anchors": [ "background" ]
+    }
+  ],
+
+  "openSounds": [ "/sfx/objects/miningchest_open.ogg" ],
+  "closeSounds": [ "/sfx/objects/miningchest_close.ogg" ],
+  "slotCount": 48,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "openFrameIndex": 4,
+  "autoCloseCooldown": 3600
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 2404,
+  "materialName" : "tier4platform",
+  "collisionKind" : "platform",
+  "itemDrop" : "tier4platform",
+  "shortdescription" : "Durasteel Platform",
+  "description" : "A tough, sturdy platform made from durasteel.",
+  "glitchDescription" : "Approving. These durasteel platforms are tough and light.",
+  "floranDescription" : "Jusst another metal platform.",
+  "novakidDescription" : "That there be a tough durasteel metal platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "tier4platform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "HPB_forcefieldtrimtool",
+  "description" : "Adds trim tubing to blocks.  Doesn't work on tumbling blocks or platforms.",
+  "shortdescription" : "^orange;Force Field Trim Tool^white;",
+
+  "category" : "tool",
+  "inventoryIcon" : "/items/materials/forcefieldtrim_HPB.png",
+  "largeImage" : "forcefieldtrimtoolbig_HPB.png",
+  "animation" : "/items/tools/trim/trimtool_HPB.animation",
+  "animationParts" : {
+    "trimtool" : "forcefieldtrimtool_HPB.png"
+  },
+
+  "scripts" : [ "/items/tools/trim/activetrimtool.lua" ],
+  "seed" : "HPB_forcefieldtrim",
+  "toolSound" : "beamaxe",
+
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "tooltipKind" : "tool",
+  "twoHanded" : true,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

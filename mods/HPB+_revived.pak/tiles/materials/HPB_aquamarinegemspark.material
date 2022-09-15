@@ -1,0 +1,24 @@
+{
+  "materialId": 42175,
+  "materialName": "HPB_aquamarinegemspark",
+  "particleColor": [0, 255, 255, 255],
+  "itemDrop": "HPB_aquamarinegemspark",
+  "description": "Aquamarine gemspark block.",
+  "shortdescription": "Aquamarine Gemspark",
+  "glitchDescription": "Statement. Gemspark.",
+  "floranDescription": "Pretty glowing gemsss.",
+  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "aquamarinegemspark_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000,
+    "radiantLight": [0, 220, 220]
+  }
+}

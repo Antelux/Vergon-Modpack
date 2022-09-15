@@ -1,0 +1,16 @@
+{
+  "itemName" : "HPB_novakidglowingpanel",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "novakidglowingpanel_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Novakid Glowing Panel",
+  "description" : "Glowing panel, as usually seen on Novakid ships.",
+  "glitchdescription" : "Statement. Glowing panel.",
+  "florandescription" : "Pretty panel.",
+  "learnBlueprintsOnPickup" : [
+    "novakidglowingpanel"
+  ],
+
+  "materialId" : 42167
+}

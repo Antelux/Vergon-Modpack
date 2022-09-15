@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "ceruliumcompound",
+      "count": 1 },
+    { "item": "smallbattery",
+      "count": 1 },
+    { "item": "wire",
+      "count": 5 }
+  ],
+  "output": { "item": "HPB_ceruliumshipdoor",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "doors", "all" ]
+}

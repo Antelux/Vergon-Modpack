@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "battery", "count" : 1 },
+    { "item" : "nullasteelplate", "count" : 2 },
+    { "item" : "wire", "count" : 4 },
+    { "item" : "corefragmentore", "count" : 8 }	
+  ],
+  "output" : { "item" : "crucibleprocessor", "count" : 1 },
+  "duration" : 0.1,
+  "groups"  : [ "legioncraftingmaterials","legioncrafting1" ]
+}

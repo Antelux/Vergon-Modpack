@@ -1,0 +1,33 @@
+function init()
+	self.seeds = fireableItem.fireableParam("seeds" ,{ "grass" })
+	local s = fireableItem.fireableParam("soils" ,{})
+	if #s > 0 then
+		self.soils = {}
+		for i = 1, #s do
+			self.soils[s[i]] = true
+		end
+	else
+		self.soils = { dirt = true }
+	end
+	self.index = 1
+end
+
+function update(dt)
+	if fireableItem.firing() then
+		if fireableItem.fireMode() == "Primary" then
+			local pos = item.ownerAimPosition()
+			if self.soils[world.material(pos,"foreground")] and not world.mod(pos,"foreground") then
+				world.placeMod(pos,"foreground",self.seeds[self.index],nil,false)
+			end
+			if self.soils[world.material(pos,"background")] and not world.mod(pos,"background") then
+				world.placeMod(pos,"background",self.seeds[self.index],nil,false)
+			end
+		else
+			self.index = self.index + 1
+			if self.index > #self.seeds then
+				self.index = 1
+			end
+			local s = self.seeds[self.index]
+		end
+	end
+end

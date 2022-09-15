@@ -1,0 +1,13 @@
+{
+  "itemName" : "doomgirder",
+  "category" : "Block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "doomgirdericon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A strong looking rubium girder.",
+  "shortdescription" : "Doom Girder",
+  "glitchdescription" : "Statement. A rubium girder.",
+  "florandescription" : "Metal thing.",
+
+  "materialId" : 2349
+}

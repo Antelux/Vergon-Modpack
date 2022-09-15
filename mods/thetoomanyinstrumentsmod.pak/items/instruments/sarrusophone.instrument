@@ -1,0 +1,20 @@
+{
+  "itemName" : "sarrusophone",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "sarrusophone.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An sarrusophone. It's just a bassoon-sax?",
+  "shortdescription" : "Sarrusophone",
+  "largeImage" : "sarrusophone.png",
+  "image" : "sarrusophone.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "sarrusophone.png",
+  "activeAngle" : -6,
+  "activeHandPosition" : [0.05,0.2],
+
+  "handPosition" : [0,0.2],
+  "twoHanded" : true,
+  "kind" : "sarrusophone"
+}

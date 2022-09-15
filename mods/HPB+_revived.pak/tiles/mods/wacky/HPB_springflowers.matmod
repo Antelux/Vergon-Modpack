@@ -1,0 +1,15 @@
+{
+  "modId" : 42030,
+  "modName" : "HPB_springflowers",
+  "description" : "Decorative spring flowers.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "springflowers_HPB.png",
+    "variants" : 3,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "letheiaexpandedtile2",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "letheiaexpandedtile2.png",
+  "description" : "A red and white flooring used in Letheia offices.",
+  "shortdescription" : "Letheia Red Flooring",
+
+  "materialId" : 16502
+}

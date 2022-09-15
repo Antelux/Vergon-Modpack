@@ -1,0 +1,11 @@
+{
+  "itemName" : "vepr_platform1",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "vepr_platform1_icon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Vepr Platform",
+  "shortdescription" : "Vepr platform #1",
+  
+  "materialId" : 7171
+}

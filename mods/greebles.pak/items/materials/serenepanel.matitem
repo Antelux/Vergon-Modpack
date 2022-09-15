@@ -1,0 +1,10 @@
+{
+  "itemName" : "serenepanel",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "serenepanelicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Aegisalt panel.",
+  "shortdescription" : "Serene Panel",
+
+  "materialId" : 2375
+}

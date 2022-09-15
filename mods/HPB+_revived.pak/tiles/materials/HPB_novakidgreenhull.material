@@ -1,0 +1,23 @@
+{
+  "materialId": 42011,
+  "materialName": "HPB_novakidgreenhull",
+  "particleColor": [50, 74, 44, 255],
+  "itemDrop": "HPB_novakidgreenhull",
+  "shortdescription": "Novakid Green Plating",
+  "description": "Sheets of ship hull plating.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "novakidgreenhull_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

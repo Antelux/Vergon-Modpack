@@ -1,0 +1,15 @@
+{
+  "itemName": "HPB_miscblockplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "grayplans_HPB.png",
+  "description": "These plans reveal how to make drywall, leather, cell materia and video screen blocks.",
+  "shortdescription": "Misc. Block Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_drywall",
+    "HPB_leatherblock",
+    "HPB_cellmateriahull",
+    "HPB_vidscreenblock",
+    "redhotcobblestone"
+  ]
+}

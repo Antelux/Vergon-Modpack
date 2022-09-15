@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "money",
+      "count": 2000 }
+  ],
+  "output": { "item": "HPB_voxel2khull",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "compressor", "pixeldecompress" ]
+}

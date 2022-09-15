@@ -1,0 +1,20 @@
+{
+  "itemName" : "octocontra-alto_clarinet",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "octocontra-alto_clarinet.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An octocontra-alto clarinet. Full metal clarinet.",
+  "shortdescription" : "Octocontra-Alto Clarinet",
+  "largeImage" : "octocontra-alto_clarinet.png",
+  "image" : "octocontra-alto_clarinet.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "octocontra-alto_clarinet.png",
+  "activeAngle" : 10,
+  "activeHandPosition" : [-0.1,-0.3],
+
+  "handPosition" : [-0.1,-0.65],
+  "twoHanded" : true,
+  "kind" : "octocontrabass_clarinet"
+}

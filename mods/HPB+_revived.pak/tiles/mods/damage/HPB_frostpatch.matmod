@@ -1,0 +1,15 @@
+{
+  "modId" : 42078,
+  "modName" : "HPB_frostpatch",
+  "description" : "There's frost forming on that!",
+  "footstepSound" : "/sfx/blocks/footstep_ice.ogg",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/shiptrimtemplate.config",
+  "renderParameters" : {
+    "texture" : "frostpatch_HPB.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

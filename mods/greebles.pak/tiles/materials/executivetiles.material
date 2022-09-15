@@ -1,0 +1,23 @@
+{
+  "materialId" : 2310,
+  "materialName" : "executivetiles",
+  "particleColor" : [20, 20, 20, 255],
+  "itemDrop" : "executivetiles",
+  "description" : "A tough tile made of impervium.",
+  "shortdescription" : "Executive Tile",
+  "glitchDescription" : "Analysis. Impervium tile.",
+  "floranDescription" : "Impervium ssstrong like floran!",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 24,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "executivetiles.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

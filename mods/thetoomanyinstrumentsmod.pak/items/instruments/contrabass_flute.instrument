@@ -1,0 +1,20 @@
+{
+  "itemName" : "contrabass_flute",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "contrabass_flute.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An contrabass flute. More key noise!",
+  "shortdescription" : "Contrabass Flute",
+  "largeImage" : "contrabass_flute.png",
+  "image" : "contrabass_flute.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "contrabass_flute.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [-0.1, -0.55],
+
+  "handPosition" : [0.0, -0.5],
+  "twoHanded" : true,
+  "kind" : "contrabass_flute"
+}

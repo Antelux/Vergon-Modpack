@@ -1,0 +1,23 @@
+{
+  "materialId": 42337,
+  "materialName": "HPB_macrodipv",
+  "particleColor": [73, 73, 73, 255],
+  "itemDrop": "HPB_macrodipv",
+  "shortdescription": "Macrochip DIP (V)",
+  "description": "Macrochips are the next BIG thing in electronics...",
+  "glitchDescription": "Disregard. Inefficiently large electronics.",
+  "floranDescription": "Even floran knowsss thisss isss too big.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "macrodipv_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3200
+  }
+}

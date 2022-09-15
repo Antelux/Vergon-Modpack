@@ -1,0 +1,23 @@
+  {
+  "id" : "megadozer.gearup",
+  "prerequisites" : [ ],
+  "title" : "^orange;Unlock The Mega Dozer!",
+  "text" : "Once you accept this quest, you'll immediately have the Mega Dozer for your character.",
+  "completionText" : "Mega Dozer unlocked! Have fun!",
+  "speaker" : "player",
+  "moneyRange" : [0, 0],
+  "canBeAbandoned" : true,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "gatherRequirements" : {
+      "items" : {
+        "megadozercontroller" : {
+          "count" : 1,
+          "consume" : false
+        }
+      }
+    }
+  }
+}

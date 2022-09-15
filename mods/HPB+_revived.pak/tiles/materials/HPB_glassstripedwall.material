@@ -1,0 +1,23 @@
+{
+  "materialId": 42192,
+  "materialName": "HPB_glassstripedwall",
+  "particleColor": [237, 254, 255, 255],
+  "itemDrop": "HPB_glassstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Glass Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "glassstripedwall_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "multiColored": true,
+    "occludesBelow": false,
+    "zLevel": 2690
+  }
+}

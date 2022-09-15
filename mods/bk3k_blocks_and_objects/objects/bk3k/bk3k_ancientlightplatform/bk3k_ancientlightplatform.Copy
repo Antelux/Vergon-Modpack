@@ -1,0 +1,66 @@
+{
+  "objectName" : "bk3k_ancientlightplatform",
+  "colonyTags" : ["ancient"],
+  "tags" : ["ancient"],
+  "rarity" : "Legendary",
+
+  "category" : "door",
+  "price" : 0,
+  "description" : "Something isn't quite right with these platforms.",
+  "shortdescription" : "Ancient Light Platform",
+  "race" : "ancient",
+
+  "closedLight" : [103, 250, 255],
+
+  "apexDescription" : "Some of these platforms are misplaced.",
+  "avianDescription" : "These platforms don't look real.",
+  "floranDescription" : "platformss ssmell different to other platformss.",
+  "glitchDescription" : "Scanning. Something is hidden here.",
+  "humanDescription" : "These platforms have an unnatural shine.",
+  "hylotlDescription" : "Something about the way these platforms are crafted is odd.",
+  "novakidDescription" : "Solid energy, just like us Novakid.",
+  
+  "inventoryIcon" : "bk3k_ancientlightplatformicon.png",
+  
+  "horizontal_door" : true,
+  
+  "scripts" : [ "/scripts/bk3k/inc_door.lua", "/scripts/bk3k/ancientPlatforms.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "bk3k_ancientlightplatform.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/ancientlightplatform_off.ogg" ],
+      "close" : [ "/sfx/objects/ancientlightplatform_on.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "door" : "bk3k_ancientlightplatform.png"
+  },
+  
+    "orientations" : [
+    {
+      "image" : "bk3k_ancientlightplatform.png:transition.posA.1",
+      "imagePosition" : [-17, -1],
+      "animationPosition" : [-17, -1],
+      "flipImages" : true,
+      "direction" : "left",
+      "scanBox" : [ [-7, 5] , [7, 1] ],
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ]
+      //"anchors" : [ "background" ]
+    },
+    {
+      "image" : "bk3k_ancientlightplatform.png:transition.posA.1",
+      "imagePosition" : [-17, -1],
+      "animationPosition" : [-17, -1],
+      "direction" : "right",
+      "scanBox" : [ [-7, 5] , [7, 1] ],
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0] ]
+      //"anchors" : [ "background" ]
+    }
+  ],
+  "openMaterials" : [ "metamaterial:objectplatform" ],
+  //"closedMaterialSpaces" : [ ],
+  "closedMaterials" : ["metamaterial:structure", "metamaterial:structure"],
+  "interactive" : false
+}

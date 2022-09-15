@@ -1,0 +1,96 @@
+{
+  "globalTagDefaults" : {  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "objectState" : {
+        "default" : "closed",
+        "states" : {
+		  "opening" : {
+            "frames" : 5,
+            //"cycle" : 0.15,
+			"cycle" : 0.30,
+            "mode" : "transition",
+            "transition" : "open"
+			},
+          "open" : {
+            //"frames" : 2,
+            //"cycle" : 0.15
+			},
+          "closing" : {
+            "frames" : 5,
+            "cycle" : 0.30,
+            "mode" : "transition",
+            "transition" : "closed"
+			},
+          "closed" : {
+            "frames" : 8,
+            "cycle" : 1.00,
+            "mode" : "loop"
+			},
+		  "locking" : {
+            "frames" : 5,
+            "cycle" : 0.30,
+            "mode" : "transition",
+            "transition" : "locked"
+			},
+          "locked" : { }
+        }
+      }
+    },
+
+    "parts" : {
+      "object" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "objectState" : {
+			"opening" : {
+              "properties" : {
+                "image" : "<partImage>:opening.<frame>"
+              }
+            },
+            "open" : {
+              "properties" : {
+                //"image" : "<partImage>:open<objectDirection>.<frame>"
+				"image" : "<partImage>:open"
+              }
+            },
+
+            "closing" : {
+              "properties" : {
+                "image" : "<partImage>:closing.<frame>"
+              }
+            },
+
+            "closed" : {
+              "properties" : {
+                "image" : "<partImage>:closed.<frame>"
+              }
+            },
+
+            "locking" : {
+              "properties" : {
+                "image" : "<partImage>:locking.<frame>"
+              }
+            },
+
+            "locked" : {
+              "properties" : {
+                "image" : "<partImage>:locked"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "open" : [],
+    "close" : [],
+    "locked" : [ "/sfx/interface/clickon_error.ogg" ]
+  }
+}

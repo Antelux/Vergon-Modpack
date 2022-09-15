@@ -1,0 +1,40 @@
+{
+  "objectName" : "vepr_weaponconsole",
+  "rarity" : "Rare",
+  "description" : "It synthesizes a series of weapons according to blueprint stored on a digidrive.",
+  "shortdescription" : "vepr Weapon Digisynth",
+  "subtitle" : "Digisynth",	
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 800,
+  ////"objectType" : "interactable",
+    "printable" : false,
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingnocategories.config",
+    "filter" : [ "veprweapon" ]
+  },
+  //"learnBlueprintsOnPickup" : [ "implekor" ],
+  "colonyTags" : [ "pretty",  "combat", "crafting" ],
+  
+  "apexDescription" : "Insert resources, out comes a gun. Excellent for a revolution.",
+  "avianDescription" : "How does such a thing even function without overheating?",
+  "floranDescription" : "Floran push buttonsss, Floran getsss gun.",
+  "glitchDescription" : "Prediction. This device will overheat and implode one day.",
+  "humanDescription" : "Crafting has never been easier. In comes crystal, out comes gun!",
+  "hylotlDescription" : "This device is very tempting to use.",
+
+  "inventoryIcon" : "vepr_weaponconsoleicon.png", 
+  "orientations" : [
+    {
+      "dualImage" : "vepr_weaponconsole.png:<color>.<frame>",
+      "imagePosition" : [-12, 1],
+      "frames" : 24,
+      "animationCycle" : 3.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

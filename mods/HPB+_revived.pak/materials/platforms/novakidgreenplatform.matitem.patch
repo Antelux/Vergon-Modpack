@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/materialId",
+    "value": 42389
+  }
+]
+

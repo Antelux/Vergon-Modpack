@@ -1,0 +1,33 @@
+{
+  "objectName" : "vepr_watertank",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 2500,
+
+
+  "description" : "Bubble-bubble-bubble.",
+  "shortdescription" : "Watertank",
+  "race" : "generic",
+  "colonyTags" : [ "pretty",  "misc" ],
+
+  "apexDescription" : "That liquid is vital to my existence.",
+  "avianDescription" : "I hate getting my feathers wet.",
+  "floranDescription" : "Floran growww in water!",
+  "glitchDescription" : "Curious. Will my chassis rust if I stay in it for too long?",
+  "humanDescription" : "I'd take a swim in that.",
+  "hylotlDescription" : "Reminds me of my hometown.",
+
+  "inventoryIcon" : "watertankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "watertank.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "frames" : 5,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

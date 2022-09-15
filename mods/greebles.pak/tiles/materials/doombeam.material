@@ -1,0 +1,23 @@
+{
+  "materialId" : 2339,
+  "materialName" : "doombeam",
+  "particleColor" : [150, 35, 35, 255],
+  "itemDrop" : "doombeam",
+  "description" : "Support beam made of rubium.",
+  "shortdescription" : "Doom Beam",
+  "glitchDescription" : "Analysis. Rubium support beam.",
+  "floranDescription" : "Sssupporty rubium beam.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 22,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "doombeam.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3190
+  }
+}

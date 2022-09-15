@@ -1,0 +1,44 @@
+{
+  "objectName" : "bk3k_stationWarehouseLocker",//bk3k_stationWarehouseLocker
+  "colonyTags" : ["storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "description" : "Massive storage container built for a space station warehouse",
+  "shortdescription" : "Warehouse storage container",
+  "race" : "generic",
+  
+  "lightColor" : [61, 88, 102],
+  "lightPosition" : [8, 6],
+
+
+
+  "inventoryIcon" : "bk3k_stationWarehouseLockerIcon.png",
+  "orientations" : [
+    {
+      "image" : "bk3k_stationWarehouseLocker.png:closed.<frame>",
+	  //"imageLayers" : [ { "image" : "bk3k_stationWarehouseLocker.png:<color>.<frame>", "fullbright" : false } } ],
+      "imagePosition" : [0, 0],
+      //"frames" : 8,
+      //"animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+	  "animationPosition" : [0, 0],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/airlock_close.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  //"slotCount" : 64,
+  "slotCount" : 384,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "animation" : "bk3k_stationWarehouseLocker.animation",
+  "animationParts" : {
+    "object" : "bk3k_stationWarehouseLocker.png"
+  },
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

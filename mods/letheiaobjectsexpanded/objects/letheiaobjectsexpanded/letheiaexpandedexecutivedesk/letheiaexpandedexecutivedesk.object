@@ -1,0 +1,35 @@
+{
+  "objectName" : "letheiaexpandedexecutivedesk",
+  "colonyTags" : ["misc","storage","knowledge"],
+  "rarity" : "Common",
+  "description" : "An office desk suited for Letheia executives.",
+  "shortdescription" : "Letheia Executive Desk",
+  "race" : "generic",
+  "price" : 200,
+  
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedexecutivedesk.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

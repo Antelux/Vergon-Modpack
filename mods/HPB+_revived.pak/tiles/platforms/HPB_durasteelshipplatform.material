@@ -1,0 +1,22 @@
+{
+  "materialId": 42093,
+  "materialName": "HPB_durasteelshipplatform",
+  "collisionKind": "platform",
+  "transparent": true,
+  "itemDrop": "HPB_durasteelshipplatform",
+  "shortdescription": "Durasteel Ship Platform",
+  "description": "Platform suitable for a ship.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate": "/tiles/platformtemplate.config",
+  "renderParameters": {
+    "texture": "durasteelshipplatform_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "platform": true
+  }
+}

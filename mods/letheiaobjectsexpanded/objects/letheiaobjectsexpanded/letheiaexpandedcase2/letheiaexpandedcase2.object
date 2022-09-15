@@ -1,0 +1,34 @@
+{
+  "objectName" : "letheiaexpandedcase2",
+  "colonyTags" : ["misc","storage"],
+  "rarity" : "Common",
+  "description" : "A small metal case.",
+  "shortdescription" : "Small Storage Case",
+  "race" : "generic",
+  "price" : 200,
+  
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedcase2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_open.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

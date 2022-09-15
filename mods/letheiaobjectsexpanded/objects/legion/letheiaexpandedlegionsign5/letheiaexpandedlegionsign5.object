@@ -1,0 +1,25 @@
+{
+  "objectName" : "letheiaexpandedlegionsign5",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A painted sign indicating the floor level.",
+  "shortdescription" : "Level 4 Sign",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 50,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "letheiaexpandedlegionsign5.png:<color>",
+      "imagePosition" : [-8, -0],
+	  "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

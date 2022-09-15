@@ -1,0 +1,22 @@
+{
+  "materialId": 42039,
+  "materialName": "HPB_novakidredplatform",
+  "collisionKind": "platform",
+  "transparent": true,
+  "itemDrop": "HPB_novakidredplatform",
+  "shortdescription": "Novakid Red Ship Platform",
+  "description": "Platform suitable for a ship.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate": "/tiles/platformtemplate.config",
+  "renderParameters": {
+    "texture": "novakidredplatform_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "platform": true
+  }
+}

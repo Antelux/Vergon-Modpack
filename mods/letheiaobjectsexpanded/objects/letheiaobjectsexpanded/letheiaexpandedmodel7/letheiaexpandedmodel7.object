@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheiaexpandedmodel7",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A model of a Letheia Tracker.",
+  "shortdescription" : "Tracker Model",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 1600,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedmodel7.png:<color>",
+      "imagePosition" : [-24, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

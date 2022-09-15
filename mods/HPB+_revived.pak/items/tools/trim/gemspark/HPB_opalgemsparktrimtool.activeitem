@@ -1,0 +1,32 @@
+{
+  "itemName" : "HPB_opalgemsparktrimtool",
+  "description" : "Adds trim tubing to blocks.  Doesn't work on tumbling blocks or platforms.",
+  "shortdescription" : "^orange;Opal Gemspark Tool^white;",
+
+  "category" : "tool",
+  "inventoryIcon" : "/items/materials/opalgemsparktrim_HPB.png",
+  "largeImage" : "opalgemsparktrimtoolbig_HPB.png",
+  "animation" : "/items/tools/trim/trimtool_HPB.animation",
+  "animationParts" : {
+    "trimtool" : "opalgemsparktrimtool_HPB.png"
+  },
+
+  "scripts" : [ "/items/tools/trim/activetrimtool.lua" ],
+  "seed" : "HPB_opalgemsparktrim",
+  "toolSound" : "atom",
+
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "tooltipKind" : "tool",
+  "twoHanded" : true,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

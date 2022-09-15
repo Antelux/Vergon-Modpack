@@ -1,0 +1,11 @@
+{
+  "itemName" : "letheiaexpandedtile4",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "letheiaexpandedtile4.png",
+  "description" : "A dark metal wall used in Letheia offices.",
+  "shortdescription" : "Letheia Dark Wall",
+
+  "materialId" : 16504
+}

@@ -1,0 +1,21 @@
+{
+  "frameGrid" : {
+    "size" : [48, 16],
+    "dimensions" : [2, 1],
+    "names" : [
+      [ "on.1", "off" ]
+    ]
+	//"names" : [
+    //  [ "red.on.1", "red.off" ],
+	//  [ "green.on.1", "green.off" ]
+    //]
+  },
+
+  "aliases" : {
+    "default.default" : "on.1",
+	//"default.default" : "<color>.on.<frame>", //??
+	"default.on1" : "on.1",
+	"default.off" : "off",
+	"on" : "on.1"
+  }
+}

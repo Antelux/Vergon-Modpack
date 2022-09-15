@@ -1,0 +1,39 @@
+{
+  "objectName": "HPB_macroledwhite",
+  "rarity": "Common",
+  "colonyTags": [ "light" ],
+  "description": "A macrocircuit white LED.",
+  "shortdescription": "Macrocircuit White LED",
+  "race": "generic",
+
+  "category": "light",
+  "price": 225,
+  "lightColor": [200, 200, 200],
+
+  "inventoryIcon": "macroledwhiteicon_HPB.png",
+  "orientations": [
+    {
+      "image": "macroledwhite_HPB.png:<color>.<frame>",
+      "imagePosition": [-0, 0],
+      "animationPosition": [0, 0],
+
+      "direction": "right",
+
+      "spaceScan": 0.1,
+      "anchors": [ "background" ]
+    }
+  ],
+  
+  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts": {
+    "bg": "macroledwhite_HPB.png",
+    "fg": "macroledwhite_HPB.png"
+  },
+
+  "scripts": [ "/objects/wired/light/light.lua" ],
+  "scriptDelta": 60,
+  
+  "interactive": false,
+
+  "inputNodes": [ [0, 0] ]
+}

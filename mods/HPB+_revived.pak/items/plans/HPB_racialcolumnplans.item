@@ -1,0 +1,24 @@
+{
+  "itemName": "HPB_racialcolumnplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "blueplans_HPB.png",
+  "description": "These plans reveal how to make racial columns.",
+  "shortdescription": "Racial Column Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_apexcolumn",
+    "HPB_aviancolumn",
+    "HPB_florancolumn",
+    "HPB_floranpinkcolumn",
+    "HPB_glitchcolumn",
+    "HPB_humancolumn",
+    "HPB_hylotlcolumn",
+    "HPB_fishcolumn",
+    "HPB_novakidbrasscolumn",
+    "HPB_novakidcreamcolumn",
+    "HPB_novakidcyancolumn",
+    "HPB_novakidgreencolumn",
+    "HPB_novakidredcolumn",
+    "HPB_rustycolumn"
+  ]
+}

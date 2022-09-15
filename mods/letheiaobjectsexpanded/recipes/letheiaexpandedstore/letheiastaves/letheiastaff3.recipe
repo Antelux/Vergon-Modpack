@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "letheiastaff2", "count" : 1 },
+    { "item" : "pallasteelalloy", "count" : 6 },
+	{ "item" : "corefragmentore", "count" : 18 }
+  ],
+  "output" : { "item" : "letheiastaff3", "count" : 1 },
+  "duration" : 0.8,
+  "groups"  : [ "letheiastaves","letheiacrafting3" ]
+}

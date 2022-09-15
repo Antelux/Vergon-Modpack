@@ -1,0 +1,25 @@
+{
+  "objectName" : "letheiaexpandedlegiontable2",
+  "colonyTags" : ["misc"],
+  "rarity" : "Rare",
+  "description" : "A dark metal table.",
+  "shortdescription" : "Legion Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 200,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedlegiontable2.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 1 },
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "fabric", "count" : 10 },
+    { "item" : "silk", "count" : 5 }
+  ],
+  "output" : { "item" : "wavebed", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "beds", "all" ]
+}

@@ -1,0 +1,37 @@
+{
+  "objectName" : "letheiaexpandedlight1",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A small ceiling light, good for general uses.",
+  "shortdescription" : "Letheia Ceiling Light",
+  "race" : "generic",
+  "category" : "light",
+  "price" : 100,
+  
+  "lightColor" : [220, 220, 210],
+  //"pointLight" : true,
+  //"pointBeam" : 10,
+  //"beamAmbience" : 0.15,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "letheiaexpandedlight1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [1, 0] ],
+      "anchors" : [ "top" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "letheiaexpandedlight1.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

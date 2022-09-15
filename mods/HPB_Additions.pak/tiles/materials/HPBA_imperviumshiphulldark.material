@@ -1,0 +1,23 @@
+{
+  "materialId": 42976,
+  "materialName": "HPBA_imperviumshiphulldark",
+  "particleColor": [56, 56, 56, 255],
+  "itemDrop": "HPBA_imperviumshiphulldark",
+  "shortdescription": "Dark Impervium Plating",
+  "description": "Sheets of ship hull plating.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/slopedmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "HPBA_imperviumhulldark.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

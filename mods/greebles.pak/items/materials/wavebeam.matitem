@@ -1,0 +1,10 @@
+{
+  "itemName" : "wavebeam",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wavebeamicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Cerulium support beam.",
+  "shortdescription" : "Wave Beam",
+
+  "materialId" : 2337
+}

@@ -1,0 +1,171 @@
+{
+  "objectName" : "vepr_lexbed",
+  "printable" : false,
+  "rarity" : "uncommon",
+  "description" : "The vepr ES9 bed comes free with a dreamcorder. Record your nightmares for only *499!",
+  "shortdescription" : "vepr LEX HealBed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1500,
+  "colonyTags" : [ "pretty",  "misc" ],
+  
+  "apexDescription" : "As comfortable as this bed is, I'm sceptical of their intentions with the dream-recorder.",
+  "avianDescription" : "This bed makes it feel as if I was soaring through space.",
+  "floranDescription" : "Floran not ssscared of nightmaresss! Floran watch nightmaresss over and over!",
+  "glitchDescription" : "Insight. I have no use for this bed, as I can record my dreams without it.",
+  "humanDescription" : "Now that I think about it, biological bodies suck! I want to be a robot.",
+  "hylotlDescription" : "Amazing! The paintings in my dreams can finally be real!",
+
+  "objectType" : "loungeable",
+  "renderLayer" : "Object+1",
+  
+  "sitEmote" : "sleep",
+  
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+  
+  "inventoryIcon" : "vepr_lexbedicon.png",
+  "orientations" : [
+    {
+      "image" : "vepr_lexbed.png:<color>.<frame>",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "frames" : 12,
+      "animationCycle" : 2.0,
+      "spaces" : [
+        [0, 3], [1, 3], [2, 3], [3, 3], [4, 3], [5, 3],//cover
+        [0, 2], [1, 2], [2, 2], [3, 2], [4, 2], [5, 2],
+        [0, 1], [1, 1], [2, 1], [3, 1], [4, 1], [5, 1],
+                [1, 0], [2, 0], [3, 0], [4, 0]
+      ],
+      "openMaterialSpaces" : [
+        //this may change to a "bouncy" material
+        //or possibly I may inflict a status that does the same(not full time)
+        [ [ 0, 1 ], "metamaterial:objectplatform" ],
+        [ [ 1, 1 ], "metamaterial:objectplatform" ],
+        [ [ 2, 1 ], "metamaterial:objectplatform" ],
+        [ [ 3, 1 ], "metamaterial:objectplatform" ],
+        [ [ 4, 1 ], "metamaterial:objectplatform" ],
+        [ [ 5, 1 ], "metamaterial:objectplatform" ]
+      ],
+      "closedMaterialSpaces" : [
+        //this may change to solid
+        [ [ 0, 3 ], "metamaterial:objectplatform" ],
+        [ [ 1, 3 ], "metamaterial:objectplatform" ],
+        [ [ 2, 3 ], "metamaterial:objectplatform" ],
+        [ [ 3, 3 ], "metamaterial:objectplatform" ],
+        [ [ 4, 3 ], "metamaterial:objectplatform" ],
+        [ [ 5, 3 ], "metamaterial:objectplatform" ]
+      ],
+      "anchors" : [ "bottom" ],
+      "sitFlipDirection" : true,
+      "sitPosition" : [15, 19],
+      "sitOrientation" : "lay",
+      "sitAngle" : 90,
+      "sitCoverImage" : "/objects/vepr/vepr_lexbed/vepr_lexbedcover.png",
+      "sitStatusEffects" : [
+        "bed6",
+        "bk3k_heal6",
+        "nude"
+      ]
+    },
+    
+    {
+      "image" : "vepr_lexbed.png:<color>.<frame>",
+      "direction" : "right",
+      "flipImages" : false,
+      "imagePosition" : [0, 0],
+      "frames" : 12,
+      "animationCycle" : 2.0,
+      "spaces" : [
+        [0, 3], [1, 3], [2, 3], [3, 3], [4, 3], [5, 3],//cover
+        [0, 2], [1, 2], [2, 2], [3, 2], [4, 2], [5, 2],
+        [0, 1], [1, 1], [2, 1], [3, 1], [4, 1], [5, 1],
+                [1, 0], [2, 0], [3, 0], [4, 0]
+      ],
+      "openMaterialSpaces" : [
+        [ [ 0, 1 ], "metamaterial:objectplatform" ],
+        [ [ 1, 1 ], "metamaterial:objectplatform" ],
+        [ [ 2, 1 ], "metamaterial:objectplatform" ],
+        [ [ 3, 1 ], "metamaterial:objectplatform" ],
+        [ [ 4, 1 ], "metamaterial:objectplatform" ],
+        [ [ 5, 1 ], "metamaterial:objectplatform" ]
+      ],
+      "closedMaterialSpaces" : [
+        [ [ 0, 3 ], "metamaterial:objectplatform" ],
+        [ [ 1, 3 ], "metamaterial:objectplatform" ],
+        [ [ 2, 3 ], "metamaterial:objectplatform" ],
+        [ [ 3, 3 ], "metamaterial:objectplatform" ],
+        [ [ 4, 3 ], "metamaterial:objectplatform" ],
+        [ [ 5, 3 ], "metamaterial:objectplatform" ]
+      ],
+      "anchors" : [ "bottom" ],
+      "sitFlipDirection" : true,
+      "sitPosition" : [-33, 19],
+      "sitOrientation" : "lay",
+      "sitAngle" : 90,
+      "sitCoverImage" : "/objects/vepr/vepr_lexbed/vepr_lexbedcover.png",
+      "sitStatusEffects" : [
+        "bed6",
+        //"nanowrapheal",
+        "bk3k_heal6",
+        "nude"
+      ]
+    },
+    
+    {
+      "image" : "vepr_lexbed_wall.png:<color>.<frame>",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "frames" : 12,
+      "animationCycle" : 2.0,
+      "spaces" : [
+               [1, 5],[2, 5],[3, 5],
+        [0, 4],[1, 4],[2, 4],[3, 4],
+        [0, 3],[1, 3],[2, 3],[3, 3],
+        [0, 2],[1, 2],[2, 2],[3, 2],
+        [0, 1],[1, 1],[2, 1],[3, 1],
+               [1, 0],[2, 0],[3, 0]
+      ],
+      "anchors" : [ "left" ],
+      "sitFlipDirection" : true,
+      "sitPosition" : [20, 32],
+      "sitOrientation" : "lay",
+      "sitAngle" : 0,
+      "sitCoverImage" : "/objects/vepr/vepr_lexbed/vepr_lexbedcover_leftWall.png",
+      "sitStatusEffects" : [
+        "levitation",
+        "bk3k_heal6",
+        "bed6",
+        "nude"
+      ]
+    }
+    
+    /*
+    {
+      "image" : "vepr_lexbed_wall.png:<color>.<frame>",
+      "direction" : "right",
+      "flipImages" : false,
+      //"imagePosition" : [-16, 0],
+      "imagePosition" : [0, 0],
+      "frames" : 12,
+      "animationCycle" : 2.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+      "sitFlipDirection" : true,
+      "sitPosition" : [-5, 32],
+      "sitOrientation" : "lay",
+      "sitAngle" : 0,
+      "sitCoverImage" : "/objects/vepr/vepr_lexbed/vepr_lexbedcover_rightWall.png",
+      "sitStatusEffects" : [
+        "levitation",
+        "bed6",
+        "nude"
+      ]
+    }
+    */
+  ],
+  "scripts" : [ "vepr_lexbed.lua" ],
+  "scriptDelta" : 5
+}

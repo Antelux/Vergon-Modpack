@@ -1,0 +1,23 @@
+{
+  "materialId" : 2390,
+  "materialName" : "executiveblock",
+  "particleColor" : [20, 20, 20, 255],
+  "itemDrop" : "executiveblock",
+  "description" : "A solid block of impervium.",
+  "shortdescription" : "Executive Block",
+  "glitchDescription" : "Analysis. Impervium block.",
+  "floranDescription" : "Ssstrong impervium block.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 24,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "executiveblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 50
+  }
+}

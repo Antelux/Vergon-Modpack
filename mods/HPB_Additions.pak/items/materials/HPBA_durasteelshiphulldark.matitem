@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPBA_durasteelshiphulldark",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "HPBA_durasteelhulldarkicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Dark Durasteel Plating",
+  "description" : "Sheets of ship hull plating.",
+  "glitchdescription" : "Statement. Star ship hull plating.",
+  "florandescription" : "Ssship ssskin.",
+
+  "materialId" : 42970
+}

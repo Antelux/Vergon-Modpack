@@ -1,0 +1,10 @@
+{
+  "itemName": "steelbar",
+  "price": 60,
+  "rarity": "Common",
+  "inventoryIcon": "steelbar.png",
+  "description": "It's a steel bar. Useful for crafting much stronger weapons, armour and more!",
+  "shortdescription": "Steel Bar",
+
+  "learnBlueprintsOnPickup": [ ]
+}

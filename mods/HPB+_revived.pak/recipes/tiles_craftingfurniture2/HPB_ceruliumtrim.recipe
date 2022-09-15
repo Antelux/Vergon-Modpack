@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_ceruliumshiphull",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_ceruliumtrim",
+      "count": 3 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_cardboardplatform",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "cardboardplatform_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "This does not look safe!",
+  "shortdescription" : "Cardboard Platform",
+  "glitchdescription" : "Trepidation. Structurally unsound.",
+  "florandescription" : "Cardboard.",
+
+  "materialId" : 42268
+}

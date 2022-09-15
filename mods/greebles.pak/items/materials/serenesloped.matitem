@@ -1,0 +1,14 @@
+{
+  "itemName" : "serenesloped",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "sereneslopedicon.png",
+  "shortdescription" : "Serene Hull Panel",
+  "description" : "Durable aegisalt panelling.",
+  "glitchdescription" : "Observant. This aegisalt panelling is pretty durable stuff.",
+  "florandescription" : "Shiny sssmooth space metal.",
+  "novakiddescription" : "Thick aegisalt metal alloy plating.",
+
+  "materialId" : 2485
+}

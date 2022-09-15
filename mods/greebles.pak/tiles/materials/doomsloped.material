@@ -1,0 +1,23 @@
+{
+  "materialId" : 2489,
+  "materialName" : "doomsloped",
+  "particleColor" : [150, 35, 35, 255],
+  "itemDrop" : "doomsloped",
+  "description" : "Panels of rubium  metal.",
+  "shortdescription" : "Doom Hull Panel",
+  "glitchDescription" : "Analysis. Rubium panelling.",
+  "floranDescription" : "Floran like the bloody red colourss.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 22,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/greebles_slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "doomsloped.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4989
+  }
+}

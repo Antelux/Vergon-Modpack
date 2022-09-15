@@ -1,0 +1,12 @@
+{
+  "input": [
+    { "item": "tungstenbar",
+      "count": 1 },
+    { "item": "smallbattery",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_novakidglowingpanel",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

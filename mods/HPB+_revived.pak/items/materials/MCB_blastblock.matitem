@@ -1,0 +1,11 @@
+{
+  "itemName" : "MCB_blastblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "MCB_blastblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A block of cut blaststone.",
+  "shortdescription" : "Blaststone bricks.",
+  "glitchDescription" : "Analysis. Blaststone bricks.",
+  "floranDescription" : "Hard bricks!",
+  "materialId" : 42367
+}

@@ -1,0 +1,12 @@
+{
+  "input": [
+    { "item": "HPB_transparentplastic",
+      "count": 20 },
+    { "item": "tungstenbar",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_plasticshipwindow",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

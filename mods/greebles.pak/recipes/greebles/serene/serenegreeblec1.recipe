@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "serenepanel", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "serenegreebleC1",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

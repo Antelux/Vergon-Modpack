@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_aegisaltwallpanel",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "aegisaltwallpanel_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A colourful wall panel.",
+  "shortdescription" : "Aegisalt Wall Panel",
+  "glitchdescription" : "Analysis. A wall panel.",
+  "florandescription" : "Wall.",
+
+  "materialId" : 42125
+}

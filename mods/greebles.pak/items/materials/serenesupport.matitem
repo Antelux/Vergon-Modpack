@@ -1,0 +1,10 @@
+{
+  "itemName" : "serenesupport",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "serenesupporticon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Aegisalt support.",
+  "shortdescription" : "Serene Support",
+
+  "materialId" : 2325
+}

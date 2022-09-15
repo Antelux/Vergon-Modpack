@@ -1,0 +1,23 @@
+{
+  "materialId": 42219,
+  "materialName": "HPB_rubiumstripedwall",
+  "particleColor": [217, 58, 58, 255],
+  "itemDrop": "HPB_rubiumstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Rubium Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "rubiumstripedwall_HPB.png", 
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2690
+  }
+}

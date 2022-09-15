@@ -1,0 +1,19 @@
+{
+  "itemName": "HPB_cardboardshipplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "brownplans_HPB.png",
+  "description": "These plans reveal how to make blocks for a cardboard star ship!",
+  "shortdescription": "Cardboard Ship Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_cardboardhull",
+    "HPB_cardboardtrim",
+    "HPB_cardboardplatform",
+    "HPB_cardboardwallpanel",
+    "HPB_cardboardstripedwall",
+    "HPB_cardboardcolumn",
+    "HPB_cardboardstoragelocker",
+    "HPB_cardboardshipdoor",
+    "HPB_cardboardtrimtool"
+  ]
+}

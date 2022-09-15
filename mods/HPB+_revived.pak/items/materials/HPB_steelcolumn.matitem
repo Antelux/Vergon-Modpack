@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_steelcolumn",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "steelcolumn_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Steel Column",
+  "description" : "Columns for decorating or supporting upper floors in large rooms.",
+  "glitchdescription" : "Statement. Stately column.",
+  "florandescription" : "pole.",
+
+  "materialId" : 42231
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "viola",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "violaicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A viola. Is that a violin? - Every non-viola player.",
+  "shortdescription" : "Viola",
+  "largeImage" : "viola.png",
+  "image" : "viola.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "viola.png",
+  "activeAngle" : -2,
+  "activeHandPosition" : [0.4, 0.2],
+
+  "handPosition" : [0.4, 0.2],
+  "twoHanded" : true,
+  "kind" : "viola"
+}

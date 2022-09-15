@@ -1,0 +1,13 @@
+{
+  "itemName" : "executiveplatform",
+  "category" : "Platform",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "executiveplatformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Strong impervium platforms.",
+  "shortdescription" : "Executive Platform",
+  "glitchdescription" : "Analysis. Strong impervium platform.",
+  "florandescription" : "Metal nearly as strong as floran!",
+
+  "materialId" : 2410
+}

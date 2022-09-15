@@ -1,0 +1,39 @@
+{
+  "objectName": "HPB_macroledcyan",
+  "rarity": "Common",
+  "colonyTags": [ "light" ],
+  "description": "A macrocircuit cyan LED.",
+  "shortdescription": "Macrocircuit Cyan LED",
+  "race": "generic",
+
+  "category": "light",
+  "price": 225,
+  "lightColor": [0, 200, 200],
+
+  "inventoryIcon": "macroledcyanicon_HPB.png",
+  "orientations": [
+    {
+      "image": "macroledcyan_HPB.png:<color>.<frame>",
+      "imagePosition": [-0, 0],
+      "animationPosition": [0, 0],
+
+      "direction": "right",
+
+      "spaceScan": 0.1,
+      "anchors": [ "background" ]
+    }
+  ],
+  
+  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts": {
+    "bg": "macroledcyan_HPB.png",
+    "fg": "macroledcyan_HPB.png"
+  },
+
+  "scripts": [ "/objects/wired/light/light.lua" ],
+  "scriptDelta": 60,
+  
+  "interactive": false,
+
+  "inputNodes": [ [0, 0] ]
+}

@@ -1,0 +1,24 @@
+{
+  "materialId": 42275,
+  "materialName": "HPB_corefragmentwallpanel",
+  "particleColor": [255, 162, 0, 255],
+  "itemDrop": "HPB_corefragmentwallpanel",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Core Wall Panel",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "corefragmentwallpanel_HPB.png", 
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2630,
+    "radiantLight": [115, 43, 0]
+  }
+}

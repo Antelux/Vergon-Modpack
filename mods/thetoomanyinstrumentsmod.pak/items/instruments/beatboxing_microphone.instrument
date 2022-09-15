@@ -1,0 +1,20 @@
+{
+  "itemName" : "beatboxing_microphone",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "beatboxing_microphone.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A beatboxing microphone. Boots 'n' cats 'n' boots 'n' cats...",
+  "shortdescription" : "Beatboxing Microphone",
+  "largeImage" : "beatboxing_microphone.png",
+  "image" : "beatboxing_microphone.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "beatboxing_microphone.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0, 0.275],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : false,
+  "kind" : "beatboxing_microphone"
+}

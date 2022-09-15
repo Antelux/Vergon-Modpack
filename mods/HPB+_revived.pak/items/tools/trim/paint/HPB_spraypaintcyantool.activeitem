@@ -1,0 +1,32 @@
+{
+  "itemName" : "HPB_spraypaintcyantool",
+  "description" : "Sprays messy paint on blocks.  Doesn't work on tumbling blocks or platforms.",
+  "shortdescription" : "^orange;Cyan Spray Paint Tool^white;",
+
+  "category" : "tool",
+  "inventoryIcon" : "spraypainticon_HPB.png:cyan",
+  "largeImage" : "paintgunlarge_HPB.png:cyan",
+  "animation" : "paintgun_HPB.animation",
+  "animationParts" : {
+    "trimtool" : "paintgun_HPB.png:cyan"
+  },
+
+  "scripts" : [ "/items/tools/trim/activetrimtool.lua" ],
+  "seed" : "HPB_spraypaintcyan",
+  "toolSound" : "paint",
+
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "tooltipKind" : "tool",
+  "twoHanded" : true,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

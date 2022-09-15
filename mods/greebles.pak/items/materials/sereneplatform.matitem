@@ -1,0 +1,13 @@
+{
+  "itemName" : "sereneplatform",
+  "category" : "Platform",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "sereneplatformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Strong aegisalt platform.",
+  "shortdescription" : "Serene Platform",
+  "glitchdescription" : "Analysis. Strong aegisalt platform.",
+  "florandescription" : "Green!",
+
+  "materialId" : 2405
+}

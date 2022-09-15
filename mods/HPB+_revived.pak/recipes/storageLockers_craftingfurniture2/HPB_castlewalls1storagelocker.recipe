@@ -1,0 +1,15 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 1 },
+    { "item": "platinumbar",
+      "count": 1 },
+    { "item": "castlewalls1",
+      "count": 12 }
+  ],
+  "output": { "item": "HPB_castlewalls1storagelocker",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "objects", "storage", "all" ]
+}

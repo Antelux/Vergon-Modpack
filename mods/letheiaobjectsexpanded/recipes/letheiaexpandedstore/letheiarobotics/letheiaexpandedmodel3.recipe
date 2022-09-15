@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 2 },
+	{ "item" : "pallasteelalloy", "count" : 2 }
+  ],
+  "output" : { "item" : "letheiaexpandedmodel3", "count" : 1 },
+  "duration" : 0.1,
+  "groups"  : [ "letheiarobotics","letheiacrafting2" ]
+}

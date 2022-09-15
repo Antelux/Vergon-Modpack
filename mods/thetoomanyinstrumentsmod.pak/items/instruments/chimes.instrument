@@ -1,0 +1,20 @@
+{
+  "itemName" : "chimes",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "chimesicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Chimes. Is that Big Ben?",
+  "shortdescription" : "Chimes",
+  "largeImage" : "chimes.png",
+  "image" : "chimes.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "chimes.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.5,0],
+
+  "handPosition" : [0,0],
+  "twoHanded" : true,
+  "kind" : "chimes"
+}

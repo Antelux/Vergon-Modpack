@@ -1,0 +1,23 @@
+{
+  "materialId": 42346,
+  "materialName": "HPB_cutcobblestone",
+  "particleColor": [149, 149, 149, 255],
+  "itemDrop": "HPB_cutcobblestone",
+  "shortdescription": "Cut Cobblestone",
+  "description": "Hard stones, smooth to the touch.",
+  "glitchDescription": "Statement. Cut cobblestones.",
+  "floranDescription": "Cut cobblessstone.",
+  "footstepSound": "/sfx/blocks/footstep_stone.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "cutcobblestone_HPB.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 1640
+  }
+}

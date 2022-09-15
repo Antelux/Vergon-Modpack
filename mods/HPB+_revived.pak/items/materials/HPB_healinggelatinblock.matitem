@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_healinggelatinblock",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "healinggelatinblock_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Healing Gelatin Block",
+  "description" : "Block of gelatin made from healing water.  It jiggles!",
+  "glitchdescription" : "Statement. Gelatin block.",
+  "florandescription" : "Wiggly block.",
+
+  "materialId" : 42291
+}

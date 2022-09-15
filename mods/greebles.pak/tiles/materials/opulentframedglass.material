@@ -1,0 +1,23 @@
+{
+  "materialId" : 2368,
+  "materialName" : "opulentframedglass",
+  "particleColor" : [197, 65, 184, 197],
+  "itemDrop" : "opulentreinforcedglass",
+  "description" : "Framed glass reinforced with violium crystallite.",
+  "shortdescription" : "Opulent Window",
+  "glitchDescription" : "Analysis. Framed glass reinforced with violium crystallite.",
+  "floranDescription" : "Sssmash tough pink glass?",
+  "footstepSound" : "/sfx/blocks/footstep_crystal.ogg",
+  "health" : 14,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "opulentframedglass.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "multiColored" :true,
+    "occludesBelow" : false,
+    "zLevel" : 3500
+  }
+}

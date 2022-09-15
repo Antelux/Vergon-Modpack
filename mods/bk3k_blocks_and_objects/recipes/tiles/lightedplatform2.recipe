@@ -1,0 +1,8 @@
+{
+  "input" : [
+    {"item" : "ironbar", "count" : 5 },
+    {"item" : "corefragmentore", "count" : 5 }
+    ],
+  "output" : { "item" : "lightedplatform2", "count" : 100 },
+  "groups" : [ "mod", "bk3k", "bk3k_materials" ]
+}

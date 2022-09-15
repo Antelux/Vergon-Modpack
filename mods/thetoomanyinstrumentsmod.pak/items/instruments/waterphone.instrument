@@ -1,0 +1,20 @@
+{
+  "itemName" : "waterphone",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "waterphone.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A waterphone. Creepy sounds...",
+  "shortdescription" : "Waterphone",
+  "largeImage" : "waterphone.png",
+  "image" : "waterphone.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "waterphone.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0, 0],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "waterphone"
+}

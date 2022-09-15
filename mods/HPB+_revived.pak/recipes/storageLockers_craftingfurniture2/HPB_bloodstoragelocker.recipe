@@ -1,0 +1,17 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 1 },
+    { "item": "platinumbar",
+      "count": 1 },
+    { "item": "tungstenbar",
+      "count": 5 },
+    { "item": "fleshblock",
+      "count": 6 }
+  ],
+  "output": { "item": "HPB_bloodstoragelocker",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "objects", "storage", "all" ]
+}

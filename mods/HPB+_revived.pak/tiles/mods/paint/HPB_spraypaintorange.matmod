@@ -1,0 +1,15 @@
+{
+  "modId" : 42072,
+  "modName" : "HPB_spraypaintorange",
+  "description" : "Someone's been using spray paint.",
+  "footstepSound" : "/sfx/blocks/footstep_mud.ogg",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/shiptrimtemplate.config",
+  "renderParameters" : {
+    "texture" : "spraypaintorange_HPB.png",
+    "variants" : 3,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

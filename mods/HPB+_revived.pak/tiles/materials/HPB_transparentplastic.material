@@ -1,0 +1,23 @@
+{
+  "materialId": 42361,
+  "materialName": "HPB_transparentplastic",
+  "particleColor": [217, 217, 217, 255],
+  "itemDrop": "HPB_transparentplastic",
+  "description": "I can see my reflection.",
+  "glitchDescription": "Attentive. I can see clearly though this transparent plastic.",
+  "floranDescription": "Floran lookss pretty in glasssss.",
+  "novakidDescription": "I can see clear through t'the other side of this plastic.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "transparentplastic_HPB.png", 
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 470
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_apexcolumn",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "apexcolumn_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Apex Column",
+  "description" : "Columns for decorating or supporting upper floors in large rooms.",
+  "glitchdescription" : "Statement. Stately column.",
+  "florandescription" : "Pole.",
+
+  "materialId" : 42240
+}

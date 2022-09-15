@@ -1,0 +1,11 @@
+{
+  "itemName" : "lightedplatform6",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "lightedplatformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "They glow green",
+  "shortdescription" : "Lighted Platform (Green)",
+  
+  "materialId" : 7181
+}

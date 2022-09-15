@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_novakidgreenhull",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_novakidgreenplatform",
+      "count": 3 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

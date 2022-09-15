@@ -1,0 +1,20 @@
+{
+  "materialId" : 4995,
+  "materialName" : "t9_hylotlshipplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "t9_hylotlshipplatform",
+  "shortdescription" : "Hylotl Ship Platform",
+  "description" : "A tough, sturdy and spaceworthy platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "hylotlshipplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

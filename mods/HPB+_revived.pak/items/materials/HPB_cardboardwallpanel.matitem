@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_cardboardwallpanel",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "cardboardwallpanel_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A colourful wall panel.",
+  "shortdescription" : "Cardboard Wall Panel",
+  "glitchdescription" : "Analysis. A wall panel.",
+  "florandescription" : "Wall.",
+
+  "materialId" : 42269
+}

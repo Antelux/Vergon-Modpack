@@ -1,0 +1,54 @@
+{
+  "projectileName" : "redplasmablade2",
+  "physics" : "default",
+  "timeToLive" : 3,
+  "image" : "redplasmablade2.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [80, 30, 30],
+  "frameNumber" : 1,
+  "speed" : 4,
+  "power" : 30,
+  "damageKind" : "spear",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+
+  "fullbright" : true,
+  "emitters" : ["energyweapon"],
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/impact_plasma.ogg"
+      ]
+    },
+    {
+      "action" : "loop",
+      "count" : 5,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "redblade",
+          "time" : 0.1,
+          "repeat" : true
+        },
+        {
+          "action" : "particle",
+          "specification" : "redblade2",
+          "time" : 0.1,
+          "repeat" : true
+        }
+      ]
+    }
+  ],
+
+  "bounces" : 2,
+
+  "scripts" : [ "/projectiles/activeitems/staff/redplasmablade2/redplasmablade2.lua" ],
+
+  "triggerSpeed" : 100,
+
+  "controlRotation" : {
+    "maxSpeed" : 50,
+    "controlForce" : 90,
+    "friction" : 8
+  }
+}

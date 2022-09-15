@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_macroresistorv",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "macroresistorv_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Macrocircuit Resistor (V)",
+  "description" : "Macrochips are the next BIG thing in electronics...",
+  "glitchdescription" : "Disregard. Inefficiently large electronics.",
+  "florandescription" : "Even floran knowsss thisss isss too big.",
+
+  "materialId" : 42335
+}

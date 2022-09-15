@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "money",
+      "count": 150 }
+  ],
+  "output": { "item": "HPB_forcefieldplans",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "HPB_plans", "hullplatingcatalog3" ]
+}

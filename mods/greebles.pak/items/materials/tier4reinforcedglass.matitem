@@ -1,0 +1,10 @@
+{
+  "itemName" : "tier4reinforcedglass",
+  "rarity" : "Common",
+  "inventoryIcon" : "tier4reinforcedglassicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Durasteel reinforced glass.",
+  "shortdescription" : "Durasteel Glass",
+
+  "materialId" : 2394
+}

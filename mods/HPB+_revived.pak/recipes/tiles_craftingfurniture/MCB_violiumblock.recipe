@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 1 }
+  ],
+  "output" : { "item" : "MCB_violiumblock", "count" :50 },
+  "duration" : 0.0,
+  "groups" : [ "craftingfurniture", "materials", "all" ]
+}

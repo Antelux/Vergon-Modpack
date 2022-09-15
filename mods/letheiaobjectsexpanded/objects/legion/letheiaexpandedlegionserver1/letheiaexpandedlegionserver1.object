@@ -1,0 +1,25 @@
+{
+  "objectName" : "letheiaexpandedlegionserver1",
+  "colonyTags" : ["misc"],
+  "rarity" : "Rare",
+  "description" : "A collection of data servers.",
+  "shortdescription" : "Dark Data Servers",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 200,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedlegionserver1.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

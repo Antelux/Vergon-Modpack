@@ -1,0 +1,24 @@
+{
+  "materialId": 42183,
+  "materialName": "HPB_emeraldgemsparktrim",
+  "particleColor": [0, 255, 0, 255],
+  "itemDrop": "HPB_emeraldgemsparktrim",
+  "description": "Emerald gemspark trim.",
+  "shortdescription": "Emerald Gemspark Trim",
+  "glitchDescription": "Statement. Gemspark.",
+  "floranDescription": "Pretty glowing gemsss.",
+  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "emeraldgemsparktrim_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "radiantLight": [0, 220, 0]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "MCB_corebrick",
+  "rarity" : "Common",
+  "inventoryIcon" : "MCB_corebrick.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A Core Fragment block!",
+  "shortdescription" : "Core Brick",
+  "glitchDescription" : "Analysis. A core fragment block.",
+  "floranDescription" : "Hmm, Floran doesn't like it.",
+  "materialId" : 42370
+}

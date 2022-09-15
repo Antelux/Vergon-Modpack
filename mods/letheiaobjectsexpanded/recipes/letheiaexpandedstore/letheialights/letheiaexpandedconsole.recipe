@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 350 }
+  ],
+  "output" : { "item" : "letheiaexpandedconsole", "count" : 1 },
+  "duration" : 0.1,
+  "groups"  : [ "letheialights","letheiacrafting" ]
+}

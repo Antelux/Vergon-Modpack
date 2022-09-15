@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "glass", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "slopedglasspanel",
+    "count" : 10
+  },
+  "duration" : 0.25,
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

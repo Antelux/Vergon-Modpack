@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sand2", "count" : 60 }
+  ],
+  "output" : {
+    "item" : "bk3k_mediumBlackGlass",
+    "count" : 20
+  },
+  "groups" : [ "mod", "bk3k", "bk3k_materials" ]
+}

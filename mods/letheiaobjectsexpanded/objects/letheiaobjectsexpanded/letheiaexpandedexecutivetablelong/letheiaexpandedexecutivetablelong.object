@@ -1,0 +1,25 @@
+{
+  "objectName" : "letheiaexpandedexecutivetablelong",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A long-table, very important looking.",
+  "shortdescription" : "Long Executive Table",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 500,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedexecutivetablelong.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

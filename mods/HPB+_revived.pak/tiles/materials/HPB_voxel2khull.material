@@ -1,0 +1,23 @@
+{
+  "materialId": 42258,
+  "materialName": "HPB_voxel2khull",
+  "particleColor": [226, 218, 117, 255],
+  "itemDrop": "voxel2k",
+  "description": "Voxels fashioned into blocks.",
+  "shortdescription": "2K Voxel Block",
+  "glitchDescription": "Statement. Voxel block.",
+  "floranDescription": "Voxelsss.",
+  "footstepSound": "/sfx/blocks/footstep_stone.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "voxel2khull_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

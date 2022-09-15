@@ -1,0 +1,23 @@
+{
+  "materialId": 42342,
+  "materialName": "HPB_springwallpanel",
+  "particleColor": [116, 75, 33, 255],
+  "itemDrop": "HPB_springwallpanel",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Spring Wall Panel",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_wood.ogg",
+  "health": 3,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "springwallpanel_HPB.png",
+    "variants": 4,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2630
+  }
+}

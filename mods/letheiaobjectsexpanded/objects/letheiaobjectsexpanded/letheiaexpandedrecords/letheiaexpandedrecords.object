@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheiaexpandedrecords",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Some music records.",
+  "shortdescription" : "Music Records",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 150,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedrecords.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

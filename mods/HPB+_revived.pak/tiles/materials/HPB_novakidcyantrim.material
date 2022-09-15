@@ -1,0 +1,23 @@
+{
+  "materialId": 42024,
+  "materialName": "HPB_novakidcyantrim",
+  "particleColor": [147, 166, 179, 255],
+  "itemDrop": "HPB_novakidcyantrim",
+  "shortdescription": "Novakid Cyan Trim",
+  "description": "Fancy tubing to add some detail to a ship.",
+  "glitchDescription": "Statement. Star ship trim.",
+  "floranDescription": "Ssship tubesss.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "novakidcyantrim_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0
+  }
+}

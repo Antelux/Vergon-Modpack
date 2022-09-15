@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "siliconboard",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_macrodipv",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingwiring", "mechanics", "all" ]
+}

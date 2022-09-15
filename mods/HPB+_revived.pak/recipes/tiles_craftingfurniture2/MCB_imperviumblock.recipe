@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 1 },
+	{ "item" : "solariumstar", "count" : 1 }
+  ],
+  "output" : { "item" : "MCB_imperviumblock", "count" : 50},
+  "duration" : 0.0,
+  "groups" : [ "craftingfurniture2  ", "materials", "all" ]
+}

@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "durasteelbar", "count": 6 },
+    { "item": "siliconboard", "count": 1 },
+    { "item": "petalred", "count": 2 },
+    { "item": "petalblue", "count": 2 },
+    { "item": "petalyellow", "count": 2 },
+    { "item": "darkwoodmaterial", "count": 6 }
+  ],
+  "output": { "item": "HPB_springflowerstool",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "craftinganvil3", "weapons", "all" ]
+}

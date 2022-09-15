@@ -1,0 +1,74 @@
+{
+  "objectName": "HPB_titaniumthruster",
+  "rarity": "Common",
+  "price": 150,
+  "colonyTags": [ "misc" ],
+  "description": "I wonder how quickly that would cook a burger.",
+  "shortdescription": "Titanium Thruster",
+  "race": "generic",
+
+  "apexDescription": "A booster. These have been known to malfunction and explode.",
+  "avianDescription": "A booster, the wings of a ship.",
+  "floranDescription": "Ssscary fire.",
+  "glitchDescription": "Analyse. Temperature too high to measure.",
+  "humanDescription": "This thing eats through fuel.",
+  "hylotlDescription": "Propulsion.",
+
+  "category": "light",
+    
+  "lightColor": [59, 183, 255],
+  "pointLight": true,
+  "flickerDistance": 0.2,
+  "flickerStrength": 0.05,
+  "flickerTiming": 4,
+  "lightPosition": [0, -1.5],
+  /*
+  "pointBeam": 2,
+  "beamAmbience": 0.3,
+  
+  "beamAngle": 270
+  */
+    
+  "inventoryIcon": "thruster_HPB.png",
+  "orientations": [
+    {
+      "image": "thruster_HPB.png:static",
+      "imagePosition": [-6, 0],
+      "spaces": [
+        [0, 0], [1, 0], [2, 0], [3, 0], [4, 0],
+        [1, -1], [2, -1], [3, -1],
+        [1, -2], [2, -2], [3, -2]
+      ],
+      "collisionSpaces": [
+        [0, 0], [1, 0], [2, 0], [3, 0], [4, 0]
+      ],
+      "collision": "solid",
+      "anchors": [ "top" ]
+    }
+  ],
+  
+  "stats": { "shipSpeed": 48 },
+  "byosOnly": true,
+  "scripts": [ "/objects/ship/HPB_thruster.lua" ],
+  "scriptDelta": 10,
+    
+  "animation": "/objects/ship/HPB_thruster.animation",
+  "animationParts": {
+    "thruster_FB": "thruster_HPB.png",
+    "thruster": "thruster_HPB.png",
+    "thrust": "/objects/ship/thrust_HPB.png"
+  },
+  "animationPosition": [-6, 0],
+  "animationCustom": { },
+  
+  
+  "flyingBoosterStates": {
+    "none": "off",
+    "disembarking": "turnOn",
+    "warp": "turnOff",
+    "arriving": "turnOn"
+  },
+
+  "soundEffect": "/sfx/objects/boosterflame.ogg"
+
+}

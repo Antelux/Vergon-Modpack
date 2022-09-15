@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheia_extra_31",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A large decorative painting.",
+  "shortdescription" : "Decorative Painting",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 50,
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheia_extra_31.png:<color>",
+      "imagePosition" : [-24, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

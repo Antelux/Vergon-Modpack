@@ -1,0 +1,464 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "movement" : {
+        "default" : "idle",
+        "states" : {
+          "warpIn" : {
+            "frames" : 8,  
+            "cycle" : 0.8,
+            "mode" : "transition",
+            "transition" : "idle"
+          },
+
+          "warpOut" : {
+            "frames" : 8,  
+            "cycle" : 0.8,
+            "mode" : "transition",
+            "transition" : "warpOutEnd"
+           },
+
+          "warpOutEnd" : { },
+
+          "idle" : { },
+
+          "jump" : {
+            "frames" : 1,
+            "cycle" : 0.5,
+            "mode" : "end"
+          },
+
+          "fall" : {
+            "frames" : 1,
+            "cycle" : 0.5,
+            "mode" : "end"
+          },
+
+          "walk" : {
+            "frames" : 6,
+            "cycle" : 0.6,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : ["","/sfx/tech/treadclank.ogg","","/sfx/tech/treadclank.ogg","","/sfx/tech/treadclank.ogg"]
+            }
+          },
+
+          "backWalk" : {
+            "frames" : 6,
+            "cycle" : 0.6,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : ["/sfx/tech/treadclank.ogg","","/sfx/tech/treadclank.ogg","","/sfx/tech/treadclank.ogg",""]
+            }
+          }
+        }
+      }      
+    },
+
+    "parts" : {
+      "body" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 3,
+          "sitPosition" : [2.25, 1.5]
+        },
+
+        "partStates" : {
+          "movement" : {
+            "warpIn" : {
+              "properties" : {
+                "image" : "minidozerwarp.png:warpIn.<frame>",
+                "offset" : [0.875,0.5]
+              }
+            },
+            "warpOut" : {
+              "properties" : {
+                "image" : "minidozerwarp.png:warpOut.<frame>",
+                "offset" : [0.875,0.5]
+              }
+            },
+            "warpEnd" : {
+              "properties" : {}
+            },
+
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:idle",
+                "immediateSound" : "/sfx/tech/mech_jump3.ogg"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0], [0, 0], [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, -0.0625], [0, 0], [0, -0.0625], [0, 0], [0, -0.0625] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, -0.0625], [0, 0], [0, -0.0625], [0, 0], [0, -0.0625] ]
+              }
+            }
+          }
+        }
+      },
+
+      "drill" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 4,
+          "anchorPart" : "body",
+          "offset" : [ 6.75, -0.1875 ]
+        },
+
+        "partStates" : {
+          "movement" : {
+            "warpIn" : {
+              "properties" : {}
+            },
+            "warpOut" : {
+              "properties" : {}
+            },
+            "warpEnd" : {
+              "properties" : {}
+            },
+
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:move.<frame>"
+              },
+              "frameProperties" : {
+//                "offset" : [ [6.75, 0], [6.75, -0.0625], [6.75, 0], [6.75, -0.0625], [6.75, 0], [6.75, -0.0625] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:bmove.<frame>"
+              },
+              "frameProperties" : {
+//                "offset" : [ [6.75, 0], [6.75, -0.0625], [6.75, 0], [6.75, -0.0625], [6.75, 0], [6.75, -0.0625] ]
+              }
+            }
+          }
+        }
+      },
+
+      "backLeg" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : -2,
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "warpIn" : {
+              "properties" : {}
+            },
+            "warpOut" : {
+              "properties" : {}
+            },
+            "warpEnd" : {
+              "properties" : {}
+            },
+
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:move.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0.0625], [0, 0], [0, 0.0625], [0, 0], [0, 0.0625] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:bmove.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0.0625], [0, 0], [0, 0.0625], [0, 0], [0, 0.0625] ]
+              }
+            }
+          }
+        }
+      },
+
+      "background" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : -1,
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "warpIn" : {
+              "properties" : {}
+            },
+            "warpOut" : {
+              "properties" : {}
+            },
+            "warpEnd" : {
+              "properties" : {}
+            },
+
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            }
+          }
+        }
+      },
+
+      "backGun" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 2,
+          "rotationGroup" : "guns",
+          "offset" : [2, 0],
+          "rotationCenter" : [2.4, 0],
+          "firePoint" : [6.5, -0.35],
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "warpIn" : {
+              "properties" : {}
+            },
+            "warpOut" : {
+              "properties" : {}
+            },
+            "warpEnd" : {
+              "properties" : {}
+            },
+
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            }
+          }
+        }
+      },
+
+      "frontGun" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 5,
+          "rotationGroup" : "guns",
+          "rotationCenter" : [0.4, -0.25],
+          "firePoint" : [4.5, -0.35],
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "warpIn" : {
+              "properties" : {}
+            },
+            "warpOut" : {
+              "properties" : {}
+            },
+            "warpEnd" : {
+              "properties" : {}
+            },
+
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            }
+          }
+        }
+      },
+
+      "frontLeg" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 4,
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "warpIn" : {
+              "properties" : {}
+            },
+            "warpOut" : {
+              "properties" : {}
+            },
+            "warpEnd" : {
+              "properties" : {}
+            },
+
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:move.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0.0625], [0, 0], [0, 0.0625], [0, 0], [0, 0.0625] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:bmove.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0], [0, 0.0625], [0, 0], [0, 0.0625], [0, 0], [0, 0.0625] ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "rotation" : {},
+    "flip" : {}
+  },
+  
+  "rotationGroups" : {
+    "guns" : {
+      "angularVelocity" : 10.0
+    }
+  }
+}

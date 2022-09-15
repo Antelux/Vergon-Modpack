@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "leather",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_gelatin",
+      "count": 10 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfood", "desserts" ]
+}

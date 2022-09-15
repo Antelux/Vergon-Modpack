@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "slime", "count" : 2 }
+  ],
+  "output" : { "item" : "MCB_slimeblock", "count" :1 },
+  "duration" : 0.0,
+  "groups" : [  "craftingfurniture", "materials", "all" ]
+}

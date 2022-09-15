@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_sapphiregemsparktrim",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "sapphiregemsparktrim_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Sapphire Gemspark Trim",
+  "description" : "Sapphire gemspark trim.",
+  "glitchdescription" : "Statement. Gemspark.",
+  "florandescription" : "Pretty glowing gemsss.",
+
+  "materialId" : 42182
+}

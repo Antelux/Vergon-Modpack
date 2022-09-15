@@ -1,0 +1,31 @@
+{
+  "objectName" : "Q_unwrecked_boiler",
+  "rarity" : "Common",
+  "description" : "A refurbished boiler. Shiny.",
+  "shortdescription" : "Refurbished Boiler",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 300,
+
+  "apexDescription" : "A water heater. I can see my face in its reflection",
+  "avianDescription" : "Hot to the touch.",
+  "floranDescription" : "Sssmelly hot sssteam inssside.",
+  "glitchDescription" : "Observation. A water heater filled with hot water.",
+  "humanDescription" : "There's some hot water inside.",
+  "hylotlDescription" : "Full of hot water.",
+
+  "inventoryIcon" : "Q_unwrecked_boilericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "Q_unwrecked_boiler.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

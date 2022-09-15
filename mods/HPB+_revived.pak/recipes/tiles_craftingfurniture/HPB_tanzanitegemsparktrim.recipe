@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_tanzanitegemspark",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_tanzanitegemsparktrim",
+      "count": 3 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

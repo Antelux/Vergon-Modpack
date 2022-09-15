@@ -1,0 +1,19 @@
+{
+  "itemName" : "snare_drum",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "snare_drum.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A snare drum. Is this what they use for drum rolling?",
+  "shortdescription" : "Snare Drum",
+  "largeImage" : "snare_drum.png",
+  "image" : "snare_drum.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "snare_drum.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0, -0.1],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "snare_drum"
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "letheiaexpandedtile3",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "letheiaexpandedtile3.png",
+  "description" : "A light metal wall used in Letheia offices.",
+  "shortdescription" : "Letheia Light Wall",
+
+  "materialId" : 16503
+}

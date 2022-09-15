@@ -1,0 +1,23 @@
+{
+  "materialId": 42256,
+  "materialName": "HPB_voxel5khull",
+  "particleColor": [226, 218, 117, 255],
+  "itemDrop": "voxel5k",
+  "description": "Voxels fashioned into blocks.",
+  "shortdescription": "5K Voxel Block",
+  "glitchDescription": "Statement. Voxel block.",
+  "floranDescription": "Voxelsss.",
+  "footstepSound": "/sfx/blocks/footstep_stone.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "voxel5khull_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3930
+  }
+}

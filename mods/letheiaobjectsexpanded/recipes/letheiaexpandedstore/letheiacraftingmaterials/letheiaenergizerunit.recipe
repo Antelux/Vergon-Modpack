@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "siliconboard", "count" : 2 },
+    { "item" : "battery", "count" : 2 },
+    { "item" : "corefragmentore", "count" : 2 },	
+	{ "item" : "pallasteelalloy", "count" : 2 }
+  ],
+  "output" : { "item" : "letheiaenergizerunit", "count" : 1 },
+  "duration" : 0.4,
+  "groups"  : [ "letheiacraftingmaterials","letheiacrafting1","letheiastaves","letheiacrafting3" ]
+}

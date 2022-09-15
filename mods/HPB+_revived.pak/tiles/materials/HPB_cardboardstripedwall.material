@@ -1,0 +1,23 @@
+{
+  "materialId": 42270,
+  "materialName": "HPB_cardboardstripedwall",
+  "particleColor": [197, 165, 108, 255],
+  "itemDrop": "HPB_cardboardstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Cardboard Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_wood.ogg",
+  "health": 1,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "cardboardstripedwall_HPB.png",
+    "variants": 3,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2690
+  }
+}

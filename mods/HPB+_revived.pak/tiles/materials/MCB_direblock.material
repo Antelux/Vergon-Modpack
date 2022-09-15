@@ -1,0 +1,22 @@
+{
+  "materialId" : 42372,
+  "materialName" : "MCB_direblock",
+  "particleColor" : [176, 174, 168, 255],
+  "itemDrop" : "MCB_direblock",
+  "description" : "A block of cut direstone.",
+  "shortdescription" : "Heavy direstone block.",
+  "glitchDescription" : "Analysis. It's kind of wormy but very strong.",
+  "floranDescription" : "Wiggleworms in bricks!",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 30,
+  "category": "materials",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "MCB_direblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

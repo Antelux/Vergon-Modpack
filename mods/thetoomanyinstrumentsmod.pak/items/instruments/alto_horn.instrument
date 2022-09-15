@@ -1,0 +1,20 @@
+{
+  "itemName" : "alto_horn",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "alto_horn.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An alto horn. So, what?",
+  "shortdescription" : "Alto Horn",
+  "largeImage" : "alto_horn.png",
+  "image" : "alto_horn.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "alto_horn.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [-0.3,0.4],
+
+  "handPosition" : [-0.3,0.5],
+  "twoHanded" : true,
+  "kind" : "alto_horn"
+}

@@ -1,0 +1,23 @@
+[
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse": true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedapexpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedavianpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedfishpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedfishscalepanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedflorandarkpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedfloranpinkpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedglitchpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedhumanpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedhylotlpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopednovakidbrasspanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopednovakidcreampanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopednovakidcyanpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopednovakidgreenpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopednovakidredpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "slopedrustypanel" }
+  ]
+]

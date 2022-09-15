@@ -1,0 +1,23 @@
+{
+  "materialId" : 42367,
+  "materialName" : "MCB_blastblock",
+  "particleColor" : [100, 106, 106, 255],
+  "itemDrop" : "MCB_blastblock",
+  "description" : "A block of cut blaststone.",
+  "shortdescription" : "Blaststone bricks.",
+  "glitchDescription" : "Analysis. Blaststone bricks.",
+  "floranDescription" : "Hard bricks!",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 30,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "MCB_blastblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

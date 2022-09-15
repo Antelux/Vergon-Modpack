@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 6 },
+    { "item": "siliconboard",
+      "count": 1 },
+    { "item": "purpledye",
+      "count": 6 }
+  ],
+  "output": { "item": "HPB_spraypaintpurpletool",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "craftinganvil3", "craftinganvil2", "craftinganvil", "weapons", "all" ]
+}

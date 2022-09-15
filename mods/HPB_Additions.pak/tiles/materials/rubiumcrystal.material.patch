@@ -1,0 +1,6 @@
+[
+  [
+    { "op": "replace", "path": "/itemDrop", "value": "HPB_rubiumcrystal" }
+  ]
+
+]

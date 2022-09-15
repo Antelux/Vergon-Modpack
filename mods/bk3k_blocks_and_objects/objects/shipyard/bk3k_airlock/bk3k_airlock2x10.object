@@ -1,0 +1,67 @@
+{
+  "objectName" : "bk3k_airlock2x10",
+  "colonyTags" : ["door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "printable" : false,
+  "description" : "This door is airtight and large enough to be suitable for medium vehicles.",
+  "shortdescription" : "Tall Airlock",
+  "race" : "generic",
+  
+	"noAutomaticDoors" : false,
+ 
+  "closedLight" : [20, 20, 20],
+  "inventoryIcon" : "bk3k_airlock2x10.png:icon",
+  "orientations" : [
+    {
+      "image" : "bk3k_airlock2x10.png:default",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "animationPosition" : [0, 0]
+    },
+    {
+      "image" : "bk3k_airlock2x10.png:default",
+      "direction" : "right",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "animationPosition" : [0, 0]
+    }
+  ],
+  "scripts" : [ "/scripts/bk3k/inc_door.lua", "/scripts/bk3k/railDoors.lua" ],
+  "scriptDelta" : 5,
+  
+  //"learnBlueprintsOnPickup" : [ ],
+
+  "animation" : "bk3k_airlock.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+      "close" : [ "/sfx/objects/apexcooldoor_close.ogg" ]
+    },
+    "animatedParts" : {
+      "stateTypes" : {
+        "doorState" : {
+          "states" : {
+            "opening" : { "frames" : 7, "cycle" : 0.42 },
+            "closing" : { "frames" : 7, "cycle" : 0.42 },
+            "closed" : { "frames" : 5, "cycle" : 0.84 },
+            "locking" : { "frames" : 7, "cycle" : 0.42 }
+          }
+        }
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "bk3k_airlock2x10.png"
+  },
+  "openingAnimation" : "opening",
+  "lockingAnimation" : "locking",
+  "lockedAnimation" : "locked",
+
+  "inputNodes" : [ [0, 9], [1, 9] ], 
+  "outputNodes" : [ [0, 0], [1,0] ]
+}

@@ -1,0 +1,24 @@
+{
+  "objectName" : "al_ironladder",
+  "colonyTags" : ["misc"],
+  "rarity" : "common",
+  "description" : "An iron ladder, which functions only as a decorative platform.",
+  "shortdescription" : "Iron Ladder",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 200,
+  "scannable" : true,
+  "printable" : true,
+  "inventoryIcon" : "al_ironladderICON.png",
+  "orientations" : [
+    {
+      "image" : "al_ironladder.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [  ],
+      "collision" : "platform"
+    }
+  ]
+}

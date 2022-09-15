@@ -1,0 +1,15 @@
+{
+  "itemName" : "HPBA_slopedflorandarkpanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "HPBA_slopedflorandarkpanelicon.png",
+  "shortdescription" : "Floran Dark Hull Panel",
+  "description" : "Cheap, resilient panelling widely used for floran ship construction.",
+  "glitchdescription" : "Observant. This is panelling widely used for floran ship construction.",
+  "florandescription" : "Shiny sssmooth space metal.",
+  "novakiddescription" : "Some thick metal plating, looks mighty solid.",
+  "learnBlueprintsOnPickup" : [ "HPBA_slopedflorandarkpanel" ],
+
+  "materialId" : 42987
+}

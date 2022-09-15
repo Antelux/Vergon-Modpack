@@ -1,0 +1,348 @@
+{
+  "bk3k_quest" : [
+    [0, {
+      "fill" : [
+          {"item" : ["diamond", 9999]},
+          {"item" : ["liquidfuel", 9999]},
+          {"item" : ["corefragmentore", 9999]},
+          {"item" : ["liquidfuel", 9999]},
+          {"item" : ["teddybearplush", 1]},
+          {"item" : ["sarcoavian2", 1]},
+          {"item" : ["apexstatue1", 1]},
+          {"item" : ["huntingstatue", 1]},
+          {"item" : ["medievalarmorarmed", 1]},
+          {"item" : ["basictv", 1]},
+          {"item" : ["hylotlclassicgong", 1]}          
+        ]
+      }
+    ]
+  ],
+  
+  "bk3k_cheater" : [
+    [0, {
+      "fill" : [
+          {"pool" : "bk3k_cheater_equipment"},
+          {"item" : ["autochip", 9999]},
+          {"item" : ["autodrive", 9999]},
+          {"item" : ["techcard", 9999]},
+          {"item" : ["manipulatormodule", 9999]},
+          {"item" : ["stationtransponder", 1]},
+          {"item" : ["grapplinghook", 1]},
+          {"item" : ["grapplinghook", 1]},
+          {"item" : ["translocator", 1]},
+          {"item" : ["relocator", 1]},
+          {"item" : ["chainsaw", 1]},
+          {"item" : ["hoe", 1]},
+          {"item" : ["superfishaxedrop", 1]},
+          {"item" : ["techconsole", 1]},
+          {"item" : ["railhook", 1]},
+          {"item" : ["energypickaxe", 1]},
+          {"item" : ["money", 9999999]},
+          {"item" : ["money", 9999999]},
+          {"item" : ["money", 9999999]},
+          {"item" : ["money", 9999999]},
+          {"item" : ["money", 9999999]},
+          {"item" : ["money", 9999999]},
+          {"item" : ["essence", 9999999]},
+          {"item" : ["corefragmentore", 9999]},
+          {"item" : ["liquidfuel", 65000]},
+          {"item" : ["upgrademodule", 9999]},
+          {"item" : ["staticcell", 100]},
+          {"item" : ["wire", 100]},
+          {"item" : ["siliconboard", 100]},
+          {"item" : ["stickofram", 100]}
+        ]
+      }
+    ]
+  ],
+  
+  "bk3k_cheater_equipment" : [
+    [0, {
+      "fill" : [
+          {"item" : ["protectorateflowerhead", 1]},
+          //{"item" : ["xenonpack", 1]},
+          {"item" : ["apextier6ahead", 1]},
+          {"item" : ["apextier6achest", 1]},
+          {"item" : ["apextier6apants", 1]},
+          {"item" : ["violiumbroadsword", 1,
+            {
+              "activeTime" : 30.0,
+              "baseDps" : 45.9,
+              "description" : "Forged by Darkstar",
+              //"shortdescription" : "^#232bf0;Sword of Light^reset;",
+              "shortdescription" : "^#833bbe;Sword of Light^reset;",
+              "level" : 10,
+              "stances" : {
+                "fire1" : { "duration" : 0.0040, "allowRotate" : true },
+                "wait1" : { "duration" : 0.0035, "allowRotate" : true },
+                "fire2" : { "duration" : 0.0075, "allowRotate" : true },
+                "wait2" : { "duration" : 0.0035, "allowRotate" : true }
+              }
+            }
+          ]},
+          {"item" : ["drillspear", 1,
+            {
+              "primaryAbility" : {
+                "fireTime" : 0.5,
+                "baseDps" : 50.5
+              },
+              "altAbility" : {
+                "boostSpeed" : 100,
+                "boostForce" : 1500,
+                "damageTimeout" : 0.01,
+                "damageConfig" : {
+                  "damageSourceKind" : "spear",
+                  "statusEffects" : [ "bouncy" ],
+                  "knockbackMode" : "aim",
+                  "knockback" : 100,
+                  "baseDamage" : 50.5
+                },
+                "tileDamage" : 100.5,
+                "tileDamageRate" : 0.01,
+                "damageTileDepth" : 3
+              },
+              "animationCustom" : {
+                "lights" : {
+                  "glow" : {
+                    "position" : [0, 2.0],
+                    "color" : [253, 209, 77],
+                    "transformationGroups" : ["weapon"]
+                  }
+                },
+                "animatedParts" : {
+                  "stateTypes" : {
+                    "energy" : {
+                      "states" : {
+                        "idle" : { "properties" : { "lightsOff" : ["glow"] } },
+                        "active1" : { "properties" : { "lightsOn" : ["glow"] } },
+                        "active2" : { "properties" : { "lightsOn" : ["glow"] } }
+                      }
+                    }
+                  }
+                }
+              },
+              "description" : "Mine is the drill that will pierce the heavens!",
+              "shortdescription" : "^#232bf0;Spiral Drill Spear^reset;",
+              "level" : 10
+            }
+          ]},
+          {"item" : ["drillspear", 1,
+            {
+              "primaryAbility" : {
+                "fireTime" : 0.5,
+                "baseDps" : 50.5
+              },
+              "altAbility" : {
+                "boostSpeed" : 40,
+                "boostForce" : 150,
+                "damageTimeout" : 0.01,
+                "damageConfig" : {
+                  "damageSourceKind" : "spear",
+                  "statusEffects" : [ "bouncy" ],
+                  "knockbackMode" : "aim",
+                  "knockback" : 100,
+                  "baseDamage" : 50.5
+                },
+                "tileDamage" : 100.5,
+                "tileDamageRate" : 0.01,
+                "damageTileDepth" : 3
+              },
+              "animationCustom" : {
+                "lights" : {
+                  "glow" : {
+                    "position" : [0, 2.0],
+                    "color" : [253, 209, 77],
+                    "transformationGroups" : ["weapon"]
+                  }
+                },
+                "animatedParts" : {
+                  "stateTypes" : {
+                    "energy" : {
+                      "states" : {
+                        "idle" : { "properties" : { "lightsOff" : ["glow"] } },
+                        "active1" : { "properties" : { "lightsOn" : ["glow"] } },
+                        "active2" : { "properties" : { "lightsOn" : ["glow"] } }
+                      }
+                    }
+                  }
+                }
+              },
+              "shortdescription" : "^#232bf0;Beastman Drill Spear^reset;",
+              "level" : 10
+            }
+          ]},
+          {"item" : ["soluskatana", 1]},
+          {"item" : ["astrosabredeluxe", 1]},
+          {"item" : ["baroncapeback", 1]},
+          {"item" : [
+            "baroncapeback", 1, {
+              "statusEffects" : [
+                { "stat" : "biomeheatImmunity", "amount" : 1.0 },
+                { "stat" : "biomecoldImmunity", "amount" : 1.0 },
+                { "stat" : "biomeradiationImmunity", "amount" : 1.0 },
+                { "stat" : "breathProtection", "amount" : 1.0 },
+                "wellfed",
+                "poisonblockaugment",
+                "ragecollar3",
+                "electricblockaugment",
+                "iceblockaugment",
+                "fireblockaugment",
+                "maxhealthboostaugment1",
+                "maxhealthboostaugment2",
+                "maxhealthboostaugment3",
+                "maxhealthboostcollar3",
+                "regenerationaugment1",
+                "regenerationaugment2",
+                "regenerationaugment3"
+              ],
+              "description" : "For being AFK",
+              "shortDescription" : "AFK Cape"
+            }
+          ]},
+          {"item" : [
+            "aviangodwingsback", 1, {
+              //"effectSources" : [ "sparkles" ],
+              //"effectSources" : [ "sparklesunicorn" ],
+              "statusEffects" : [
+                { "stat" : "biomeheatImmunity", "amount" : 1.0 },
+                { "stat" : "biomecoldImmunity", "amount" : 1.0 },
+                { "stat" : "biomeradiationImmunity", "amount" : 1.0 },
+                { "stat" : "breathProtection", "amount" : 1.0 },
+                "wellfed",
+                "xenonglow",
+                "poisonblockaugment",
+                "runboost",//"shiprunboost" for no particles
+                "jumpboost",
+                //"lowgrav",
+                "swimboost",
+                //"rageaugment1",
+                //"rageaugment2",
+                "ragecollar3",
+                "electricblockaugment",
+                "iceblockaugment",
+                "fireblockaugment",
+                "maxenergyboostaugment1",//not sure if should remove
+                "maxenergyboostaugment2",
+                "maxenergyboostaugment3",
+                "maxenergyscalingboost",//??
+                "maxhealthboostaugment1",
+                "maxhealthboostaugment2",
+                "maxhealthboostaugment3",
+                "maxhealthboostcollar3",//??
+                "regenerationaugment1",
+                "regenerationaugment2",
+                "regenerationaugment3"
+              ],
+              "description" : "Powers befitting the real thing"
+            }
+          ]},
+          {"item" : [
+            "aviangodwingsback", 1, {
+              //"effectSources" : [ "sparkles" ],
+              //"effectSources" : [ "sparklesunicorn" ],
+              "statusEffects" : [
+                { "stat" : "biomeheatImmunity", "amount" : 1.0 },
+                { "stat" : "biomecoldImmunity", "amount" : 1.0 },
+                { "stat" : "biomeradiationImmunity", "amount" : 1.0 },
+                { "stat" : "breathProtection", "amount" : 1.0 },
+                "wellfed",
+                //"xenonglow",
+                "poisonblockaugment",
+                "runboost",//"shiprunboost" for no particles
+                //"jumpboost",
+                //"lowgrav",
+                "swimboost",
+                //"rageaugment1",
+                //"rageaugment2",
+                "ragecollar3",
+                "electricblockaugment",
+                "iceblockaugment",
+                "fireblockaugment",
+                "maxenergyboostaugment1",//not sure if should remove
+                "maxenergyboostaugment2",
+                "maxenergyboostaugment3",
+                "maxenergyscalingboost",//??
+                "maxhealthboostaugment1",
+                "maxhealthboostaugment2",
+                "maxhealthboostaugment3",
+                "maxhealthboostcollar3",//??
+                "regenerationaugment1",
+                "regenerationaugment2",
+                "regenerationaugment3"
+              ],
+              "description" : "Powers befitting the real thing - diet version"
+            }
+          ]}
+          //{"item" : ["rainbowcapeback", 99990]},
+          //{"item" : ["fairyback", 99990]}
+          //{"item" : ["hokucide", 1]},
+          //{"item" : ["legendblade", 1]}
+        ]
+      }
+    ]
+  ],
+  
+  "bk3k_shipUpgrades" : [
+    [0, {
+      "fill" : [
+          {"item" : ["shipT2", 1]},
+          {"item" : ["shipT3", 1]},
+          {"item" : ["shipT4", 1]},
+          {"item" : ["shipT5", 1]},
+          {"item" : ["shipT6", 1]},
+          {"item" : ["shipT7", 1]},
+          {"item" : ["shipT8", 1]},
+          {"item" : ["shipT9", 1]}
+        ]
+      }
+    ]
+  ],
+
+
+  //vanilla blocks
+  "bk3k_constructionMaterials" : [
+    [0, {
+      "fill" : [
+          {"item" : [ "slopedhullpanel", 9999]},
+          {"item" : [ "slopedscrappanel", 9999]},
+          {"item" : [ "slopedrustypanel", 9999]},
+          {"item" : [ "blackblock", 9999]},
+          {"item" : [ "apexshipdetails", 9999]},
+          {"item" : [ "apexshipsupport", 9999]},
+          {"item" : [ "apexshipwall", 9999]},
+          {"item" : [ "outpost", 9999]},
+          {"item" : [ "outpostsupport", 9999]},
+          {"item" : [ "outpostplatform", 9999]},
+          {"item" : [ "outpostwall1", 9999]},
+          {"item" : [ "outpostwall2", 9999]},
+          {"item" : [ "techhull1", 9999]},
+          {"item" : [ "lunarbaseblock", 9999]},
+          {"item" : [ "lunarbaseblock", 9999]},
+          {"item" : [ "lunarbaseplatform", 9999]},
+          {"item" : [ "neonblock", 9999]},
+          {"item" : [ "hazard", 9999]},
+          {"item" : [ "glassmaterial", 9999]},
+          {"item" : [ "blackglass", 9999]},
+          {"item" : [ "ironblock", 9999]},
+          {"item" : [ "copperblock", 9999]},
+          {"item" : [ "copperladder", 9999]},
+          {"item" : [ "silverblock", 9999]},
+          {"item" : [ "goldblock", 9999]},
+          {"item" : [ "platinumblock", 9999]},
+          {"item" : [ "bars", 9999]},
+          {"item" : [ "composite01material", 9999]},
+          {"item" : [ "girdermaterial", 9999]},
+          {"item" : [ "pressuriseddurasteel", 9999]},
+          {"item" : [ "pressurisedgirder", 9999]},
+          {"item" : [ "pressurisedbeam", 9999]},
+          {"item" : [ "platematerial", 9999]},
+          {"item" : [ "metallic", 9999]},
+          {"item" : [ "lightmetal", 9999]},
+          {"item" : [ "mediummetal", 9999]},
+          {"item" : [ "smoothmetal", 9999]},
+          {"item" : [ "rustymetal" , 9999]}
+        ]
+      }
+    ]
+  ]
+}

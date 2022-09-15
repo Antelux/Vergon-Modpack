@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_floranpinkplatform",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "floranpinkplatform_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Platform suitable for a ship.",
+  "shortdescription" : "Floran Pink Platform",
+  "glitchdescription" : "Statement. Ship platform.",
+  "florandescription" : "Ssship platform.",
+
+  "materialId" : 42047
+}

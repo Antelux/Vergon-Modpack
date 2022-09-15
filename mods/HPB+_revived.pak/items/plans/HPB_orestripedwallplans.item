@@ -1,0 +1,28 @@
+{
+  "itemName": "HPB_orestripedwallplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "redplans_HPB.png",
+  "description": "These plans reveal how to make ore-derived striped wall panel.",
+  "shortdescription": "Ore Striped Wall Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_carbonfiberstripedwall",
+    "HPB_plasticstripedwall",
+    "HPB_copperstripedwall",
+    "HPB_ironstripedwall",
+    "HPB_silverstripedwall",
+    "HPB_goldstripedwall",
+    "HPB_platinumstripedwall",
+    "HPB_steelstripedwall",
+    "HPB_titaniumstripedwall",
+    "HPB_durasteelstripedwall",
+    "HPB_violiumstripedwall",
+    "HPB_aegisaltstripedwall",
+    "HPB_rubiumstripedwall",
+    "HPB_ceruliumstripedwall",
+    "HPB_feroziumstripedwall",
+    "HPB_imperviumstripedwall",
+    "HPB_corefragmentstripedwall",
+    "HPB_glassstripedwall"
+  ]
+}

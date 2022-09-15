@@ -1,0 +1,24 @@
+{
+  "materialId": 42177,
+  "materialName": "HPB_opalgemspark",
+  "particleColor": [127, 127, 127, 255],
+  "itemDrop": "HPB_opalgemspark",
+  "description": "Opal gemspark block.",
+  "shortdescription": "Opal Gemspark",
+  "glitchDescription": "Statement. Gemspark.",
+  "floranDescription": "Pretty glowing gemsss.",
+  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "opalgemspark_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000,
+    "radiantLight": [110, 110, 110]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wavepanel", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "wavegreebleC1",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

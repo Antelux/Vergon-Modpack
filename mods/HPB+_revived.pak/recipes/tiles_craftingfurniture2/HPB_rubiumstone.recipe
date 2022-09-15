@@ -1,0 +1,13 @@
+
+{
+  "input": [
+    { "item": "cobblestonematerial",
+      "count": 50 },
+    { "item": "rubiumcompound",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_rubiumstone",
+      "count": 50 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

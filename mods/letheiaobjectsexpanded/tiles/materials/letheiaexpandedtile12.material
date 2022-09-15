@@ -1,0 +1,21 @@
+{
+  "materialId" : 16512,
+  "materialName" : "letheiaexpandedtile12",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "letheiaexpandedtile12",
+  "description" : "A dark metal wall used in Letheia offices.",
+  "shortdescription" : "LDW Front Variant",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "letheiaexpandedtile12.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 604
+  }
+}

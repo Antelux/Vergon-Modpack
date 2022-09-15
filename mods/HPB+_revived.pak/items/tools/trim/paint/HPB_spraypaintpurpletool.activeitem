@@ -1,0 +1,32 @@
+{
+  "itemName" : "HPB_spraypaintpurpletool",
+  "description" : "Sprays messy paint on blocks.  Doesn't work on tumbling blocks or platforms.",
+  "shortdescription" : "^orange;Purple Spray Paint Tool^white;",
+
+  "category" : "tool",
+  "inventoryIcon" : "spraypainticon_HPB.png:purple",
+  "largeImage" : "paintgunlarge_HPB.png:purple",
+  "animation" : "paintgun_HPB.animation",
+  "animationParts" : {
+    "trimtool" : "paintgun_HPB.png:purple"
+  },
+
+  "scripts" : [ "/items/tools/trim/activetrimtool.lua" ],
+  "seed" : "HPB_spraypaintpurple",
+  "toolSound" : "paint",
+
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "tooltipKind" : "tool",
+  "twoHanded" : true,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

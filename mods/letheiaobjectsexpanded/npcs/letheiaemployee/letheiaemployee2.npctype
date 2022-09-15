@@ -1,0 +1,40 @@
+{
+  "type" : "letheiaemployee2",
+  "baseType" : "villager",
+  
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Welcome to the Letheia Corporation!",
+            "I work as an engineer for the Letheia robotics division; we make robots, mechs, and all sorts of heavy machinery.",
+            "I can't wait till my shift is over.",
+            "I could use a cup of coffee right about now.",
+            "Letheia Corporation is neat and all, but I'd like a pay raise sometime soon.",
+            "It's always busy working in Letheia."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "letheiaengineerchest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "letheiaengineerpants", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

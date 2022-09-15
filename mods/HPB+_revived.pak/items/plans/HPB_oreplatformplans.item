@@ -1,0 +1,28 @@
+{
+  "itemName": "HPB_oreplatformplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "redplans_HPB.png",
+  "description": "These plans reveal how to make ore-derived ship platforms.",
+  "shortdescription": "Ore Platform Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_carbonfiberplatform",
+    "HPB_plasticshipplatform",
+    "HPB_coppershipplatform",
+    "HPB_ironshipplatform",
+    "HPB_silvershipplatform",
+    "HPB_goldshipplatform",
+    "HPB_platinumshipplatform",
+    "HPB_steelshipplatform",
+    "HPB_titaniumshipplatform",
+    "HPB_durasteelshipplatform",
+    "HPB_violiumshipplatform",
+    "HPB_aegisaltshipplatform",
+    "HPB_rubiumshipplatform",
+    "HPB_ceruliumshipplatform",
+    "HPB_feroziumshipplatform",
+    "HPB_imperviumshipplatform",
+    "HPB_corefragmentshipplatform",
+    "HPB_glassshipplatform"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "darkwoodmaterial",
+      "count": 15 },
+    { "item": "teleportercore",
+      "count": 1 },
+    { "item": "diamond",
+      "count": 4 }
+  ],
+  "output": { "item": "HPB_hullplatingstation3",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "inventorstable3", "weapons", "objects", "all" ]
+}

@@ -1,0 +1,55 @@
+{
+  "objectName" : "geometricgreebleC1",
+  "colonyTags" : ["commerce","geometric"],
+  "printable" : false,
+  "rarity" : "uncommon",  
+  "category" : "decorative",
+  
+  "price" : 35,
+  "description" : "An aesthetic ferozium embellishment.",
+  "shortdescription" : "Greeble-Fz1C",
+  "race" : "generic",
+ 
+  "apexDescription" : "A tasteful ferozium embellishment.",
+  "avianDescription" : "An aesthetic ferozium embellishment.",
+  "floranDescription" : "Ferozium thing doesss what?",
+  "glitchDescription" : "Curious. This ferozium object appears to have no function.",
+  "humanDescription" : "I believe they call this kind of embellishment a greeble.",
+  "hylotlDescription" : "An aesthetic ferozium embellishment.",
+  "novakidDescription" : "Kinda cool piece o' ferozium styling there.",
+ 
+  "inventoryIcon" : "geometricgreebleC1icon.png",
+ 
+  "orientations" : [
+  {
+      "image" : "geometricgreebleC1.png",
+      "imagePosition" : [0, -16],
+      "spaces" : [ [0, 0], [0, -1] ],
+      "fgAnchors" : [ [1, 1 ], [1, -2] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "geometricgreebleC1.png?flipx",   
+      "imagePosition" : [-8, -16],
+      "spaces" : [ [0, 0], [0, -1] ],
+      "fgAnchors" : [ [-1, 1 ], [-1, -2] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "geometricgreebleC1bottom.png",     
+      "imagePosition" : [-16, -8],
+      "spaces" : [ [-1, 0], [0, 0] ],
+      "fgAnchors" : [ [-2, -1 ], [1, -1] ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "geometricgreebleC1top.png", 
+      "imagePosition" : [-16, -1],
+      "spaces" : [ [-1, 0], [0, 0] ],
+      "fgAnchors" : [ [-2, 1 ], [1, 1] ],
+      "collision" : "solid"
+    }
+  ]
+}

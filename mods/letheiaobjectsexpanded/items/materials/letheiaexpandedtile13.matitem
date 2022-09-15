@@ -1,0 +1,11 @@
+{
+  "itemName" : "letheiaexpandedtile13",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "letheiaexpandedtile13.png",
+  "description" : "A concrete street flooring tile.",
+  "shortdescription" : "Letheia Street Flooring",
+
+  "materialId" : 16513
+}

@@ -1,0 +1,23 @@
+{
+  "materialId": 42155,
+  "materialName": "HPB_imperviumshiphullalt",
+  "particleColor": [131, 131, 131, 255],
+  "itemDrop": "HPB_imperviumshiphullalt",
+  "shortdescription": "Rivetless Impervium Plating",
+  "description": "Sheets of ship hull plating.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "imperviumshiphullalt_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 42381,
+  "materialName" : "MCB_violiumblock",
+  "particleColor" : [109, 54, 165, 255],
+  "itemDrop" : "MCB_violiumblock",
+  "description" : "A Violium block!",
+  "shortdescription" : "Violium Block",
+  "glitchDescription" : "Analysis. A violium block.",
+  "floranDescription" : "Violium block?",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 34,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "MCB_violiumblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

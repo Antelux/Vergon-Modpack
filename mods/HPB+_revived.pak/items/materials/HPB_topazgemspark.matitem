@@ -1,0 +1,16 @@
+{
+  "itemName" : "HPB_topazgemspark",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "topazgemspark_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Topaz Gemspark",
+  "description" : "Topaz gemspark block.",
+  "glitchdescription" : "Statement. Gemspark.",
+  "florandescription" : "Pretty glowing gemsss.",
+  "learnBlueprintsOnPickup" : [
+    "topazgemsparktrim"
+  ],
+
+  "materialId" : 42172
+}

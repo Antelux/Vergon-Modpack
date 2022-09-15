@@ -1,0 +1,33 @@
+{
+  "objectName": "HPB_springshiplocker",
+  "printable": false,
+  "rarity": "Common",
+  "objectType": "container",
+  "tooltipKind": "container",
+
+  "category": "storage",
+  "colonyTags": [ "misc" ],
+  "description": "Store some stuff, why don't you?",
+  "shortdescription": "Spring Shiplocker",
+  "race": "generic",
+  "lightColor": [0, 191, 0],
+
+  "inventoryIcon": "shiplockericon_HPB.png",
+  "orientations": [
+    {
+      "imageLayers": [ { "image": "shiplocker_HPB.png:<color>.<frame>", "fullbright": true }, { "image": "shiplockerlit_HPB.png:<color>.<frame>" } ],
+      "imagePosition": [-16, -8],
+      "frames": 8,
+      "animationCycle": 1.0,
+      "spaceScan": 0.1,
+      "anchors": [ "background" ]
+    }
+  ],
+
+  "openSounds": [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds": [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount": 64,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 11,
+  "autoCloseCooldown": 3600
+}

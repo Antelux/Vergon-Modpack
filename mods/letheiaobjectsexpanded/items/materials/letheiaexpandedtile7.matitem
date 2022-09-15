@@ -1,0 +1,11 @@
+{
+  "itemName" : "letheiaexpandedtile7",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "letheiaexpandedtile7.png",
+  "description" : "A pallasteel support beam.",
+  "shortdescription" : "Pallasteel Support",
+
+  "materialId" : 16507
+}

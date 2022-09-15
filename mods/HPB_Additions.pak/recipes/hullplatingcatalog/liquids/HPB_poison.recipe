@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "money",
+      "count": 2 }
+  ],
+  "output": { "item": "liquidpoison",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "HPB_liquid", "hullplatingcatalog2" ]
+}

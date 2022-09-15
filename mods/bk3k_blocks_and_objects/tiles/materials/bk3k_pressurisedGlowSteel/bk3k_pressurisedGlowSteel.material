@@ -1,0 +1,25 @@
+{
+  "materialId" : 7185,
+  "materialName" : "bk3k_pressurisedGlowSteel",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "bk3k_pressurisedGlowSteel",
+  "description" : "A glowsteel panel, specially designed to contain pressurised environments.",
+  "shortdescription" : "Pressurised glowsteel",
+  "glitchDescription" : "Interested. This durasteel panel is designed to accommodate changes in pressurisation.",
+  "floranDescription" : "Ssstrong durassteel panelling.",
+  "novakidDescription" : "A shiny lookin' durasteel panel.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 40,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bk3k_pressurisedGlowSteel.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2620,
+    "radiantLight" : [101, 121, 136]
+  }
+}

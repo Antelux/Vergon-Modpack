@@ -1,0 +1,32 @@
+{
+  "objectName" : "citymodellarge",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A small model of a city.",
+  "shortdescription" : "Letheia City Model",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 200,
+
+  "apexDescription" : "A modern city model.",
+  "avianDescription" : "A model of a modern city.",
+  "floranDescription" : "Thisss isss a tiny city.",
+  "glitchDescription" : "Intrigued. A city model.",
+  "humanDescription" : "A modern city model, filled with buildings much like the ones on Earth.",
+  "hylotlDescription" : "A city model.",
+  "novakidDescription" : "A model of a city filled with modern buildings.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "citymodellarge.png:<color>",
+      "imagePosition" : [-16, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

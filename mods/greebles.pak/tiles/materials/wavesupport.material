@@ -1,0 +1,23 @@
+{
+  "materialId" : 2327,
+  "materialName" : "wavesupport",
+  "particleColor" : [90, 135, 210, 255],
+  "itemDrop" : "wavesupport",
+  "description" : "Support made of cerulium.",
+  "shortdescription" : "Wave Support",
+  "glitchDescription" : "Analysis. Cerulium support block.",
+  "floranDescription" : "Sssupporty cerulium!",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 16,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wavesupport.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3340
+  }
+}

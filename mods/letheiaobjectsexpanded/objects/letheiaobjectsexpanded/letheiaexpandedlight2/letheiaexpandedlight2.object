@@ -1,0 +1,40 @@
+{
+  "objectName" : "letheiaexpandedlight2",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A red wall spotlight.",
+  "shortdescription" : "Red Wall Light",
+  "race" : "generic",
+  "category" : "light",
+  "price" : 100,
+  
+  "lightColor" : [255, 40, 40],
+  "pointLight" : true,
+  "pointBeam" : 5,
+  "beamAmbience" : 0.15,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "letheiaexpandedlight2.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  
+	  "lightPosition" : [1, 0],
+	  "beamAngle" : 270,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "letheiaexpandedlight2.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,41 @@
+{
+  "objectName" : "Q_unwrecked_bed",
+  "colonyTags" : ["wreck"],
+  "rarity" : "Common",
+  "description" : "A clean metal bed.",
+  "shortdescription" : "Refurbished Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 300,
+
+  "apexDescription" : "A great place to sleep.",
+  "avianDescription" : "I wish to sleep here.",
+  "floranDescription" : "Hsss ssshiny.",
+  "glitchDescription" : "Interest. This mattress seems soft.",
+  "humanDescription" : "This looks fairly inviting.",
+  "hylotlDescription" : "The bed is polished beyond belief. Must've taken a lot of time.",
+
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-9, 12],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "Q_unwrecked_bedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "Q_unwrecked_bed.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

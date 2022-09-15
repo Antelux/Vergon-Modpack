@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_voxel5khull",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "voxel5khull_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "5K Voxel Block",
+  "description" : "Voxels fashioned into blocks.",
+  "glitchdescription" : "Statement. Voxel block.",
+  "florandescription" : "Voxelsss.",
+
+  "materialId" : 42256
+}

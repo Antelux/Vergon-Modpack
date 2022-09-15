@@ -1,0 +1,22 @@
+{
+  "itemName": "HPB_biomestoragelockerplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "brownplans_HPB.png",
+  "description": "Reveals how to make storage lockers with biome-based themes.",
+  "shortdescription": "Biome Storage Locker Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_frozenstoragelocker",
+    "HPB_magmastoragelocker",
+    "HPB_moonstoragelocker",
+    "HPB_oceanstoragelocker",
+    "HPB_oasisstoragelocker",
+    "HPB_slimecavestoragelocker",
+    "HPB_swampstoragelocker",
+    "HPB_tarpitstoragelocker",
+    "HPB_toxicstoragelocker",
+    "HPB_gardenstoragelocker",
+    "HPB_alpinestoragelocker",
+    "HPB_mushroomstoragelocker"
+  ]
+}

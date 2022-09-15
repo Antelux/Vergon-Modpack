@@ -1,0 +1,47 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 5000,
+	    "crewSize" : 25
+    }
+  },
+  
+  "backgroundOverlays": [
+    {
+      "image": "/ships/vepr/layers/vepr_mediumship_BG_0.png",
+      "fullbright" : true,
+      "zLevel" : 0,
+      "position": [-10.875, -3.625]
+    },
+    {
+      "image": "/ships/vepr/layers/vepr_mediumship_BG_1.png",
+      "fullbright" : true,
+      "zLevel" : 1,
+      "position": [-10.875, -3.625]
+    }
+  ],
+  
+  "foregroundOverlays" : [
+    {
+      "image": "/ships/vepr/layers/vepr_mediumship_FG_0.png",
+      "fullbright" : true,
+      "zLevel" : 0,
+      "position": [-10.875, -3.625]
+    },
+    {
+      "image": "/ships/vepr/layers/vepr_mediumship_FG_1.png",
+      "fullbright" : true,
+      "zLevel" : 1,
+      "position": [-10.875, -3.625]
+    },
+    {
+      "image": "decal.png",
+      "zLevel" : 2,
+      "position": [-1.0, -2.0]
+    }
+  ],
+  
+  "blockKey" : "vepr_blockKey.config:blockKey",
+  "blockImage": "/ships/vepr/vepr_t0.png"
+}

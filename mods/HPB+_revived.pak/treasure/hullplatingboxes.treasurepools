@@ -1,0 +1,854 @@
+{
+
+  "HPB_bigPool_ore" : [//checks out
+    [
+      0, 
+      {
+        "fill" : [
+          {"pool" : "carbonfibershipfurniturehullplatingbox"},
+          {"pool" : "plasticshipfurniturehullplatingbox"},
+          {"pool" : "coppershipfurniturehullplatingbox"},
+          {"pool" : "ironshipfurniturehullplatingbox"},
+          {"pool" : "silvershipfurniturehullplatingbox"},
+          {"pool" : "goldshipfurniturehullplatingbox"},
+          {"pool" : "platinumshipfurniturehullplatingbox"},
+          {"pool" : "steelshipfurniturehullplatingbox"},
+          {"pool" : "titaniumshipfurniturehullplatingbox"},
+          {"pool" : "durasteelshipfurniturehullplatingbox"},
+          {"pool" : "violiumshipfurniturehullplatingbox"},
+          {"pool" : "aegisaltshipfurniturehullplatingbox"},
+          {"pool" : "rubiumshipfurniturehullplatingbox"},
+          {"pool" : "ceruliumshipfurniturehullplatingbox"},
+          {"pool" : "feroziumshipfurniturehullplatingbox"},
+          {"pool" : "imperviumshipfurniturehullplatingbox"}
+        ]
+      }
+    ]
+  ],
+  
+  
+  "HPB_bigPool_ship" : [
+    [
+      0, 
+      {
+        "fill" : [
+          {"pool" : "apexshipfurniturehullplatingbox"},
+          {"pool" : "avianshipfurniturehullplatingbox"},
+          {"pool" : "darkfloranshipfurniturehullplatingbox"},
+          {"pool" : "floranshipfurniturehullplatingbox"},
+          {"pool" : "glitchshipfurniturehullplatingbox"},
+          {"pool" : "humanshipfurniturehullplatingbox"},
+          {"pool" : "hylotlshipfurniturehullplatingbox"},
+          {"pool" : "fishshipfurniturehullplatingbox"},
+          {"pool" : "novakidbrassshipfurniturehullplatingbox"},
+          {"pool" : "novakidcreamshipfurniturehullplatingbox"},
+          {"pool" : "novakidcyanshipfurniturehullplatingbox"},
+          {"pool" : "novakidgreenshipfurniturehullplatingbox"},
+          {"pool" : "novakidredshipfurniturehullplatingbox"},
+          {"pool" : "rustyshipfurniturehullplatingbox"},
+          {"pool" : "ufoshipfurniturehullplatingbox"}
+        ]
+      }
+    ]
+  ],
+  
+  
+  "HPB_bigPool_whacky" : [
+    [
+      0, 
+      {
+        "fill" : [
+          {"pool" : "stoneshipfurniturehullplatingbox"},
+          {"pool" : "springshipfurniturehullplatingbox"},
+          {"pool" : "forcefieldshipfurniturehullplatingbox"},
+          {"pool" : "monstershipfurniturehullplatingbox"},
+          {"pool" : "coreshipfurniturehullplatingbox"},
+          {"pool" : "cardboardshipfurniturehullplatingbox"},
+          {"pool" : "glassshipfurniturehullplatingbox"}
+        ]
+      }
+    ]
+  ],
+  
+  "HPB_allPlans" : [
+    [
+      0, 
+      {
+        "fill" : [
+          {"item" : ["HPB_biomestoragelockerplans", 1]},
+          {"item" : ["HPB_blockstoragelockerplans", 1]},
+          {"item" : ["HPB_cardboardshipplans", 1]},
+          {"item" : ["HPB_constructionplans", 1]},
+          {"item" : ["HPB_forcefieldplans", 1]},
+          {"item" : ["HPB_gelatinrecipe", 1]},
+          {"item" : ["HPB_gelledfuelblockplans", 1]},
+          {"item" : ["HPB_gemsparkplans", 1]},
+          {"item" : ["HPB_macrocircuitplans", 1]},
+          {"item" : ["HPB_miscblockplans", 1]},
+          {"item" : ["HPB_monstershipplans", 1]},
+          {"item" : ["HPB_orecolumnplans", 1]},
+          {"item" : ["HPB_orehullaltplans", 1]},
+          {"item" : ["HPB_orehullplans", 1]},
+          {"item" : ["HPB_oreplatformplans", 1]},
+          {"item" : ["HPB_oreshipdoorplans", 1]},
+          {"item" : ["HPB_orestoragelockerplans", 1]},
+          {"item" : ["HPB_orestripedwallplans", 1]},
+          {"item" : ["HPB_oretrimplans", 1]},
+          {"item" : ["HPB_orewallpanelplans", 1]},
+          {"item" : ["HPB_otherstoragelockerplans", 1]},
+          {"item" : ["HPB_pixelblockplans", 1]},
+          {"item" : ["HPB_racialcolumnplans", 1]},
+          {"item" : ["HPB_racialhullaltplans", 1]},
+          {"item" : ["HPB_racialhullplans", 1]},
+          {"item" : ["HPB_racialplatformplans", 1]},
+          {"item" : ["HPB_racialstripedwallplans", 1]},
+          {"item" : ["HPB_racialtrimplans", 1]},
+          {"item" : ["HPB_racialwallpanelplans", 1]},
+          {"item" : ["HPB_shippartplans", 1]},
+          {"item" : ["HPB_springshipplans", 1]},
+          {"item" : ["HPB_stoneplans", 1]},
+          {"item" : ["HPB_storagelockerplans", 1]},
+          {"item" : ["HPB_ufoshipplans", 1]}
+        ]
+      }
+    ]
+  ],
+  
+
+
+  "randomhullplatingbox" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "pool" : "instantmailmaterials"},
+        {"weight" : 0.35, "pool" : "instantmailliquids"},
+        {"weight" : 0.1, "pool" : "randomshipfurniturebox"},
+        {"weight" : 0.05, "item" : [ "gelatin", 20]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+
+  "instantmailmaterials" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.1, "item" : [ "apexshipdetails", 100]},
+        {"weight" : 0.1, "item" : [ "apexshipsupport", 100]},
+        {"weight" : 0.1, "item" : [ "clay", 100]},
+        {"weight" : 0.1, "item" : [ "cobblestonematerial", 100]},
+        {"weight" : 0.1, "item" : [ "concretematerial", 100]},
+        {"weight" : 0.1, "item" : [ "dirtmaterial", 100]},
+        {"weight" : 0.1, "item" : [ "girdermaterial", 100]},
+        {"weight" : 0.1, "item" : [ "hazard", 100]},
+        {"weight" : 0.1, "item" : [ "sand", 100]},
+        {"weight" : 0.1, "item" : [ "treasurehoard", 100]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "instantmailliquids" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "item" : [ "liquidfuel", 200]},
+        {"weight" : 0.2, "item" : [ "liquidhealing", 200]},
+        {"weight" : 0.2, "item" : [ "liquidlava", 200]},
+        {"weight" : 0.2, "item" : [ "liquidpoison", 200]},
+        {"weight" : 0.2, "item" : [ "liquidwater", 200]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+
+//Randomozied ship furniture
+  "randomshipfurniturebox" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.33, "pool" : "randomracialshipfurniturebox"},
+        {"weight" : 0.33, "pool" : "randomwackyshipfurniturebox"},
+        {"weight" : 0.34, "pool" : "randomoreshipfurniturebox"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "randomracialshipfurniturebox" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.125, "pool" : "apexshipfurniturehullplatingbox"},
+        {"weight" : 0.125, "pool" : "avianshipfurniturehullplatingbox"},
+        {"weight" : 0.125, "pool" : "floranrandomshipfurniturebox"},
+        {"weight" : 0.125, "pool" : "glitchshipfurniturehullplatingbox"},
+        {"weight" : 0.125, "pool" : "humanrandomshipfurniturebox"},
+        {"weight" : 0.125, "pool" : "hylotlrandomshipfurniturebox"},
+        {"weight" : 0.125, "pool" : "novakidrandomshipfurniturebox"},
+        {"weight" : 0.125, "pool" : "ufoshipfurniturehullplatingbox"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "randomwackyshipfurniturebox" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.143, "pool" : "stoneshipfurniturehullplatingbox"},
+        {"weight" : 0.143, "pool" : "springshipfurniturehullplatingbox"},
+        {"weight" : 0.143, "pool" : "forcefieldshipfurniturehullplatingbox"},
+        {"weight" : 0.143, "pool" : "monstershipfurniturehullplatingbox"},
+        {"weight" : 0.143, "pool" : "coreshipfurniturehullplatingbox"},
+        {"weight" : 0.143, "pool" : "cardboardshipfurniturehullplatingbox"},
+        {"weight" : 0.142, "pool" : "glassshipfurniturehullplatingbox"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "randomoreshipfurniturebox" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.0625, "pool" : "carbonfibershipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "plasticshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "coppershipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "ironshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "silvershipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "goldshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "platinumshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "steelshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "titaniumshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "durasteelshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "violiumshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "aegisaltshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "rubiumshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "ceruliumshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "feroziumshipfurniturehullplatingbox"},
+        {"weight" : 0.0625, "pool" : "imperviumshipfurniturehullplatingbox"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+
+  "floranrandomshipfurniturebox" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "pool" : "floranshipfurniturehullplatingbox"},
+        {"weight" : 0.5, "pool" : "darkfloranshipfurniturehullplatingbox"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "humanrandomshipfurniturebox" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "pool" : "humanshipfurniturehullplatingbox"},
+        {"weight" : 0.5, "pool" : "rustyshipfurniturehullplatingbox"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "hylotlrandomshipfurniturebox" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.5, "pool" : "hylotlshipfurniturehullplatingbox"},
+        {"weight" : 0.5, "pool" : "fishshipfurniturehullplatingbox"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "novakidrandomshipfurniturebox" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.2, "pool" : "novakidbrassshipfurniturehullplatingbox"},
+        {"weight" : 0.2, "pool" : "novakidcreamshipfurniturehullplatingbox"},
+        {"weight" : 0.2, "pool" : "novakidcyanshipfurniturehullplatingbox"},
+        {"weight" : 0.2, "pool" : "novakidgreenshipfurniturehullplatingbox"},
+        {"weight" : 0.2, "pool" : "novakidredshipfurniturehullplatingbox"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+
+//Fixed Content Boxes
+  "apexshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "apexcaptainschair"},
+        {"item" : "apexfuelhatch"},
+        {"item" : "apexshipdoor"},
+        {"item" : "apexshiplocker"},
+        //{"item" : "techstation"},//having extra "unique" things can crash game
+        {"item" : "teleporter"},
+        {"item" : "HPB_apexboosterenginesmall"},
+        {"item" : "HPB_apexthruster"}
+      ]
+    }]
+  ],
+
+  "avianshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "aviancaptainschair"},
+        {"item" : "avianfuelhatch"},
+        {"item" : "avianshipdoor"},
+        {"item" : "avianshiplocker"},
+        //{"item" : "aviantechstation"},
+        {"item" : "avianteleporter"},
+        {"item" : "HPB_avianboosterenginesmall"},
+        {"item" : "HPB_avianboosterenginelarge"},
+        {"item" : "HPB_avianthruster"}
+      ]
+    }]
+  ],
+
+  "darkfloranshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_darkflorancaptainschair"},
+        {"item" : "HPB_darkfloranfuelhatch"},
+        {"item" : "HPB_darkfloranshipdoor"},
+        {"item" : "HPB_darkfloranshiplocker"},
+        {"item" : "HPB_darkflorantechstation"},
+        {"item" : "HPB_darkfloranteleporter"},
+        {"item" : "HPB_floranboosterenginesmall"},
+        {"item" : "HPB_floranboosterenginelarge"},
+        {"item" : "HPB_floranthruster"}
+      ]
+    }]
+  ],
+
+  "floranshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "florancaptainschair"},
+        {"item" : "floranfuelhatch"},
+        {"item" : "floranshipdoor"},
+        {"item" : "floranshiplocker"},
+        //{"item" : "florantechstation"},
+        {"item" : "floranteleporter"},
+        {"item" : "HPB_floranboosterenginesmall"},
+        {"item" : "HPB_floranboosterenginelarge"},
+        {"item" : "HPB_floranthruster"}
+      ]
+    }]
+  ],
+
+  "glitchshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "glitchcaptainschair"},
+        {"item" : "glitchfuelhatch"},
+        {"item" : "glitchshipdoor"},
+        {"item" : "glitchshiplocker"},
+        //{"item" : "glitchtechstation"},
+        {"item" : "glitchteleporter"},
+        {"item" : "HPB_glitchboosterenginelarge"},
+        {"item" : "HPB_glitchthruster"}
+      ]
+    }]
+  ],
+
+  "humanshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "humancaptainschair"},
+        {"item" : "humanfuelhatch"},
+        {"item" : "humanshipdoor"},
+        {"item" : "humanshiplocker"},
+        //{"item" : "humantechstation"},
+        {"item" : "humanteleporter"},
+        {"item" : "HPB_humanboosterenginesmall"},
+        {"item" : "HPB_humanboosterenginelarge"},
+        {"item" : "HPB_humanthruster"}
+      ]
+    }]
+  ],
+
+  "hylotlshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "hylotlcaptainschair"},
+        {"item" : "hylotlfuelhatch"},
+        {"item" : "hylotlshipdoor"},
+        {"item" : "hylotlshiplocker"},
+        //{"item" : "hylotltechstation"},
+        {"item" : "hylotlteleporter"},
+        {"item" : "HPB_hylotlboosterenginesmall"},
+        {"item" : "HPB_hylotlboosterenginelarge"},
+        {"item" : "HPB_hylotlthruster"}
+      ]
+    }]
+  ],
+
+  "fishshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_fishcaptainschair"},
+        {"item" : "HPB_fishfuelhatch"},
+        {"item" : "HPB_fishshipdoor"},
+        {"item" : "HPB_fishshiplocker"},
+        {"item" : "HPB_fishtechstation"},
+        {"item" : "HPB_fishteleporter"},
+        {"item" : "HPB_fishboosterenginesmall"},
+        {"item" : "HPB_fishthruster"}
+      ]
+    }]
+  ],
+
+  "novakidbrassshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_novakidbrasscaptainschair"},
+        {"item" : "HPB_novakidbrassfuelhatch"},
+        {"item" : "HPB_novakidbrassshipdoor"},
+        {"item" : "HPB_novakidbrassshiplocker"},
+        {"item" : "HPB_novakidbrasstechstation"},
+        {"item" : "novakidteleporter"},
+        {"item" : "HPB_novakidboosterenginesmall"},
+        {"item" : "HPB_novakidboosterenginelargegreen"},
+        {"item" : "HPB_novakidthruster"}
+      ]
+    }]
+  ],
+
+  "novakidcreamshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_novakidcreamcaptainschair"},
+        {"item" : "HPB_novakidcreamfuelhatch"},
+        {"item" : "HPB_novakidcreamshipdoor"},
+        {"item" : "HPB_novakidcreamshiplocker"},
+        {"item" : "HPB_novakidcreamtechstation"},
+        {"item" : "HPB_novakidcreamteleporter"},
+        {"item" : "HPB_novakidboosterenginesmall"},
+        {"item" : "HPB_novakidboosterenginelargegreen"},
+        {"item" : "HPB_novakidthruster"}
+      ]
+    }]
+  ],
+
+  "novakidcyanshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_novakidcyancaptainschair"},
+        {"item" : "HPB_novakidcyanfuelhatch"},
+        {"item" : "HPB_novakidcyanshipdoor"},
+        {"item" : "HPB_novakidcyanshiplocker"},
+        {"item" : "HPB_novakidcyantechstation"},
+        {"item" : "HPB_novakidcyanteleporter"},
+        {"item" : "HPB_novakidboosterenginesmall"},
+        {"item" : "HPB_novakidboosterenginelargegreen"},
+        {"item" : "HPB_novakidthruster"}
+      ]
+    }]
+  ],
+
+  "novakidgreenshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_novakidgreencaptainschair"},
+        {"item" : "novakidfuelhatch"},
+        {"item" : "novakidshipdoor"},
+        {"item" : "novakidshiplocker"},
+        {"item" : "novakidtechstation"},
+        {"item" : "HPB_novakidgreenteleporter"},
+        {"item" : "HPB_novakidboosterenginesmall"},
+        {"item" : "HPB_novakidboosterenginelargegreen"},
+        {"item" : "HPB_novakidthruster"}
+      ]
+    }]
+  ],
+
+  "novakidredshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "novakidcaptainschair"},
+        {"item" : "HPB_novakidredfuelhatch"},
+        {"item" : "HPB_novakidredshipdoor"},
+        {"item" : "HPB_novakidredshiplocker"},
+        {"item" : "HPB_novakidredtechstation"},
+        {"item" : "HPB_novakidredteleporter"},
+        {"item" : "HPB_novakidboosterenginesmall"},
+        {"item" : "HPB_novakidboosterenginelargegreen"},
+        {"item" : "HPB_novakidthruster"}
+      ]
+    }]
+  ],
+
+  "rustyshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_rustycaptainschair"},
+        {"item" : "HPB_rustyfuelhatch"},
+        {"item" : "HPB_rustyshipdoor"},
+        {"item" : "HPB_rustyshiplocker"},
+        {"item" : "HPB_rustytechstation"},
+        {"item" : "HPB_rustyteleporter"},
+        {"item" : "HPB_rustyboosterenginesmall"},
+        {"item" : "HPB_rustyboosterenginelarge"},
+        {"item" : "HPB_rustythruster"}
+      ]
+    }]
+  ],
+
+  "ufoshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_ufocaptainschair"},
+        {"item" : "HPB_ufofuelhatch"},
+        {"item" : "HPB_ufoshipdoor"},
+        {"item" : "HPB_ufoshiplocker"},
+        {"item" : "HPB_ufotechstation"},
+        {"item" : "HPB_ufoteleporter"},
+        {"item" : "HPB_ufothruster"}
+      ]
+    }]
+  ],
+
+//Wacky tilesets
+  "stoneshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_cutstonecaptainschair"},
+        {"item" : "HPB_cutstonefuelhatch"},
+        {"item" : "HPB_cutstoneshipdoor"},
+        {"item" : "HPB_cutstoneshiplocker"},
+        {"item" : "HPB_cutstonetechstation"},
+        {"item" : "HPB_cutstoneshipteleporter"}
+      ]
+    }]
+  ],
+
+  "springshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_springcaptainschair"},
+        {"item" : "HPB_springfuelhatch"},
+        {"item" : "HPB_springshipdoor"},
+        {"item" : "HPB_springshiplocker"},
+        {"item" : "HPB_springtechstation"},
+        {"item" : "HPB_springshipteleporter"}
+      ]
+    }]
+  ],
+
+  "forcefieldshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_forcefieldcaptainschair"},
+        {"item" : "HPB_forcefieldfuelhatch"},
+        {"item" : "HPB_forcefieldshipdoor"},
+        {"item" : "HPB_forcefieldshiplocker"},
+        {"item" : "HPB_forcefieldtechstation"},
+        {"item" : "HPB_forcefieldshipteleporter"}
+      ]
+    }]
+  ],
+
+  "monstershipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_monstercaptainschair"},
+        {"item" : "HPB_monsterfuelhatch"},
+        {"item" : "HPB_monstershipdoor"},
+        {"item" : "HPB_monstershiplocker"},
+        {"item" : "HPB_monstertechstation"},
+        {"item" : "HPB_monstershipteleporter"}
+      ]
+    }]
+  ],
+
+  "coreshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_corecaptainschair"},
+        {"item" : "HPB_corefuelhatch"},
+        {"item" : "HPB_coreshipdoor"},
+        {"item" : "HPB_coreshiplocker"},
+        {"item" : "HPB_coretechstation"},
+        {"item" : "HPB_coreshipteleporter"}
+      ]
+    }]
+  ],
+
+  "cardboardshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_cardboardcaptainschair"},
+        {"item" : "HPB_cardboardfuelhatch"},
+        {"item" : "HPB_cardboardshipdoor"},
+        {"item" : "HPB_cardboardshiplocker"},
+        {"item" : "HPB_cardboardtechstation"},
+        {"item" : "HPB_cardboardshipteleporter"}
+      ]
+    }]
+  ],
+
+  "glassshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_glasscaptainschair"},
+        {"item" : "HPB_glassfuelhatch"},
+        {"item" : "HPB_glassshipdoor"},
+        {"item" : "HPB_glassshiplocker"},
+        {"item" : "HPB_glasstechstation"},
+        {"item" : "HPB_glassshipteleporter"}
+      ]
+    }]
+  ],
+
+//Ore tilesets
+  "carbonfibershipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_carbonfibercaptainschair"},
+        {"item" : "HPB_carbonfiberfuelhatch"},
+        {"item" : "HPB_carbonfibershipdoor"},
+        {"item" : "HPB_carbonfibershiplocker"},
+        {"item" : "HPB_carbonfibertechstation"},
+        {"item" : "HPB_carbonfibershipteleporter"},
+        {"item" : "HPB_carbonfiberboosterenginesmall"},
+        {"item" : "HPB_carbonfiberthruster"}
+      ]
+    }]
+  ],
+
+  "plasticshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_plasticcaptainschair"},
+        {"item" : "HPB_plasticfuelhatch"},
+        {"item" : "HPB_plasticshipdoor"},
+        {"item" : "HPB_plasticshiplocker"},
+        {"item" : "HPB_plastictechstation"},
+        {"item" : "HPB_plasticshipteleporter"},
+        {"item" : "HPB_plasticboosterenginesmall"},
+        {"item" : "HPB_plasticthruster"}
+      ]
+    }]
+  ],
+
+  "coppershipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_coppercaptainschair"},
+        {"item" : "HPB_copperfuelhatch"},
+        {"item" : "HPB_coppershipdoor"},
+        {"item" : "HPB_coppershiplocker"},
+        {"item" : "HPB_coppertechstation"},
+        {"item" : "HPB_coppershipteleporter"},
+        {"item" : "HPB_copperboosterenginelarge"},
+        {"item" : "HPB_copperthruster"}
+      ]
+    }]
+  ],
+
+  "ironshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_ironcaptainschair"},
+        {"item" : "HPB_ironfuelhatch"},
+        {"item" : "HPB_ironshipdoor"},
+        {"item" : "HPB_ironshiplocker"},
+        {"item" : "HPB_irontechstation"},
+        {"item" : "HPB_ironshipteleporter"},
+        {"item" : "HPB_ironboosterenginesmall"},
+        {"item" : "HPB_ironboosterenginelarge"},
+        {"item" : "HPB_ironthruster"}
+      ]
+    }]
+  ],
+
+  "silvershipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_silvercaptainschair"},
+        {"item" : "HPB_silverfuelhatch"},
+        {"item" : "HPB_silvershipdoor"},
+        {"item" : "HPB_silvershiplocker"},
+        {"item" : "HPB_silvertechstation"},
+        {"item" : "HPB_silvershipteleporter"},
+        {"item" : "HPB_silverboosterenginesmall"},
+        {"item" : "HPB_silverthruster"}
+      ]
+    }]
+  ],
+
+  "goldshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_goldcaptainschair"},
+        {"item" : "HPB_goldfuelhatch"},
+        {"item" : "HPB_goldshipdoor"},
+        {"item" : "HPB_goldshiplocker"},
+        {"item" : "HPB_goldtechstation"},
+        {"item" : "HPB_goldshipteleporter"},
+        {"item" : "HPB_goldboosterenginesmall"},
+        {"item" : "HPB_goldboosterenginelarge"},
+        {"item" : "HPB_goldthruster"}
+      ]
+    }]
+  ],
+
+  "platinumshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_platinumcaptainschair"},
+        {"item" : "HPB_platinumfuelhatch"},
+        {"item" : "HPB_platinumshipdoor"},
+        {"item" : "HPB_platinumshiplocker"},
+        {"item" : "HPB_platinumtechstation"},
+        {"item" : "HPB_platinumshipteleporter"},
+        {"item" : "HPB_platinumboosterenginesmall"},
+        {"item" : "HPB_platinumboosterenginelarge"},
+        {"item" : "HPB_platinumthruster"}
+      ]
+    }]
+  ],
+
+  "steelshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_steelcaptainschair"},
+        {"item" : "HPB_steelfuelhatch"},
+        {"item" : "HPB_steelshipdoor"},
+        {"item" : "HPB_steelshiplocker"},
+        {"item" : "HPB_steeltechstation"},
+        {"item" : "HPB_steelshipteleporter"},
+        {"item" : "HPB_steelboosterenginesmall"},
+        {"item" : "HPB_steelboosterenginelarge"},
+        {"item" : "HPB_steelthruster"}
+      ]
+    }]
+  ],
+
+  "titaniumshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_titaniumcaptainschair"},
+        {"item" : "HPB_titaniumfuelhatch"},
+        {"item" : "HPB_titaniumshipdoor"},
+        {"item" : "HPB_titaniumshiplocker"},
+        {"item" : "HPB_titaniumtechstation"},
+        {"item" : "HPB_titaniumshipteleporter"},
+        {"item" : "HPB_titaniumboosterenginesmall"},
+        {"item" : "HPB_titaniumboosterenginelarge"},
+        {"item" : "HPB_titaniumthruster"}
+      ]
+    }]
+  ],
+
+  "durasteelshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_durasteelcaptainschair"},
+        {"item" : "HPB_durasteelfuelhatch"},
+        {"item" : "HPB_durasteelshipdoor"},
+        {"item" : "HPB_durasteelshiplocker"},
+        {"item" : "HPB_durasteeltechstation"},
+        {"item" : "HPB_durasteelshipteleporter"},
+        {"item" : "HPB_durasteelboosterenginesmall"},
+        {"item" : "HPB_durasteelboosterenginelarge"},
+        {"item" : "HPB_durasteelthruster"}
+      ]
+    }]
+  ],
+
+  "violiumshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_violiumcaptainschair"},
+        {"item" : "HPB_violiumfuelhatch"},
+        {"item" : "HPB_violiumshipdoor"},
+        {"item" : "HPB_violiumshiplocker"},
+        {"item" : "HPB_violiumtechstation"},
+        {"item" : "HPB_violiumshipteleporter"},
+        {"item" : "HPB_violiumboosterenginesmall"},
+        {"item" : "HPB_violiumboosterenginelarge"},
+        {"item" : "HPB_violiumthruster"}
+      ]
+    }]
+  ],
+
+  "aegisaltshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_aegisaltcaptainschair"},
+        {"item" : "HPB_aegisaltfuelhatch"},
+        {"item" : "HPB_aegisaltshipdoor"},
+        {"item" : "HPB_aegisaltshiplocker"},
+        {"item" : "HPB_aegisalttechstation"},
+        {"item" : "HPB_aegisaltshipteleporter"},
+        {"item" : "HPB_aegisaltboosterenginesmall"},
+        {"item" : "HPB_aegisaltboosterenginelarge"},
+        {"item" : "HPB_aegisaltthruster"}
+      ]
+    }]
+  ],
+
+  "rubiumshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_rubiumcaptainschair"},
+        {"item" : "HPB_rubiumfuelhatch"},
+        {"item" : "HPB_rubiumshipdoor"},
+        {"item" : "HPB_rubiumshiplocker"},
+        {"item" : "HPB_rubiumtechstation"},
+        {"item" : "HPB_rubiumshipteleporter"},
+        {"item" : "HPB_rubiumboosterenginesmall"},
+        {"item" : "HPB_rubiumboosterenginelarge"},
+        {"item" : "HPB_rubiumthruster"}
+      ]
+    }]
+  ],
+
+  "ceruliumshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_ceruliumcaptainschair"},
+        {"item" : "HPB_ceruliumfuelhatch"},
+        {"item" : "HPB_ceruliumshipdoor"},
+        {"item" : "HPB_ceruliumshiplocker"},
+        {"item" : "HPB_ceruliumtechstation"},
+        {"item" : "HPB_ceruliumshipteleporter"},
+        {"item" : "HPB_ceruliumboosterenginesmall"},
+        {"item" : "HPB_ceruliumboosterenginelarge"},
+        {"item" : "HPB_ceruliumthruster"}
+      ]
+    }]
+  ],
+
+  "feroziumshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_feroziumcaptainschair"},
+        {"item" : "HPB_feroziumfuelhatch"},
+        {"item" : "HPB_feroziumshipdoor"},
+        {"item" : "HPB_feroziumshiplocker"},
+        {"item" : "HPB_feroziumtechstation"},
+        {"item" : "HPB_feroziumshipteleporter"},
+        {"item" : "HPB_feroziumboosterenginesmall"},
+        {"item" : "HPB_feroziumboosterenginelarge"},
+        {"item" : "HPB_feroziumthruster"}
+      ]
+    }]
+  ],
+
+  "imperviumshipfurniturehullplatingbox" : [
+    [0, {
+      "fill" : [
+        {"item" : "HPB_imperviumcaptainschair"},
+        {"item" : "HPB_imperviumfuelhatch"},
+        {"item" : "HPB_imperviumshipdoor"},
+        {"item" : "HPB_imperviumshiplocker"},
+        {"item" : "HPB_imperviumtechstation"},
+        {"item" : "HPB_imperviumshipteleporter"},
+        {"item" : "HPB_imperviumboosterenginesmall"},
+        {"item" : "HPB_imperviumboosterenginelarge"},
+        {"item" : "HPB_imperviumthruster"}
+      ]
+    }]
+  ]
+
+}

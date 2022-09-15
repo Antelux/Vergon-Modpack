@@ -1,0 +1,23 @@
+{
+  "materialId": 42279,
+  "materialName": "HPB_monsterhull",
+  "particleColor": [176, 110, 110, 255],
+  "itemDrop": "HPB_monsterhull",
+  "shortdescription": "Monster Hull Plating",
+  "description": "Sheets of ship hull plating, made from monsters!",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_stone.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "monsterhull_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

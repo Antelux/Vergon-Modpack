@@ -1,0 +1,16 @@
+{
+  "itemName" : "HPB_avianheatsinka",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "avianheatsinka_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Avian Heat Sink A",
+  "description" : "Star ship heat sink, for shedding excess heat.",
+  "glitchdescription" : "Statement. Star ship heat sink.",
+  "florandescription" : "Warm.",
+  "learnBlueprintsOnPickup" : [
+    "avianheatsinka"
+  ],
+
+  "materialId" : 42161
+}

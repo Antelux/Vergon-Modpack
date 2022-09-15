@@ -1,0 +1,56 @@
+{
+  "globalTagDefaults" : {
+    "direction" : "Right"
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "toiletState" : {
+        "default" : "wait",
+        "states" : {
+          "wait" : {
+            "frames" : 12,
+            "cycle" : 2,
+            "mode" : "loop"
+          },
+          "flush" : {
+            "frames" : 12,
+            "cycle" : 2,
+            "mode" : "transition",
+            "transition" : "wait"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "toilet" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "toiletState" : {
+            "wait" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+            
+            "flush" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+                //"immediateSound" : "/sfx/objects/toilet_flush.ogg"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "wait" : [],
+    "flush" : [ "/sfx/objects/toilet_flush.ogg" ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "objectName" : "geometricgreebleL1",
+  "colonyTags" : ["commerce","geometric"],
+  "printable" : false,
+  "rarity" : "uncommon",  
+  "category" : "decorative",
+  
+  "price" : 35,
+  "description" : "An aesthetic ferozium embellishment.",
+  "shortdescription" : "Greeble-Fz1L",
+  "race" : "generic",
+ 
+  "apexDescription" : "A tasteful aesthetic ferozium embellishment.",
+  "avianDescription" : "An aesthetic ferozium embellishment.",
+  "floranDescription" : "Ferozium thing doesss what?",
+  "glitchDescription" : "Curious. This ferozium object appears to have no function.",
+  "humanDescription" : "I believe they call this kind of embellishment a greeble.",
+  "hylotlDescription" : "An aesthetic ferozium embellishment.",
+  "novakidDescription" : "Kinda cool piece o' ferozium styling there.",
+ 
+  "inventoryIcon" : "geometricgreebleL1icon.png",
+ 
+  "orientations" : [
+    {
+      "image" : "geometricgreebleL1.png",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1,0],[-1,-1], [0,-1] ],
+      "fgAnchors" : [ [0,0] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "geometricgreebleL1.png?flipx",   
+      "imagePosition" : [0,-8],
+      "spaces" : [ [1,0], [1,-1], [0,-1] ],
+      "fgAnchors" : [ [0,0 ] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "geometricgreebleL1top.png",   
+      "imagePosition" : [-8,0],
+      "spaces" : [ [-1,1], [0,1], [-1,0] ],
+      "fgAnchors" : [ [0,0] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "geometricgreebleL1top.png?flipx",   
+      "imagePosition" : [0,0],
+      "spaces" : [ [0,1], [1,1], [1,0] ],
+      "fgAnchors" : [ [0,0] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "geometricgreebleL1inverted.png",
+      "imagePosition" : [0,0],
+      "spaces" : [ [0,1], [0,0], [1,0] ],
+      "fgAnchors" : [ [-1,1],[-1,0],[0,-1],[1,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "geometricgreebleL1inverted.png?flipx",
+      "imagePosition" : [-8,0],
+      "spaces" : [ [0,1], [0,0], [-1,0] ],
+      "fgAnchors" : [ [1,1],[1,0],[-1,-1],[0,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "geometricgreebleL1invertedtop.png",
+      "imagePosition" : [0,-8],
+      "spaces" : [ [0,0],[1,0],[0,-1] ],
+      "fgAnchors" : [ [0,1],[1,1],[-1,0],[-1,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "geometricgreebleL1invertedtop.png?flipx",
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [-1,0],[0,0],[0,-1] ],
+      "fgAnchors" : [ [-1,1],[0,1],[1,0],[1,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    }
+  ]
+}

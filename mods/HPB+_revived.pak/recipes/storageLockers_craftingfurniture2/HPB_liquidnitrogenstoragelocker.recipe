@@ -1,0 +1,17 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 1 },
+    { "item": "platinumbar",
+      "count": 1 },
+    { "item": "glass",
+      "count": 6 },
+    { "item": "ice",
+      "count": 12 }
+  ],
+  "output": { "item": "HPB_liquidnitrogenstoragelocker",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "objects", "storage", "all" ]
+}

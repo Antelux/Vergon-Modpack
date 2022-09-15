@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_ambergemsparktrim",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "ambergemsparktrim_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Amber Gemspark Trim",
+  "description" : "Amber gemspark trim.",
+  "glitchdescription" : "Statement. Gemspark.",
+  "florandescription" : "Pretty glowing gemsss.",
+
+  "materialId" : 42185
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 1 }
+  ],
+  "output" : { "item" : "serenepanel", "count" : 50 },
+  "duration" : 0.5,
+  "groups" : [ "craftingfurniture2", "materials", "all" ]
+}

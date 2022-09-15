@@ -1,0 +1,16 @@
+{
+  "modId" : 42022,
+  "modName" : "HPB_opalgemsparktrim",
+  "description" : "Opal gemspark trim.",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "/tiles/materials/opalgemsparktrim_HPB.png",
+    "variants" : 1,
+    "multiColored" : true,
+    "zLevel" : 0,
+    "radiantLight" : [110, 110, 110]
+  }
+}

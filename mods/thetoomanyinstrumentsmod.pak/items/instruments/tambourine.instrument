@@ -1,0 +1,20 @@
+{
+  "itemName" : "tambourine",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "tambourine.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A tambourine. Mini cymbals!",
+  "shortdescription" : "Tambourine",
+  "largeImage" : "tambourine.png",
+  "image" : "tambourine.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "tambourine.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2,0.2],
+
+  "handPosition" : [0.2,0.2],
+  "twoHanded" : true,
+  "kind" : "tambourine"
+}

@@ -1,0 +1,23 @@
+{
+  "materialId": 42213,
+  "materialName": "HPB_platinumstripedwall",
+  "particleColor": [226, 226, 220, 255],
+  "itemDrop": "HPB_platinumstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Platinum Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "platinumstripedwall_HPB.png", 
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2690
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "plantfibre",
+      "count": 5 }
+  ],
+  "output": { "item": "HPB_transparentplastic",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

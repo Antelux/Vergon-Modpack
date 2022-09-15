@@ -1,0 +1,23 @@
+{
+  "materialId": 42220,
+  "materialName": "HPB_ceruliumstripedwall",
+  "particleColor": [94, 135, 211, 255],
+  "itemDrop": "HPB_ceruliumstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Cerulium Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "ceruliumstripedwall_HPB.png", 
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2690
+  }
+}

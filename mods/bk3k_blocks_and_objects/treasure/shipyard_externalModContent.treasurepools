@@ -1,0 +1,48 @@
+{
+  "GravitonModItems" : [
+  //note that these items will be perfectly generic items if you havent' installed the mods that add these items.
+    [0, {
+        "fill" : [
+          {"item" : ["gravitonrail", 9999]},
+          {"item" : ["gravitonrailstop", 9999]},
+          {"item" : ["tier10_XL_gravitonprojectorpad", 9999]},
+          {"item" : ["tier10_XL_gravitonprojectorring", 9999]}
+        ]
+      }
+    ]
+  ],
+  
+  
+  "Base_inA_box" : [//note that these items will be perfectly generic items if you havent' installed the mods that add these items.
+    [0, {
+      "fill" : [
+          {"item" : ["gravitonrail", 9999]},
+          {"item" : ["gravitonrailstop", 9999]},
+          {"item" : ["tier10_XL_gravitonprojectorpad", 9999]},
+          {"item" : ["tier10_XL_gravitonprojectorring", 9999]},
+          {"item" : ["pilch_sciencestation", 1]},
+          {"item" : ["pilch_basescan_cracker", 1]},
+          {"item" : ["pilch_basescan_duper", 1]},
+          {"item" : ["pilch_basescan_scanner", 1]},
+          {"item" : ["bk3k_105x25_module", 25]}
+        ]
+      }
+    ]
+  ],
+  
+  
+  "SpaceDinoModItems" : [//note that these items will be perfectly generic items if you havent' installed the mods that add these items.
+    [0, {
+      "fill" : [
+          {"item" : ["spacedino_irrigationpipe", 9999]},
+          {"item" : ["spacedino_irrigator", 100]},
+          {"item" : ["spacedino_pipeirrigator", 100]},
+          {"item" : ["spacedino_waterbarrel", 100]},
+          {"item" : ["spacedino_smallliquidtank", 100]},
+          {"item" : ["spacedino_mediumliquidtank", 100]},
+          {"item" : ["spacedino_largeliquidtank", 100]}
+        ]
+      }
+    ]
+  ]
+}

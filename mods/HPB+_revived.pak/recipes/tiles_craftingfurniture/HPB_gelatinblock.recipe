@@ -1,0 +1,12 @@
+{
+  "input": [
+    { "item": "liquidwater",
+      "count": 20 },
+    { "item": "HPB_gelatin",
+      "count": 2 }
+  ],
+  "output": { "item": "HPB_gelatinblock",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfood", "materials", "all" ]
+}

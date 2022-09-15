@@ -1,0 +1,23 @@
+{
+  "materialId": 42048,
+  "materialName": "HPB_fishscalehull",
+  "particleColor": [170, 45, 25, 255],
+  "itemDrop": "HPB_fishscalehull",
+  "shortdescription": "Fish Scale Plating",
+  "description": "Sheets of ship hull plating.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "fishscalehull_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 3200
+  }
+}

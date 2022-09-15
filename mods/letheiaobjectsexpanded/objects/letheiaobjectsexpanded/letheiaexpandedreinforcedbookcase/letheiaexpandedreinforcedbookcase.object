@@ -1,0 +1,35 @@
+{
+  "objectName" : "letheiaexpandedreinforcedbookcase",
+  "colonyTags" : ["misc","storage","knowledge"],
+  "rarity" : "Common",
+  "description" : "A large metallic bookcase.",
+  "shortdescription" : "Reinforced Bookcase",
+  "race" : "generic",
+  "price" : 200,
+  
+  "category" : "storage",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedreinforcedbookcase.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 48,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

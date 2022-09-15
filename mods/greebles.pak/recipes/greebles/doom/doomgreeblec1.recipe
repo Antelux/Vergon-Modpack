@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "doompanel", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "doomgreebleC1",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

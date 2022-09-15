@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_macrocircuitboard",//"category" : "block"
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "macrocircuitboard_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Macrocircuit Board",
+  "description" : "Macrochips are the next BIG thing in electronics...",
+  "glitchdescription" : "Disregard. Inefficiently large electronics.",
+  "florandescription" : "Even floran knowsss thisss isss too big.",
+
+  "materialId" : 42319
+}

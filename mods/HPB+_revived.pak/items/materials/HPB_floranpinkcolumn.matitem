@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_floranpinkcolumn",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "floranpinkcolumn_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Floran Pink Column",
+  "description" : "Columns for decorating or supporting upper floors in large rooms.",
+  "glitchdescription" : "Statement. Stately column.",
+  "florandescription" : "Pole.",
+
+  "materialId" : 42243
+}

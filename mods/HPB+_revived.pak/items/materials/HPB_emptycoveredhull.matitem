@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_emptycoveredhull",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "emptycoveredhull_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Empty Covered Plating",
+  "description" : "Sheets of ship hull plating, ready for the addition of a decorative material.",
+  "glitchdescription" : "Statement. Star ship hull plating.",
+  "florandescription" : "Ssship ssskin.",
+
+  "materialId" : 42159
+}

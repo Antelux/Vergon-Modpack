@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_novakidgreenwallpanel",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "novakidgreenwallpanel_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A colourful wall panel.",
+  "shortdescription" : "Novakid Green Panel",
+  "glitchdescription" : "Analysis. A wall panel.",
+  "florandescription" : "Wall.",
+
+  "materialId" : 42109
+}

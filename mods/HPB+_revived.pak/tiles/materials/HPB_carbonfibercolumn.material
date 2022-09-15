@@ -1,0 +1,23 @@
+{
+  "materialId": 42224,
+  "materialName": "HPB_carbonfibercolumn",
+  "particleColor": [174, 174, 174, 255],
+  "itemDrop": "HPB_carbonfibercolumn",
+  "shortdescription": "Carbon Fiber Column",
+  "description": "Columns for decorating or supporting upper floors in large rooms.",
+  "glitchDescription": "Statement. Stately column.",
+  "floranDescription": "Pole.",
+  "footstepSound": "/sfx/blocks/footstep_wood.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "carbonfibercolumn_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

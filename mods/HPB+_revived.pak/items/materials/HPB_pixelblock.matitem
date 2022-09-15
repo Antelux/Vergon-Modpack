@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_pixelblock",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "pixelblock_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Pixel Block",
+  "description" : "It's a bunch of pixels welded together.",
+  "glitchdescription" : "Statement. Pixel block.",
+  "florandescription" : "Pixelsss.",
+
+  "materialId" : 42254
+}

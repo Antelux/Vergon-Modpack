@@ -1,0 +1,15 @@
+{
+  "modId" : 42081,
+  "modName" : "HPB_rebar",
+  "description" : "Rebar.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rebar_HPB.png",
+    "variants" : 1,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

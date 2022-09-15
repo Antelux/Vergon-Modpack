@@ -1,0 +1,21 @@
+{
+  "materialId": 42362,
+  "materialName": "HPB_plasticshipwindow",
+  "particleColor": [237, 254, 255, 255],
+  "itemDrop": "HPB_plasticshipwindow",
+  "shortdescription": "Plastic Ship Window",
+  "description": "Framed plastic suitable for a starship widnow.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "plasticshipwindow_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 470
+  }
+}

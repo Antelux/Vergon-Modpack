@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_fishstripedwall",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "fishstripedwall_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A colourful wall panel.",
+  "shortdescription" : "Fish Striped Wall",
+  "glitchdescription" : "Analysis. A wall panel.",
+  "florandescription" : "Wall.",
+
+  "materialId" : 42200
+}

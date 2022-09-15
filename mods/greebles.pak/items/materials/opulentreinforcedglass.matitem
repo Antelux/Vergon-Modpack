@@ -1,0 +1,10 @@
+{
+  "itemName" : "opulentreinforcedglass",
+  "rarity" : "Rare",
+  "inventoryIcon" : "opulentreinforcedglassicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Violium reinforced glass.",
+  "shortdescription" : "Opulent Glass",
+
+  "materialId" : 2398
+}

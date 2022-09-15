@@ -1,0 +1,9 @@
+{
+  "input": [
+    { "item": "moondust",
+      "count": 3 }
+  ],
+  "output": { "item": "liquidwater",
+      "count": 1 },
+  "groups": [ "mod", "HPB_mod", "craftingfurnace", "ingredients", "all" ]
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "HPBA_slopedavianpanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "HPBA_slopedavianpanelicon.png",
+  "shortdescription" : "Avian Hull Panel",
+  "description" : "Cheap, resilient panelling widely used for avian ship construction.",
+  "glitchdescription" : "Observant. This is panelling widely used for avian ship construction.",
+  "florandescription" : "Shiny sssmooth space metal.",
+  "novakiddescription" : "Some thick metal plating, looks mighty solid.",
+  "learnBlueprintsOnPickup" : [ "HPBA_slopedavianpanel" ],
+
+  "materialId" : 42990
+}

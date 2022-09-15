@@ -1,0 +1,46 @@
+{
+  "objectName" : "letheiaexpandedbed",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 125,
+  "description" : "A modern bed.",
+  "shortdescription" : "Letheia Bed",
+  "race" : "generic",
+
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    
+    {
+      "image" : "letheiaexpandedbed.png:<color>",
+      "sitCoverImage" : "/objects/letheiaobjectsexpanded/letheiaexpandedbed/letheiaexpandedbedcover.png",
+      "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "sitPosition" : [-8, 15]
+    },
+    {
+      "image" : "letheiaexpandedbed.png:<color>",
+      "sitCoverImage" : "/objects/letheiaobjectsexpanded/letheiaexpandedbed/letheiaexpandedbedcover.png",
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [-8, 15]
+    }
+  ]
+}

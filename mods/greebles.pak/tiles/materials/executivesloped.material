@@ -1,0 +1,23 @@
+{
+  "materialId" : 2490,
+  "materialName" : "executivesloped",
+  "particleColor" : [20, 20, 20, 255],
+  "itemDrop" : "executivesloped",
+  "description" : "Panels of impervium metal.",
+  "shortdescription" : "Executive Hull Panel",
+  "glitchDescription" : "Analysis. Impervium hull panel.",
+  "floranDescription" : "Impervium.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 24,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/greebles_slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "executivesloped.png",
+    "variants" : 6,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4990
+  }
+}

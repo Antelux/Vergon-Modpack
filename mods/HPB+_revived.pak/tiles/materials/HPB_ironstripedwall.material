@@ -1,0 +1,23 @@
+{
+  "materialId": 42210,
+  "materialName": "HPB_ironstripedwall",
+  "particleColor": [122, 122, 122, 255],
+  "itemDrop": "HPB_ironstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Iron Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "ironstripedwall_HPB.png", 
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2690
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "soprano_trombone",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "soprano_trombone.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A soprano trombone. It's like a trumpet, but a trombone!",
+  "shortdescription" : "soprano Trombone",
+  "largeImage" : "soprano_trombone.png",
+  "image" : "soprano_trombone.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "soprano_trombone.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [-0.1,0.75],
+
+  "handPosition" : [-0.1,0.75],
+  "twoHanded" : true,
+  "kind" : "soprano_trombone"
+}

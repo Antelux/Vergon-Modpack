@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_novakidcreamhullalt",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "novakidcreamhull_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Rivetless Cream Plating",
+  "description" : "Sheets of ship hull plating.",
+  "glitchdescription" : "Statement. Star ship hull plating.",
+  "florandescription" : "Ssship ssskin.",
+
+  "materialId" : 42136
+}

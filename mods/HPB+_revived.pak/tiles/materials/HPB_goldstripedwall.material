@@ -1,0 +1,23 @@
+{
+  "materialId": 42212,
+  "materialName": "HPB_goldstripedwall",
+  "particleColor": [221, 176, 49, 255],
+  "itemDrop": "HPB_goldstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Gold Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "goldstripedwall_HPB.png", 
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2690
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "materialId": 42191,
+  "materialName": "HPB_blackgemsparktrim",
+  "particleColor": [64, 64, 64, 255],
+  "itemDrop": "HPB_blackgemsparktrim",
+  "description": "Black gemspark trim.",
+  "shortdescription": "Black Gemspark Trim",
+  "glitchDescription": "Statement. Gemspark.",
+  "floranDescription": "Pretty glowing gemsss.",
+  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "blackgemsparktrim_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "radiantLight": [64, 64, 64]
+  }
+}

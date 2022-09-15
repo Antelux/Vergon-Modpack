@@ -1,0 +1,15 @@
+[
+  // This file (which should be at /objects/wired/tabularasa/tabularasa.object)
+  // demonstrates how to add a mod filter button to the Tabula Rasa
+  [
+    { 
+      "op": "add",
+      "path": "/filterButtons/-",
+      "value": {
+        "baseImage": "/interface/tabularasa/HPB_button.png",
+        "baseImageChecked": "/interface/tabularasa/HPB_buttonchecked.png",
+        "filter": "HPB_mod"
+      }
+    }
+  ]
+]

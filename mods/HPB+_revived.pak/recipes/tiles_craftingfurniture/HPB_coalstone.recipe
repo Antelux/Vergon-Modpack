@@ -1,0 +1,13 @@
+
+{
+  "input": [
+    { "item": "cobblestonematerial",
+      "count": 20 },
+    { "item": "coalore",
+      "count": 2 }
+  ],
+  "output": { "item": "HPB_coalstone",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

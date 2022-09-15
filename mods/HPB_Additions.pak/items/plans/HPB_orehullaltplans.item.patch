@@ -1,0 +1,22 @@
+[
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse": true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_coppershiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_ironshiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_silvershiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_goldshiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_platinumshiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_steelshiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_titaniumshiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_durasteelshiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_violiumshiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_aegisaltshiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_rubiumshiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_ceruliumshiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_feroziumshiphulldark" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_imperviumshiphulldark" }
+  ]
+]

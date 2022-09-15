@@ -1,0 +1,23 @@
+{
+  "materialId": 42267,
+  "materialName": "HPB_cardboardcolumn",
+  "particleColor": [197, 165, 108, 255],
+  "itemDrop": "HPB_cardboardcolumn",
+  "shortdescription": "Cardboard Column",
+  "description": "Rolled cardboard, taped on one side.",
+  "glitchDescription": "Statement. A cardboard column.",
+  "floranDescription": "Cardboard tube.",
+  "footstepSound": "/sfx/blocks/footstep_wood.ogg",
+  "health": 1,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "cardboardcolumn_HPB.png",
+    "variants": 3,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3200
+  }
+}

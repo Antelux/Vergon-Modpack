@@ -1,0 +1,25 @@
+{
+  "objectName" : "letheiaexpandedmodel5",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A storage container containing a Friedenzar mech.",
+  "shortdescription" : "Friedenzar Container",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 1600,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedmodel5.png:<color>",
+      "imagePosition" : [-24, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ]
+}

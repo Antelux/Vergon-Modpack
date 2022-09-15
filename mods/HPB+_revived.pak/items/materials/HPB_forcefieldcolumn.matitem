@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_forcefieldcolumn",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "forcefieldcolumn_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Force Field Column",
+  "description" : "Columns for decorating or supporting upper floors in large rooms.",
+  "glitchdescription" : "Statement. Stately column.",
+  "florandescription" : "pole.",
+
+  "materialId" : 42332
+}

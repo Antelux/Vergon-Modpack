@@ -1,0 +1,22 @@
+{
+  "materialId" : 42368,
+  "materialName" : "MCB_ceruliumblock",
+  "particleColor" : [77, 88, 198, 255],
+  "itemDrop" : "MCB_ceruliumblock",
+  "description" : "A Cerulium block!",
+  "shortdescription" : "Cerulium Block",
+  "glitchDescription" : "Analysis. A cerulium block.",
+  "floranDescription" : "Blue metal block. Ugly fish color.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 35,
+  "category": "materials",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "MCB_ceruliumblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

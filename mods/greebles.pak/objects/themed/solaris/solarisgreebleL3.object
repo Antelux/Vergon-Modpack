@@ -1,0 +1,89 @@
+{
+  "objectName" : "solarisgreebleL3",
+  "colonyTags" : ["commerce","solaris"],
+  "printable" : false,
+  "rarity" : "rare",  
+  "category" : "decorative",
+  
+  "price" : 60,
+  "description" : "An aesthetic solaris embellishment.",
+  "shortdescription" : "Greeble-Sol3L",
+  "race" : "generic",
+ 
+  "apexDescription" : "A ostentatious solaris embellishment.",
+  "avianDescription" : "An appealing solaris embellishment.",
+  "floranDescription" : "Ssolaris thing doesss what?",
+  "glitchDescription" : "Curious. This solaris object appears to have no function.",
+  "humanDescription" : "I believe they call this kind of embellishment a greeble.",
+  "hylotlDescription" : "An aesthetic solaris embellishment.",
+  "novakidDescription" : "Gaudy piece o' solaris styling.",
+ 
+  "inventoryIcon" : "solarisgreebleL3icon.png",
+ 
+  "orientations" : [
+    {
+      "image" : "solarisgreebleL3.png:BL",
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [-1,2],[-1,1],[-1,0],[-1,-1],[0,-1],[1,-1],[2,-1] ],
+      "fgAnchors" : [ [0,2],[0,1],[0,0],[1,0],[2,0] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "solarisgreebleL3.png:BR",   
+      "imagePosition" : [-16,-8],
+      "spaces" : [ [1,2],[1,1],[1,0],[1,-1],[0,-1],[-1,-1],[-2,-1] ],
+      "fgAnchors" : [ [0,2],[0,1],[0,0],[-1,0],[-2,0] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "solarisgreebleL3.png:TL",   
+      "imagePosition" : [-8,-16],
+      "spaces" : [ [-1,1],[0,1],[1,1],[2,1],[-1,0],[-1,-1],[-1,-2] ],
+      "fgAnchors" : [ [0,0],[1,0],[2,0],[0,-1],[0,-2] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "solarisgreebleL3.png:TR",   
+      "imagePosition" : [-16,-16],
+      "spaces" : [ [-2,1],[-1,1],[0,1],[1,1],[1,0],[1,-1],[1,-2] ],
+      "fgAnchors" : [ [-2,0],[-1,0],[0,0],[0,-1],[0,-2] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "solarisgreebleL3.png:ITR",
+      "imagePosition" : [0,0],
+      "spaces" : [ [0,3],[0,2],[0,1],[0,0],[1,0],[2,0],[3,0] ],
+      "fgAnchors" : [ [-1,3],[-1,2],[-1,1],[-1,0],[0,-1],[1,-1],[2,-1],[3,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "solarisgreebleL3.png:ITL",
+      "imagePosition" : [-24,0],
+      "spaces" : [ [0,3],[0,2],[0,1],[0,0],[-1,0],[-2,0],[-3,0] ],
+      "fgAnchors" : [ [1,3],[1,2],[1,1],[1,0],[0,-1],[-1,-1],[-2,-1],[-3,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "solarisgreebleL3.png:IBR",
+      "imagePosition" : [0,-24],
+      "spaces" : [ [0,0],[1,0],[2,0],[3,0],[0,-1],[0,-2],[0,-3] ],
+      "fgAnchors" : [ [0,1],[1,1],[2,1],[3,1],[-1,0],[-1,-1],[-1,-2],[-1,-3] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "solarisgreebleL3.png:IBL",
+      "imagePosition" : [-24,-24],
+      "spaces" : [ [-3,0],[-2,0],[-1,0],[0,0],[0,-1],[0,-2],[0,-3] ],
+      "fgAnchors" : [ [-3,1],[-2,1],[-1,1],[0,1],[1,0],[1,-1],[1,-2],[1,-3] ],
+      "direction" : "left",
+      "collision" : "solid"
+    }
+  ]
+}

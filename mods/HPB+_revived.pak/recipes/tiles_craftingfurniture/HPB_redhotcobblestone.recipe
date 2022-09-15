@@ -1,0 +1,13 @@
+
+{
+  "input": [
+    { "item": "cobblestonematerial",
+      "count": 20 },
+    { "item": "liquidlava",
+      "count": 10 }
+  ],
+  "output": { "item": "redhotcobblestone",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "craftinganvil", "materials", "all" ]
+}

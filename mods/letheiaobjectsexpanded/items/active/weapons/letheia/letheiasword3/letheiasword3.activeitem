@@ -1,0 +1,36 @@
+{
+  "itemName" : "letheiasword3",
+  "price" : 1400,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A reinforced double blade, used by specialized Letheia officers.",
+  "shortdescription" : "Durasteel Double Blade",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "letheiasword3.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combodoublesword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "letheiasword3.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.60,
+    "baseDps" : 11.1
+  },
+
+  "altAbilityType" : "spinslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

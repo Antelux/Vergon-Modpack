@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 1 },
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "glassmaterial", "count" : 4 }
+  ],
+  "output" : { "item" : "solarisframedglass", "count" : 40 },
+  "groups" : [ "craftingfurniture2", "materials", "all" ]
+}

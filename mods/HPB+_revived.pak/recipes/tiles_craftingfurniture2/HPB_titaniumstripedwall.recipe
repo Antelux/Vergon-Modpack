@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "titaniumbar",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_titaniumstripedwall",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

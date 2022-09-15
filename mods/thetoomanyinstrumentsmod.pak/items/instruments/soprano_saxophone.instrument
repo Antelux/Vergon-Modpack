@@ -1,0 +1,20 @@
+{
+  "itemName" : "soprano_saxophone",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "soprano_saxophone.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A soprano saxophone. Who's clarinet is this?",
+  "shortdescription" : "Soprano Saxophone",
+  "largeImage" : "soprano_saxophone.png",
+  "image" : "soprano_saxophone.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "soprano_saxophone.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2, -0.1],
+
+  "handPosition" : [0.3, 0],
+  "twoHanded" : true,
+  "kind" : "soprano_saxophone"
+}

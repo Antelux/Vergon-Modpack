@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 1 },
+    { "item" : "solariumstar", "count" : 1},
+    { "item" : "canvas", "count" : 2 }
+  ],
+  "output" : { "item" : "executivetable", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

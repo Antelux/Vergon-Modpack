@@ -1,0 +1,9 @@
+{
+  "itemName": "HPB_gelatin",
+  "rarity": "Common",
+  "price": 120,
+  "inventoryIcon": "gelatin_HPB.png",
+  "description": "Raw, unflavored, powdered gelatin.",
+  "shortdescription": "Gelatin",
+  "category": "cookingIngredient"
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "Q_unwrecked_wreckchair",
+  "colonyTags" : ["wreck"],
+  "rarity" : "Common",
+  "description" : "A clean chair.",
+  "shortdescription" : "Refurbished Chair",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 75,
+
+  "apexDescription" : "A comfortable looking chair.",
+  "avianDescription" : "The chair is clean as a whistle.",
+  "floranDescription" : "Full of plusssh.",
+  "glitchDescription" : "Appreciative. This chair is pristine.",
+  "humanDescription" : "Covered in leather and full of cushioning.",
+  "hylotlDescription" : "A pleasingly clean new chair.",
+  "novakidDescription" : "This chair is full o' plush!",
+
+  "inventoryIcon" : "Q_unwrecked_wreckchairicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "Q_unwrecked_wreckchair.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [3, 23]
+
+}

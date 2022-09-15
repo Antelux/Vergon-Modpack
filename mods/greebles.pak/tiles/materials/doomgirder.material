@@ -1,0 +1,25 @@
+{
+  "materialId" : 2349,
+  "materialName" : "doomgirder",
+  "frames" : "doomgirder.png",
+  "particleColor" : [150, 35, 35, 255],
+  "variants" : 1,
+  "itemDrop" : "doomgirder",
+  "description" : "Girder made of rubium.",
+  "shortdescription" : "Doom Girder",
+  "glitchDescription" : "Analysis. Rubium girder.",
+  "floranDescription" : "Metal thing.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 22,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "doomgirder.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" :true,
+    "zLevel" : 3320
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "itemName": "HPB_ufoshipplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "purpleplans_HPB.png",
+  "description": "These plans reveal how to reverse-engineer blocks from the wreckage of a UFO!",
+  "shortdescription": "UFO Ship Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_ufoupperhull",
+    "HPB_ufolowerhull",
+    "HPB_ufotrim",
+    "HPB_ufoglowingtrim",
+    "HPB_ufoshipplatform",
+    "HPB_ufowallpanel",
+    "HPB_ufostripedwall",
+    "HPB_ufocolumn",
+    "HPB_ufostoragelocker",
+    "HPB_ufoshipdoor"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "projectileName" : "redplasmabullet1",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "redplasmabullet1.png",
+  "animationCycle" : 0.5,
+  "fullbright" : true,
+  "emitters" : ["capturepodred"],
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 70,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [73, 10, 0],
+  "damageKind" : "plasma"
+}

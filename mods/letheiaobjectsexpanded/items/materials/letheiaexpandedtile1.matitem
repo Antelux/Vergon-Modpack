@@ -1,0 +1,11 @@
+{
+  "itemName" : "letheiaexpandedtile1",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "letheiaexpandedtile1.png",
+  "description" : "A metal flooring used in Letheia offices.",
+  "shortdescription" : "Letheia Metal Flooring",
+
+  "materialId" : 16501
+}

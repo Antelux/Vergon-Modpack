@@ -1,0 +1,32 @@
+{
+  "itemName" : "HPB_spraypaintbrowntool",
+  "description" : "Sprays messy paint on blocks.  Doesn't work on tumbling blocks or platforms.",
+  "shortdescription" : "^orange;Brown Spray Paint Tool^white;",
+
+  "category" : "tool",
+  "inventoryIcon" : "spraypainticon_HPB.png:brown",
+  "largeImage" : "paintgunlarge_HPB.png:brown",
+  "animation" : "paintgun_HPB.animation",
+  "animationParts" : {
+    "trimtool" : "paintgun_HPB.png:brown"
+  },
+
+  "scripts" : [ "/items/tools/trim/activetrimtool.lua" ],
+  "seed" : "HPB_spraypaintbrown",
+  "toolSound" : "paint",
+
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "tooltipKind" : "tool",
+  "twoHanded" : true,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

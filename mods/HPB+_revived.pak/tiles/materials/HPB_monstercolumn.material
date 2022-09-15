@@ -1,0 +1,23 @@
+{
+  "materialId": 42284,
+  "materialName": "HPB_monstercolumn",
+  "particleColor": [176, 110, 110, 255],
+  "itemDrop": "HPB_monstercolumn",
+  "shortdescription": "Monster Column",
+  "description": "Columns for decorating or supporting upper floors in large rooms, made from monsters!",
+  "glitchDescription": "Statement. Stately column.",
+  "floranDescription": "Pole.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "monstercolumn_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

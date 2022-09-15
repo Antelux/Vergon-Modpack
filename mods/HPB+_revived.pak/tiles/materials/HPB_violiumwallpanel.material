@@ -1,0 +1,23 @@
+{
+  "materialId": 42124,
+  "materialName": "HPB_violiumwallpanel",
+  "particleColor": [164, 81, 196, 255],
+  "itemDrop": "HPB_violiumwallpanel",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Violium Wall Panel",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "violiumwallpanel_HPB.png", 
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2630
+  }
+}

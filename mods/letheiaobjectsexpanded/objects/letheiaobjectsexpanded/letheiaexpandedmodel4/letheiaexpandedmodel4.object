@@ -1,0 +1,34 @@
+{
+  "objectName" : "letheiaexpandedmodel4",
+  "colonyTags" : ["misc"],
+  "rarity" : "Rare",
+  "description" : "A hologram display of a Letheia Sentry.",
+  "shortdescription" : "Sentry Hologram",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 500,
+  
+  "lightColor" : [200, 50, 50],
+  //"pointLight" : true,
+  //"pointBeam" : 10,
+  //"beamAmbience" : 0.15,
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 2,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "letheiaexpandedmodel4.png:<color>.<frame>",
+      "imagePosition" : [-24, 0],
+	  
+      "frames" : 2,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

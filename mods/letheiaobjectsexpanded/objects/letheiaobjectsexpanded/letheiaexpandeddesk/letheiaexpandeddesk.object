@@ -1,0 +1,25 @@
+{
+  "objectName" : "letheiaexpandeddesk",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A Letheia Corporation office desk.",
+  "shortdescription" : "Letheia Office Desk",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 200,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandeddesk.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "tier3reinforcedglass",
+  "rarity" : "Common",
+  "inventoryIcon" : "tier3reinforcedglassicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Titanium reinforced glass.",
+  "shortdescription" : "Titanium Glass",
+
+  "materialId" : 2393
+}

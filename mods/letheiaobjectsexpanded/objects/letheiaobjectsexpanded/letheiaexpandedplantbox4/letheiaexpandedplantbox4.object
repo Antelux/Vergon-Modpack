@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheiaexpandedplantbox4",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A large container filled with plants.",
+  "shortdescription" : "Large Executive Planter",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 300,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedplantbox4.png:<color>",
+      "imagePosition" : [-8, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

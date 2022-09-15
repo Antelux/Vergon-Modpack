@@ -1,0 +1,40 @@
+{
+  "type" : "letheiaemployee1",
+  "baseType" : "villager",
+  
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Welcome to the Letheia Corporation!",
+            "How may I assist you, traveller?",
+            "I can't wait till my shift is over.",
+            "I could use a cup of coffee right about now.",
+            "Letheia Corporation is neat and all, but I'd like a pay raise sometime soon.",
+            "Work, work, work..."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "letheiauniformchest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "letheiauniformpants", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

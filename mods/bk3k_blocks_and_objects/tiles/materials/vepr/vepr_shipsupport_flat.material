@@ -1,0 +1,23 @@
+{
+  "materialId" : 7167,
+  "materialName" : "vepr_shipsupport_flat",
+  "particleColor" : [0, 255, 255, 255],
+  "itemDrop" : "vepr_shipsupport_flat",
+  "description" : "A double column with crystals lining the insides.",
+  "shortdescription" : "Vepr Ship Support",
+  "glitchDescription" : "Statement. A support double-column housing transmitter crystals.",
+  "floranDescription" : "Columns! Fun to climb.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 20,
+  
+  "category" : "materials",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vepr_shipsupport_flat.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 3171
+  }
+}

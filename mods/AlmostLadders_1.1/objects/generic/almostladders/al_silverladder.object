@@ -1,0 +1,24 @@
+{
+  "objectName" : "al_silverladder",
+  "colonyTags" : ["misc"],
+  "rarity" : "rare",
+  "description" : "A polished silver ladder, which functions only as a decorative platform.",
+  "shortdescription" : "Silver Ladder",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 150,
+  "scannable" : true,
+  "printable" : true,
+  "inventoryIcon" : "al_silverladderICON.png",
+  "orientations" : [
+    {
+      "image" : "al_silverladder.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [  ],
+      "collision" : "platform"
+    }
+  ]
+}

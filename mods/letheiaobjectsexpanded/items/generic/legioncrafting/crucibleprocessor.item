@@ -1,0 +1,10 @@
+{
+  "itemName" : "crucibleprocessor",
+  "price" : 200,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "crucibleprocessor.png",
+  "description" : "A processor unit made from nullasteel; can withstand extreme heat.",
+  "shortdescription" : "Crucible Processor",
+  "itemTags" : [ "reagent" ]
+}

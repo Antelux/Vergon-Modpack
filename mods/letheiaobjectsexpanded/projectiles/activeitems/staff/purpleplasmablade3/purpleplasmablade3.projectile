@@ -1,0 +1,54 @@
+{
+  "projectileName" : "purpleplasmablade3",
+  "physics" : "laser",
+  "timeToLive" : 5,
+  "image" : "purpleplasmablade3.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [80, 30, 80],
+  "frameNumber" : 1,
+  "speed" : -6,
+  "power" : 30,
+  "damageKind" : "spear",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+
+  "fullbright" : true,
+  "emitters" : ["energyweapon"],
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/impact_plasma.ogg"
+      ]
+    },
+    {
+      "action" : "loop",
+      "count" : 5,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "energyblade",
+          "time" : 0.1,
+          "repeat" : true
+        },
+        {
+          "action" : "particle",
+          "specification" : "energyblade2",
+          "time" : 0.1,
+          "repeat" : true
+        }
+      ]
+    }
+  ],
+
+  "bounces" : 3,
+
+  "scripts" : [ "/projectiles/activeitems/staff/purpleplasmablade3/purpleplasmablade3.lua" ],
+
+  "triggerSpeed" : 30,
+
+  "controlRotation" : {
+    "maxSpeed" : 20,
+    "controlForce" : 90,
+    "friction" : 8
+  }
+}

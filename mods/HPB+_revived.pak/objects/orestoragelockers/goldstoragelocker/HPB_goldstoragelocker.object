@@ -1,0 +1,32 @@
+{
+  "objectName": "HPB_goldstoragelocker",
+  "rarity": "Rare",
+  "category": "storage",
+  "price": 900,
+  "printable": false,
+  "objectType": "container",
+  "tooltipKind": "container",
+  "colonyTags": [ "storage" ],
+  "description": "A nice, spacious, wall-mounted storage solution.",
+  "shortdescription": "Gold Storage Locker",
+  "race": "generic",
+
+  "inventoryIcon": "goldstoragelockericon_HPB.png",
+  "orientations": [
+    {
+      "image": "goldstoragelocker_HPB.png:<color>.<key>",
+      "imagePosition": [-16, -8],
+
+      "spaceScan": 0.1,
+      "anchors": [ "background" ]
+    }
+  ],
+
+  "openSounds": [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds": [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount": 48,
+  "uiConfig": "/interface/chests/chest<slots>.config",
+  "frameCooldown": 5,
+  "openFrameIndex": 4,
+  "autoCloseCooldown": 3600
+}

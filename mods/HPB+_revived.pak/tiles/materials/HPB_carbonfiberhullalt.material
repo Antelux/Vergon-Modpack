@@ -1,0 +1,23 @@
+{
+  "materialId": 42141,
+  "materialName": "HPB_carbonfiberhullalt",
+  "particleColor": [174, 174, 174, 255],
+  "itemDrop": "HPB_carbonfiberhullalt",
+  "shortdescription": "Rivetless Carbon Fiber Plating",
+  "description": "Sheets of ship hull plating, made of lightweight carbon fiber.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_wood.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "carbonfiberhullalt_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "itemName": "HPB_racialwallpanelplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "blueplans_HPB.png",
+  "description": "These plans reveal how to make racial wall panel.",
+  "shortdescription": "Racial Wall Panel Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_apexwallpanel",
+    "HPB_avianwallpanel",
+    "HPB_floranwallpanel",
+    "HPB_floranpinkwallpanel",
+    "HPB_glitchwallpanel",
+    "HPB_humanwallpanel",
+    "HPB_hylotlwallpanel",
+    "HPB_fishwallpanel",
+    "HPB_novakidbrasswallpanel",
+    "HPB_novakidcreamwallpanel",
+    "HPB_novakidcyanwallpanel",
+    "HPB_novakidgreenwallpanel",
+    "HPB_novakidredwallpanel",
+    "HPB_rustywallpanel"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "itemName" : "HPB_silvertrimtool",
+  "description" : "Adds trim tubing to blocks.  Doesn't work on tumbling blocks or platforms.",
+  "shortdescription" : "^orange;Silver Trim Tool^white;",
+
+  "category" : "tool",
+  "inventoryIcon" : "/items/materials/silvertrim_HPB.png",
+  "largeImage" : "silvertrimtoolbig_HPB.png",
+  "animation" : "/items/tools/trim/trimtool_HPB.animation",
+  "animationParts" : {
+    "trimtool" : "silvertrimtool_HPB.png"
+  },
+
+  "scripts" : [ "/items/tools/trim/activetrimtool.lua" ],
+  "seed" : "HPB_silvertrim",
+  "toolSound" : "drill",
+
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "tooltipKind" : "tool",
+  "twoHanded" : true,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

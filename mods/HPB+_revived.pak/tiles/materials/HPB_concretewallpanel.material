@@ -1,0 +1,23 @@
+{
+  "materialId": 42359,
+  "materialName": "HPB_concretewallpanel",
+  "particleColor": [149, 149, 149, 255],
+  "itemDrop": "HPB_concretewallpanel",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Concrete Wall Panel",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_stone.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "concretewallpanel_HPB.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2630
+  }
+}

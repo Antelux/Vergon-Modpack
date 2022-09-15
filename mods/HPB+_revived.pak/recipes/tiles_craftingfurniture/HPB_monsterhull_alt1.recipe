@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "sharpenedclaw",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_monsterhull",
+      "count": 150 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

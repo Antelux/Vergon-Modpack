@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "geometricpanel", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "geometricgreebleL1",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

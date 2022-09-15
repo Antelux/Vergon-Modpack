@@ -1,0 +1,11 @@
+{
+  "itemName" : "tier4support",
+  "category" : "Block",
+  "rarity" : "Common",
+  "inventoryIcon" : "tier4supporticon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Durasteel support block.",
+  "shortdescription" : "Durasteel Support",
+
+  "materialId" : 2324
+}

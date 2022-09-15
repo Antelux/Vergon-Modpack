@@ -1,0 +1,15 @@
+{
+  "itemName" : "HPBA_slopedspringpanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "HPBA_slopedspringpanelicon.png",
+  "shortdescription" : "Spring Hull Panel",
+  "description" : "Cheap, resilient panelling rarely used for ship and station construction.",
+  "glitchdescription" : "Observant. This is panelling rarely used for ship and station construction.",
+  "florandescription" : "Shiny sssmooth space wood.",
+  "novakiddescription" : "Some thick metal plating, with a wood veneer, looks mighty solid.",
+  "learnBlueprintsOnPickup" : [ "HPBA_slopedspringpanel" ],
+
+  "materialId" : 42978
+}

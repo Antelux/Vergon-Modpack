@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_macrocircuittraceb",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_macrocircuitboard",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

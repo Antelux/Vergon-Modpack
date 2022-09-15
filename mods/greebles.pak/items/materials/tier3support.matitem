@@ -1,0 +1,10 @@
+{
+  "itemName" : "tier3support",
+  "rarity" : "Common",
+  "inventoryIcon" : "tier3supporticon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Titanium support.",
+  "shortdescription" : "Titanium Support",
+
+  "materialId" : 2323
+}

@@ -1,0 +1,41 @@
+{
+  "objectName" : "letheia_extra_11",
+  "colonyTags" : ["misc","commerce"],
+  "rarity" : "Common",
+  "description" : "A red and white vending machine selling numi plushies.",
+  "shortdescription" : "Numi Vending Machine",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 200,
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/letheiastore.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Vending Machine",
+        "subtitle" : " Numi Plushies"
+      }
+    },
+    "buyFactor" : 0.4,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "numiplush" },
+      { "item" : "plushienumismall" }
+    ]
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheia_extra_11.png:<color>",
+      "imagePosition" : [-24, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

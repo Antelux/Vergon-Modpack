@@ -1,0 +1,17 @@
+{
+  "input": [
+    { "item": "limestone",
+      "count": 1 },
+    { "item": "liquidwater",
+      "count": 3 },
+    { "item": "sand2",
+      "count": 2 },
+    { "item": "gravelmaterial",
+      "count": 3 }
+  ],
+  "output": { "item": "HPB_concretehull",
+      "count": 20
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

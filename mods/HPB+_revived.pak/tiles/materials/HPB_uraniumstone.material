@@ -1,0 +1,23 @@
+{
+  "materialId": 42312,
+  "materialName": "HPB_uraniumstone",
+  "particleColor": [80, 236, 4, 255],
+  "itemDrop": "HPB_uraniumstone",
+  "shortdescription": "Uranium Cobblestone",
+  "description": "Hard stones, smooth to the touch.",
+  "glitchDescription": "Statement. Cobblestones.",
+  "floranDescription": "Cobblessstone.",
+  "footstepSound": "/sfx/blocks/footstep_stone3.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "uraniumstone_HPB.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "multiColored": false,
+    "occludesBelow": true,
+    "zLevel": 1640
+  }
+}

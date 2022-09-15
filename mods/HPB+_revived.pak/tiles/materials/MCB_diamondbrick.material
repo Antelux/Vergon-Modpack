@@ -1,0 +1,22 @@
+{
+  "materialId" : 42371,
+  "materialName" : "MCB_diamondbrick",
+  "particleColor" : [11, 162, 233, 200],
+  "itemDrop" : "MCB_diamondbrick",
+  "description" : "A diamond block!",
+  "shortdescription" : "Diamond Block",
+  "glitchDescription" : "Analysis. A diamond block.",
+  "floranDescription" : "Diamond block, floran likes.",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 34,
+  "category": "materials",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "MCB_diamondbrick.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

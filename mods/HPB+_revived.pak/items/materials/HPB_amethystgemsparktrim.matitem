@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_amethystgemsparktrim",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "amethystgemsparktrim_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Amethyst Gemspark Trim",
+  "description" : "Amethyst gemspark trim.",
+  "glitchdescription" : "Statement. Gemspark.",
+  "florandescription" : "Pretty glowing gemsss.",
+
+  "materialId" : 42186
+}

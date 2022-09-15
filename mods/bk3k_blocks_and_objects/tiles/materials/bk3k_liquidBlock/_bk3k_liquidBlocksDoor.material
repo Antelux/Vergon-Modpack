@@ -1,0 +1,23 @@
+{
+  "materialId" : 7187,
+  "materialName" : "bk3k_liquidBlockDoor",
+  "particleColor" : [227, 174, 47, 255],
+  "itemDrop" : "bk3k_liquidBlockDoor",
+  "description" : "Mysterious transparent block that inhibits only the passage of liquids",
+  "shortdescription" : "Liquid restricting block",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "category": "materials",
+  //"collisionKind" : "dynamic",
+  "blocksLiquidFlow" : true,
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bk3k_liquidBlock.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 3000,
+    "radiantLight" : [0, 0, 0]
+  }
+}

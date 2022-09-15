@@ -1,0 +1,33 @@
+{
+  "metadata" : {
+    "name" : "letheiaexpandedlegion2",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "legionbunkermicro1","legionbunkermicro2" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "legionbunkermicro1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "legionbunkermicro1.json" ]
+    },
+    {
+      "name" : "legionbunkermicro2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "legionbunkermicro2.json" ]
+    }
+
+  ]
+}

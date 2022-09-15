@@ -1,0 +1,22 @@
+{
+  "materialId" : 16509,
+  "materialName" : "letheiaexpandedtile9",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "letheiaexpandedtile9",
+  "description" : "A light metal connector.",
+  "shortdescription" : "Light Connector",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "letheiaexpandedtile9.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 609,
+    "radiantLight" : [100, 30, 30]
+  }
+}

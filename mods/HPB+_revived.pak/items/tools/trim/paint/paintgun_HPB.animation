@@ -1,0 +1,47 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "weapon" : {
+        "default" : "tool",
+        "states" : {
+          "tool" : {}
+        }
+      }
+    },
+
+    "parts" : {
+      "trimtool" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0.40, 0.22],
+          "rotationGroups" : [ "weapon" ],
+          "rotationCenter" : [0, 0]
+        },
+
+        "partStates" : {
+          "weapon" : {
+            "tool" : {
+              "properties" : {
+                "image" : "<partImage>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "weapon" : {
+      "angularVelocity" : 0
+    }
+  },
+
+  "sounds" : {
+    "wire" : [ "/sfx/tools/wiretool.ogg" ],
+    "pickaxe" : [ "/sfx/tools/pickaxe_hit.ogg" ],
+    "drill" : [ "/sfx/tools/drill_hit.ogg" ],
+    "paint" : [ "/sfx/tools/paint_splash.ogg" ],
+    "atom" : [ "/sfx/tools/atom.ogg", "/sfx/tools/atom2.ogg", "/sfx/tools/atom3.ogg", "/sfx/tools/atom4.ogg", "/sfx/tools/atom5.ogg" ]
+  }
+}

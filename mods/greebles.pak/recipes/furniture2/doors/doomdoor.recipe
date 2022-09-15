@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "refinedviolium", "count" : 1 }
+  ],
+  "output" : { "item" : "doomdoor", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "doors", "all" ]
+}

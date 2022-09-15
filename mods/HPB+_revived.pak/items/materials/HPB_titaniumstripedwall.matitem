@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_titaniumstripedwall",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "titaniumstripedwall_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A colourful wall panel.",
+  "shortdescription" : "Titanium Striped Wall",
+  "glitchdescription" : "Analysis. A wall panel.",
+  "florandescription" : "Wall.",
+
+  "materialId" : 42215
+}

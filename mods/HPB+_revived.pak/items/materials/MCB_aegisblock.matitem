@@ -1,0 +1,11 @@
+{
+  "itemName" : "MCB_aegisblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "MCB_aegisblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An aegisalt block!",
+  "shortdescription" : "Aegisalt Block",
+  "glitchDescription" : "Analysis. An aegisalt block.",
+  "floranDescription" : "Green metal block. Floran likes.",
+  "materialId" : 42366
+}

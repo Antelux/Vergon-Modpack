@@ -1,0 +1,11 @@
+{
+  "itemName" : "letheiaexpandedtile6",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "letheiaexpandedtile6.png",
+  "description" : "A metal railing.",
+  "shortdescription" : "Letheia Railing",
+
+  "materialId" : 16506
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 2364,
+  "materialName" : "tier4framedglass",
+  "particleColor" : [100, 110, 130, 255],
+  "itemDrop" : "tier4framedglass",
+  "description" : "Framed glass reinforced with durasteel wire.",
+  "shortdescription" : "Durasteel Window",
+  "glitchDescription" : "Analysis. Framed glass reinforced with durasteel.",
+  "floranDescription" : "Sssmash tough glass! Prove me strong!",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 7,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "tier4framedglass.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "multiColored" :true,
+    "occludesBelow" : false,
+    "zLevel" : 3500
+  }
+}

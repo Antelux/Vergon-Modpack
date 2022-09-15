@@ -1,0 +1,15 @@
+{
+  "modId" : 42060,
+  "modName" : "HPB_sapphiregem",
+  "description" : "Pretty gemstone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sapphiregem_HPB.png",
+    "variants" : 2,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

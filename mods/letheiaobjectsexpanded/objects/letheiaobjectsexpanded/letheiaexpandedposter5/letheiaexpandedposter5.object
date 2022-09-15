@@ -1,0 +1,25 @@
+{
+  "objectName" : "letheiaexpandedposter5",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A poster showcasing a red Letheia staff.",
+  "shortdescription" : "Orbis Staff Poster",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 500,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "letheiaexpandedposter5.png:<color>",
+      "imagePosition" : [-8, -0],
+	  "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

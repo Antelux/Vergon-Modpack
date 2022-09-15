@@ -1,0 +1,23 @@
+{
+  "materialId": 42105,
+  "materialName": "HPB_hylotlwallpanel",
+  "particleColor": [64, 88, 136, 255],
+  "itemDrop": "HPB_hylotlwallpanel",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Hylotl Wall Panel",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "hylotlwallpanel_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2630
+  }
+}

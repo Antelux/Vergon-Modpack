@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheia_extra_27",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A red sign displaying a drink.",
+  "shortdescription" : "Hanging Drink Sign",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 50,
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheia_extra_27.png:<color>",
+      "imagePosition" : [-8, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

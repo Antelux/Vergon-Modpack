@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_ufoupperhull",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_ufoglowingtrim",
+      "count": 3 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

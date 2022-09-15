@@ -1,0 +1,21 @@
+{
+  "itemName": "rubiumcompound",
+  "price": 120,
+  "category": "craftingMaterial",
+  "rarity": "Rare",
+  "inventoryIcon": "rubiumcompound.png",
+  "description": "Rubium compound.",
+  "shortdescription": "Rubium Compound",
+
+  "learnBlueprintsOnPickup": [
+    /*
+    "ceruliumcompound",
+    "tier9bed",
+    "tier9chair",
+    "tier9door",
+    "tier9light",
+    "tier9switch",
+    "tier9table"
+    */
+  ]
+}

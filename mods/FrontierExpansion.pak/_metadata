@@ -1,0 +1,12 @@
+{
+  "version": "1.4",
+  "author": "AsPerrUsual",
+  "description": "Adds some much needed furniture for Novakids!.",
+  "name": "Frontier Expansion",
+  "friendlyName": "Frontier Expansion",
+  "link": "http://community.playstarbound.com/resources/frontier-expansion.4821",
+  "includes": [
+    "TabulaRasa",
+    "SpawnableItemPack"
+  ]
+}

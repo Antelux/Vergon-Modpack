@@ -1,0 +1,22 @@
+{
+  "materialId": 42030,
+  "materialName": "HPB_floranshipplatform",
+  "collisionKind": "platform",
+  "transparent": true,
+  "itemDrop": "HPB_floranshipplatform",
+  "shortdescription": "Floran Ship Platform",
+  "description": "Platform suitable for a ship.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate": "/tiles/platformtemplate.config",
+  "renderParameters": {
+    "texture": "floranshipplatform_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "platform": true
+  }
+}

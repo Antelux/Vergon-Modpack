@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "diamond",
+      "count": 1 },
+    { "item": "glass",
+      "count": 50 },
+    { "item": "purpledye",
+      "count": 2 }
+  ],
+  "output": { "item": "HPB_tanzanitegemspark",
+      "count": 500 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

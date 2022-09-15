@@ -1,0 +1,23 @@
+{
+  "materialId": 42202,
+  "materialName": "HPB_novakidcreamstripedwall",
+  "particleColor": [186, 170, 124, 255],
+  "itemDrop": "HPB_novakidcreamstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Novakid Cream Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "novakidcreamstripedwall_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2690
+  }
+}

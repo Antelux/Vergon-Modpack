@@ -1,0 +1,9 @@
+{
+  "itemName": "HPB_gelatinrecipe",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "recipegreen_HPB.png",
+  "description": "This card reveals how to make gelatin.",
+  "shortdescription": "Gelatin Recipe Card",
+  "learnBlueprintsOnPickup": [ "HPB_gelatin", "HPB_gelatinblock", "HPB_healinggelatinblock", "HPB_poisongelatinblock" ]
+}

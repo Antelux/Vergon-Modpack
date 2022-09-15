@@ -1,0 +1,24 @@
+{
+  "materialId": 42272,
+  "materialName": "HPB_corefragmenthull",
+  "particleColor": [255, 162, 0, 255],
+  "itemDrop": "HPB_corefragmenthull",
+  "shortdescription": "Core Fragment Plating",
+  "description": "Sheets of ship hull plating.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "corefragmenthull_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000,
+    "radiantLight": [115, 43, 0]
+  }
+}

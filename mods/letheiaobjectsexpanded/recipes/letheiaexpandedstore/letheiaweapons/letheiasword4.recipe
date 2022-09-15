@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 12 },
+    { "item" : "refinedaegisalt", "count" : 4 },
+	{ "item" : "refinedviolium", "count" : 4 },
+	{ "item" : "scorchedcore", "count" : 2 }
+  ],
+  "output" : { "item" : "letheiasword4", "count" : 1 },
+  "duration" : 0.8,
+  "groups"  : [ "letheiaweapons","letheiacrafting1" ]
+}

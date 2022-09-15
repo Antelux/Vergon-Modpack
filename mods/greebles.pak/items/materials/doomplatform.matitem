@@ -1,0 +1,13 @@
+{
+  "itemName" : "doomplatform",
+  "category" : "Platform",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "doomplatformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Strong rubium platforms.",
+  "shortdescription" : "Doom Platform",
+  "glitchdescription" : "Analysis. Strong rubium platform.",
+  "florandescription" : "Red metal.",
+
+  "materialId" : 2409
+}

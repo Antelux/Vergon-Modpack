@@ -1,0 +1,117 @@
+{
+  "metadata" : {
+    "name" : "letheiaexpandedlegion1",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "legionbunker8left","legionbunker8right" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 14,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "legionbunker1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "legionbunker1" ] ],
+        [ "doNotCombineWith", [ "legionbunker2" ] ] 
+      ],
+      "def" : [ "tmx", "legionbunker1.json" ]
+    },
+    {
+      "name" : "legionbunker2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "legionbunker2" ] ],
+        [ "doNotCombineWith", [ "legionbunker1" ] ] 
+      ],
+      "def" : [ "tmx", "legionbunker2.json" ]
+    },
+    {
+      "name" : "legionbunker3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "legionbunker3" ] ]
+      ],
+      "def" : [ "tmx", "legionbunker3.json" ]
+    },
+    {
+      "name" : "legionbunker4",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "legionbunker4" ] ]
+      ],
+      "def" : [ "tmx", "legionbunker4.json" ]
+    },
+    {
+      "name" : "legionbunker5",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "legionbunker5" ] ]
+      ],
+      "def" : [ "tmx", "legionbunker5.json" ]
+    },
+    {
+      "name" : "legionbunker6",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "legionbunker6" ] ]
+      ],
+      "def" : [ "tmx", "legionbunker6.json" ]
+    },
+    {
+      "name" : "legionbunker7",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "legionbunker7" ] ]
+      ],
+      "def" : [ "tmx", "legionbunker7.json" ]
+    },
+    {
+      "name" : "legionbunkersmall1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "legionbunkersmall1" ] ]
+      ],
+      "def" : [ "tmx", "legionbunkersmall1.json" ]
+    },
+    {
+      "name" : "legionbunkersmall2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "legionbunkersmall2" ] ]
+      ],
+      "def" : [ "tmx", "legionbunkersmall2.json" ]
+    },
+    {
+      "name" : "legionbunkersmall3",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "legionbunkersmall3" ] ]
+      ],
+      "def" : [ "tmx", "legionbunkersmall3.json" ]
+    },
+	
+    {
+      "name" : "legionbunker8left",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "legionbunker8left.json" ] ],
+      "chance" : 0
+    },
+    {
+      "name" : "legionbunker8right",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "legionbunker8right.json" ] ],
+      "chance" : 0
+    }
+
+  ]
+}

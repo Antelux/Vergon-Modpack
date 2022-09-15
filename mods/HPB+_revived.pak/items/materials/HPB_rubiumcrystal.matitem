@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_rubiumcrystal",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rubiumcrystal_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Light seems to twist inside the crystals.",
+  "shortdescription" : "Rubium Crystal",
+  "glitchdescription" : "Admiration. A beautiful rubium crystal.",
+  "florandescription" : "Pretty cryssstal.",
+
+  "materialId" : 42317
+}

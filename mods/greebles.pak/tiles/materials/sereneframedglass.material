@@ -1,0 +1,23 @@
+{
+  "materialId" : 2365,
+  "materialName" : "sereneframedglass",
+  "particleColor" : [130, 170, 40, 255],
+  "itemDrop" : "sereneframedglass",
+  "description" : "Framed glass reinforced with aegisalt wire.",
+  "shortdescription" : "Serene Window",
+  "glitchDescription" : "Analysis. Framed glass reinforced with aegisalt.",
+  "floranDescription" : "Sssmash tough glass! Prove me strong!",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 12,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "sereneframedglass.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "multiColored" :true,
+    "occludesBelow" : false,
+    "zLevel" : 3500
+  }
+}

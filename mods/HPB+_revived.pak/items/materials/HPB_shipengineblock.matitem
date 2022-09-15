@@ -1,0 +1,16 @@
+{
+  "itemName" : "HPB_shipengineblock",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "shipengineblock_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Ship Engine Block",
+  "description" : "Star ship engine block.",
+  "glitchdescription" : "Statement. Star ship engine.",
+  "florandescription" : "Ssship engine.",
+  "learnBlueprintsOnPickup" : [
+    "shipengineblock"
+  ],
+
+  "materialId" : 42041
+}

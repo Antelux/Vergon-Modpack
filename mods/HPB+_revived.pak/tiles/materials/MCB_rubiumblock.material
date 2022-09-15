@@ -1,0 +1,22 @@
+{
+  "materialId" : 42378,
+  "materialName" : "MCB_rubiumblock",
+  "particleColor" : [165, 6, 6, 255],
+  "itemDrop" : "MCB_rubiumblock",
+  "description" : "A rubium block!",
+  "shortdescription" : "Rubium Block",
+  "glitchDescription" : "Analysis. A rubium block.",
+  "floranDescription" : "Red rubium block. Floran likes!",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 34,
+  "category": "materials",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "MCB_rubiumblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : { "item" : "MCB_goldbrick", "count" :50 },
+  "duration" : 0.0,
+  "groups" : [ "craftingfurniture2", "materials", "all" ]
+}

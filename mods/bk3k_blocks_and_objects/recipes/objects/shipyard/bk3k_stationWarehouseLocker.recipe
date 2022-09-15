@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 1 },
+    { "item" : "silverbar", "count" : 1 }
+  ],
+  "output" : { "item" : "bk3k_stationWarehouseLocker", "count" : 1 },
+  "groups" : [ "mod", "bk3k", "bk3k_object" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "tier3beam",
+  "rarity" : "Common",
+  "inventoryIcon" : "tier3beamicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Titanium support beam.",
+  "shortdescription" : "Titanium Beam",
+
+  "materialId" : 2333
+}

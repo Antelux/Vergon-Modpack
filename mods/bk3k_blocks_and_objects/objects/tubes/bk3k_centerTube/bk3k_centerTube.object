@@ -1,0 +1,175 @@
+{
+  "objectName" : "bk3k_centerTube",
+  "colonyTags" : [],
+  "rarity" : "Common",
+
+  "category" : "generic",
+  "price" : 2000,
+  "printable" : false,
+  "description" : "This airtight tube can connect sealed sections of a colony or ship.",
+  "shortdescription" : "Center Tube",
+  "race" : "generic",
+  
+  "health" : 15,
+  //"closedLight" : [20, 20, 20],
+  "inventoryIcon" : "bk3k_tubeBack.png",
+  "imageLayers" : [
+    { "image" : "bk3k_tubeBack.png", "fullbright" : true },
+    { "image" : "bk3k_tubeFront.png", "fullbright" : true }
+  ],
+  "direction" : "left",
+  "flipImages" : false,
+  "imagePosition" : [0, 0],
+  "animationPosition" : [0, 0],
+  "orientations" : [
+    {
+      "imageLayers" : [
+        { "image" : "bk3k_tubeBack.png", "fullbright" : true },
+        { "image" : "bk3k_tubeFront.png", "fullbright" : true }
+      ],
+      "renderLayer" : "Player+5",
+      "fgAnchors" : [ [-1, 2], [-1, 11] ] //left side
+    },
+    {
+      "imageLayers" : [
+        { "image" : "bk3k_tubeBack.png", "fullbright" : true },
+        { "image" : "bk3k_tubeFront.png", "fullbright" : true }
+      ],
+      "renderLayer" : "Player+5",
+      "fgAnchors" : [ [20, 2], [20, 11] ] //right side
+    },
+    {
+      "imageLayers" : [
+        { "image" : "bk3k_tubeBack.png", "fullbright" : true },
+        { "image" : "bk3k_tubeFront.png", "fullbright" : true }
+      ],
+      "renderLayer" : "Player+5",
+      "fgAnchors" : [ [5, 14], [14, 14] ] //top side
+    },
+    {
+      "imageLayers" : [
+        { "image" : "bk3k_tubeBack.png", "fullbright" : true },
+        { "image" : "bk3k_tubeFront.png", "fullbright" : true }
+      ],
+      "renderLayer" : "Player+5",
+      "fgAnchors" : [ [5, -1], [14, -1] ] //bottom side
+    }
+  ],
+  "scripts" : [ "bk3k_tube.lua" ],
+  "scriptDelta" : 5,
+
+  
+  "animation" : "/objects/tubes/bk3k_tube.animation",  //probably no animations unless I make an energy tube
+  "animationCustom" : {
+    "sounds" : {
+      "default" : [ ]
+    }
+  },
+  "animationParts" : {
+    "mainObject" : "bk3k_tubeBack.png",
+    "foreground" : "bk3k_tubeFront.png"
+  },
+  
+  "wallMaterial" : "metamaterial:objectsolid",
+  "background_material" : "bk3k_lighterBlackGlass",
+    
+  "wallPoints" : [
+    [
+      [0, 2],
+      [5, 2],
+      [5, 0]
+    ],
+    
+    [
+      [14, 0],
+      [14, 2],
+      [19, 2]
+    ],
+    
+    [
+      [0, 11],
+      [5, 11],
+      [5, 13]
+    ],
+    
+    [
+      [14, 13],
+      [14, 11],
+      [19, 11]
+    ]
+  ],
+   
+  "wallMaterialSpaces" : [
+    [ [0, 2], "metamaterial:objectsolid" ],
+    [ [1, 2], "metamaterial:objectsolid" ],
+    [ [2, 2], "metamaterial:objectsolid" ],
+    [ [3, 2], "metamaterial:objectsolid" ],
+    [ [4, 2], "metamaterial:objectsolid" ],
+    [ [5, 2], "metamaterial:objectsolid" ],
+    [ [5, 1], "metamaterial:objectsolid" ],
+    [ [5, 0], "metamaterial:objectsolid" ],
+    [ [14, 0], "metamaterial:objectsolid" ],
+    [ [14, 1], "metamaterial:objectsolid" ],
+    [ [14, 2], "metamaterial:objectsolid" ],
+    [ [15, 2], "metamaterial:objectsolid" ],
+    [ [16, 2], "metamaterial:objectsolid" ],
+    [ [17, 2], "metamaterial:objectsolid" ],
+    [ [18, 2], "metamaterial:objectsolid" ],
+    [ [19, 2], "metamaterial:objectsolid" ],
+    [ [0, 11], "metamaterial:objectsolid" ],
+    [ [1, 11], "metamaterial:objectsolid" ],
+    [ [2, 11], "metamaterial:objectsolid" ],
+    [ [3, 11], "metamaterial:objectsolid" ],
+    [ [4, 11], "metamaterial:objectsolid" ],
+    [ [5, 11], "metamaterial:objectsolid" ],
+    [ [5, 12], "metamaterial:objectsolid" ],
+    [ [5, 13], "metamaterial:objectsolid" ],
+    [ [14, 13], "metamaterial:objectsolid" ],
+    [ [14, 12], "metamaterial:objectsolid" ],
+    [ [14, 11], "metamaterial:objectsolid" ],
+    [ [15, 11], "metamaterial:objectsolid" ],
+    [ [16, 11], "metamaterial:objectsolid" ],
+    [ [17, 11], "metamaterial:objectsolid" ],
+    [ [18, 11], "metamaterial:objectsolid" ],
+    [ [19, 11], "metamaterial:objectsolid" ]
+  ],
+  
+  "spaces" : [
+    [0, 2],
+    [1, 2],
+    [2, 2],
+    [3, 2],
+    [4, 2],
+    [5, 2],
+    [5, 1],
+    [5, 0],
+    [14, 0],
+    [14, 1],
+    [14, 2],
+    [15, 2],
+    [16, 2],
+    [17, 2],
+    [18, 2],
+    [19, 2],
+    [0, 11],
+    [1, 11],
+    [2, 11],
+    [3, 11],
+    [4, 11],
+    [5, 11],
+    [5, 12],
+    [5, 13],
+    [14, 13],
+    [14, 12],
+    [14, 11],
+    [15, 11],
+    [16, 11],
+    [17, 11],
+    [18, 11],
+    [19, 11]
+  ],
+  //"backgroundSpaces" : [ ],
+  
+  "doDebug" : true
+  
+}

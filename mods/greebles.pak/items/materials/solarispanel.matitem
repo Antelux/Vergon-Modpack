@@ -1,0 +1,10 @@
+{
+  "itemName" : "solarispanel",
+  "rarity" : "Rare",
+  "inventoryIcon" : "solarispanelicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Solaris panel.",
+  "shortdescription" : "Solaris Panel",
+
+  "materialId" : 2411
+}

@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "tungstenbar",
+      "count": 1 },
+    { "item": "ironbar",
+      "count": 1 },
+    { "item": "liquidwater",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_rustyshiphull",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

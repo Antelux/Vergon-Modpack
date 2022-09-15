@@ -1,0 +1,25 @@
+{
+  "objectName" : "letheiaexpandedreinforcedcounter",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A black and red metallic counter.",
+  "shortdescription" : "Reinforced Counter",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 200,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedreinforcedcounter.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

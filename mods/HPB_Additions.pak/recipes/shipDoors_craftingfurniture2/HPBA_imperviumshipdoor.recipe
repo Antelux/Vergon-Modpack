@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "refinedviolium", "count": 1 },
+    { "item": "goldbar", "count": 1 },
+    { "item": "smallbattery",
+      "count": 2 },
+    { "item": "wire",
+      "count": 10 }
+  ],
+  "output": { "item": "HPB_imperviumshipdoor",
+      "count": 2 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "doors", "all" ]
+}

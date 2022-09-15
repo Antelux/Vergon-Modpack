@@ -1,0 +1,21 @@
+{
+  "materialId" : 16511,
+  "materialName" : "letheiaexpandedtile11",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "letheiaexpandedtile11",
+  "description" : "A light metal wall used in Letheia offices.",
+  "shortdescription" : "LLW Front Variant",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "letheiaexpandedtile11.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 605
+  }
+}

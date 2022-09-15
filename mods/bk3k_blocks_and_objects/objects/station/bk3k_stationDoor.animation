@@ -1,0 +1,89 @@
+{
+  "globalTagDefaults" : {
+    "doorDirection" : "Right"
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "doorState" : {
+        "default" : "closed",
+        "states" : {
+          "opening" : {
+            "frames" : 5,
+            "cycle" : 0.30,
+            "mode" : "transition",
+            "transition" : "open"
+          },
+          "open" : { },
+          "closing" : {
+            "frames" : 5,
+            "cycle" : 0.30,
+            "mode" : "transition",
+            "transition" : "closed"
+          },
+          "closed" : { },
+          "locking" : {
+            "frames" : 5,
+            "cycle" : 0.30,
+            "mode" : "transition",
+            "transition" : "locked"
+          },
+          "locked" : { }
+        }
+      }
+    },
+
+    "parts" : {
+      "door" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "doorState" : {
+            "opening" : {
+              "properties" : {
+                "image" : "<partImage>:opening.<frame>"
+              }
+            },
+            "open" : {
+              "properties" : {
+                "image" : "<partImage>:open"
+              }
+            },
+
+            "closing" : {
+              "properties" : {
+                "image" : "<partImage>:closing.<frame>"
+              }
+            },
+
+            "closed" : {
+              "properties" : {
+                "image" : "<partImage>:closed.1"
+              }
+            },
+
+            "locking" : {
+              "properties" : {
+                "image" : "<partImage>:locking.<frame>"
+              }
+            },
+
+            "locked" : {
+              "properties" : {
+                "image" : "<partImage>:locked"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "open" : [],
+    "close" : [],
+    "locked" : [ "/sfx/interface/clickon_error.ogg" ]
+  }
+}

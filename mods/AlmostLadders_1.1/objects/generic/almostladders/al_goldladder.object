@@ -1,0 +1,24 @@
+{
+  "objectName" : "al_goldladder",
+  "colonyTags" : ["misc"],
+  "rarity" : "legendary",
+  "description" : "A ridiculously expensive ladder which functions only as a decorative platform.",
+  "shortdescription" : "Gold Ladder",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 500,
+  "scannable" : true,
+  "printable" : true,
+  "inventoryIcon" : "al_goldladderICON.png",
+  "orientations" : [
+    {
+      "image" : "al_goldladder.png:<color>",
+      "imagePosition" : [-8, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [  ],
+      "collision" : "platform"
+    }
+  ]
+}

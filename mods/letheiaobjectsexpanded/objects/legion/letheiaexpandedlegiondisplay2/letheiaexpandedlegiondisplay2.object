@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheiaexpandedlegiondisplay2",
+  "colonyTags" : ["misc"],
+  "rarity" : "Rare",
+  "description" : "A Legion gun display.",
+  "shortdescription" : "LE Pistol Display",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 200,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedlegiondisplay2.png:<color>",
+      "imagePosition" : [-8, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : []
+
+    }
+  ]
+}

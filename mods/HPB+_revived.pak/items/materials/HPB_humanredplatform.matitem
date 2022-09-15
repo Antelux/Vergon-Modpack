@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_humanredplatform",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "humanredplatform_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Platform suitable for a ship.",
+  "shortdescription" : "Human Red Platform",
+  "glitchdescription" : "Statement. Ship platform.",
+  "florandescription" : "Ssship platform.",
+
+  "materialId" : 42033
+}

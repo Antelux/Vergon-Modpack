@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_rubygemsparktrim",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rubygemsparktrim_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Ruby Gemspark Trim",
+  "description" : "Ruby gemspark trim.",
+  "glitchdescription" : "Statement. Gemspark.",
+  "florandescription" : "Pretty glowing gemsss.",
+
+  "materialId" : 42181
+}

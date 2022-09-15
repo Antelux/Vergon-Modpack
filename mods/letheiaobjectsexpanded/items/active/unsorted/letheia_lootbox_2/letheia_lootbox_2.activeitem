@@ -1,0 +1,24 @@
+{
+  "itemName" : "letheia_lootbox_2",
+  "price" : 1000,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward",
+  "description" : "A box containing a complete set of letheia executive furnitures!",
+  "shortdescription" : "Letheia Executive Pack",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "letheia_lootbox_2.png",
+  "animation" : "letheia_lootbox_2.animation",
+  "animationCustom" : {},
+  "scripts" : ["letheia_lootbox_2.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "letheia_lootbox_2",
+    "level" : 1
+  }
+}

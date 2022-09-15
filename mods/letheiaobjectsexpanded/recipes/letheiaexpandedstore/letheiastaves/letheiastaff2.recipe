@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "letheiastaff1", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 10 },
+	{ "item" : "corefragmentore", "count" : 10 }
+  ],
+  "output" : { "item" : "letheiastaff2", "count" : 1 },
+  "duration" : 0.8,
+  "groups"  : [ "letheiastaves","letheiacrafting3" ]
+}

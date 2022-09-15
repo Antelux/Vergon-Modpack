@@ -1,0 +1,11 @@
+{
+  "itemName" : "executiveblock",
+  "category" : "Block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "executiveblockicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Impervium block.",
+  "shortdescription" : "Executive Block",
+
+  "materialId" : 2390
+}

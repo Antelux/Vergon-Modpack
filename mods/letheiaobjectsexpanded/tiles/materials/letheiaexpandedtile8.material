@@ -1,0 +1,21 @@
+{
+  "materialId" : 16508,
+  "materialName" : "letheiaexpandedtile8",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "letheiaexpandedtile8",
+  "description" : "A dark metal support beam.",
+  "shortdescription" : "Dark Support",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "letheiaexpandedtile8.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 608
+  }
+}

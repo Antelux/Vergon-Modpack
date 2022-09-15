@@ -1,0 +1,16 @@
+{
+  "itemName": "dreadwreckage",
+  "rarity": "Common",
+  "inventoryIcon": "dreadwreckage.png",
+  "description": "Wreckage from Dreadwing's ship.",
+  "category": "craftingMaterial",
+  "itemTags": [ "reagent" ],
+  "shortdescription": "Dreadwing's Wreckage",
+  "learnBlueprintsOnPickup": [
+    "HPB_ufoupperhull",
+    "HPB_ufoshipdoor",
+    "HPB_ufowallpanel",
+    "HPB_ufostripedwall",
+    "HPB_ufolowerhull"
+  ]
+}

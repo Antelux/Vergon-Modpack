@@ -1,0 +1,11 @@
+{
+  "itemName" : "executivetiles",
+  "category" : "Block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "executivetilesicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Impervium tiles.",
+  "shortdescription" : "Executive Tiles",
+
+  "materialId" : 2310
+}

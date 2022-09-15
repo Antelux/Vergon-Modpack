@@ -1,0 +1,23 @@
+{
+  "materialId": 42254,
+  "materialName": "HPB_pixelblock",
+  "particleColor": [226, 218, 117, 255],
+  "itemDrop": "HPB_pixelblock",
+  "description": "It's a bunch of pixels welded together.",
+  "shortdescription": "Pixel Block",
+  "glitchDescription": "Statement. Pixel block.",
+  "floranDescription": "Pixelsss.",
+  "footstepSound": "/sfx/blocks/footstep_stone.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "pixelblock_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": false,
+    "zLevel": 3000
+  }
+}

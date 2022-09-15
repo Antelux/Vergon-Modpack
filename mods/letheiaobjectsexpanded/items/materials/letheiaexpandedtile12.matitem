@@ -1,0 +1,11 @@
+{
+  "itemName" : "letheiaexpandedtile12",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "letheiaexpandedtile12.png",
+  "description" : "A dark metal wall used in Letheia offices.",
+  "shortdescription" : "LDW Front Variant",
+
+  "materialId" : 16512
+}

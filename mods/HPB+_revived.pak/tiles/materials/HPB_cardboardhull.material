@@ -1,0 +1,23 @@
+{
+  "materialId": 42223,
+  "materialName": "HPB_cardboardhull",
+  "particleColor": [197, 165, 108, 255],
+  "itemDrop": "HPB_cardboardhull",
+  "shortdescription": "Cardboard Sheet",
+  "description": "Sheets of cardboard.",
+  "glitchDescription": "Statement. Sheet of cardboard.",
+  "floranDescription": "Cardboard.",
+  "footstepSound": "/sfx/blocks/footstep_wood.ogg",
+  "health": 1,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "cardboardhull_HPB.png",
+    "variants": 3,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3200
+  }
+}

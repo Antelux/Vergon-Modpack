@@ -1,0 +1,13 @@
+
+{
+  "input": [
+    { "item": "cobblestonematerial",
+      "count": 50 },
+    { "item": "solidfuel",
+      "count": 2 }
+  ],
+  "output": { "item": "HPB_uraniumstone",
+      "count": 50 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

@@ -1,0 +1,27 @@
+{
+  "itemName" : "bk3k_shiprepairkit",
+  "rarity" : "Legendary",
+  "category" : "Upgrade Component",
+  "inventoryIcon" : "shiprepairkit.png",
+  "image" : "shiprepairkit.png",
+  "largeImage" : "shiprepairkitBig.png",
+
+  "shortdescription" : "Basic Ship Repair Kit",
+  "description" : "Contains the nanites S.A.I.L needs to repair the ship structure and less complex systems.",
+  "price" : 250,
+  
+  //"breakSound" : "/sfx/tools/pickaxe_break.ogg",
+  //"consumeOnPickup" : true,
+  //"pickupQuestTemplates" : ["illegalshipupgrade5"],
+  
+  "radioMessagesOnPickup" : [
+    //"bk3k_shiprepairkit",
+    //"bk3k_catastrophic_failure",
+    //"bk3k_FTL_stillDown",
+    //"bk3k_shipYard_available"
+  ],
+  
+  "shipUpgrade" : 2
+  //"unlockMessage" : "You should be pleased to know that although the nanites you aquired where past their stated operational storage date and lacking several critical firmware updates, they almost performed within expected parameters.  I estimate the chance of catatrophic failure to be nearly within acceptible margins."
+  //"unlockMessage" : "Great! While there's still some work to be done on the FTL drive, you should be able to at least reach another planet in the solar system now."
+}

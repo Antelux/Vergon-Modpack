@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheia_extra_28",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Some sort of a drink in a glass.",
+  "shortdescription" : "Decorative Drink",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 50,
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheia_extra_28.png:<color>",
+      "imagePosition" : [-0, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

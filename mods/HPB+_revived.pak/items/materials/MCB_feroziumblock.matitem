@@ -1,0 +1,11 @@
+{
+  "itemName" : "MCB_feroziumblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "MCB_feroziumblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A Ferozium block!",
+  "shortdescription" : "Ferozium Block",
+  "glitchDescription" : "Analysis. A ferozium block.",
+  "floranDescription" : "Ferozium block. Floran likes color.",
+  "materialId" : 42374
+}

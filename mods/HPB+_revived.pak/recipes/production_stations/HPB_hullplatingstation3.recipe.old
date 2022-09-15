@@ -1,0 +1,12 @@
+{
+  "input": [
+    { "item": "HPB_hullplatingstation2",
+      "count": 1 },
+    { "item": "diamond",
+      "count": 2 }
+  ],
+  "output": { "item": "HPB_hullplatingstation3",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "inventorstable3", "craftingstations", "all" ]
+}

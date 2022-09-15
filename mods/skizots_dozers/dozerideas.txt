@@ -1,0 +1,35 @@
+skizots dozers glad giraffe planning
+-lpk dec20215
+
+transfer main parts to GG vehicle type (copy mech as needed like skiz originally did)
+
+use block damage code from v49 to eliminate junk blocks while keeping good ones
+
+pri fire to dig fg, alt fire for bg
+
+aim to dig up/dn
+
+headlights?
+
+
+
+minidozer done:
+vehicle file except warpin anim
+animation except ""
+
+minidozer todo:
+gfx
+- 'pokeball' -- use 90deg rotated cf, make full indicator more visible
+lua
+- store code for repicking up
+- damage?
+- 
+
+
+megadozer done:
+nada
+
+megadozer todo
+vehicle file
+anim
+lua

@@ -1,5 +1,8 @@
 require "/tech/doubletap.lua"
 
+local isThinking = false
+local lastThinking = 0
+
 function init()
   self.energyCostPerSecond = config.getParameter("energyCostPerSecond")
   self.dashControlForce = config.getParameter("dashControlForce")
@@ -16,13 +19,40 @@ function init()
         startDash(direction)
       end
     end)
+
+  _G.math.setThinkingBubbles = function(bool)
+
+    if isThinking ~= bool then
+
+      animator.setAnimationState('blinking', bool and 'chat_loop1' or 'off')
+      isThinking = bool
+
+    end
+
+    lastThinking = bool and os.clock() or 0
+
+  end
+
 end
 
 function uninit()
+  
   status.clearPersistentEffects("movementAbility")
+  animator.setAnimationState('blinking', 'off')
+  _G.math.setThinkingBubbles = nil
+
 end
 
 function update(args)
+
+  if ((os.clock() - lastThinking) > 3) and isThinking then
+
+    animator.setAnimationState('blinking', 'off')
+    lastThinking = 0
+    isThinking = false
+
+  end
+
   self.doubleTap:update(args.dt, args.moves)
 
   if self.dashDirection then
@@ -34,14 +64,14 @@ function update(args)
         if status.overConsumeResource("energy", self.energyCostPerSecond * args.dt) then
           mcontroller.controlModifiers({speedModifier = self.dashSpeedModifier})
           
-          animator.setAnimationState("dashing", "on")
-          animator.setParticleEmitterActive("dashParticles", true)
+          --animator.setAnimationState("dashing", "on")
+          --animator.setParticleEmitterActive("dashParticles", true)
         else
           endDash()
         end
       else
-        animator.setAnimationState("dashing", "off")
-        animator.setParticleEmitterActive("dashParticles", false)
+        --animator.setAnimationState("dashing", "off")
+        --animator.setParticleEmitterActive("dashParticles", false)
       end
     else
       endDash()

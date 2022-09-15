@@ -1,0 +1,24 @@
+{
+  "materialId": 42185,
+  "materialName": "HPB_ambergemsparktrim",
+  "particleColor": [255, 127, 0, 255],
+  "itemDrop": "HPB_ambergemsparktrim",
+  "description": "Amber gemspark trim.",
+  "shortdescription": "Amber Gemspark Trim",
+  "glitchDescription": "Statement. Gemspark.",
+  "floranDescription": "Pretty glowing gemsss.",
+  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "ambergemsparktrim_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "radiantLight": [220, 110, 0]
+  }
+}

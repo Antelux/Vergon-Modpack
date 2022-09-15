@@ -1,0 +1,11 @@
+{
+  "itemName" : "executiveroofing",
+  "category" : "Block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "executiveroofingicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Impervium roofing.",
+  "shortdescription" : "Executive Roofing",
+
+  "materialId" : 2300
+}

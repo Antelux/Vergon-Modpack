@@ -1,0 +1,89 @@
+{
+  "objectName" : "greebleL1",
+  "colonyTags" : ["misc","tier3"],
+  "printable" : false,
+  "rarity" : "common",  
+  "category" : "decorative",
+  
+  "price" : 35,
+  "description" : "An aesthetic titanium embellishment.",
+  "shortdescription" : "Greeble-Ti1L",
+  "race" : "generic",
+ 
+  "apexDescription" : "A tasteful aesthetic titanium embellishment.",
+  "avianDescription" : "An aesthetic titanium embellishment.",
+  "floranDescription" : "Titanium thing doesss what?",
+  "glitchDescription" : "Curious. This titanium object appears to have no function.",
+  "humanDescription" : "I believe they call this kind of embellishment a greeble.",
+  "hylotlDescription" : "An aesthetic titanium embellishment.",
+  "novakidDescription" : "Nice piece o' titanium styling there.",
+ 
+  "inventoryIcon" : "tier3greebleL1icon.png",
+ 
+  "orientations" : [
+    {
+      "image" : "tier3greebleL1.png",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1,0],[-1,-1], [0,-1] ],
+      "fgAnchors" : [ [0,0] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "tier3greebleL1.png?flipx",   
+      "imagePosition" : [0,-8],
+      "spaces" : [ [1,0], [1,-1], [0,-1] ],
+      "fgAnchors" : [ [0,0 ] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "tier3greebleL1.png?flipy",   
+      "imagePosition" : [-8,0],
+      "spaces" : [ [-1,1], [0,1], [-1,0] ],
+      "fgAnchors" : [ [0,0] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "tier3greebleL1.png?flipxy",   
+      "imagePosition" : [0,0],
+      "spaces" : [ [0,1], [1,1], [1,0] ],
+      "fgAnchors" : [ [0,0] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "tier3greebleL1inverted.png",
+      "imagePosition" : [0,0],
+      "spaces" : [ [0,1], [0,0], [1,0] ],
+      "fgAnchors" : [ [-1,1],[-1,0],[0,-1],[1,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "tier3greebleL1inverted.png?flipx",
+      "imagePosition" : [-8,0],
+      "spaces" : [ [0,1], [0,0], [-1,0] ],
+      "fgAnchors" : [ [1,1],[1,0],[-1,-1],[0,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "tier3greebleL1inverted.png?flipy",
+      "imagePosition" : [0,-8],
+      "spaces" : [ [0,0],[1,0],[0,-1] ],
+      "fgAnchors" : [ [0,1],[1,1],[-1,0],[-1,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "tier3greebleL1inverted.png?flipxy",
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [-1,0],[0,0],[0,-1] ],
+      "fgAnchors" : [ [-1,1],[0,1],[1,0],[1,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    }
+  ]
+}

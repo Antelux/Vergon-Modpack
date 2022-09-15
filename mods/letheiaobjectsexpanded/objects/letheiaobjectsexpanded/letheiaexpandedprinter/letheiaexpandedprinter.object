@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheiaexpandedprinter",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A standard office printer.",
+  "shortdescription" : "Letheia Printer",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 150,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedprinter.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

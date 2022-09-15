@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "bk3k_craftingtable" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "lightedplatform1" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "lightedplatform2" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "lightedplatform3" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "lightedplatform4" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "lightedplatform5" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "lightedplatform6" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "lightedplatform7" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "bk3k_airlock" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "bk3k_airlock_horizontal" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "bk3k_ancientlightplatform" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "bk3k_hanging_farm_light" }
+    },
+    {
+      "op" : "add",
+      "path" : "/defaultBlueprints/tier1/-",
+      "value" : { "item" : "bk3k_stationWarehouseLocker" }
+    }
+  ],
+
+  [
+    {
+      "op" : "test",
+      "path" : "/modEnvironment",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/modEnvironment",
+      "value" : {}
+    }
+  ],
+
+  [
+    {
+      "op" : "test",
+      "path" : "/modEnvironment/racial_petSelector",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/modEnvironment/racial_petSelector",
+      "value" : true
+    }
+  ],
+
+  [
+    {
+      "op" : "test",
+      "path" : "/modEnvironment/ownShip_detection",
+      "inverse" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/modEnvironment/ownShip_detection",
+      "value" : true
+    },
+    {
+      "op" : "add",
+      "path" : "/statusControllerSettings/primaryScriptSources/-",
+      "value" : "/scripts/bk3k/playerUtil/is_own_shipWorld.lua"
+    },
+    {
+      "op" : "add",
+      "path" : "/companionsConfig/scripts/-",
+      "value" : "/scripts/bk3k/playerUtil/is_own_shipWorld.lua"
+    }
+  ]
+]

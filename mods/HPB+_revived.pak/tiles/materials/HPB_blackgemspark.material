@@ -1,0 +1,24 @@
+{
+  "materialId": 42179,
+  "materialName": "HPB_blackgemspark",
+  "particleColor": [64, 64, 64, 255],
+  "itemDrop": "HPB_blackgemspark",
+  "description": "Black gemspark block.",
+  "shortdescription": "Black Gemspark",
+  "glitchDescription": "Statement. Gemspark.",
+  "floranDescription": "Pretty glowing gemsss.",
+  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "blackgemspark_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000,
+    "radiantLight": [64, 64, 64]
+  }
+}

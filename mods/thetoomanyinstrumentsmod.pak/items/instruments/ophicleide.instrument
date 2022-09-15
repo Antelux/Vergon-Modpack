@@ -1,0 +1,20 @@
+{
+  "itemName" : "ophicleide",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "ophicleideicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An ophicleide. It's a brass, but a woodwind?",
+  "shortdescription" : "Ophicleide",
+  "largeImage" : "ophicleide.png",
+  "image" : "ophicleide.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "ophicleide.png",
+  "activeAngle" : -6,
+  "activeHandPosition" : [0.05,0.2],
+
+  "handPosition" : [0,0.2],
+  "twoHanded" : true,
+  "kind" : "ophicleide"
+}

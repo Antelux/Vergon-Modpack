@@ -1,0 +1,50 @@
+{
+  "itemName" : "letheiauniformchest",
+  "price" : 200,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestwear",
+  "description" : "A minimal white Letheia uniform.",
+  "shortdescription" : "Letheia Uniform Chest",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "colorOptions" : [
+    // RED
+    { "e0975c" : "d93a3a" },
+    // BLACK
+    { "e0975c" : "555555" },
+    // GREY
+    { "e0975c" : "808080" },
+    // WHITE
+    { "e0975c" : "b6b6b6" },
+    // RED
+    { "e0975c" : "d93a3a" },
+    // ORANGE
+    { "e0975c" : "ea9931" },
+    // YELLOW
+    { "e0975c" : "e2c344" },
+    // GREEN
+    { "e0975c" : "51bd3b" },
+    // BLUE
+    { "e0975c" : "5588d4" },
+    // PURPLE
+    { "e0975c" : "a451c4" },
+    // PINK
+    { "e0975c" : "d35eae" },
+    // BROWN
+    { "e0975c" : "a47844" }
+  ]
+}

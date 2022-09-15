@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "letheiastaff", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 8 },
+	{ "item" : "corefragmentore", "count" : 8 },
+	{ "item" : "livingroot", "count" : 2 }
+  ],
+  "output" : { "item" : "letheiastaff1", "count" : 1 },
+  "duration" : 0.8,
+  "groups"  : [ "letheiastaves","letheiacrafting3" ]
+}

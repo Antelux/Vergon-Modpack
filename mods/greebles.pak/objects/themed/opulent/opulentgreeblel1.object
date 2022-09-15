@@ -1,0 +1,89 @@
+{
+  "objectName" : "opulentgreebleL1",
+  "colonyTags" : ["commerce","opulent"],
+  "printable" : false,
+  "rarity" : "rare",  
+  "category" : "decorative",
+  
+  "price" : 35,
+  "description" : "An aesthetic violium embellishment.",
+  "shortdescription" : "Greeble-Op1L",
+  "race" : "generic",
+ 
+  "apexDescription" : "An aesthetic violium embellishment.",
+  "avianDescription" : "An aesthetic violium embellishment.",
+  "floranDescription" : "Violium thing doesss what?",
+  "glitchDescription" : "Curious. This violium object appears to have no function.",
+  "humanDescription" : "I believe they call this kind of embellishment a greeble.",
+  "hylotlDescription" : "An aesthetic violium embellishment.",
+  "novakidDescription" : "Kinda flashy piece o' violium styling there.",
+ 
+  "inventoryIcon" : "opulentgreebleL1icon.png",
+ 
+  "orientations" : [
+    {
+      "image" : "opulentgreebleL1.png",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [-1, 0], [-1, -1], [0, -1] ],
+      "fgAnchors" : [ [0, 0 ] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "opulentgreebleL1.png?flipx",   
+      "imagePosition" : [0, -8],
+      "spaces" : [ [1, 0], [1, -1], [0, -1] ],
+      "fgAnchors" : [ [0, 0 ] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "opulentgreebleL1top.png",   
+      "imagePosition" : [-8, 0],
+      "spaces" : [ [-1, 1], [0, 1], [-1, 0] ],
+      "fgAnchors" : [ [0, 0 ] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "opulentgreebleL1top.png?flipx",   
+      "imagePosition" : [0, 0],
+      "spaces" : [ [0, 1], [1, 1], [1, 0] ],
+      "fgAnchors" : [ [0, 0 ] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "opulentgreebleL1inverted.png",
+      "imagePosition" : [0,0],
+      "spaces" : [ [0,1], [0,0], [1,0] ],
+      "fgAnchors" : [ [-1,1],[-1,0],[0,-1],[1,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "opulentgreebleL1inverted.png?flipx",
+      "imagePosition" : [-8,0],
+      "spaces" : [ [0,1], [0,0], [-1,0] ],
+      "fgAnchors" : [ [1,1],[1,0],[-1,-1],[0,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "opulentgreebleL1invertedtop.png",
+      "imagePosition" : [0,-8],
+      "spaces" : [ [0,0],[1,0],[0,-1] ],
+      "fgAnchors" : [ [0,1],[1,1],[-1,0],[-1,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "opulentgreebleL1invertedtop.png?flipx",
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [-1,0],[0,0],[0,-1] ],
+      "fgAnchors" : [ [-1,1],[0,1],[1,0],[1,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    }
+  ]
+}

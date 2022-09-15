@@ -1,0 +1,54 @@
+{
+  "objectName" : "Q_unwrecked_wrecksupport",
+  "colonyTags" : ["wreck"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 55,
+  "description" : "A refurbished metal support.",
+  "shortdescription" : "Refurbished Support",
+  "race" : "generic",
+
+  "apexDescription" : "It looks like this support provides plenty of... support.",
+  "avianDescription" : "I hope this is supposed to be holding something up.",
+  "floranDescription" : "Metal very ssstrong.",
+  "glitchDescription" : "Neutral. This support seems structurally sound.",
+  "humanDescription" : "This look like it could hold up a lot of weight.",
+  "hylotlDescription" : "As a load-bearing structure, this is doing the job.",
+  "novakidDescription" : "I would count on this supportin' somethin'.",
+
+  "inventoryIcon" : "Q_unwrecked_wrecksupporticon.png",
+  "orientations" : [
+    {
+      "image" : "Q_unwrecked_wrecksupportleft.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1], [1, 1], [1, 2], [2, 2] ],
+      "fgAnchors" : [ [-1, 0], [2, 3] ]
+    },
+    {
+      "image" : "Q_unwrecked_wrecksupportright.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+
+      "spaces" : [ [0, 0], [0, 1], [-1, 1], [-1, 2], [-2, 2] ],
+      "fgAnchors" : [ [1, 0], [-2, 3] ]
+    },
+    {
+      "image" : "Q_unwrecked_wrecksupportgroundleft.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [-1, 0], [-1, 1], [-2, 1], [-2, 2] ],
+      "fgAnchors" : [ [0, -1], [-3, 2] ]
+    },
+    {
+      "image" : "Q_unwrecked_wrecksupportgroundright.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+
+      "spaces" : [ [0, 0], [1, 0], [1, 1], [2, 1], [2, 2] ],
+      "fgAnchors" : [ [0, -1], [3, 2] ]
+    }
+  ]
+}

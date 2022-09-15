@@ -1,0 +1,16 @@
+{
+  "itemName" : "HPB_cyanbluegemspark",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "cyanbluegemspark_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Cyan-Blue Gemspark",
+  "description" : "Cyan-blue gemspark block.",
+  "glitchdescription" : "Statement. Gemspark.",
+  "florandescription" : "Pretty glowing gemsss.",
+  "learnBlueprintsOnPickup" : [
+    "cyanbluegemsparktrim"
+  ],
+
+  "materialId" : 42178
+}

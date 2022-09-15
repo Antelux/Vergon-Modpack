@@ -1,0 +1,23 @@
+{
+  "materialId": 42278,
+  "materialName": "HPB_corefragmentshipplatform",
+  "collisionKind": "platform",
+  "transparent": true,
+  "itemDrop": "HPB_corefragmentshipplatform",
+  "shortdescription": "Core Ship Platform",
+  "description": "Platform suitable for a ship.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate": "/tiles/platformtemplate.config",
+  "renderParameters": {
+    "texture": "corefragmentshipplatform_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "collisionKind": "platform",
+    "radiantLight": [0.45, 0.17, 0]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "itemName" : "letheiasword5",
+  "price" : 4000,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Turrimar, blade of the Guardian.",
+  "shortdescription" : "Turrimar",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "letheiasword5.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combodoublesword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "letheiasword5.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 1.1,
+    "baseDps" : 12.6
+  },
+
+  "altAbilityType" : "flipslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

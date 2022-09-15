@@ -1,0 +1,23 @@
+{
+  "materialId" : 2335,
+  "materialName" : "serenebeam",
+  "particleColor" : [130, 170, 40, 255],
+  "itemDrop" : "serenebeam",
+  "description" : "Support beam made of aegisalt.",
+  "shortdescription" : "Serene Beam",
+  "glitchDescription" : "Analysis. Aegisalt support beam.",
+  "floranDescription" : "Sssupporty aegisssalt beam.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 12,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "serenebeam.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3190
+  }
+}

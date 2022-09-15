@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pallasteelalloy", "count" : 12 },
+	{ "item" : "scorchedcore", "count" : 4 }
+  ],
+  "output" : { "item" : "letheiaspear5", "count" : 1 },
+  "duration" : 0.8,
+  "groups"  : [ "letheiaweapons","letheiacrafting1" ]
+}

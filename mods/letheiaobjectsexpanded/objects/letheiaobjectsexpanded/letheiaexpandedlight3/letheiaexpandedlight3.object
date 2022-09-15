@@ -1,0 +1,40 @@
+{
+  "objectName" : "letheiaexpandedlight3",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A red floor display light.",
+  "shortdescription" : "Red Floor Light",
+  "race" : "generic",
+  "category" : "light",
+  "price" : 100,
+  
+  "lightColor" : [255, 40, 40],
+  "pointLight" : true,
+  "pointBeam" : 5,
+  "beamAmbience" : 0.15,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "letheiaexpandedlight3.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+	  
+	  "lightPosition" : [1, 0],
+	  "beamAngle" : 90,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "letheiaexpandedlight3.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

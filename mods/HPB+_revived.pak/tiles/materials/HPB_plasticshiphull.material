@@ -1,0 +1,23 @@
+{
+  "materialId": 42067,
+  "materialName": "HPB_plasticshiphull",
+  "particleColor": [217, 217, 217, 255],
+  "itemDrop": "HPB_plasticshiphull",
+  "shortdescription": "Plastic Hull Paneling",
+  "description": "Sheets of plastic ship hull paneling.",
+  "glitchDescription": "Statement. Star ship hull paneling.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_stone.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "plasticshiphull_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

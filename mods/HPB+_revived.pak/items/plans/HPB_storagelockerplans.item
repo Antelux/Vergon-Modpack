@@ -1,0 +1,24 @@
+{
+  "itemName": "HPB_storagelockerplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "blueplans_HPB.png",
+  "description": "These plans reveal how to make racial storage lockers.",
+  "shortdescription": "Racial Storage Locker Plans",
+  "learnBlueprintsOnPickup": [
+    "apexstoragelocker",//
+    "avianstoragelocker",//
+    "HPB_darkfloranstoragelocker",
+    "floranstoragelocker",//
+    "glitchstoragelocker",//
+    "humanstoragelocker",//
+    "hylotlstoragelocker",//
+    "HPB_fishstoragelocker",
+    "HPB_novakidbrassstoragelocker",
+    "HPB_novakidcreamstoragelocker",
+    "HPB_novakidcyanstoragelocker",
+    "novakidstoragelocker",//
+    "HPB_novakidredstoragelocker",
+    "HPB_rustystoragelocker"
+  ]
+}

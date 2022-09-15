@@ -1,0 +1,16 @@
+{
+  "itemName" : "HPB_emeraldgemspark",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "emeraldgemspark_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Emerald Gemspark",
+  "description" : "Emerald gemspark block.",
+  "glitchdescription" : "Statement. Gemspark.",
+  "florandescription" : "Pretty glowing gemsss.",
+  "learnBlueprintsOnPickup" : [
+    "emeraldgemsparktrim"
+  ],
+
+  "materialId" : 42171
+}

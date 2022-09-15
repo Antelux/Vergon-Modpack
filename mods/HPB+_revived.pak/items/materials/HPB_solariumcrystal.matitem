@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_solariumcrystal",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "solariumcrystal_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Light seems to twist inside the crystals.",
+  "shortdescription" : "Solarium Crystal",
+  "glitchdescription" : "Admiration. A beautiful solarium crystal.",
+  "florandescription" : "Pretty cryssstal.",
+
+  "materialId" : 42318
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_fishshipplatform",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "fishshipplatform_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Platform suitable for a ship.",
+  "shortdescription" : "Fish Ship Platform",
+  "glitchdescription" : "Statement. Ship platform.",
+  "florandescription" : "Ssship platform.",
+
+  "materialId" : 42157
+}

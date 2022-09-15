@@ -1,0 +1,20 @@
+{
+  "itemName" : "tuba",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "tubaicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A tuba. Try standing up with it while playing!",
+  "shortdescription" : "Tuba",
+  "largeImage" : "tuba.png",
+  "image" : "tuba.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "tuba.png",
+  "activeAngle" : -10,
+  "activeHandPosition" : [-0.15,0.3],
+
+  "handPosition" : [-0.15,0.3],
+  "twoHanded" : true,
+  "kind" : "tuba"
+}

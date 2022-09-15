@@ -1,0 +1,11 @@
+{
+  "itemName" : "executiveframedglass",
+  "category" : "Block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "executiveframedglassicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Impervium framed glass.",
+  "shortdescription" : "Executive Window",
+
+  "materialId" : 2370
+}

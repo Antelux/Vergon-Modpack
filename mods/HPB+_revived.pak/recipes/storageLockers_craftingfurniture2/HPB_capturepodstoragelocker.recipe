@@ -1,0 +1,17 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 1 },
+    { "item": "platinumbar",
+      "count": 1 },
+    { "item": "tungstenbar",
+      "count": 4 },
+    { "item": "capturepod",
+      "count": 2 }
+  ],
+  "output": { "item": "HPB_capturepodstoragelocker",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "objects", "storage", "all" ]
+}

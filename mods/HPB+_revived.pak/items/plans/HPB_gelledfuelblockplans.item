@@ -1,0 +1,11 @@
+{
+  "itemName": "HPB_gelledfuelblockplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "pinkplans_HPB.png",
+  "description": "These plans reveal how to make gelled fuel blocks.",
+  "shortdescription": "Gelled Fuel Block Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_gelledfuelblock"
+  ]
+}

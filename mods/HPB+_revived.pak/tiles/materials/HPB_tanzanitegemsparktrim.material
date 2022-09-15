@@ -1,0 +1,24 @@
+{
+  "materialId": 42188,
+  "materialName": "HPB_tanzanitegemsparktrim",
+  "particleColor": [127, 0, 255, 255],
+  "itemDrop": "HPB_tanzanitegemsparktrim",
+  "description": "Tanzanite gemspark trim.",
+  "shortdescription": "Tanzanite Gemspark Trim",
+  "glitchDescription": "Statement. Gemspark.",
+  "floranDescription": "Pretty glowing gemsss.",
+  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "tanzanitegemsparktrim_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "radiantLight": [110, 0, 220]
+  }
+}

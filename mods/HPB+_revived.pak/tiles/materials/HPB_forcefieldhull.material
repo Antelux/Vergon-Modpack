@@ -1,0 +1,22 @@
+{
+  "materialId": 42325,
+  "materialName": "HPB_forcefieldhull",
+  "particleColor": [106, 225, 255, 255],
+  "itemDrop": "HPB_forcefieldhull",
+  "shortdescription": "Force Field Block",
+  "description": "Blocks made from solidified energy!",
+  "footstepSound": "/sfx/tech/tech_dashftl1.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "forcefieldhull_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 3000,
+    "radiantLight": [115, 115, 115]
+  }
+}

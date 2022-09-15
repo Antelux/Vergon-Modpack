@@ -1,0 +1,10 @@
+{
+  "itemName" : "solarissupport",
+  "rarity" : "Rare",
+  "inventoryIcon" : "solarissupporticon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Solaris support.",
+  "shortdescription" : "Solaris Support",
+
+  "materialId" : 2415
+}

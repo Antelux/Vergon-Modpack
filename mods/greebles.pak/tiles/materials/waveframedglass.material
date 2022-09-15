@@ -1,0 +1,23 @@
+{
+  "materialId" : 2367,
+  "materialName" : "waveframedglass",
+  "particleColor" : [90, 135, 210, 255],
+  "itemDrop" : "waveframedglass",
+  "description" : "Framed glass reinforced with cerulium.",
+  "shortdescription" : "Wave Window",
+  "glitchDescription" : "Analysis. Framed glass reinforced with cerulium.",
+  "floranDescription" : "Sssmash tough blue glass?",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 10,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "waveframedglass.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "multiColored" :true,
+    "occludesBelow" : false,
+    "zLevel" : 3500
+  }
+}

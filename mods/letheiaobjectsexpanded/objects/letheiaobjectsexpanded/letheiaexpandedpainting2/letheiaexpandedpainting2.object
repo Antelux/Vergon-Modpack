@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheiaexpandedpainting2",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A black and white minimalistic painting.",
+  "shortdescription" : "Small Geometric Painting",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 200,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedpainting2.png:<color>",
+      "imagePosition" : [-8, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

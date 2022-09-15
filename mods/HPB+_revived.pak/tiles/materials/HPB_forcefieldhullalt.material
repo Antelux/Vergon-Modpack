@@ -1,0 +1,22 @@
+{
+  "materialId": 42326,
+  "materialName": "HPB_forcefieldhullalt",
+  "particleColor": [106, 225, 255, 255],
+  "itemDrop": "HPB_forcefieldhullalt",
+  "shortdescription": "Shiny Force Field Block",
+  "description": "Shiny blocks made from solidified energy!",
+  "footstepSound": "/sfx/tech/tech_dashftl1.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "forcefieldhullalt_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 3000,
+    "radiantLight": [115, 115, 115]
+  }
+}

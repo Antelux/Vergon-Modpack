@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 1 },
+    { "item" : "canvas", "count" : 2 }
+  ],
+  "output" : { "item" : "serenetable", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

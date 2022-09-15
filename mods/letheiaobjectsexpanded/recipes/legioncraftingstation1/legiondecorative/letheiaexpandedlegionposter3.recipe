@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "letheiaexpandedlegionposter3", "count" : 1 },
+  "duration" : 0.1,
+  "groups"  : [ "legiondecorative","legioncrafting1" ]
+}

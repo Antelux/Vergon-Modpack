@@ -1,0 +1,11 @@
+{
+  "itemName" : "doomframedglass",
+  "category" : "Block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "doomframedglassicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Rubium framed glass.",
+  "shortdescription" : "Doom Window",
+
+  "materialId" : 2369
+}

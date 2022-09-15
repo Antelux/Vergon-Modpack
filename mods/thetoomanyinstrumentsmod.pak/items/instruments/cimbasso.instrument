@@ -1,0 +1,20 @@
+{
+  "itemName" : "cimbasso",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "cimbasso.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A cimbasso. Who bent my trombone!",
+  "shortdescription" : "Cimbasso",
+  "largeImage" : "cimbasso.png",
+  "image" : "cimbasso.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "cimbasso.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [-0.2,-0.4],
+
+  "handPosition" : [-0.2,-0.4],
+  "twoHanded" : true,
+  "kind" : "cimbasso"
+}

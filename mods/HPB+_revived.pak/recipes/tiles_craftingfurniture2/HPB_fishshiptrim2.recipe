@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_fishscalehull",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_fishshiptrim",
+      "count": 3 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

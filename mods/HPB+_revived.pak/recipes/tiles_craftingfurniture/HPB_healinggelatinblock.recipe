@@ -1,0 +1,12 @@
+{
+  "input": [
+    { "item": "liquidhealing",
+      "count": 20 },
+    { "item": "HPB_gelatin",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_healinggelatinblock",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfood", "materials", "all" ]
+}

@@ -1,0 +1,25 @@
+{
+  "objectName" : "legion_nbrsign_3",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A painted sign.",
+  "shortdescription" : "Number 3 Sign",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 50,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "legion_nbrsign_3.png:<color>",
+      "imagePosition" : [-0, -0],
+	  "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

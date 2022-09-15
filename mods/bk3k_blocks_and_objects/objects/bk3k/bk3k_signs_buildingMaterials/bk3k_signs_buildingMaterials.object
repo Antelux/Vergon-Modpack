@@ -1,0 +1,40 @@
+{
+  "objectName" : "bk3k_signs_buildingMaterials",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 120,
+
+  "description" : "Sign designating building materials so you can find your stuff",
+  "shortdescription" : "Sign",
+  "race" : "common",
+  
+  "lightColor" : [100, 50, 50],
+  "defaultLightState" : true,
+
+  "inventoryIcon" : "/objects/bk3k/bk3k_signs_icon.png",
+  "orientations" : [
+    {
+      "image" : "bk3k_signs_buildingMaterials.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+      "lightPosition" : [3, 0],
+      "animationPosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/bk3k/bk3k_signs.animation",
+  "animationParts" : {
+    "light" : "bk3k_signs_buildingMaterials.png"
+    },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+}

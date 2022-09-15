@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_stonewallpanel",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "stonewallpanel_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A colourful wall panel.",
+  "shortdescription" : "Stone Wall Panel",
+  "glitchdescription" : "Analysis. A wall panel.",
+  "florandescription" : "Wall.",
+
+  "materialId" : 42347
+}

@@ -1,0 +1,21 @@
+{
+  "itemName": "HPB_monstershipplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "cyanplans_HPB.png",
+  "description": "These plans reveal how to make blocks for a star ship made from monsters!",
+  "shortdescription": "Monster Ship Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_monsterhull",
+    "HPB_monstersegmentedhull",
+    "HPB_monsterscalehull",
+    "HPB_monstertrim",
+    "HPB_monstershipplatform",
+    "HPB_monsterwallpanel",
+    "HPB_monsterstripedwall",
+    "HPB_monstercolumn",
+    "HPB_monsterstoragelocker",
+    "HPB_monstershipdoor",
+    "HPB_monstertrimtool"
+  ]
+}

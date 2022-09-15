@@ -1,0 +1,16 @@
+{
+  "input": [
+    { "item": "petalred",
+      "count": 2 },
+    { "item": "petalblue",
+      "count": 2 },
+    { "item": "petalyellow",
+      "count": 2 },
+    { "item": "darkwoodmaterial",
+      "count": 20 }
+  ],
+  "output": { "item": "HPB_springstripedwall",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

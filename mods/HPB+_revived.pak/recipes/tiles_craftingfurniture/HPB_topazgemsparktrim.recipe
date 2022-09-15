@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_topazgemspark",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_topazgemsparktrim",
+      "count": 3 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

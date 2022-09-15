@@ -1,0 +1,10 @@
+{
+  "itemName" : "opulentpanel",
+  "rarity" : "Rare",
+  "inventoryIcon" : "opulentpanelicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Violium panel.",
+  "shortdescription" : "Opulent Panel",
+
+  "materialId" : 2378
+}

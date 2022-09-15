@@ -1,0 +1,22 @@
+{
+  "materialId" : 7170,
+  "materialName" : "vepr_platform2",
+  "collisionKind" : "platform",
+  "itemDrop" : "vepr_platform2",
+  "shortdescription" : "Vepr platform #2",
+  "description" : "Vepr platform #2",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+  "health" : 15,
+  
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "vepr_platform2.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0,
+	  "radiantLight" : [0, 0, 25]
+  }
+}

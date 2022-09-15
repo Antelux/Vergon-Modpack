@@ -1,0 +1,25 @@
+{
+  "materialId" : 2345,
+  "materialName" : "serenegirder",
+  "frames" : "serenegirder.png",
+  "particleColor" : [130, 170, 40, 255],
+  "variants" : 1,
+  "itemDrop" : "serenegirder",
+  "description" : "Girder made of aegisalt.",
+  "shortdescription" : "Serene Girder",
+  "glitchDescription" : "Analysis. Aegisalt girder.",
+  "floranDescription" : "Metal thing.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 12,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "serenegirder.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" :true,
+    "zLevel" : 3320
+  }
+}

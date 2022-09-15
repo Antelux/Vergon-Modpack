@@ -1,0 +1,23 @@
+{
+  "materialId": 42131,
+  "materialName": "HPB_floranshiphullalt",
+  "particleColor": [92, 107, 111, 255],
+  "itemDrop": "HPB_floranshiphullalt",
+  "shortdescription": "Rivetless Floran Plating",
+  "description": "Sheets of ship hull plating.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "floranshiphullalt_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

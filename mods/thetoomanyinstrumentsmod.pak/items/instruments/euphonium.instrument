@@ -1,0 +1,20 @@
+{
+  "itemName" : "euphonium",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "euphoniumicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A euphonium. It's a mini tuba!",
+  "shortdescription" : "Euphonium",
+  "largeImage" : "euphonium.png",
+  "image" : "euphonium.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "euphonium.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [-0.3,0.2],
+
+  "handPosition" : [-0.3,0.3],
+  "twoHanded" : true,
+  "kind" : "euphonium"
+}

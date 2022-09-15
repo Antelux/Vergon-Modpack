@@ -1,0 +1,15 @@
+{
+  "modId" : 42037,
+  "modName" : "HPB_glasstrim",
+  "description" : "Fancy tubing to add some detail to a ship.",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 1,
+  
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "/tiles/materials/glasstrim_HPB.png",
+    "variants" : 1,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

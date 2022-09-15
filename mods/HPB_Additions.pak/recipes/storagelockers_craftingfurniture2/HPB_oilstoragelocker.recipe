@@ -1,0 +1,17 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 1 },
+    { "item": "silverbar",
+      "count": 1 },
+    { "item": "glass",
+      "count": 1 },
+    { "item": "liquidoil",
+      "count": 6 }
+  ],
+  "output": { "item": "HPB_oilstoragelocker",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "objects", "storage", "all" ]
+}

@@ -1,0 +1,23 @@
+{
+  "materialId": 42000,
+  "materialName": "HPB_apexshiphull",
+  "particleColor": [190, 208, 212, 255],
+  "itemDrop": "HPB_apexshiphull",
+  "shortdescription": "Apex Hull Plating",
+  "description": "Sheets of ship hull plating.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "apexshiphull_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

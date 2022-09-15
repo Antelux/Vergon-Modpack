@@ -1,0 +1,23 @@
+{
+  "materialId" : 2411,
+  "materialName" : "solarispanel",
+  "particleColor" : [255, 225, 113, 255],
+  "itemDrop" : "solarispanel",
+  "description" : "A solaris panel.",
+  "shortdescription" : "Solaris Panel",
+  "glitchDescription" : "Analysis. Solaris panel.",
+  "floranDescription" : "Sssolaris walling.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 18,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "solarispanel.png",
+    "variants" : 11,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3000
+  }
+}

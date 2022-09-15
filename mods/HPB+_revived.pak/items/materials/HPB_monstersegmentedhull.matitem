@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_monstersegmentedhull",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "monstersegmentedhull_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Monster Segmented Plating",
+  "description" : "Sheets of ship hull plating, made from monsters!",
+  "glitchdescription" : "Statement. Star ship hull plating.",
+  "florandescription" : "Ssship ssskin.",
+
+  "materialId" : 42287
+}

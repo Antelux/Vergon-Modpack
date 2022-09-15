@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "tungstenbar",
+      "count": 1 },
+    { "item": "copperbar",
+      "count": 1 },
+    { "item": "money",
+      "count": 5 }
+  ],
+  "output": { "item": "HPB_novakidbrasshullalt",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

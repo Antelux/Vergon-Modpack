@@ -1,0 +1,24 @@
+{
+  "materialId": 42181,
+  "materialName": "HPB_rubygemsparktrim",
+  "particleColor": [255, 0, 0, 255],
+  "itemDrop": "HPB_rubygemsparktrim",
+  "description": "Ruby gemspark trim.",
+  "shortdescription": "Ruby Gemspark Trim",
+  "glitchDescription": "Statement. Gemspark.",
+  "floranDescription": "Pretty glowing gemsss.",
+  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "rubygemsparktrim_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "radiantLight": [220, 0, 0]
+  }
+}

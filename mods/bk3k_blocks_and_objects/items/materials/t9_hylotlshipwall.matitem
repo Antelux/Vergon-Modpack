@@ -1,0 +1,12 @@
+{
+  "itemName" : "t9_hylotlshipwall",
+  "rarity" : "Common",
+  "inventoryIcon" : "hylotlshipwall.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A colourful wall panel.",
+  "shortdescription" : "Hylotl Wall Panel",
+  "glitchdescription" : "Analysis. A wall panel.",
+  "florandescription" : "Wall.",
+
+  "materialId" : 4998
+}

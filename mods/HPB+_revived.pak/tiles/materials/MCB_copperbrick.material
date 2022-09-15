@@ -1,0 +1,22 @@
+{
+  "materialId" : 42369,
+  "materialName" : "MCB_copperbrick",
+  "particleColor" : [215, 129, 84, 255],
+  "itemDrop" : "MCB_copperbrick",
+  "description" : "A Copper block!",
+  "shortdescription" : "Copper Block",
+  "glitchDescription" : "Analysis. A copper block.",
+  "floranDescription" : "Copper block. Smells funny.",
+  "footstepSound" : "/sfx/blocks/footstep_metallic.ogg",
+  "health" : 35,
+  "category": "materials",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "MCB_copperbrick.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

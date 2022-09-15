@@ -1,0 +1,23 @@
+{
+  "objectName" : "letheiaexpandedlegionmodel3",
+  "colonyTags" : ["misc"],
+  "rarity" : "Legendary",
+  "description" : "An inactive spaceship, named as the Intrepid by the Legion Galatic Force.",
+  "shortdescription" : "LGF Intrepid Model",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 1000,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedlegionmodel3.png:<color>",
+      "imagePosition" : [-64, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

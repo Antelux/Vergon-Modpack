@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_rebarblock",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "rebarblock_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Rebar, as commonly seen inside reinforced concrete.",
+  "shortdescription" : "Rebar block",
+  "glitchdescription" : "Statement. Rebar.",
+  "florandescription" : "Metal barsss.",
+
+  "materialId" : 42356
+}

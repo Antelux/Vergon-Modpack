@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "nullasteelalloy", "count" : 12 },
+    { "item" : "crucibleprocessor", "count" : 2 },
+	{ "item" : "corefragmentore", "count" : 6 }
+  ],
+  "output" : { "item" : "legionstaff1", "count" : 1 },
+  "duration" : 0.4,
+  "groups"  : [ "legionmain","legioncrafting1" ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "vepr_postermech",
+  "rarity" : "common",
+  "category" : "decorative",
+  "price" : 200,
+
+  "description" : "I pledge allegiance to - hold on, I'm not falling for this again.",
+  "shortdescription" : "vepr Mech Poster",
+  "race" : "generic",
+  "colonyTags" : [ "pretty",  "misc" ],
+
+  "apexDescription" : "The Apex aren't the only ones to use propaganda amongst the stars, unfortunately.",
+  "avianDescription" : "Will the thing in the poster fly?",
+  "floranDescription" : "Mmmm! Robot looksss tasssty.",
+  "glitchDescription" : "Awe. Staring at the poster is convincing me to join the vepr cause.",
+  "humanDescription" : "The poster makes a slight beeping sound. Strange...",
+  "hylotlDescription" : "I will never turn to your cause because of propaganda, even if your art is decent!",
+
+
+  "inventoryIcon" : "vepr_postermechicon.png",
+  "orientations" : [
+    {
+      "image" : "vepr_postermech.png:<color>",
+      "imagePosition" : [-16, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

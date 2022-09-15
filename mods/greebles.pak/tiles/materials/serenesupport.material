@@ -1,0 +1,23 @@
+{
+  "materialId" : 2325,
+  "materialName" : "serenesupport",
+  "particleColor" : [130, 170, 40, 255],
+  "itemDrop" : "serenesupport",
+  "description" : "Support block made of aegisalt.",
+  "shortdescription" : "Serene Support",
+  "glitchDescription" : "Analysis. Aegisalt support.",
+  "floranDescription" : "Sssupporty aegisssalt.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 12,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "serenesupport.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3340
+  }
+}

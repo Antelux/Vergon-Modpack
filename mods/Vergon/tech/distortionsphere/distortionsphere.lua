@@ -104,6 +104,8 @@ for i = 1, DeltaTimeArray.length do
 
 end
 
+local lastUp = false
+
 function update(args)
 
 	local TimeNow = os.clock()
@@ -121,9 +123,20 @@ function update(args)
 
 	end
 
+	--tech.setParentDirectives('?setcolor=000000?border=1;FF0000;FF0000')
+
 	--
 
 	math.__tech.args = args
+
+	math.__tech.args.upPressed = false
+
+	if args.moves.up ~= lastUp then
+
+		math.__tech.args.upPressed = args.moves.up
+		lastUp = args.moves.up
+
+	end
 
 	--
 

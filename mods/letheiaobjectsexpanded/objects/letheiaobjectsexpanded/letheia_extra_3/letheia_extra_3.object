@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheia_extra_3",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A large geometrical Letheia counter.",
+  "shortdescription" : "Large Letheia Counter",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 200,
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheia_extra_3.png:<color>",
+      "imagePosition" : [-40, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

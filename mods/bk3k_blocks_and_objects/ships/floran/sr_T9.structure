@@ -1,0 +1,131 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 65000,
+        "crewSize" : 200
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image": "/ships/vepr/layers/vepr_mediumship_BG_0.png",
+      "fullbright" : true,
+      "zLevel" : 0,
+      "position": [809.125, 691.375]//696
+    },
+    {
+      "image": "/ships/vepr/layers/vepr_mediumship_BG_1.png",
+      "fullbright" : true,
+      "zLevel" : 1,
+      "position": [809.125, 691.375]
+    },
+    {
+      "image" : "/ships/apex/apexT9.png",
+      "position" : [146, 655],
+      "fullbright" : true
+    },
+    {
+      "image" : "/ships/apex/apexT9lit.png",
+      "position" : [146, 655]
+    },
+    {
+      "image" : "/ships/avian/avianT9.png",
+      "position" : [130.375, 541.38],
+      "fullbright" : true
+    },
+    {
+      "image" : "/ships/avian/avianT9lit.png",
+      "position" : [130.375, 541.38]
+    },
+    {
+      "image" : "/ships/floran/floranT9.png",
+      "position" : [88, 376],
+      "fullbright" : true
+    },
+    {
+      "image" : "/ships/floran/floranT9lit.png",
+      "position" : [88, 376]
+    },
+    {
+      "image" : "/ships/glitch/glitchT9.png",
+      "position" : [482, 664],
+      "fullbright" : true
+    },
+    {
+      "image" : "/ships/glitch/glitchT9lit.png",
+      "position" : [482, 664]
+    },
+    {
+      "image" : "/ships/human/humanT9.png",
+      "position" : [88.39, 218.75],
+      "fullbright" : true
+    },
+    {
+      "image" : "/ships/human/humanT9lit.png",
+      "position" : [88.39, 218.75]
+    },
+    {
+      "image" : "/ships/hylotl/hylotlT9_1.png",
+      "position" : [208, 29],
+      "fullbright" : true
+    },
+    {
+      "image" : "/ships/hylotl/hylotlT9_1lit.png",
+      "position" : [208, 29]
+    },
+    {
+      "image" : "/ships/hylotl/hylotlT9_2.png",
+      "position" : [52 ,29],
+      "fullbright" : true
+    },
+    {
+      "image" : "/ships/hylotl/hylotlT9_2lit.png",
+      "position" : [52 ,29]
+    },
+    {
+      "image" : "/ships/novakid/novakidT9_1.png",
+      "position" : [492.86, 81.75],
+      "fullbright" : true
+    },
+    {
+      "image" : "/ships/novakid/novakidT9_1lit.png",
+      "position" : [492.86, 81.75]
+    },
+    {
+      "image" : "/ships/novakid/novakidT9_2.png",
+      "position" : [372.61, 81.75],
+      "fullbright" : true
+    },
+    {
+      "image" : "/ships/novakid/novakidT9_2lit.png",
+      "position" : [372.61, 81.75]
+    },
+    {
+      "image" : "/ships/station/biggerFloranDome(left).png",
+      "position" : [361, 497]
+    },
+    {
+      "image" : "/ships/station/biggerFloranDome(right).png",
+      "position" : [519, 497]
+    }
+  ],
+  
+  "foregroundOverlays" : [
+    {
+      "image": "/ships/vepr/layers/vepr_mediumship_FG_0.png",
+      "fullbright" : true,
+      "zLevel" : 0,
+      "position": [809.125, 691.375]//830, 691
+    },
+    {
+      "image": "/ships/vepr/layers/vepr_mediumship_FG_1.png",
+      "fullbright" : true,
+      "zLevel" : 1,
+      "position": [809.125, 691.375]
+    }
+   ],
+
+  "blockKey" : "sr_blockKey.config:blockKey",
+  "blockImage" : "/ships/shipYard/shipYard_rebuild_9.png"
+}

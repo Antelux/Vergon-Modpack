@@ -1,0 +1,24 @@
+{
+  "materialId": 42327,
+  "materialName": "HPB_forcefieldtrim",
+  "particleColor": [106, 225, 255, 255],
+  "itemDrop": "HPB_forcefieldtrim",
+  "shortdescription": "Force Field Trim",
+  "description": "Fancy tubing to add some detail to a ship.",
+  "glitchDescription": "Statement. Star ship trim.",
+  "floranDescription": "Ssship tubesss.",
+  "footstepSound": "/sfx/tech/tech_dashftl1.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "forcefieldtrim_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "radiantLight": [115, 115, 115]
+  }
+}

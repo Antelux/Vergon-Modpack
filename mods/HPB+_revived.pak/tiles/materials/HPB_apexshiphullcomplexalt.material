@@ -1,0 +1,23 @@
+{
+  "materialId": 42130,
+  "materialName": "HPB_apexshiphullcomplexalt",
+  "particleColor": [190, 208, 212, 255],
+  "itemDrop": "HPB_apexshiphullcomplexalt",
+  "shortdescription": "Rivetless Apex Plating",
+  "description": "Sheets of ship hull plating with a complex pattern of etching.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "apexshiphullcomplexalt_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

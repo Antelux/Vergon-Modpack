@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "tungstenbar", "count" : 1 },
+    { "item" : "copperbar", "count" : 1 },
+    { "item" : "money", "count" : 5 }
+  ],
+  "output" : { "item" : "HPBA_slopednovakidbrasspanel", "count" : 20 },
+  "duration" : 0.25,
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

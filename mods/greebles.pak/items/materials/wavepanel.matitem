@@ -1,0 +1,10 @@
+{
+  "itemName" : "wavepanel",
+  "rarity" : "Rare",
+  "inventoryIcon" : "wavepanelicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Cerulium panel.",
+  "shortdescription" : "Wave Panel",
+
+  "materialId" : 2377
+}

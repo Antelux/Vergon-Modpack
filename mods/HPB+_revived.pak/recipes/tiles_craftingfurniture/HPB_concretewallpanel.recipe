@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_concretehull",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_concretewallpanel",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

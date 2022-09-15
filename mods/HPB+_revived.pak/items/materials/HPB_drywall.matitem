@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_drywall",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "drywall_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Drywall",
+  "description" : "Wall boards coated in thin paper, spackled at the edges.",
+  "glitchdescription" : "Statement. Wall boards ready for paint.",
+  "florandescription" : "Human houssse wall.",
+
+  "materialId" : 42064
+}

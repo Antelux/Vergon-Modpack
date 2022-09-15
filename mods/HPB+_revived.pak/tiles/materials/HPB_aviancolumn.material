@@ -1,0 +1,23 @@
+{
+  "materialId": 42241,
+  "materialName": "HPB_aviancolumn",
+  "particleColor": [190, 159, 85, 255],
+  "itemDrop": "HPB_aviancolumn",
+  "shortdescription": "Avian Column",
+  "description": "Columns for decorating or supporting upper floors in large rooms.",
+  "glitchDescription": "Statement. Stately column.",
+  "floranDescription": "Pole.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "aviancolumn_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

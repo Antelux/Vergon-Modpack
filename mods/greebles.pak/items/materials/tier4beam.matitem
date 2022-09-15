@@ -1,0 +1,10 @@
+{
+  "itemName" : "tier4beam",
+  "rarity" : "Common",
+  "inventoryIcon" : "tier4beamicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Durasteel beam.",
+  "shortdescription" : "Durasteel Beam",
+
+  "materialId" : 2334
+}

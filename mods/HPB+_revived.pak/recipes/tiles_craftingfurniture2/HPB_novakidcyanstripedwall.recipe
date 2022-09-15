@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "tungstenbar",
+      "count": 1 },
+    { "item": "bluedye",
+      "count": 1 },
+    { "item": "yellowdye",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_novakidcyanstripedwall",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

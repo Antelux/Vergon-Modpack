@@ -1,0 +1,22 @@
+{
+  "materialId": 42035,
+  "materialName": "HPB_novakidbrassplatform",
+  "collisionKind": "platform",
+  "transparent": true,
+  "itemDrop": "HPB_novakidbrassplatform",
+  "shortdescription": "Novakid Brass Ship Platform",
+  "description": "Platform suitable for a ship.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate": "/tiles/platformtemplate.config",
+  "renderParameters": {
+    "texture": "novakidbrassplatform_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "platform": true
+  }
+}

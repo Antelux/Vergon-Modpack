@@ -1,0 +1,10 @@
+{
+  "itemName" : "tier3framedglass",
+  "rarity" : "Common",
+  "inventoryIcon" : "tier3framedglassicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Titanium framed glass.",
+  "shortdescription" : "Titanium Window",
+
+  "materialId" : 2363
+}

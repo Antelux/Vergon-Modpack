@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "corefragmentore", "count" : 1 }
+  ],
+  "output" : { "item" : "MCB_corebrick", "count" : 30},
+  "duration" : 0.0,
+  "groups" : [ "craftingfurniture", "materials", "all" ]
+}

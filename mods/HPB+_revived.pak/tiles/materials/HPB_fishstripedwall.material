@@ -1,0 +1,23 @@
+{
+  "materialId": 42200,
+  "materialName": "HPB_fishstripedwall",
+  "particleColor": [212, 62, 37, 255],
+  "itemDrop": "HPB_fishstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Fish Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "fishstripedwall_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2690
+  }
+}

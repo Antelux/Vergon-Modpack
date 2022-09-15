@@ -1,0 +1,100 @@
+{
+  "globalTagDefaults" : {
+    "doorDirection" : "Right",
+    "doorPos" : "posA"
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "doorState" : {
+        "default" : "closed",
+        "states" : {
+          "opening" : {
+            "frames" : 1,
+            //"cycle" : 0.15,
+            "cycle" : 0.10,
+            "mode" : "transition",
+            "transition" : "open"
+          },
+          "open" : {
+            "frames" : 2,
+            "cycle" : 0.2,
+            "mode" : "loop"
+          },
+          "closing" : {
+            "frames" : 1,
+            "cycle" : 0.1,
+            "mode" : "transition",
+            "transition" : "closed"
+          },
+          "closed" : {
+            "frames" : 1
+            //"cycle" : 0.2,
+            //"mode" : "loop"
+          },
+          "locking" : {
+            "frames" : 1,
+            "cycle" : 0.10,
+            "mode" : "transition",
+            "transition" : "locked"
+          },
+          "locked" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "door" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "doorState" : {
+            "opening" : {
+              "properties" : {
+                "image" : "<partImage>:transition.<doorPos>.<frame>"
+              }
+            },
+            "open" : {
+              "properties" : {
+                "image" : "<partImage>:platform.<doorPos>.<frame>"
+              }
+            },
+            "closing" : {
+              "properties" : {
+                "image" : "<partImage>:transition.<doorPos>.<frame>"
+              }
+            },
+
+            "closed" : {
+              "properties" : {
+                "image" : "<partImage>:disappeared"
+              }
+            },
+
+            "locking" : {
+              "properties" : {
+                "image" : "<partImage>:transition.<doorPos>.<frame>"
+              }
+            },
+
+            "locked" : {
+              "properties" : {
+                "image" : "<partImage>:disappeared"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "open" : [],
+    "close" : [],
+    "locked" : []
+  }
+}

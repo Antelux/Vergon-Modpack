@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_cardboardhull",
+      "count": 3 }
+  ],
+  "output": { "item": "HPB_cardboardtrim",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

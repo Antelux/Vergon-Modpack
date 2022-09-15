@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "leather",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_leatherblock",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

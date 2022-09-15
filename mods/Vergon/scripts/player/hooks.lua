@@ -1,5 +1,9 @@
 --------------------------------------------------------------------
 
+require '/scripts/util/checksum.lua';
+
+--------------------------------------------------------------------
+
 local PendingInvite
 local PendingTeleport
 local LastLocation = ''
@@ -71,6 +75,13 @@ function update()
 
 	-- No need to update this script.
 	script.setUpdateDelta(0)
+
+	-- Verify installation.
+	Event.setTimeout(coroutine.create(function()
+		
+		world.sendEntityMessage('SERVER', 'VERIFY', checksum.get())
+
+	end))
 
 	-- /afk command.
 	Event.setTimeout(coroutine.create(function()

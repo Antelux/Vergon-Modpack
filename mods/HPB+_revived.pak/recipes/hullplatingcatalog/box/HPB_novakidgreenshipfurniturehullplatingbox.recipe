@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "money",
+      "count": 1500 }
+  ],
+  "output": { "item": "HPB_novakidgreenshipfurniturehullplatingbox",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "HPB_box",  "hullplatingcatalog" ]
+}

@@ -1,0 +1,13 @@
+
+{
+  "input": [
+    { "item": "cobblestonematerial",
+      "count": 50 },
+    { "item": "imperviumcompound",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_imperviumstone",
+      "count": 50 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

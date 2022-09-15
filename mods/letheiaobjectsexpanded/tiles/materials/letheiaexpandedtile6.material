@@ -1,0 +1,23 @@
+{
+  "materialId" : 16506,
+  "materialName" : "letheiaexpandedtile6",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "letheiaexpandedtile6",
+  "description" : "A white metal railing.",
+  "shortdescription" : "Letheia Railing",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 5,
+  "category" : "materials",
+
+  "blocksLiquidFlow" : false,
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "letheiaexpandedtile6.png",
+    "variants" : 1,
+	"blocksLiquidFlow" : false,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 7
+  }
+}

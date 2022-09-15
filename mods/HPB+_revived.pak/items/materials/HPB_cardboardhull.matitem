@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_cardboardhull",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "cardboardhull_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Cardboard Sheet",
+  "description" : "Sheets of cardboard.",
+  "glitchdescription" : "Statement. Sheet of cardboard.",
+  "florandescription" : "Cardboard.",
+
+  "materialId" : 42223
+}

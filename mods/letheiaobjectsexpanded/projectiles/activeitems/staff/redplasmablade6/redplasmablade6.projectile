@@ -1,0 +1,89 @@
+{
+  "projectileName" : "redplasmablade6",
+  "physics" : "torpedo",
+  "timeToLive" : 4,
+  "image" : "redplasmablade6.png",
+  "animationCycle" : 0.25,
+  "lightColor" : [150, 50, 50],
+  "frameNumber" : 4,
+  "speed" : 0,
+  "power" : 30,
+  "damageKind" : "fireplasma",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+
+  "fullbright" : true,
+  "emitters" : ["capturepodred"],
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/impact_plasma.ogg"
+      ]
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/elementimpact/fireimpact.config"
+    },
+    {
+      "action" : "loop",
+      "count" : 5,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "redblade",
+          "time" : 0.1,
+          "repeat" : true
+        },
+        {
+          "action" : "particle",
+          "specification" : "redblade2",
+          "time" : 0.1,
+          "repeat" : true
+        }
+      ]
+    }
+  ],
+  
+     "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/impact_plasma.ogg"
+      ]
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/molotovexplosion/molotovexplosion.config"
+    },
+    {
+      "action" : "loop",
+      "count" : 5,
+      "body" : [
+        {
+          "action" : "particle",
+          "specification" : "redblade",
+          "time" : 0.1,
+          "repeat" : true
+        },
+        {
+          "action" : "particle",
+          "specification" : "redblade2",
+          "time" : 0.1,
+          "repeat" : true
+        }
+      ]
+    }
+  ],
+
+  "bounces" : 5,
+
+  "scripts" : [ "/projectiles/activeitems/staff/redplasmablade4/redplasmablade4.lua" ],
+
+  "triggerSpeed" : 50,
+
+  "controlRotation" : {
+    "maxSpeed" : 60,
+    "controlForce" : 10,
+    "friction" : 10
+  }
+}

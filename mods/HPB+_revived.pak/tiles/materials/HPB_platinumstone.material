@@ -1,0 +1,23 @@
+{
+  "materialId": 42302,
+  "materialName": "HPB_platinumstone",
+  "particleColor": [226, 226, 220, 255],
+  "itemDrop": "HPB_platinumstone",
+  "shortdescription": "Platinum Cobblestone",
+  "description": "Hard stones, smooth to the touch.",
+  "glitchDescription": "Statement. Cobblestones.",
+  "floranDescription": "Cobblessstone.",
+  "footstepSound": "/sfx/blocks/footstep_stone3.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "platinumstone_HPB.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "multiColored": false,
+    "occludesBelow": true,
+    "zLevel": 1640
+  }
+}

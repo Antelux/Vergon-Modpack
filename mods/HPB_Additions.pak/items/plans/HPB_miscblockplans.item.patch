@@ -1,0 +1,13 @@
+[
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse": true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedhazardpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedgirderhazardpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedoutpostpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedpressurisedpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedredpressurisedpanel" }
+  ]
+]

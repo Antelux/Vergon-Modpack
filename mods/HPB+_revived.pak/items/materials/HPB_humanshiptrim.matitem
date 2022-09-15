@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_humanshiptrim",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "humanshiptrim_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Human Ship Trim",
+  "description" : "Fancy tubing to add some detail to a ship.",
+  "glitchdescription" : "Statement. Star ship trim.",
+  "florandescription" : "Ssship tubesss.",
+
+  "materialId" : 42018
+}

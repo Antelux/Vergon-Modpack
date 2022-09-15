@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 6 },
+    { "item": "siliconboard",
+      "count": 1 },
+    { "item": "HPB_feroziumtrim",
+      "count": 30 }
+  ],
+  "output": { "item": "HPB_feroziumtrimtool",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingaccelerator", "craftingmanipulator", "craftingseparator", "weapons", "all" ]
+}

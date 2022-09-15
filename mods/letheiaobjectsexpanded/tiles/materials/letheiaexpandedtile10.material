@@ -1,0 +1,22 @@
+{
+  "materialId" : 16510,
+  "materialName" : "letheiaexpandedtile10",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "letheiaexpandedtile10",
+  "description" : "A dark metal connector.",
+  "shortdescription" : "Dark Connector",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "letheiaexpandedtile10.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 610,
+    "radiantLight" : [100, 30, 30]
+  }
+}

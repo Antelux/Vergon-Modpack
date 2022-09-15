@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "glass",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_glassshipplatform",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurnace", "ingredients", "all" ]
+}

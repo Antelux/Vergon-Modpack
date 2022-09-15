@@ -1,0 +1,20 @@
+{
+  "itemName" : "english_horn",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "english_hornicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An english horn. Bassoon? Oboe? Neither.",
+  "shortdescription" : "English Horn",
+  "largeImage" : "english_horn.png",
+  "image" : "english_horn.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "english_horn.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.3,-0.4],
+
+  "handPosition" : [0.3,-0.4],
+  "twoHanded" : true,
+  "kind" : "english_horn"
+}

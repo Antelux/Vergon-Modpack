@@ -1,0 +1,23 @@
+{
+  "materialId": 42115,
+  "materialName": "HPB_plasticwallpanel",
+  "particleColor": [217, 217, 217, 255],
+  "itemDrop": "HPB_plasticwallpanel",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Plastic Wall Panel",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "plasticwallpanel_HPB.png", 
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2630
+  }
+}

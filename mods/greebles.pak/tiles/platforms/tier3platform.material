@@ -1,0 +1,23 @@
+{
+  "materialId" : 2403,
+  "materialName" : "tier3platform",
+  "collisionKind" : "platform",
+  "itemDrop" : "tier3platform",
+  "shortdescription" : "Titanium Platform",
+  "description" : "A tough, sturdy platform made from titanium.",
+  "glitchDescription" : "Statment. These smooth titanium platforms are tough.",
+  "floranDescription" : "Jusst another metal platform.",
+  "novakidDescription" : "That there be a titanium platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "tier3platform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

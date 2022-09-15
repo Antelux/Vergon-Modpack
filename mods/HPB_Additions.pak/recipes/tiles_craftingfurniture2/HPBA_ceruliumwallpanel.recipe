@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "refinedferozium", "count": 1 },
+    { "item": "goldbar", "count": 1 }
+  ],
+  "output": { "item": "HPB_ceruliumwallpanel",
+      "count": 100 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

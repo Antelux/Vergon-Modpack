@@ -1,0 +1,67 @@
+{
+  "itemName" : "letheiaengineerhead",
+  "price" : 1100,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "A red high-tech visor, manufactured by the Letheia Corporation.",
+  "shortdescription" : "Letheia Engineer Visor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 4,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.05
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.1
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 10
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+  
+  "colorOptions" : [
+    // WHITE
+    { "ffca8a" : "e55a", "d7d9db" : "d7d9db", "a9b0b8" : "b6b6b6", "727885" : "7b7b7b" },
+    // BLACK
+    { "ffca8a" : "555a", "d7d9db" : "838383", "a9b0b8" : "555555", "727885" : "383838" },
+    // GREY
+    { "ffca8a" : "888a", "d7d9db" : "b5b5b5", "a9b0b8" : "808080", "727885" : "555555" },
+    // WHITE
+    { "ffca8a" : "e55a", "d7d9db" : "d7d9db", "a9b0b8" : "b6b6b6", "727885" : "7b7b7b" },
+    // RED
+    { "ffca8a" : "d33a", "d7d9db" : "f4988c", "a9b0b8" : "d93a3a", "727885" : "932625" },
+    // ORANGE
+    { "ffca8a" : "e93a", "d7d9db" : "ffd495", "a9b0b8" : "ea9931", "727885" : "af4e00" },
+    // YELLOW
+    { "ffca8a" : "db4a", "d7d9db" : "ffffa7", "a9b0b8" : "e2c344", "727885" : "a46e06" },
+    // GREEN
+    { "ffca8a" : "5b3a", "d7d9db" : "b2e89d", "a9b0b8" : "51bd3b", "727885" : "247824" },
+    // BLUE
+    { "ffca8a" : "58ca", "d7d9db" : "96cbe7", "a9b0b8" : "5588d4", "727885" : "344495" },
+    // PURPLE
+    { "ffca8a" : "a5ca", "d7d9db" : "d29ce7", "a9b0b8" : "a451c4", "727885" : "6a2284" },
+    // PINK
+    { "ffca8a" : "c6aa", "d7d9db" : "eab3db", "a9b0b8" : "d35eae", "727885" : "97276d" },
+    // BROWN
+    { "ffca8a" : "a74a", "d7d9db" : "ccae7c", "a9b0b8" : "a47844", "727885" : "754c23" }
+  ]
+
+}

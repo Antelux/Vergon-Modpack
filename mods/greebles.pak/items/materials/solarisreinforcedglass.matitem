@@ -1,0 +1,10 @@
+{
+  "itemName" : "solarisreinforcedglass",
+  "rarity" : "Rare",
+  "inventoryIcon" : "solarisreinforcedglassicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Solaris reinforced glass.",
+  "shortdescription" : "Solaris Glass",
+
+  "materialId" : 2446
+}

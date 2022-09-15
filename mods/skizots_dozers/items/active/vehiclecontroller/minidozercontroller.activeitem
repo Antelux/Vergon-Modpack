@@ -1,0 +1,34 @@
+{
+  "itemName" : "minidozercontroller",
+  "level" : 1,
+  "price" : 10000,
+  "rarity" : "rare",
+  "category" : "vehicleController",
+  "shortdescription" : "Small Bulldozer Controller",
+  "description" : "Create a small bulldozer from stored nanites.",
+  "twoHanded" : false,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "/mini.png",
+
+  "respawnTime" : 1.0,
+
+  //=============Item specifc bits.
+  "vehicleType" : "minidozer",
+  "vehicleBoundingBox" : [-5, -3.75, 5, 4],
+  "vehicleImage" : "/vehicles/dozer/minidozer/minidozerwarp.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "minidozercontroller.png"
+  },
+
+  "inventoryIcon" : "minidozercontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/minidozercontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/minidozercontroller.png:full"
+}

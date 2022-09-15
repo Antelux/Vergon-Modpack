@@ -1,0 +1,23 @@
+{
+  "materialId": 42321,
+  "materialName": "HPB_macrocircuitflatheadscrew",
+  "particleColor": [31, 39, 20, 255],
+  "itemDrop": "HPB_macrocircuitflatheadscrew",
+  "shortdescription": "Macrocircuit Screw (-)",
+  "description": "Macrochips are the next BIG thing in electronics...",
+  "glitchDescription": "Disregard. Inefficiently large electronics.",
+  "floranDescription": "Even floran knowsss thisss isss too big.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "macrocircuitflatheadscrew_HPB.png",
+    "variants": 4,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

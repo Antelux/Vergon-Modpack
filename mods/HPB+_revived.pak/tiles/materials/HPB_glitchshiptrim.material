@@ -1,0 +1,23 @@
+{
+  "materialId": 42017,
+  "materialName": "HPB_glitchshiptrim",
+  "particleColor": [168, 131, 192, 255],
+  "itemDrop": "HPB_glitchshiptrim",
+  "shortdescription": "Glitch Ship Trim",
+  "description": "Fancy tubing to add some detail to a ship.",
+  "glitchDescription": "Statement. Star ship trim.",
+  "floranDescription": "Ssship tubesss.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "glitchshiptrim_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0
+  }
+}

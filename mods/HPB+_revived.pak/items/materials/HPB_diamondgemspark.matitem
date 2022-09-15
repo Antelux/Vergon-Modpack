@@ -1,0 +1,16 @@
+{
+  "itemName" : "HPB_diamondgemspark",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "diamondgemspark_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Diamond Gemspark",
+  "description" : "Diamond gemspark block.",
+  "glitchdescription" : "Statement. Gemspark.",
+  "florandescription" : "Pretty glowing gemsss.",
+  "learnBlueprintsOnPickup" : [
+    "diamondgemsparktrim"
+  ],
+
+  "materialId" : 42168
+}

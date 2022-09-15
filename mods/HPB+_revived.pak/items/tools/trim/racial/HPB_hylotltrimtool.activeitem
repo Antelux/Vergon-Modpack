@@ -1,0 +1,32 @@
+{
+  "itemName" : "HPB_hylotltrimtool",
+  "description" : "Adds trim tubing to blocks.  Doesn't work on tumbling blocks or platforms.",
+  "shortdescription" : "^orange;Hylotl Trim Tool^white;",
+
+  "category" : "tool",
+  "inventoryIcon" : "/items/materials/hylotlshiptrim_HPB.png",
+  "largeImage" : "hylotltrimtoolbig_HPB.png",
+  "animation" : "/items/tools/trim/trimtool_HPB.animation",
+  "animationParts" : {
+    "trimtool" : "hylotltrimtool_HPB.png"
+  },
+
+  "scripts" : [ "/items/tools/trim/activetrimtool.lua" ],
+  "seed" : "HPB_hylotlshiptrim",
+  "toolSound" : "drill",
+
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "tooltipKind" : "tool",
+  "twoHanded" : true,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

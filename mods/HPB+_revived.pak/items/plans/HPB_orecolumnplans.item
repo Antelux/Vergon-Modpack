@@ -1,0 +1,27 @@
+{
+  "itemName": "HPB_orecolumnplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "redplans_HPB.png",
+  "description": "These plans reveal how to make ore-derived columns.",
+  "shortdescription": "Ore Column Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_carbonfibercolumn",
+    "HPB_plasticcolumn",
+    "HPB_coppercolumn",
+    "HPB_ironcolumn",
+    "HPB_silvercolumn",
+    "HPB_goldcolumn",
+    "HPB_platinumcolumn",
+    "HPB_steelcolumn",
+    "HPB_titaniumcolumn",
+    "HPB_durasteelcolumn",
+    "HPB_violiumcolumn",
+    "HPB_aegisaltcolumn",
+    "HPB_rubiumcolumn",
+    "HPB_ceruliumcolumn",
+    "HPB_feroziumcolumn",
+    "HPB_imperviumcolumn",
+    "HPB_corefragmentcolumn"
+  ]
+}

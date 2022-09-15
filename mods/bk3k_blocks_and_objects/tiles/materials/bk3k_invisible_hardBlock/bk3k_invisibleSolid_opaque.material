@@ -1,0 +1,17 @@
+{
+  "materialId" : 7168,
+  "materialName" : "bk3k_invisibleSolid_opaque",
+  "description" : "",
+  "shortdescription" : "",
+  "health" : 9001,
+  "category" : "materials",
+  "renderTemplate" : "/tiles/bk3k_plain_Template.config",
+  "renderParameters" : {
+    "texture" : "bk3k_invisible_hardBlock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "objectName" : "letheiaexpandedstorelsf",
+  "colonyTags" : ["misc","commerce"],
+  "rarity" : "Legendary",
+  "description" : "A store vending security equipments.",
+  "shortdescription" : "Letheia Equipment Store",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 200,
+
+  "lightColor" : [200, 20, 20],
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/letheiastore.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Letheia Security Force",
+        "subtitle" : " Equipment Store"
+      }
+    },
+    "buyFactor" : 2.0,
+    "sellFactor" : 0.2,
+    "items" : [
+	  { "item" : "letheiaexpandedposter4" },
+      { "item" : "letheiapistol" },
+      { "item" : "letheiaassaultrifle" },
+      { "item" : "letheiapistol2" },
+      { "item" : "letheiaassaultrifle2" },	  
+      { "item" : "letheiasword" },
+      { "item" : "letheiasword4" },
+      { "item" : "letheiauniformchest" },
+	  { "item" : "letheiauniformpants" },
+	  { "item" : "letheiaengineerhead" },
+	  { "item" : "letheiaengineerchest" },
+	  { "item" : "letheiaengineerpants" },
+	  { "item" : "redstim" }
+    ]
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedstorelsf.png:<color>",
+      "imagePosition" : [-24, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  "lightPosition" : [3, 2],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

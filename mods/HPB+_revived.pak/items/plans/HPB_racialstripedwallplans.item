@@ -1,0 +1,24 @@
+{
+  "itemName": "HPB_racialstripedwallplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "blueplans_HPB.png",
+  "description": "These plans reveal how to make racial striped wall panel.",
+  "shortdescription": "Racial Striped Wall Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_apexstripedwall",
+    "HPB_avianstripedwall",
+    "HPB_floranstripedwall",
+    "HPB_floranpinkstripedwall",
+    "HPB_glitchstripedwall",
+    "HPB_humanstripedwall",
+    "HPB_hylotlstripedwall",
+    "HPB_fishstripedwall",
+    "HPB_novakidbrassstripedwall",
+    "HPB_novakidcreamstripedwall",
+    "HPB_novakidcyanstripedwall",
+    "HPB_novakidgreenstripedwall",
+    "HPB_novakidredstripedwall",
+    "HPB_rustystripedwall"
+  ]
+}

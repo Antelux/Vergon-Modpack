@@ -1,0 +1,55 @@
+{
+  "objectName" : "greebleC0",
+  "colonyTags" : ["misc","tier3"],
+  "printable" : false,
+  "rarity" : "common",  
+  "category" : "decorative",
+  
+  "price" : 25,
+  "description" : "An aesthetic titanium embellishment.",
+  "shortdescription" : "Greeble-Ti0C",
+  "race" : "generic",
+ 
+  "apexDescription" : "A tasteful aesthetic titanium embellishment.",
+  "avianDescription" : "An aesthetic titanium embellishment.",
+  "floranDescription" : "Titanium thing doesss what?",
+  "glitchDescription" : "Curious. This titanium object appears to have no function.",
+  "humanDescription" : "I believe they call this kind of embellishment a greeble.",
+  "hylotlDescription" : "An aesthetic titanium embellishment.",
+  "novakidDescription" : "Nice piece o' titanium styling there.",
+ 
+  "inventoryIcon" : "greebleC0icon.png",
+ 
+  "orientations" : [
+    {
+      "image" : "greebleC0.png",
+      "imagePosition" : [0,-8],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [1,1],[1,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "greebleC0.png?flipx",   
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [-1,1],[-1,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "greebleC0top.png?flipy",     
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [-1,-1],[1,-1] ],
+      "collision" : "solid"
+    },
+    {
+      "image" : "greebleC0top.png", 
+      "imagePosition" : [-8, -1],
+      "spaces" : [ [0,0] ],
+      "fgAnchors" : [ [-1,1],[1,1] ],
+      "collision" : "solid"
+    } 
+  ]
+}

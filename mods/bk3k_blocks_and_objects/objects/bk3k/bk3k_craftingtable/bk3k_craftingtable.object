@@ -1,0 +1,81 @@
+{
+  "objectName" : "bk3k_craftingtable",
+  "tags" : ["crafting","mechanical"],
+  "rarity" : "legendary",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    //"config" : "/interface/windowconfig/crafting.config",
+    "config" : "/interface/windowconfig/bk3k_crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  bk3k crafting station",
+        "subtitle" : "  Unoriginal",
+        "icon" : { "file" : "/interface/crafting/roboticcraftingtable.png" }
+      }
+    },
+    "filter" : [ "bk3k" ]
+  },
+  "printable" : false,
+  "description" : "Craft stuff on this \"totally original\" table",
+  "shortdescription" : "^orange;bk3k crafting table^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+  
+  "lightColor" : [35, 51, 51],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0,
+  
+  "learnBlueprintsOnPickup" : [
+    "bk3k_chameleonDoor",
+    "bk3k_chameleonDoor1x4",
+    "bk3k_chameleonDoor1x8",
+    "bk3k_chameleonDoor2x2",
+    "bk3k_chameleonDoor_horizontal",
+    "bk3k_chameleonDoor4x1",
+    "bk3k_chameleonDoor8x1",
+    "bk3k_liquidBlock",
+    "bk3k_pressurisedGlowSteel",
+    "bk3k_lighterBlackGlass",
+    "bk3k_mediumBlackGlass"
+  ],
+
+  "inventoryIcon" : "roboticcraftingtable.png:default.0",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "roboticcraftingtable.png:<color>.<frame>", "fullbright" : true }, { "image" : "roboticcraftingtablelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 22,
+      "animationCycle" : 2.0,
+      
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "lightPosition" : [ -1, 2],
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [-2, 2], [-1, 2], [0, 2], [1, 2], [-2, 3], [-1, 3], [0, 3], [1, 3] ],
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "roboticcraftingtable.png:<color>.<frame>", "fullbright" : true }, { "image" : "roboticcraftingtablelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 22,
+      "animationCycle" : 2.0,
+      
+      "direction" : "right",
+      
+      "lightPosition" : [ 0, 2],
+
+      "spaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 1], [-1, 1], [0, 1], [1, 1], [-2, 2], [-1, 2], [0, 2], [1, 2], [-2, 3], [-1, 3], [0, 3], [1, 3] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "letheia_boss_exemplar_SlamAttack",
+  "label" : "SLAM",
+  "image" : "/monsters/generated/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monsters/boss/letheia_boss_exemplar/skills/letheia_boss_exemplar_SlamAttack.lua" ],
+
+    "ufoSlamAttack" : {
+      "skillTime" : 10,
+
+      "slamHeight" : 8,
+      "riseSpeed" : 10,
+      "slamSpeed" : 70,
+
+      "stunDuration" : 4
+    }
+  }
+}

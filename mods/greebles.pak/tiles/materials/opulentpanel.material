@@ -1,0 +1,23 @@
+{
+  "materialId" : 2378,
+  "materialName" : "opulentpanel",
+  "particleColor" : [165, 80, 195, 255],
+  "itemDrop" : "opulentpanel",
+  "description" : "A panel made of violium.",
+  "shortdescription" : "Opulent Panel",
+  "glitchDescription" : "Analysis. Violium panel.",
+  "floranDescription" : "Purple!",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 20,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "opulentpanel.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3000
+  }
+}

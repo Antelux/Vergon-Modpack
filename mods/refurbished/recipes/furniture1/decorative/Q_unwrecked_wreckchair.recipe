@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 1 }
+, { "item" : "fabric", "count" : 10 }  ],
+  "output" : { "item" : "Q_unwrecked_wreckchair", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

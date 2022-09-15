@@ -1,0 +1,32 @@
+{
+  "itemName" : "HPB_oxidationenhancer",
+  "description" : "Adds rusted patches to blocks.  Doesn't work on tumbling blocks or platforms.",
+  "shortdescription" : "^orange;Oxidation Enhancer^white;",
+
+  "category" : "tool",
+  "inventoryIcon" : "rustedpatchicon_HPB.png",
+  "largeImage" : "/items/tools/trim/racial/rustytrimtoolbig_HPB.png",
+  "animation" : "/items/tools/trim/trimtool_HPB.animation",
+  "animationParts" : {
+    "trimtool" : "/items/tools/trim/racial/rustytrimtool_HPB.png"
+  },
+
+  "scripts" : [ "/items/tools/trim/activetrimtool.lua" ],
+  "seed" : "HPB_rustedpatch",
+  "toolSound" : "beamaxe",
+
+  "price" : 0,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "tooltipKind" : "tool",
+  "twoHanded" : true,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "globalTagDefaults" : {
+    "direction" : "Right"
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "bedState" : {
+        "default" : "idle",
+        "states" : {
+          "in_use" : {
+            "frames" : 11,
+            "cycle" : 2,
+            "mode" : "loop"
+          },
+          "idle" : {
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bed" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "bedState" : {
+            "in_use" : {
+              "properties" : {
+                "image" : "<partImage>:default.<frame>"
+              }
+            },
+            
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+                //"immediateSound" : "/sfx/objects/bed_flush.ogg"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "in_use" : [ ],
+    "idle" : [ ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "objectName" : "letheiaexpandedbutton",
+  "colonyTags" : ["misc","wired"],
+  "rarity" : "Common",
+  "description" : "A button stand.",
+  "shortdescription" : "Security Button",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 70,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedbutton.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/momentaryswitch/momentaryswitch.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallbutton.ogg" ]
+    }
+  },
+
+  "animationParts" : {
+    "switch" : "letheiaexpandedbutton.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outputNodes" : [ [0, 0] ],
+  
+  "interval" : 15
+}

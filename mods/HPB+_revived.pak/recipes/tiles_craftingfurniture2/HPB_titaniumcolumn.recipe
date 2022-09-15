@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_titaniumshiphull",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_titaniumcolumn",
+      "count": 3 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

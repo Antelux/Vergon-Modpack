@@ -1,0 +1,23 @@
+{
+  "materialId": 42323,
+  "materialName": "HPB_macrocircuitscrewhole",
+  "particleColor": [31, 39, 20, 255],
+  "itemDrop": "HPB_macrocircuitscrewhole",
+  "shortdescription": "Macrocircuit Screw Hole",
+  "description": "Macrochips are the next BIG thing in electronics...",
+  "glitchDescription": "Disregard. Inefficiently large electronics.",
+  "floranDescription": "Even floran knowsss thisss isss too big.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "macrocircuitscrewhole_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

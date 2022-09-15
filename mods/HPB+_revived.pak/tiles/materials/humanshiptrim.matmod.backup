@@ -1,0 +1,22 @@
+{
+  "modId" : 42018,
+  "modName" : "humanshiptrim",
+  "itemDrop" : "HPB_humanshiptrim",
+  "Description" : "Human Ship Trim.",
+  "breaksWithTile" : true,
+  "health" : 3,
+  "harvestLevel" : 2,
+
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "humanshiptrim_HPB.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

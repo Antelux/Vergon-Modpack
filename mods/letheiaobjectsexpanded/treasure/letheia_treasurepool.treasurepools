@@ -1,0 +1,40 @@
+  // ==============================================================================================
+  //                                     
+  // ==============================================================================================
+{
+  "letheia_lootbox_1" : [
+    [0, {
+      "fill" : [
+        { "item" : "letheiaexpandedchair" },
+        { "item" : "letheiaexpandedchair" },
+        { "item" : "letheiaexpandedchairsmallred" },
+        { "item" : "letheiaexpandedchairsmallred" },
+        { "item" : "letheiaexpandedchairsmallwhite" },
+        { "item" : "letheiaexpandedchairsmallwhite" },
+        { "item" : "letheiaexpandeddesk" },
+        { "item" : "letheiaexpandedbench" },
+        { "item" : "letheiaexpandedtable" },
+        { "item" : "letheiaexpandedtablesmall" },
+        { "item" : "letheiaexpandedtablesmall" },
+        { "item" : "letheiaexpandedshelf" }
+      ]
+    }]
+  ],
+
+  "letheia_lootbox_2" : [
+    [0, {
+      "fill" : [
+        { "item" : "letheiaexpandedexecutivebench" },
+        { "item" : "letheiaexpandedexecutivecabinet" },
+        { "item" : "letheiaexpandedexecutivechair" },
+        { "item" : "letheiaexpandedexecutivechair" },
+        { "item" : "letheiaexpandedexecutivecloset" },
+        { "item" : "letheiaexpandedexecutivecouch" },
+        { "item" : "letheiaexpandedexecutivecouch" },
+        { "item" : "letheiaexpandedexecutivedesk" },
+        { "item" : "letheiaexpandedexecutivedrawer" },
+        { "item" : "letheiaexpandedexecutivetable" }
+      ]
+    }]
+  ]
+}

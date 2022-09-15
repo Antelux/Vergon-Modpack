@@ -1,0 +1,13 @@
+{
+  "input": [
+    { "item": "money",
+      "count": 3000 },
+    { "item": "teleportercore",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_violiumteleporter",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "teleshop" ]
+}

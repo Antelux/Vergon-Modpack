@@ -1,0 +1,23 @@
+{
+  "materialId" : 2379,
+  "materialName" : "doompanel",
+  "particleColor" : [150, 35, 35, 255],
+  "itemDrop" : "doompanel",
+  "description" : "A tough panel made of rubium.",
+  "shortdescription" : "Doom Panel",
+  "glitchDescription" : "Analysis. Rubium panel.",
+  "floranDescription" : "Red!",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 22,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "doompanel.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3000
+  }
+}

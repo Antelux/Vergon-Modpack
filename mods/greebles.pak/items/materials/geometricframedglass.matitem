@@ -1,0 +1,11 @@
+{
+  "itemName" : "geometricframedglass",
+  "category" : "Block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "geometricframedglassicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Ferozium framed glass.",
+  "shortdescription" : "Geometric Window",
+
+  "materialId" : 2366
+}

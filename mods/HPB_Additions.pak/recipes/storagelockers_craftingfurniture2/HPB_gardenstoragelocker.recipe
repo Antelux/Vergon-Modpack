@@ -1,0 +1,21 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 1 },
+    { "item": "silverbar",
+      "count": 1 },
+    { "item": "dirtmaterial",
+      "count": 6 },
+    { "item": "liquidwater",
+      "count": 6 },
+    { "item": "glass",
+      "count": 1 },
+    { "item": "plantfibre",
+      "count": 12 }
+  ],
+  "output": { "item": "HPB_gardenstoragelocker",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "objects", "storage", "all" ]
+}

@@ -1,0 +1,4 @@
+[
+ {"op":"add","path":"/interactData/items/-","value": {"item":"minidozercontroller"}},
+ {"op":"add","path":"/interactData/items/-","value": {"item":"megadozercontroller"}}
+]

@@ -1,0 +1,16 @@
+{
+  "modId" : 42021,
+  "modName" : "HPB_tanzanitegemsparktrim",
+  "description" : "Tanzanite gemspark trim.",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "/tiles/materials/tanzanitegemsparktrim_HPB.png",
+    "variants" : 1,
+    "multiColored" : true,
+    "zLevel" : 0,
+    "radiantLight" : [110, 0, 220]
+  }
+}

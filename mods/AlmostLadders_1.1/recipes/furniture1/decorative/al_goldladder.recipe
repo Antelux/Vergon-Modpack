@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "al_goldladder",
+    "count" : 5
+  },
+  "duration" : 0.5,
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

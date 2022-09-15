@@ -1,0 +1,22 @@
+{
+  "materialId": 42268,
+  "materialName": "HPB_cardboardplatform",
+  "collisionKind": "platform",
+  "transparent": true,
+  "itemDrop": "HPB_cardboardplatform",
+  "shortdescription": "Cardboard Platform",
+  "description": "This does not look safe!  It's held up by tape!",
+  "footstepSound": "/sfx/blocks/footstep_wood.ogg",
+  "category": "supports",
+
+  "renderTemplate": "/tiles/platformtemplate.config",
+  "renderParameters": {
+    "texture": "cardboardplatform_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "platform": true
+  }
+}

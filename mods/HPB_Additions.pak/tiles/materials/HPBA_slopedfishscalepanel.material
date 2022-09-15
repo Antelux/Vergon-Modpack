@@ -1,0 +1,25 @@
+{
+  "materialId" : 42988,
+  "materialName" : "HPBA_slopedfishscalepanel",
+  "particleColor" : [170, 45, 25, 255],
+  "itemDrop" : "HPBA_slopedfishscalepanel",
+
+  "description" : "Cheap, resilient panelling widely used in older hylotl ship construction.",
+  "glitchdescription" : "Observant. This is panelling widely used in older hylotl ship construction.",
+  "florandescription" : "Shiny sssmooth ship metal.",
+  "novakiddescription" : "Some thick metal plating, looks mighty solid.",
+  "shortdescription" : "Fish Scale Hull Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 24,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "HPBA_slopedfishscalepanel.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

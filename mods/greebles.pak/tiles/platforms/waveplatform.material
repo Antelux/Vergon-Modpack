@@ -1,0 +1,23 @@
+{
+  "materialId" : 2407,
+  "materialName" : "waveplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "waveplatform",
+  "shortdescription" : "Wave Platform",
+  "description" : "A tough, sturdy Wavew platform made.",
+  "glitchDescription" : "Impressed. These platforms are light and stylish.",
+  "floranDescription" : "Jusst another metal platform.",
+  "novakidDescription" : "That be a purdy lookin' metal platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "waveplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

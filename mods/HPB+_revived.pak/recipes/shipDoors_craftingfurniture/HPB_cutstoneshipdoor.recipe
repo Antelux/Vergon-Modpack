@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "cobblestonematerial",
+      "count": 10 },
+    { "item": "smallbattery",
+      "count": 1 },
+    { "item": "wire",
+      "count": 5 }
+  ],
+  "output": { "item": "HPB_cutstoneshipdoor",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "doors", "all" ]
+}

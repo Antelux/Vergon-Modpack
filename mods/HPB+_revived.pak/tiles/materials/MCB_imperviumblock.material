@@ -1,0 +1,22 @@
+{
+  "materialId" : 42376,
+  "materialName" : "MCB_imperviumblock",
+  "particleColor" : [59, 59, 59, 255],
+  "itemDrop" : "MCB_imperviumblock",
+  "description" : "An impervium block!",
+  "shortdescription" : "Impervium Block",
+  "glitchDescription" : "Analysis. An ipervium block.",
+  "floranDescription" : "Impervium block. Floran likes.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 34,
+  "category": "materials",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "MCB_imperviumblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

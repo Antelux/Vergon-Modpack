@@ -1,0 +1,10 @@
+{
+  "itemName" : "waveroofing",
+  "rarity" : "Rare",
+  "inventoryIcon" : "waveroofingicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Cerulium roofing.",
+  "shortdescription" : "Wave Roofing",
+
+  "materialId" : 2297
+}

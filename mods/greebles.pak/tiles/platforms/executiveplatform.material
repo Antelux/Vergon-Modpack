@@ -1,0 +1,23 @@
+{
+  "materialId" : 2410,
+  "materialName" : "executiveplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "executiveplatform",
+  "shortdescription" : "Executive Platform",
+  "description" : "A tough, sturdy executive platform.",
+  "glitchDescription" : "Impressed. These executive platforms are both tough and stylish.",
+  "floranDescription" : "Jusst another metal platform.",
+  "novakidDescription" : "This there metal platform is reeeeal fancy.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "executiveplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "contrabass_trumpet",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "contrabass_trumpet.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A contrabass trumpet. My arm hurts!",
+  "shortdescription" : "Contrabass Trumpet",
+  "largeImage" : "contrabass_trumpet.png",
+  "image" : "contrabass_trumpet.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "contrabass_trumpet.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.85, 0.375],
+
+  "handPosition" : [0.3, -0.1],
+  "twoHanded" : true,
+  "kind" : "contrabass_trumpet"
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "tier3platform",
+  // "twoHanded" : false,
+  "rarity" : "Common",
+  "inventoryIcon" : "tier3platformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Strong titanium platforms.",
+  "shortdescription" : "Titanium Platform",
+  "glitchdescription" : "Analysis. Strong titanium platform.",
+  "florandescription" : "Blue-isssh.",
+
+  "materialId" : 2403
+}

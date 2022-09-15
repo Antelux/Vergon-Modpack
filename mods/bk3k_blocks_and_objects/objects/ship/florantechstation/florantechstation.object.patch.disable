@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op" : "test",
+      "path" : "/scripts",
+      "inverse" : false
+    },
+    {
+      "op" : "add",
+      "path" : "/scripts/-",
+      "value" : "/scripts/bk3k/bk3k_petLoader.lua"
+    }
+  ]
+]

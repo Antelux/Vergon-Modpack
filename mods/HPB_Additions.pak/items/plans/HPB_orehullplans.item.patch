@@ -1,0 +1,14 @@
+[
+  [
+    { "op": "test", "path": "/learnBlueprintsOnPickup", "inverse": true },
+    { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
+  ],
+  [
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "HPBA_slopedcarbonfiberpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "slopedglasspanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "slopedhullpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "slopedinsetpanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "slopedrustypanel" },
+    { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "slopedscrappanel" }
+  ]
+]

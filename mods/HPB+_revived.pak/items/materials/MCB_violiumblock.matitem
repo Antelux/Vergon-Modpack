@@ -1,0 +1,11 @@
+{
+  "itemName" : "MCB_violiumblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "MCB_violiumblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A Violium block!",
+  "shortdescription" : "Violium Block",
+  "glitchDescription" : "Analysis. A violium block.",
+  "floranDescription" : "Violium block?",
+  "materialId" : 42381
+}

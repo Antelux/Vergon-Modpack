@@ -1,0 +1,23 @@
+{
+  "materialId": 42193,
+  "materialName": "HPB_apexstripedwall",
+  "particleColor": [190, 208, 212, 255],
+  "itemDrop": "HPB_apexstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Apex Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "apexstripedwall_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2690
+  }
+}

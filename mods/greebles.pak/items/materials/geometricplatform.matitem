@@ -1,0 +1,13 @@
+{
+  "itemName" : "geometricplatform",
+  "category" : "Platform",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "geometricplatformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Strong ferozium platforms.",
+  "shortdescription" : "Geometric Platform",
+  "glitchdescription" : "Analysis. Strong ferozium platform.",
+  "florandescription" : "Cold blue metal!",
+
+  "materialId" : 2406
+}

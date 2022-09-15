@@ -1,0 +1,20 @@
+{
+  "itemName" : "contrabass_clarinet",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "contrabass_clarinet.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A contrabass clarinet. Could use a low C extension.",
+  "shortdescription" : "Contrabass Clarinet",
+  "largeImage" : "contrabass_clarinet.png",
+  "image" : "contrabass_clarinet.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "contrabass_clarinet.png",
+  "activeAngle" : 10,
+  "activeHandPosition" : [-0.05,-0.5],
+
+  "handPosition" : [-0.1,-0.65],
+  "twoHanded" : true,
+  "kind" : "contrabass_clarinet"
+}

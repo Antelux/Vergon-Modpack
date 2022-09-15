@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_vidscreenblock",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "vidscreenblock_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Video Screen Block",
+  "description" : "Blank video screen.",
+  "glitchdescription" : "Statement. Video screen.",
+  "florandescription" : "Ssscreen.",
+
+  "materialId" : 42294
+}

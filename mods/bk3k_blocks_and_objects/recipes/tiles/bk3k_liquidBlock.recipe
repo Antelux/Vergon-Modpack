@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "sand2", "count" : 60 }
+  ],
+  "output" : {
+    "item" : "bk3k_liquidBlock",
+    "count" : 20
+  },
+  "groups" : [ "mod", "bk3k", "bk3k_materials" ]
+}

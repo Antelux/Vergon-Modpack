@@ -1,0 +1,46 @@
+{
+  "objectName" : "letheiaexpandedcouch1",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A dark Letheia Corporation couch.",
+  "shortdescription" : "Dark Letheia Couch",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 200,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "letheiaexpandedcouch1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-4, 23], // Right
+        [8, 23] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "letheiaexpandedcouch1.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [4, 23], // Left
+        [16, 23] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

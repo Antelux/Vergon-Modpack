@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "nullasteelplate", "count" : 8 }
+  ],
+  "output" : { "item" : "letheiaexpandedlegionmodel1", "count" : 1 },
+  "duration" : 0.1,
+  "groups"  : [ "legiondecorative","legioncrafting1" ]
+}

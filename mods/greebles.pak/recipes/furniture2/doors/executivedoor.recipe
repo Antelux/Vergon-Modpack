@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 1 },
+    { "item" : "solariumstar", "count" : 1}
+  ],
+  "output" : { "item" : "executivedoor", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "doors", "all" ]
+}

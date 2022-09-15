@@ -1,0 +1,21 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 1 },
+    { "item": "silverbar",
+      "count": 1 },
+    { "item": "sand2",
+      "count": 6 },
+    { "item": "liquidhealing",
+      "count": 6 },
+    { "item": "glass",
+      "count": 1 },
+    { "item": "plantfibre",
+      "count": 12 }
+  ],
+  "output": { "item": "HPB_oasisstoragelocker",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "objects", "storage", "all" ]
+}

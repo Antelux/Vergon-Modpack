@@ -1,0 +1,23 @@
+{
+  "materialId" : 2337,
+  "materialName" : "wavebeam",
+  "particleColor" : [90, 135, 210, 255],
+  "itemDrop" : "wavebeam",
+  "description" : "Support beam made of cerulium.",
+  "shortdescription" : "Wave Beam",
+  "glitchDescription" : "Analysis. Cerulium support beam.",
+  "floranDescription" : "Sssupporty cerulium beam.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 16,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "wavebeam.png",
+    "variants" : 4,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3190
+  }
+}

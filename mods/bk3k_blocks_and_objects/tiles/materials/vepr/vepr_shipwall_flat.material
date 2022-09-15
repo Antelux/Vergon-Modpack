@@ -1,0 +1,23 @@
+{
+  "materialId" : 7169,
+  "materialName" : "vepr_shipwall_flat",
+  "particleColor" : [0, 255, 255, 255],
+  "itemDrop" : "vepr_shipwall_flat",
+  "description" : "It covers vital ship systems.",
+  "shortdescription" : "Vepr Ship Wall(flat)",
+  "glitchDescription" : "Statement. A metallic-plastic plate covering the ship's inner workings.",
+  "floranDescription" : "Sssmoooth. Floran want to lick!",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 20,
+  
+  "category" : "materials",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "vepr_shipwall_flat.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : false,
+    "zLevel" : 3170
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "objectName": "HPB_novakidcreamfuelhatch",
+  "printable": false,
+  "rarity": "Common",
+  "objectType": "container",
+  "colonyTags": [ "misc" ],
+  "description": "Accepts a bunch of different kinds of fuel. Novakid design.",
+  "shortdescription": "Novakid Cream Fuel Hatch",
+  "race": "novakid",
+  "lightColor": [61, 88, 102],
+
+  "apexDescription": "Converts fuel into freedom.",
+  "avianDescription": "Let's load it up and take to the stars!",
+  "floranDescription": "Let'ss get going!",
+  "glitchDescription": "Excited. Once filled, we may visit another planet.",
+  "humanDescription": "A fuel panel. We can fill this up and explore.",
+  "hylotlDescription": "Fuel is the lifeblood of exploration.",
+
+  "inventoryIcon": "novakidcreamfuelhatchicon_HPB.png",
+  "orientations": [
+    {
+      "imageLayers": [ { "image": "novakidcreamfuelhatch_HPB.png:<color>.<frame>", "fullbright": true }, { "image": "novakidcreamfuelhatchlit_HPB.png:<color>.<frame>" } ],
+
+      "imagePosition": [-8, -16],
+      "frames": 4,
+      "animationCycle": 0.7,
+
+      "spaceScan": 0.1,
+      "anchors": [ "background" ]
+    }
+  ],
+
+  "hasWindowIcon": false,
+  "recipeGroup": "fuel",
+  "slotCount": 6,
+  "uiConfig": "/interface/fuel/fuel.config",
+  "autoCloseCooldown": 3600,
+  "frameCooldown": 5,
+  
+  "triggerKeys": [ "newfuelhatch" ]
+}

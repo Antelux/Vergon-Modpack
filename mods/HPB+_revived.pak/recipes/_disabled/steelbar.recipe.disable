@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ironbar",
+      "count" : 1 },
+    { "item" : "copperbar",
+      "count" : 1 },
+    { "item" : "coalore",
+      "count" : 1 }
+  ],
+  "output" : { "item" : "steelbar",
+    "count" : 1
+  },
+  "groups" : [ "furnace2", "all" ]
+}

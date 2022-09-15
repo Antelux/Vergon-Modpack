@@ -1,0 +1,23 @@
+{
+  "materialId" : 2338,
+  "materialName" : "opulentbeam",
+  "particleColor" : [165, 80, 195, 255],
+  "itemDrop" : "opulentbeam",
+  "description" : "Support beam made of violium.",
+  "shortdescription" : "Opulent Beam",
+  "glitchDescription" : "Analysis. Violium support beam.",
+  "floranDescription" : "Sssupporty violium beam.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 20,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "opulentbeam.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3190
+  }
+}

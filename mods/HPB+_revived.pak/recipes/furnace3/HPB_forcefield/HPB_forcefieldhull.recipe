@@ -1,0 +1,11 @@
+{
+  "input": [
+    { "item": "solidfuel",
+      "count": 5 }
+  ],
+  "output": { "item": "HPB_forcefieldhull",
+      "count": 40
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurnace3", "ingredients", "all" ]
+}

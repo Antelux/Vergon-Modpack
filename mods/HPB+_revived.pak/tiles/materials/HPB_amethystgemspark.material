@@ -1,0 +1,24 @@
+{
+  "materialId": 42174,
+  "materialName": "HPB_amethystgemspark",
+  "particleColor": [255, 0, 255, 255],
+  "itemDrop": "HPB_amethystgemspark",
+  "description": "Amethyst gemspark block.",
+  "shortdescription": "Amethyst Gemspark",
+  "glitchDescription": "Statement. Gemspark.",
+  "floranDescription": "Pretty glowing gemsss.",
+  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "amethystgemspark_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000,
+    "radiantLight": [220, 0, 220]
+  }
+}

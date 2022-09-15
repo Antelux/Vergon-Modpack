@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "money",
+      "count": 25 }
+  ],
+  "output": { "item": "apexshipsupport",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "HPB_material", "hullplatingcatalog3" ]
+}

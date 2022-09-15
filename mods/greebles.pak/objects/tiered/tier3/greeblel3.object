@@ -1,0 +1,89 @@
+{
+  "objectName" : "greebleL3",
+  "colonyTags" : ["misc","tier3"],
+  "printable" : false,
+  "rarity" : "common",  
+  "category" : "decorative",
+  
+  "price" : 55,
+  "description" : "An aesthetic titanium embellishment.",
+  "shortdescription" : "Greeble-Ti3L",
+  "race" : "generic",
+ 
+  "apexDescription" : "A tasteful aesthetic titanium embellishment.",
+  "avianDescription" : "An aesthetic titanium embellishment.",
+  "floranDescription" : "Titanium thing doesss what?",
+  "glitchDescription" : "Curious. This titanium object appears to have no function.",
+  "humanDescription" : "I believe they call this kind of embellishment a greeble.",
+  "hylotlDescription" : "An aesthetic titanium embellishment.",
+  "novakidDescription" : "Nice piece o' titanium styling there.",
+ 
+  "inventoryIcon" : "greebleL3icon.png",
+ 
+  "orientations" : [
+    {
+      "image" : "greebleL3.png",
+      "imagePosition" : [-8,-8],
+      "spaces" : [ [-1,2],[-1,1],[-1,0],[-1,-1],[0,-1],[1,-1],[2,-1] ],
+      "fgAnchors" : [ [0,2],[0,1],[0,0],[1,0],[2,0] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "greebleL3.png?flipx",   
+      "imagePosition" : [-16,-8],
+      "spaces" : [ [1,2],[1,1],[1,0],[1,-1],[0,-1],[-1,-1],[-2,-1] ],
+      "fgAnchors" : [ [0,2],[0,1],[0,0],[-1,0],[-2,0] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "greebleL3top.png",   
+      "imagePosition" : [-8,-16],
+      "spaces" : [ [-1,1],[0,1],[1,1],[2,1],[-1,0],[-1,-1],[-1,-2] ],
+      "fgAnchors" : [ [0,0],[1,0],[2,0],[0,-1],[0,-2] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "greebleL3top.png?flipx",   
+      "imagePosition" : [-16,-16],
+      "spaces" : [ [-2,1],[-1,1],[0,1],[1,1],[1,0],[1,-1],[1,-2] ],
+      "fgAnchors" : [ [-2,0],[-1,0],[0,0],[0,-1],[0,-2] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "greebleL3inverted.png",
+      "imagePosition" : [0,0],
+      "spaces" : [ [0,3],[0,2],[0,1],[0,0],[1,0],[2,0],[3,0] ],
+      "fgAnchors" : [ [-1,3],[-1,2],[-1,1],[-1,0],[0,-1],[1,-1],[2,-1],[3,-1] ],
+      "direction" : "left",
+      "collision" : "solid"
+    },
+    {
+      "image" : "greebleL3inverted.png?flipx",
+      "imagePosition" : [-24,0],
+      "spaces" : [ [0,3],[0,2],[0,1],[0,0],[-1,0],[-2,0],[-3,0] ],
+      "fgAnchors" : [ [1,3],[1,2],[1,1],[1,0],[0,-1],[-1,-1],[-2,-1],[-3,-1] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "greebleL3invertedtop.png",
+      "imagePosition" : [0,-24],
+      "spaces" : [ [0,0],[1,0],[2,0],[3,0],[0,-1],[0,-2],[0,-3] ],
+      "fgAnchors" : [ [0,1],[1,1],[2,1],[3,1],[-1,0],[-1,-1],[-1,-2],[-1,-3] ],
+      "direction" : "right",
+      "collision" : "solid"
+    },
+    {
+      "image" : "greebleL3invertedtop.png?flipx",
+      "imagePosition" : [-24,-24],
+      "spaces" : [ [-3,0],[-2,0],[-1,0],[0,0],[0,-1],[0,-2],[0,-3] ],
+      "fgAnchors" : [ [-3,1],[-2,1],[-1,1],[0,1],[1,0],[1,-1],[1,-2],[1,-3] ],
+      "direction" : "left",
+      "collision" : "solid"
+    }
+  ]
+}

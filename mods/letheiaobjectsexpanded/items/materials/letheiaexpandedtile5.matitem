@@ -1,0 +1,11 @@
+{
+  "itemName" : "letheiaexpandedtile5",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "letheiaexpandedtile5.png",
+  "description" : "A slim glass pane.",
+  "shortdescription" : "Slim Glass Block",
+
+  "materialId" : 16505
+}

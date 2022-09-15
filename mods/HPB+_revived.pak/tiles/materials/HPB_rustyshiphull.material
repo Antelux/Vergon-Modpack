@@ -1,0 +1,23 @@
+{
+  "materialId": 42004,
+  "materialName": "HPB_rustyshiphull",
+  "particleColor": [120, 92, 84, 255],
+  "itemDrop": "HPB_rustyshiphull",
+  "shortdescription": "Rusty Hull Plating",
+  "description": "Sheets of rusty ship hull plating.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "rustyshiphull_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

@@ -1,0 +1,411 @@
+42000-42399 old
+42000-42999 new
+Material ID		Material Name
+=====================================
+42000			HPB_apexshiphull
+42001			HPB_apexshiphullcomplex
+42002			HPB_avianshiphull
+42003			HPB_floranshiphull
+42004			HPB_rustyshiphull
+42005			HPB_glitchshiphull
+42006			HPB_humanshiphull
+42007			HPB_hylotlshiphull
+42008			HPB_novakidbrasshull
+42009			HPB_novakidcreamhull
+42010			HPB_novakidcyanhull
+42011			HPB_novakidgreenhull
+42012			HPB_novakidredhull
+42013			HPB_apexshiptrim
+42014			HPB_avianshiptrim
+42015			HPB_floranshiptrim
+42016			HPB_florangreenhousetrim
+42017			HPB_glitchshiptrim
+42018			HPB_humanshiptrim
+42019			HPB_hylotlshiptrim
+42020			HPB_shipdoorframe
+42021			HPB_shiphatchframe
+42022			HPB_novakidbrasstrim
+42023			HPB_novakidcreamtrim
+42024			HPB_novakidcyantrim
+42025			HPB_novakidgreentrim
+42026			HPB_novakidredtrim
+42027			HPB_rustyshiptrim
+42028			HPB_apexshipplatform
+42029			HPB_avianshipplatform
+42030			HPB_floranshipplatform
+42031			HPB_glitchshipplatform
+42032			HPB_humanshipplatform
+42033			HPB_humanredplatform
+42034			HPB_hylotlshipplatform
+42035			HPB_novakidbrassplatform
+42036			HPB_novakidcreamplatform
+42037			HPB_novakidcyanplatform
+42038			HPB_novakidgreenplatform
+42039			HPB_novakidredplatform
+42040			HPB_rustyshipplatform
+42041			HPB_shipengineblock
+42042			HPB_florangreenhouseframe
+42043			HPB_glassshipplatform
+42044			HPB_glasstrim
+42045			HPB_floranpinkhull
+42046			HPB_floranpinktrim
+42047			HPB_floranpinkplatform
+42048			HPB_fishscalehull
+42049			HPB_fishshiphull
+42050			HPB_coppershiphull
+42051			HPB_ironshiphull
+42052			HPB_silvershiphull
+42053			HPB_goldshiphull
+42054			HPB_platinumshiphull
+42055			HPB_steelshiphull
+42056			HPB_titaniumshiphull
+42057			HPB_durasteelshiphull
+42058			HPB_violiumshiphull
+42059			HPB_aegisaltshiphull
+42060			HPB_rubiumshiphull
+42061			HPB_ceruliumshiphull
+42062			HPB_feroziumshiphull
+42063			HPB_imperviumshiphull
+42064			HPB_drywall
+42065			HPB_carbonfiberhull
+42066			HPB_brasspipe
+42067			HPB_plasticshiphull
+42068			HPB_carbonfibertrim
+42069			HPB_plastictrim
+42070			HPB_coppertrim
+42071			HPB_irontrim
+42072			HPB_silvertrim
+42073			HPB_goldtrim
+42074			HPB_platinumtrim
+42075			HPB_steeltrim
+42076			HPB_titaniumtrim
+42077			HPB_durasteeltrim
+42078			HPB_violiumtrim
+42079			HPB_aegisalttrim
+42080			HPB_rubiumtrim
+42081			HPB_ceruliumtrim
+42082			HPB_feroziumtrim
+42083			HPB_imperviumtrim
+42084			HPB_carbonfiberplatform
+42085			HPB_plasticshipplatform
+42086			HPB_coppershipplatform
+42087			HPB_ironshipplatform
+42088			HPB_silvershipplatform
+42089			HPB_goldshipplatform
+42090			HPB_platinumshipplatform
+42091			HPB_steelshipplatform
+42092			HPB_titaniumshipplatform
+42093			HPB_durasteelshipplatform
+42094			HPB_violiumshipplatform
+42095			HPB_aegisaltshipplatform
+42096			HPB_rubiumshipplatform
+42097			HPB_ceruliumshipplatform
+42098			HPB_feroziumshipplatform
+42099			HPB_imperviumshipplatform
+42100			HPB_apexwallpanel
+42101			HPB_avianwallpanel
+42102			HPB_floranwallpanel
+42103			HPB_glitchwallpanel
+42104			HPB_humanwallpanel
+42105			HPB_hylotlwallpanel
+42106			HPB_novakidbrasswallpanel
+42107			HPB_novakidcreamwallpanel
+42108			HPB_novakidcyanwallpanel
+42109			HPB_novakidgreenwallpanel
+42110			HPB_novakidredwallpanel
+42111			HPB_rustywallpanel
+42112			HPB_floranpinkwallpanel
+42113			HPB_glasswallpanel
+42114			HPB_carbonfiberwallpanel
+42115			HPB_plasticwallpanel
+42116			HPB_copperwallpanel
+42117			HPB_ironwallpanel
+42118			HPB_silverwallpanel
+42119			HPB_goldwallpanel
+42120			HPB_platinumwallpanel
+42121			HPB_steelwallpanel
+42122			HPB_titaniumwallpanel
+42123			HPB_durasteelwallpanel
+42124			HPB_violiumwallpanel
+42125			HPB_aegisaltwallpanel
+42126			HPB_rubiumwallpanel
+42127			HPB_ceruliumwallpanel
+42128			HPB_feroziumwallpanel
+42129			HPB_imperviumwallpanel
+42130			HPB_apexshiphullcomplexalt
+42131			HPB_floranshiphullalt
+42132			HPB_floranpinkhullalt
+42133			HPB_humanshiphullalt
+42134			HPB_hylotlshiphullalt
+42135			HPB_novakidbrasshullalt
+42136			HPB_novakidcreamhullalt
+42137			HPB_novakidcyanhullalt
+42138			HPB_novakidgreenhullalt
+42139			HPB_novakidredhullalt
+42140			HPB_rustyshiphullalt
+42141			HPB_carbonfiberhullalt
+42142			HPB_coppershiphullalt
+42143			HPB_ironshiphullalt
+42144			HPB_silvershiphullalt
+42145			HPB_goldshiphullalt
+42146			HPB_platinumshiphullalt
+42147			HPB_steelshiphullalt
+42148			HPB_titaniumshiphullalt
+42149			HPB_durasteelshiphullalt
+42150			HPB_violiumshiphullalt
+42151			HPB_aegisaltshiphullalt
+42152			HPB_rubiumshiphullalt
+42153			HPB_ceruliumshiphullalt
+42154			HPB_feroziumshiphullalt
+42155			HPB_imperviumshiphullalt
+42156			HPB_fishshiptrim
+42157			HPB_fishshipplatform
+42158			HPB_fishwallpanel
+42159			HPB_emptycoveredhull
+	(The above is an experimental, undocumented tile that has no recipe; DO NOT USE!  It will be replaced eventually)
+42160			HPB_heatsink
+42161			HPB_avianheatsinka
+42162			HPB_avianheatsinkb
+42163			HPB_glitchheatsink
+42164			HPB_humanheatsink
+42165			HPB_hylotlheatsink
+42166			HPB_glitchheatsinkb
+42167			HPB_novakidglowingpanel
+42168			HPB_diamondgemspark
+42169			HPB_rubygemspark
+42170			HPB_sapphiregemspark
+42171			HPB_emeraldgemspark
+42172			HPB_topazgemspark
+42173			HPB_ambergemspark
+42174			HPB_amethystgemspark
+42175			HPB_aquamarinegemspark
+42176			HPB_tanzanitegemspark
+42177			HPB_opalgemspark
+42178			HPB_cyanbluegemspark
+42179			HPB_blackgemspark
+42180			HPB_diamondgemsparktrim
+42181			HPB_rubygemsparktrim
+42182			HPB_sapphiregemsparktrim
+42183			HPB_emeraldgemsparktrim
+42184			HPB_topazgemsparktrim
+42185			HPB_ambergemsparktrim
+42186			HPB_amethystgemsparktrim
+42187			HPB_aquamarinegemsparktrim
+42188			HPB_tanzanitegemsparktrim
+42189			HPB_opalgemsparktrim
+42190			HPB_cyanbluegemsparktrim
+42191			HPB_blackgemsparktrim
+42192			HPB_glassstripedwall
+42193			HPB_apexstripedwall
+42194			HPB_avianstripedwall
+42195			HPB_floranstripedwall
+42196			HPB_floranpinkstripedwall
+42197			HPB_glitchstripedwall
+42198			HPB_humanstripedwall
+42199			HPB_hylotlstripedwall
+42200			HPB_fishstripedwall
+42201			HPB_novakidbrassstripedwall
+42202			HPB_novakidcreamstripedwall
+42203			HPB_novakidcyanstripedwall
+42204			HPB_novakidgreenstripedwall
+42205			HPB_novakidredstripedwall
+42206			HPB_rustystripedwall
+42207			HPB_carbonfiberstripedwall
+42208			HPB_plasticstripedwall
+42209			HPB_copperstripedwall
+42210			HPB_ironstripedwall
+42211			HPB_silverstripedwall
+42212			HPB_goldstripedwall
+42213			HPB_platinumstripedwall
+42214			HPB_steelstripedwall
+42215			HPB_titaniumstripedwall
+42216			HPB_durasteelstripedwall
+42217			HPB_violiumstripedwall
+42218			HPB_aegisaltstripedwall
+42219			HPB_rubiumstripedwall
+42220			HPB_ceruliumstripedwall
+42221			HPB_feroziumstripedwall
+42222			HPB_imperviumstripedwall
+42223			HPB_cardboardhull
+42224			HPB_carbonfibercolumn
+42225			HPB_plasticcolumn
+42226			HPB_coppercolumn
+42227			HPB_ironcolumn
+42228			HPB_silvercolumn
+42229			HPB_goldcolumn
+42230			HPB_platinumcolumn
+42231			HPB_steelcolumn
+42232			HPB_titaniumcolumn
+42233			HPB_durasteelcolumn
+42234			HPB_violiumcolumn
+42235			HPB_aegisaltcolumn
+42236			HPB_rubiumcolumn
+42237			HPB_ceruliumcolumn
+42238			HPB_feroziumcolumn
+42239			HPB_imperviumcolumn
+42240			HPB_apexcolumn
+42241			HPB_aviancolumn
+42242			HPB_florancolumn
+42243			HPB_floranpinkcolumn
+42244			HPB_glitchcolumn
+42245			HPB_humancolumn
+42246			HPB_hylotlcolumn
+42247			HPB_fishcolumn
+42248			HPB_novakidbrasscolumn
+42249			HPB_novakidcreamcolumn
+42250			HPB_novakidcyancolumn
+42251			HPB_novakidgreencolumn
+42252			HPB_novakidredcolumn
+42253			HPB_rustycolumn
+42254			HPB_pixelblock
+42255			HPB_voxel1khull
+42256			HPB_voxel5khull
+42257			HPB_voxel10khull
+42258			HPB_voxel2khull
+42259			HPB_ufoupperhull
+42260			HPB_ufolowerhull
+42261			HPB_ufotrim
+42262			HPB_ufoglowingtrim
+42263			HPB_ufowallpanel
+42264			HPB_ufostripedwall
+42265			HPB_ufoshipplatform
+42266			HPB_ufocolumn
+42267			HPB_cardboardcolumn
+42268			HPB_cardboardplatform
+42269			HPB_cardboardwallpanel
+42270			HPB_cardboardstripedwall
+42271			HPB_cardboardtrim
+42272			HPB_corefragmenthull
+42273			HPB_corefragmenthullalt
+42274			HPB_corefragmenttrim
+42275			HPB_corefragmentwallpanel
+42276			HPB_corefragmentstripedwall
+42277			HPB_corefragmentcolumn
+42278			HPB_corefragmentshipplatform
+42279			HPB_monsterhull
+42280			HPB_monstershipplatform
+42281			HPB_monstertrim
+42282			HPB_monsterwallpanel
+42283			HPB_monsterstripedwall
+42284			HPB_monstercolumn
+42285			HPB_leatherblock
+42286			HPB_cellmateriahull
+42287			HPB_monstersegmentedhull
+42288			HPB_monsterscalehull
+42289			HPB_gelatinblock
+42290			HPB_poisongelatinblock
+42291			HPB_healinggelatinblock
+42292			HPB_gelledfuelblock
+42293			redhotcobblestone
+42294			HPB_vidscreenblock
+42295			HPB_coalstone
+42296			HPB_plasticstone
+42297			HPB_copperstone
+42298			HPB_ironstone
+42299			HPB_rustyironstone
+42300			HPB_silverstone
+42301			HPB_goldstone
+42302			HPB_platinumstone
+42303			HPB_steelstone
+42304			HPB_titaniumstone
+42305			HPB_durasteelstone
+42306			HPB_violiumstone
+42307			HPB_aegisaltstone
+42308			HPB_rubiumstone
+42309			HPB_ceruliumstone
+42310			HPB_feroziumstone
+42311			HPB_imperviumstone
+42312			HPB_uraniumstone
+42313			HPB_plutoniumstone
+42314			HPB_solariumstone
+42315			violiumcrystal
+42316			aegisaltcrystal
+42317			HPB_rubiumcrystal
+42318			HPB_solariumcrystal
+42319			HPB_macrocircuitboard
+42320			HPB_macrocircuitendtrace
+42321			HPB_macrocircuitflatheadscrew
+42322			HPB_macrocircuitphillupsscrew
+42323			HPB_macrocircuitscrewhole
+42324			HPB_macrocircuittrace
+42325			HPB_forcefieldhull
+42326			HPB_forcefieldhullalt
+42327			HPB_forcefieldtrim
+42328			HPB_forcefieldtrimalt
+42329			HPB_forcefieldshipplatform
+42330			HPB_forcefieldwallpanel
+42331			HPB_forcefieldstripedwall
+42332			HPB_forcefieldcolumn
+42333			HPB_macrocircuittraceb
+42334			HPB_macrocircuittracec
+42335			HPB_macroresistorv
+42336			HPB_macroresistorh
+42337			HPB_macrodipv
+42338			HPB_macrodiph
+42339			HPB_macrochipblock
+42340			HPB_springhull
+42341			HPB_springshipplatform
+42342			HPB_springwallpanel
+42343			HPB_shipwindow
+42344			HPB_springhullalt
+42345			springvines
+42346			HPB_cutcobblestone
+42347			HPB_stonewallpanel
+42348			HPB_stonestripedwall
+42349			HPB_stoneshipplatform
+42350			HPB_stonecolumn
+42351			HPB_stonetrim
+42352			HPB_glasssloped
+42353			HPB_chainlinkfence
+42354			HPB_concretehull
+42355			HPB_concretecolumn
+42356			HPB_rebarblock
+42357			HPB_concreteshipplatform
+42358			HPB_concretestripedwall
+42359			HPB_concretewallpanel
+42360			HPB_springstripedwall//replaced
+//42434			HPB_springstripedwall
+	//(The above was placed at this ID as an accidental typo; now I'm stuck with it)
+  //not any more... formerly dead mods aren't stuck with the past.
+42361			HPB_transparenplastic
+42362			HPB_plasticshipwindow
+42363 - skip it for possible compatibility problem
+42364 - skip it for possible compatibility problem
+42365 - skip it for possible compatibility problem
+
+//More Craftable Blocks added
+42366 - MCB_aegisblock
+42367 - MCB_blastblock
+42368 - MCB_ceruliumblock
+42369 - MCB_copperbrick
+42370 - MCB_corebrick
+42371 - MCB_diamondbrick
+42372 - MCB_direblock
+42373 - MCB_durablock
+42374 - MCB_feroziumblock
+42375 - MCB_goldbrick
+42376 - MCB_imperviumblock
+42377 - MCB_platinumbrick
+42378 - MCB_rubiumblock
+42379 - MCB_silverbrick
+42380 - MCB_slimeblock
+42381 - MCB_violiumblock
+//end_MCB
+
+//For compatibility fixes only, not otherwise used at all.
+//Mad Tupid's ship mod
+42388
+42389
+42390
+42391
+42392
+42393
+42394
+42395
+42396
+42397
+42398
+42399
+//end_Mad_Tulip fix
+
+

@@ -1,0 +1,49 @@
+{
+  "objectName" : "Q_unwrecked_prisontorturebed2",
+  "colonyTags" : ["human","humanprison","evil"],
+  "rarity" : "Common",
+  "description" : "A refurbished torture bed. Terrifying! Thank goodness it looks like new.",
+  "shortdescription" : "Refurbished Torture Bed",
+  "race" : "human",
+  "category" : "furniture",
+  "price" : 750,
+
+  "apexDescription" : "A refurbished torture bed. At least it has been repaired.",
+  "avianDescription" : "A shiny torture bed. I don't even want to think about what's gone on here.",
+  "floranDescription" : "Gift wrapping for Floran prey. Looksss new.",
+  "glitchDescription" : "Curiosity. I wonder what kind of company would refurbish torture beds.",
+  "humanDescription" : "Hey, an OKEA bed! What's it doing in a prison though? Uh, right, it's a torture bed.",
+  "hylotlDescription" : "Torture should be outlawed. Barbaric and cruel. But at least this torture bed is clean!",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [-7, 17],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "Q_unwrecked_prisontorturebed2icon.png",
+  "orientations" : [
+    {
+      "image" : "Q_unwrecked_prisontorturebed2.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "Q_unwrecked_prisontorturebed2.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

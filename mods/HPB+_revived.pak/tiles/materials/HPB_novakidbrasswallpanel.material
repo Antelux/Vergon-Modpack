@@ -1,0 +1,23 @@
+{
+  "materialId": 42106,
+  "materialName": "HPB_novakidbrasswallpanel",
+  "particleColor": [107, 85, 9, 255],
+  "itemDrop": "HPB_novakidbrasswallpanel",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Novakid Brass Panel",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "novakidbrasswallpanel_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2630
+  }
+}

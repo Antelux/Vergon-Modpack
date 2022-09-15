@@ -1,0 +1,69 @@
+{
+  "type" : "legionmercenary1",
+  "baseType" : "villageguard",
+  
+  "levelVariance" : [4, 6.0],
+  
+  "dropPools" : [ "money" ],
+
+  "scriptConfig" : {
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Don't do anything suspicious, we're watching.",
+            "Hello, stranger.",
+            "What do you want?",
+            "Letheia's peacekeepers might be well-trained, but we're better.",
+            "You're welcome to look around, but don't bother anyone while you're at it.",
+            "Don't poke your nose where it doesn't belong."
+          ]
+        }
+      },
+      "attack" : {
+        "default" : {
+          "default" : [
+            "Intruder!",
+            "You are nothing to the Legion!"
+          ]
+        },
+        "human" : {
+          "default" : [
+            "You don't know what you're up against!",
+            "Don't think you're getting out of this one easily!",
+            "You are no match for us!",
+            "For the Legion!",
+            "You can't oppose our power!",
+            "You will regret coming here!",
+            "Intruder! Don't let them get away!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "legionuniformhead", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "legionuniform1head", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "legionuniformchest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "legionuniformpants", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "primary" : [
+              "legionsword1",
+              "legionassaultrifle1",
+              "legionpistol1"
+            ]
+          }
+        ]
+	  ]
+    ]
+  }
+}

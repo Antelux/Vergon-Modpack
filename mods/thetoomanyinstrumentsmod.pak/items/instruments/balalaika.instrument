@@ -1,0 +1,20 @@
+{
+  "itemName" : "balalaika",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "balalaikaicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A balalaika. That's a fun word!",
+  "shortdescription" : "Balalaika",
+  "largeImage" : "balalaika.png",
+  "image" : "balalaika.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "balalaika.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.1,0.1],
+
+  "handPosition" : [0,0],
+  "twoHanded" : true,
+  "kind" : "balalaika"
+}

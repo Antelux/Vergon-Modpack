@@ -1,0 +1,23 @@
+{
+  "materialId": 42225,
+  "materialName": "HPB_plasticcolumn",
+  "particleColor": [217, 217, 217, 255],
+  "itemDrop": "HPB_plasticcolumn",
+  "shortdescription": "Plastic Hull Paneling",
+  "description": "Columns for decorating or supporting upper floors in large rooms.",
+  "glitchDescription": "Statement. Stately column.",
+  "floranDescription": "Pole.",
+  "footstepSound": "/sfx/blocks/footstep_stone.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "plasticcolumn_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

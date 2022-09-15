@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "rubiumcompound",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_rubiumwallpanel",
+      "count": 50 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

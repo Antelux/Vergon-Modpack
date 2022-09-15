@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "nullasteelplate", "count" : 2 },
+	{ "item" : "corefragmentore", "count" : 1 }
+  ],
+  "output" : { "item" : "letheiaexpandedlegioncontainer1", "count" : 1 },
+  "duration" : 0.1,
+  "groups"  : [ "legionstorage","legioncrafting1" ]
+}

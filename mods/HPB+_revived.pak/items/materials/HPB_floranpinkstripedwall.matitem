@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_floranpinkstripedwall",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "floranpinkstripedwall_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A colourful wall panel.",
+  "shortdescription" : "Floran Pink Striped Wall",
+  "glitchdescription" : "Analysis. A wall panel.",
+  "florandescription" : "Wall.",
+
+  "materialId" : 42196
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 2326,
+  "materialName" : "geometricsupport",
+  "particleColor" : [50, 100, 110, 255],
+  "itemDrop" : "geometricsupport",
+  "description" : "Support beam made of ferozium.",
+  "shortdescription" : "Geometric Support",
+  "glitchDescription" : "Analysis. Ferozium support block.",
+  "floranDescription" : "Sssupporty ferozium.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 14,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "geometricsupport.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3340
+  }
+}

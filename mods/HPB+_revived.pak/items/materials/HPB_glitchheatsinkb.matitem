@@ -1,0 +1,16 @@
+{
+  "itemName" : "HPB_glitchheatsinkb",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "glitchheatsinkb_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Glitch Heat Sink B",
+  "description" : "Star ship heat sink, for shedding excess heat.",
+  "glitchdescription" : "Statement. Star ship heat sink.",
+  "florandescription" : "Warm.",
+  "learnBlueprintsOnPickup" : [
+    "glitchheatsinkb"
+  ],
+
+  "materialId" : 42166
+}

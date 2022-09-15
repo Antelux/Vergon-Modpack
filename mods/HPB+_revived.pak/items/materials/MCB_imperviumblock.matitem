@@ -1,0 +1,11 @@
+{
+  "itemName" : "MCB_imperviumblock",
+  "rarity" : "Common",
+  "inventoryIcon" : "MCB_imperviumblock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "An Impervium block!",
+  "shortdescription" : "impervium Block",
+  "glitchDescription" : "Analysis. An impervium block.",
+  "floranDescription" : "Impervium block. Floran likes.",
+  "materialId" : 42376
+}

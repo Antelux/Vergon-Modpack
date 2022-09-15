@@ -1,0 +1,11 @@
+{
+  "itemName" : "vepr_shipwall",
+  "rarity" : "Common",
+  "price" : 0,
+  "category" : "block",
+  "inventoryIcon" : "vepr_shipwall.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "It covers vital ship systems.",
+  "shortdescription" : "Vepr Ship Wall",
+  "materialId" : 7172
+}

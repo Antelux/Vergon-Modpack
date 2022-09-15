@@ -1,0 +1,12 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 9 },
+    { "item": "siliconboard",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_largehullrivettool",
+      "count": 1 
+  },
+  "groups": [ "mod", "HPB_mod", "craftinganvil3", "weapons", "all" ]
+}

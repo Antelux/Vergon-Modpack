@@ -1,0 +1,12 @@
+{
+  "itemName" : "tier3girder",
+  "rarity" : "Common",
+  "inventoryIcon" : "tier3girdericon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A strong looking titanium girder.",
+  "shortdescription" : "Titanium Girder",
+  "glitchdescription" : "Statement. A titanium girder.",
+  "florandescription" : "Metal thing.",
+
+  "materialId" : 2343
+}

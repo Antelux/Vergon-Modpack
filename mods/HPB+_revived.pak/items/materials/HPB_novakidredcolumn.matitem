@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_novakidredcolumn",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "novakidredcolumn_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Novakid Red Column",
+  "description" : "Columns for decorating or supporting upper floors in large rooms.",
+  "glitchdescription" : "Statement. Stately column.",
+  "florandescription" : "Pole.",
+
+  "materialId" : 42252
+}

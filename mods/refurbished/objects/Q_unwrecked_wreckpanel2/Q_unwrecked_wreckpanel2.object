@@ -1,0 +1,31 @@
+{
+  "objectName" : "Q_unwrecked_wreckpanel2",
+  "colonyTags" : ["wreck","mechanical"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 30,
+
+  "description" : "A new input panel, probably used for security.",
+  "shortdescription" : "Small Refurbished Panel",
+  "race" : "generic",
+
+  "apexDescription" : "This input panel works well enough.",
+  "avianDescription" : "It's an input panel.",
+  "floranDescription" : "This panel isss very fresssh.",
+  "glitchDescription" : "Neutral. This input panel is functional.",
+  "humanDescription" : "A functioning and clean input panel.",
+  "hylotlDescription" : "This input panel fine.",
+  "novakidDescription" : "This thing works well enough.",  "inventoryIcon" : "Q_unwrecked_wreckpanel2icon.png",
+  "orientations" : [
+    {
+      "image" : "Q_unwrecked_wreckpanel2.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

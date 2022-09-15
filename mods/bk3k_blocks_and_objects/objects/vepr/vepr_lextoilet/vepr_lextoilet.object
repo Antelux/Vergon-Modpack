@@ -1,0 +1,66 @@
+{
+  "objectName" : "vepr_lextoilet",
+  "rarity" : "uncommon",
+  
+  "description" : "Waste isn't a problem anymore! The LV1 compacts it and throws it out of a spacechute for only *299.",
+  "shortdescription" : "vepr LEX Toilet",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 400,
+  "colonyTags" : [ "pretty",  "misc" ],
+  "objectType" : "loungeable",
+
+  "apexDescription" : "Let me guess: it's bigger on the inside?",
+  "avianDescription" : "A place for droppings.",
+  "floranDescription" : "Ssshiny smooth brain bowl.",
+  "glitchDescription" : "Interest. No longer will disposal of waste material be an issue.",
+  "humanDescription" : "Why do so many spaceships not have this!?",
+  "hylotlDescription" : "Elegant toilet.",
+
+  "inventoryIcon" : "vepr_lextoileticon.png",
+  "orientations" : [
+    {
+      "image" : "vepr_lextoilet.png:default.<frame>",
+      "direction" : "left",
+      "flipImages" : true,
+      "sitPosition" : [-5, 23],
+      "imagePosition" : [0, 0],
+      
+      "frames" : 12,
+      "animationCycle" : 2.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "vepr_lextoilet.png:default.<frame>",
+      "direction" : "right",
+      "flipImages" : false,
+      "sitPosition" : [14, 23],
+      "imagePosition" : [0, 0],
+      
+      "frames" : 12,
+      "animationCycle" : 2.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+    
+  "sitStatusEffects" : [
+    "nude"
+  ],
+    
+  "sitFlipDirection" : false,
+  "scripts" : [ "autoFlush.lua" ],
+  "scriptDelta" : 10,
+  "animation" : "toilet.animation",
+  "animationParts" : {
+    "toilet" : "vepr_lextoilet.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "flush" : [ "/sfx/objects/toilet_flush.ogg" ],
+      "wait" : [ ]
+    }
+  },
+  "animationPosition" : [0, 0]
+}

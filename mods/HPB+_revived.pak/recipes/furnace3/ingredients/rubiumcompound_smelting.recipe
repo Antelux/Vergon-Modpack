@@ -1,0 +1,12 @@
+{
+  "input": [
+    { "item": "violiumore",
+      "count": 1 },
+    { "item": "goldore",
+      "count": 1 }
+  ],
+  "output": { "item": "rubiumcompound",
+    "count": 1
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurnace3", "bars", "all" ]
+}

@@ -235,6 +235,10 @@ function Chat.focus(focus, text)
 
 			Chat.__widget.focus('textBox')
 
+		elseif _G.math.setThinkingBubbles then
+
+			_G.math.setThinkingBubbles(false)
+
 		end
 
 		if text then
@@ -360,6 +364,12 @@ function init()
 	end
 	--]]
 
+	if _G.math.setThinkingBubbles then
+
+		_G.math.setThinkingBubbles(false)
+
+	end
+
 end
 
 --------------------------------------------------------------------
@@ -369,12 +379,20 @@ function uninit()
 	Chat.__widget = nil
 	Chat.__pane = nil
 
+	if _G.math.setThinkingBubbles then
+
+		_G.math.setThinkingBubbles(false)
+
+	end
+
 	-- Hacky, but the best we have for now.
 	if widget.hasFocus('textBox') then
 
 		Chat.focus(false, widget.getText('textBox'))
 
 	end
+
+
 
 end
 
@@ -1391,6 +1409,14 @@ function updateLetterCount()
 
 		autocompleteMatches.length = 0
 		rerenderChat = true
+
+	end
+
+	-- Thinking bubbles.
+
+	if _G.math.setThinkingBubbles then
+
+		_G.math.setThinkingBubbles((LetterCount > 0) and (CurrentMessage:sub(1, 1) ~= '/'))
 
 	end
 

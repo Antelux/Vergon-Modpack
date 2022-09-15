@@ -1,0 +1,39 @@
+{
+  "objectName" : "vepr_lexchest",
+  "printable" : false,
+  "rarity" : "uncommon",
+  "objectType" : "container",
+
+  "category" : "storage",
+  "price" : 500,
+  "description" : "Don't compress your wallet! Get the VCL2 Quantum Chest today.",
+  "shortdescription" : "vepr LEX Quantum Chest",
+  "race" : "generic",
+  "colonyTags" : [ "pretty",  "storage" ],
+
+  "apexDescription" : "A solid deal. This box can store lots.",
+  "avianDescription" : "What is this sorcery? How does it hold so much?",
+  "floranDescription" : "Ssslidy box holdsss lotsss of thingsss.",
+  "glitchDescription" : "Analysis. This contraption seems to hold more than it is capable of physically, so it is probably a quantum compressor.",
+  "humanDescription" : "It's bigger on the inside.",
+  "hylotlDescription" : "It looks nice. I wish I could hang it.",
+
+  "inventoryIcon" : "vepr_lexchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "vepr_lexchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 10,
+  "autoCloseCooldown" : 3600
+}

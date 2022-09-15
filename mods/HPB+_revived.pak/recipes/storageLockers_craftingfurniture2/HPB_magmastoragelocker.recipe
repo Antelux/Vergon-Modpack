@@ -1,0 +1,21 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 1 },
+    { "item": "platinumbar",
+      "count": 1 },
+    { "item": "obsidian",
+      "count": 6 },
+    { "item": "liquidlava",
+      "count": 6 },
+    { "item": "glass",
+      "count": 6 },
+    { "item": "ash",
+      "count": 6 }
+  ],
+  "output": { "item": "HPB_magmastoragelocker",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "objects", "storage", "all" ]
+}

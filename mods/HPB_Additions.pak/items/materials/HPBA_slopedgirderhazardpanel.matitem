@@ -1,0 +1,15 @@
+{
+  "itemName" : "HPBA_slopedgirderhazardpanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "HPBA_slopedgirderhazardpanelicon.png",
+  "shortdescription" : "Foundry Hazard Panel",
+  "description" : "Cheap panelling widely used for foundry construction.",
+  "glitchdescription" : "Observant. This is panelling widely used for foundry construction.",
+  "florandescription" : "Shiny sssmooth foundry metal.",
+  "novakiddescription" : "Some industrial plating, looks like it belonngs in a foundry.",
+  "learnBlueprintsOnPickup" : [ "HPBA_slopedgirderhazardpanel" ],
+
+  "materialId" : 42993
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "baritone_saxophone",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "baritone_saxophoneicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A baritone saxophone. My neck strap broke!",
+  "shortdescription" : "Baritone Saxophone",
+  "largeImage" : "baritone_saxophone.png",
+  "image" : "baritone_saxophone.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "baritone_saxophone.png",
+  "activeAngle" : -10,
+  "activeHandPosition" : [0.1,-0.2],
+
+  "handPosition" : [0,0],
+  "twoHanded" : true,
+  "kind" : "baritone_saxophone"
+}

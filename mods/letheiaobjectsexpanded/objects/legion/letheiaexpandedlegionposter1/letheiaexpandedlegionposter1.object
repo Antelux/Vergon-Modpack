@@ -1,0 +1,24 @@
+{
+  "objectName" : "letheiaexpandedlegionposter1",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A torn Letheia promotional poster.",
+  "shortdescription" : "Torn Letheia Poster",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 200,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedlegionposter1.png:<color>",
+      "imagePosition" : [-8, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

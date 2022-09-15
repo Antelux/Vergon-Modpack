@@ -1,0 +1,25 @@
+{
+  "materialId" : 42998,
+  "materialName" : "HPBA_slopedredpressurisedpanel",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "HPBA_slopedredpressurisedpanel",
+
+  "description" : "Cheap, resilient panelling widely used for ship and station construction.",
+  "glitchDescription" : "Observant. This is panelling widely used for ship and station construction.",
+  "floranDescription" : "Shiny sssmooth space metal.",
+  "novakidDescription" : "Some thick metal plating, looks mighty solid.",
+  "shortdescription" : "Red Pressurised Panel",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 24,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "HPBA_slopedredpressurisedpanel.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

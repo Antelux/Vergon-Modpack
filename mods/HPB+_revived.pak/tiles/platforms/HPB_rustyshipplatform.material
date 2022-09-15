@@ -1,0 +1,22 @@
+{
+  "materialId": 42040,
+  "materialName": "HPB_rustyshipplatform",
+  "collisionKind": "platform",
+  "transparent": true,
+  "itemDrop": "HPB_rustyshipplatform",
+  "shortdescription": "Rusty Ship Platform",
+  "description": "Platform suitable for a ship.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+
+  "renderTemplate": "/tiles/platformtemplate.config",
+  "renderParameters": {
+    "texture": "rustyshipplatform_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "platform": true
+  }
+}

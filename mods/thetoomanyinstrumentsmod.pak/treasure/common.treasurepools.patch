@@ -1,0 +1,332 @@
+[
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["bass",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["bass_clarinet",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["bass_drum",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["bass_trombone",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["bassoon",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["cello",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["contrabassoon",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["english_horn",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["glockenspiel",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["maracas",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["marimba",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["piccolo",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["piccolo_trumpet",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["recorder",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["snare_drum",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["tamborine",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["timpani",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["triangle",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["trombone",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["tuba",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["chimess",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["vibraphone",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["viola",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["balalaika",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["baritone",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["baritone_saxophone",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["cimbasso",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["pizzicato_bass",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["flugelhorn",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["handpan",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["keytar",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["garklein_recorder",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["shamisen",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["great_bass_recorder",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["sub-great_bass_recorder",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["soprano_recorder",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["tenor_recorder",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["soprano_saxophone",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["tenor_saxophone",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["bass_saxophone",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["bass_trumpet",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["alto_horn",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["piccolo_clarinet",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["serpent",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["tenoroon",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["alto_flute",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["soprano_trombone",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["contrabass_trombone",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["heckelphone",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["ukulele",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["treble_flute",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["subcontrabassoon",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["alto_flute",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["bass_flute",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["contrabass_flute",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["contra-alto_flute",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["subcontrabass_flute",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["hyperbass_flute",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["hurdy-gurdy",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["alto_clarinet",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["contrabass_clarinet",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["octocontrabass_clarinet",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["octave_bassoon",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["octocontra-alto_clarinet",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["contra-alto_clarinet",1]}
+  },
+  {
+    "op": "add",
+    "path": "/instrument/0/1/pool/-",
+    "value": {"weight": 0.0008, "item": ["waterphone",1]}
+  }
+]

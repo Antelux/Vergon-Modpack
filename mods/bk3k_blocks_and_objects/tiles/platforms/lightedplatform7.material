@@ -1,0 +1,21 @@
+{
+  "materialId" : 7182,
+  "materialName" : "lightedplatform7",
+  "collisionKind" : "platform",
+  "itemDrop" : "lightedplatform7",
+  "shortdescription" : "Lighted Platform",
+  "description" : "It glows [0, 0, 250]",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category": "supports",
+  
+  "renderTemplate" : "/tiles/lightedplatformtemplate.config",
+  "renderParameters" : {
+    "texture" : "lightedplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0,
+	"radiantLight" : [0, 0, 250]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "nullasteelalloy", "count" : 1 }
+  ],
+  "output" : { "item" : "letheiaexpandedtile10", "count" : 40 },
+  "duration" : 0.1,
+  "groups"  : [ "legionmaterials","legioncrafting1" ]
+}

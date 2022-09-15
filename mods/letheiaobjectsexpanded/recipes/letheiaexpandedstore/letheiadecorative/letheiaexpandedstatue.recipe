@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "letheiaexpandedstatue", "count" : 1 },
+  "duration" : 0.1,
+  "groups"  : [ "letheiadecorative","letheiacrafting" ]
+}

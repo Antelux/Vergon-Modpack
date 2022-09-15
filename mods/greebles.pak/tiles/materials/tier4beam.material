@@ -1,0 +1,23 @@
+{
+  "materialId" : 2334,
+  "materialName" : "tier4beam",
+  "particleColor" : [100, 110, 130, 255],
+  "itemDrop" : "tier4beam",
+  "description" : "Support beam made of durasteel.",
+  "shortdescription" : "Durasteel Beam",
+  "glitchDescription" : "Analysis. Durasteel beam.",
+  "floranDescription" : "Sssupporty durasssteel beam.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 10,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "tier4beam.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" :true,
+    "occludesBelow" : true,
+    "zLevel" : 3190
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "materialId": 42280,
+  "materialName": "HPB_monstershipplatform",
+  "collisionKind": "platform",
+  "transparent": true,
+  "itemDrop": "HPB_monstershipplatform",
+  "shortdescription": "Monster Ship Platform",
+  "description": "Platform suitable for a ship, made out of monsters!",
+  "footstepSound": "/sfx/blocks/footstep_stone.ogg",
+  "category": "supports",
+
+  "renderTemplate": "/tiles/platformtemplate.config",
+  "renderParameters": {
+    "texture": "monstershipplatform_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0,
+    "platform": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "waveplatform",
+  "category" : "Platform",
+  "rarity" : "Rare",
+  "inventoryIcon" : "waveplatformicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Strong cerulium platforms.",
+  "shortdescription" : "Wave Platform",
+  "glitchdescription" : "Analysis. Strong cerulium platform.",
+  "florandescription" : "Blue metal.",
+
+  "materialId" : 2407
+}

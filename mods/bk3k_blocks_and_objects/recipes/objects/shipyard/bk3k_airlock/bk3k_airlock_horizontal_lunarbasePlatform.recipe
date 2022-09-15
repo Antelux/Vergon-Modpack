@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "bk3k_airlock_horizontal", "count" : 1 },
+    { "item" : "lunarbaseplatform", "count" : 8 }
+  ],
+  "output" : { "item" : "bk3k_airlock_horizontal_lunarbasePlatform", "count" : 1 },
+  "groups" : [ "mod", "bk3k", "bk3k_object" ]
+}

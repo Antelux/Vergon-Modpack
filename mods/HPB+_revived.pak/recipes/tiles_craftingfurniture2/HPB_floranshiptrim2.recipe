@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "HPB_floranshiphullalt",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_floranshiptrim",
+      "count": 3 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

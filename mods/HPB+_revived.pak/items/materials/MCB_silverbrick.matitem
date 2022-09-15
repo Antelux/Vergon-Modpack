@@ -1,0 +1,11 @@
+{
+  "itemName" : "MCB_silverbrick",
+  "rarity" : "Common",
+  "inventoryIcon" : "MCB_silverbrick.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A Silver block!",
+  "shortdescription" : "Silver Block",
+  "glitchDescription" : "Analysis. A Silver block.",
+  "floranDescription" : "Silver block!",
+  "materialId" : 42379
+}

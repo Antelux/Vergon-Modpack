@@ -1,0 +1,23 @@
+{
+  "materialId": 42964,
+  "materialName": "HPBA_ironshiphulldark",
+  "particleColor": [122, 122, 122, 255],
+  "itemDrop": "HPBA_ironshiphulldark",
+  "shortdescription": "Dark Iron Plating",
+  "description": "Sheets of ship hull plating.",
+  "glitchDescription": "Statement. Star ship hull plating.",
+  "floranDescription": "Ssship ssskin.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/slopedmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "HPBA_ironhulldark.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "MCB_platinumbrick",
+  "rarity" : "Common",
+  "inventoryIcon" : "MCB_platinumbrick.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+   "description" : "A platinum block!",
+  "shortdescription" : "Platinum block",
+  "glitchDescription" : "Analysis. A platinum block.",
+  "floranDescription" : "Platinum block. Shiny.",
+  "materialId" : 42377
+}

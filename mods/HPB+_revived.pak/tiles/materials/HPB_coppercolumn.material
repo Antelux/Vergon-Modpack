@@ -1,0 +1,23 @@
+{
+  "materialId": 42226,
+  "materialName": "HPB_coppercolumn",
+  "particleColor": [201, 118, 72, 255],
+  "itemDrop": "HPB_coppercolumn",
+  "shortdescription": "Copper Column",
+  "description": "Columns for decorating or supporting upper floors in large rooms.",
+  "glitchDescription": "Statement. Stately column.",
+  "floranDescription": "Pole.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "coppercolumn_HPB.png",
+    "variants": 1,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 3000
+  }
+}

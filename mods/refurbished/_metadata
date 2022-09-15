@@ -1,0 +1,13 @@
+{
+  "version": "1.2",
+  "tags": "Crafting and Building|Furniture and Objects",
+  "author": "Armok_",
+  "description": "some people asked for me to share this over on the workshop, this mod basically just adds in refurbished versions of a lot of the wrecked and generally rusted/decayed objects in vanilla, all craftable at the wooden workbench. All objects added by this mod start with the word \"refurbished\" so they shouldn't be hard to find. as a bonus I added a freshly painted version of the USCM sign, also craftable at the wooden workbench.\n\nyes, that is a playable moontant in the screenshot for some of the furniture of this mod, they'll be out this summer probably",
+  "name": "Unwrecked: Refurbished Goods",
+  "friendlyName": "Unwrecked: Refurbished Goods",
+  "steamContentId": "2488249965",
+  "link": "steam://url/CommunityFilePage/2488249965",
+  "includes": [
+    "SpawnableItemPack"
+  ]
+}

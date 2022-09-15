@@ -1,0 +1,23 @@
+{
+  "materialId": 42046,
+  "materialName": "HPB_floranpinktrim",
+  "particleColor": [120, 92, 84, 255],
+  "itemDrop": "HPB_floranpinktrim",
+  "shortdescription": "Floran Pink Trim",
+  "description": "Fancy tubing to add some detail to a ship.",
+  "glitchDescription": "Statement. Star ship trim.",
+  "floranDescription": "Ssship tubesss.",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/pipetemplate.config",
+  "renderParameters": {
+    "texture": "floranpinktrim_HPB.png",
+    "variants": 1,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 0
+  }
+}

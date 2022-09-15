@@ -1,0 +1,52 @@
+{
+  "objectName": "HPB_darkflorancaptainschair",
+  "printable": false,
+  "rarity": "Common",
+  "objectType": "loungeable",
+  "colonyTags": [ "misc" ],
+  "description": "ENGAGE!",
+  "shortdescription": "Dark Floran Captain's Chair",
+  "race": "floran",
+  "category": "furniture",
+
+  "apexDescription": "Ahh freedom...",
+  "avianDescription": "Bless my beak, such a comfortable captain's chair.",
+  "floranDescription": "SSsmells of Apex butt.",
+  "glitchDescription": "Anticipation. Where to next?",
+  "humanDescription": "A pretty cool chair.",
+  "hylotlDescription": "Elegant.",
+
+  "inventoryIcon": "darkflorancaptainschairicon_HPB.png",
+  "orientations": [
+    {
+      "image": "darkflorancaptainschair_HPB.png:<color>",
+      "imagePosition": [-12, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+
+      "spaceScan": 0.1,
+      "anchors": [ "bottom" ],
+      "flipImages": true,
+      "direction": "left",
+      "sitPosition": [1.6, 22.5]
+    },
+    {
+      "image": "darkflorancaptainschair_HPB.png:<color>",
+      "imagePosition": [-12, 0],
+      "frames": 1,
+      "animationCycle": 0.5,
+
+      "spaceScan": 0.1,
+      "anchors": [ "bottom" ],
+      "direction": "right",
+      "sitPosition": [1.6, 22.5]
+    }
+  ],
+
+  "interactAction": "ScriptPane",
+  "interactData": "/interface/cockpit/cockpit.config",
+
+  "sitFlipDirection": false,
+  "soundEffect": "/sfx/objects/shipengine.ogg",
+  "soundEffectRadius": 1000
+}

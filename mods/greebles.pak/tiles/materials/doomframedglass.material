@@ -1,0 +1,23 @@
+{
+  "materialId" : 2369,
+  "materialName" : "doomframedglass",
+  "particleColor" : [150, 35, 35, 255],
+  "itemDrop" : "doomframedglass",
+  "description" : "Framed glass reinforced with rubium tendrils.",
+  "shortdescription" : "Doom Window",
+  "glitchDescription" : "Analysis. Framed glass reinforced with rubium.",
+  "floranDescription" : "Sssmash tough red glass?",
+  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
+  "health" : 15,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "doomframedglass.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "multiColored" :true,
+    "occludesBelow" : false,
+    "zLevel" : 3500
+  }
+}

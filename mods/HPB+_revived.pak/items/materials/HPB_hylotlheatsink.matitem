@@ -1,0 +1,16 @@
+{
+  "itemName" : "HPB_hylotlheatsink",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "hylotlheatsink_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Hylotl Heat Sink",
+  "description" : "Star ship heat sink, for shedding excess heat.",
+  "glitchdescription" : "Statement. Star ship heat sink.",
+  "florandescription" : "Warm.",
+  "learnBlueprintsOnPickup" : [
+    "hylotlheatsink"
+  ],
+
+  "materialId" : 42165
+}

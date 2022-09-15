@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 1 },
+    { "item": "cobblestonematerial", "count": 20 }
+  ],
+  "output" : { "item" : "HPBA_slopedcutstonepanel", "count" : 20 },
+  "duration" : 0.25,
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "HPB_feroziumcolumn",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "feroziumcolumn_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Ferozium Column",
+  "description" : "Columns for decorating or supporting upper floors in large rooms.",
+  "glitchdescription" : "Statement. Stately column.",
+  "florandescription" : "pole.",
+
+  "materialId" : 42238
+}

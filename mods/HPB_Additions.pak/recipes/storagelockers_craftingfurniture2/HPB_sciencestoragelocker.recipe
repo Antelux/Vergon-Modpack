@@ -1,0 +1,17 @@
+{
+  "input": [
+    { "item": "durasteelbar",
+      "count": 2 },
+    { "item": "silverbar",
+      "count": 1 },
+    { "item": "redflask",
+      "count": 1 },
+    { "item": "greenflask",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_sciencestoragelocker",
+      "count": 1
+  
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "objects", "storage", "all" ]
+}

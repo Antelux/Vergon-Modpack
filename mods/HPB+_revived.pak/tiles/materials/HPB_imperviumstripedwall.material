@@ -1,0 +1,23 @@
+{
+  "materialId": 42222,
+  "materialName": "HPB_imperviumstripedwall",
+  "particleColor": [131, 131, 131, 255],
+  "itemDrop": "HPB_imperviumstripedwall",
+  "description": "A colourful wall panel.",
+  "shortdescription": "Impervium Striped Wall",
+  "glitchDescription": "Analysis. A wall panel.",
+  "floranDescription": "Wall.",
+  "footstepSound": "/sfx/blocks/footstep_composite.ogg",
+  "health": 8,
+  "category": "materials",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "imperviumstripedwall_HPB.png", 
+    "variants": 1,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 2690
+  }
+}

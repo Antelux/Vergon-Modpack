@@ -1,0 +1,11 @@
+{
+  "itemName" : "HPB_forcefieldhullalt",
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "forcefieldhullalt_HPB.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "shortdescription" : "Shiny Force Field Block",
+  "description" : "Shiny blocks made from solidified energy!",
+
+  "materialId" : 42326
+}

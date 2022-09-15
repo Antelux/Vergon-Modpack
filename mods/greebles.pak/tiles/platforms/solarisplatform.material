@@ -1,0 +1,23 @@
+{
+  "materialId" : 2416,
+  "materialName" : "solairsplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "solarisplatform",
+  "shortdescription" : "Solaris Platform",
+  "description" : "A tough, turdy platform made from a solarium-gold alloy.",
+  "glitchDescription" : "Disgust. A wasteful alloy of solarium and gold was used in making this platform.",
+  "floranDescription" : "Jusst another metal platform.",
+  "novakidDescription" : "Gaudy lookin' metal platform.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "category": "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "solarisplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

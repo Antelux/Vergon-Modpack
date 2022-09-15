@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "tungstenbar", "count" : 1 },
+    { "item" : "bluedye", "count" : 1 },
+    { "item" : "yellowdye", "count" : 1 }
+  ],
+  "output" : { "item" : "HPBA_slopednovakidcyanpanel", "count" : 20 },
+  "duration" : 0.25,
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

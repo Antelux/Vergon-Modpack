@@ -1,0 +1,10 @@
+{
+  "itemName" : "sereneframedglass",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "sereneframedglassicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Aegisalt framed glass.",
+  "shortdescription" : "Serene Window",
+
+  "materialId" : 2365
+}

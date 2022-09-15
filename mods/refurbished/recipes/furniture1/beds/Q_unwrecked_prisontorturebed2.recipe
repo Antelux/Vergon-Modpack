@@ -1,0 +1,6 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 }  ],
+  "output" : { "item" : "Q_unwrecked_prisontorturebed2", "count" : 1 },
+  "groups" : [ "craftingfurniture", "beds", "all" ]
+}

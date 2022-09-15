@@ -1,0 +1,11 @@
+{
+  "version": "1.0.5 Silt Locker Fix",
+  "author": "simulatoralive",
+  "description": "Additions to the Hull Plating Blocks mod to add missing features and fix bugs.",
+  "name": "HullPlatingBlocksAdditions",
+  "friendlyName": "Hull Plating Blocks - Additions",
+  "includes": [
+    "HullPlatingBlocks",
+    "SpawnableItemPack"
+  ]
+}

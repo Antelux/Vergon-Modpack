@@ -1,0 +1,16 @@
+{
+  "input": [
+    { "item": "diamond",
+      "count": 1 },
+    { "item": "glass",
+      "count": 50 },
+    { "item": "bluedye",
+      "count": 2 },
+    { "item": "yellowdye",
+      "count": 1 }
+  ],
+  "output": { "item": "HPB_aquamarinegemspark",
+      "count": 500 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
+}

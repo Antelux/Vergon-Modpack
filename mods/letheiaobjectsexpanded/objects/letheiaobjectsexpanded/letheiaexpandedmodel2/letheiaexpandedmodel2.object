@@ -1,0 +1,25 @@
+{
+  "objectName" : "letheiaexpandedmodel2",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A model of a Friedenzar.",
+  "shortdescription" : "Friedenzar Model",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 1600,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "letheiaexpandedmodel2.png:<color>",
+      "imagePosition" : [-24, -0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ]
+}

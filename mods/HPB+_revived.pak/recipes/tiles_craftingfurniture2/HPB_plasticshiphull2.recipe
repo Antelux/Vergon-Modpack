@@ -1,0 +1,10 @@
+{
+  "input": [
+    { "item": "liquidoil",
+      "count": 10 }
+  ],
+  "output": { "item": "HPB_plasticshiphull",
+      "count": 20 
+  },
+  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
+}

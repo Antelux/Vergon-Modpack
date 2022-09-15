@@ -1,0 +1,21 @@
+{
+  "materialId" : 16503,
+  "materialName" : "letheiaexpandedtile3",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "letheiaexpandedtile3",
+  "description" : "A light metal wall used in Letheia offices.",
+  "shortdescription" : "Letheia Light Wall",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 4,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "letheiaexpandedtile3.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 505
+  }
+}

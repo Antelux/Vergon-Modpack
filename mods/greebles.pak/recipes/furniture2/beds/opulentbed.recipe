@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 1 },
+    { "item" : "fabric", "count" : 10 },
+    { "item" : "silk", "count" : 6 }
+  ],
+  "output" : { "item" : "opulentbed", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "beds", "all" ]
+}

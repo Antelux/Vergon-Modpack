@@ -1,0 +1,15 @@
+{
+  "modId" : 42059,
+  "modName" : "HPB_rubygem",
+  "description" : "Pretty gemstone.",
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 1,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rubygem_HPB.png",
+    "variants" : 2,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

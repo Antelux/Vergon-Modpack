@@ -1,0 +1,31 @@
+{
+  "vepr_ship" : [
+    [0, {
+      "fill" : [
+          { "item" : [ "vepr_shipsupport", 10000]},
+          { "item" : [ "vepr_shipdetails", 10000]},
+          { "item" : [ "vepr_shipwall", 10000]},
+          { "item" : [ "vepr_platform1", 10000]},
+          { "item" : [ "vepr_platform2", 10000]},
+          { "item" : [ "vepr_craftingTable", 10000]},
+          { "item" : [ "vepr_lexchair", 10000]},
+          { "item" : [ "vepr_lextable", 10000]},
+          { "item" : [ "vepr_coffee_table", 10000]},
+          { "item" : [ "vepr_lexshipdoor", 10000]},
+          { "item" : [ "vepr_lexbed", 10000]},
+          { "item" : [ "vepr_postermech", 10000]},
+          { "item" : [ "vepr_lexchest", 10000]},
+          { "item" : [ "vepr_lexlight", 10000]},
+          { "item" : [ "vepr_weaponconsole", 10000]},
+          { "item" : [ "vepr_lextoilet", 10000]}, 
+          { "item" : [ "vepr_captainschair", 10000]}
+          
+          //{ "item" : [ "vepr_implekor", 10000 ]},
+          //{ "item" : [ "vepr_cabal", 10000 ]}
+        ]
+      }
+    ]
+  ]
+}
+
+

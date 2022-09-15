@@ -1,0 +1,20 @@
+{
+  "itemName" : "subcontrabassoon",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "subcontrabassoon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A subcontrabassoon. Hit that A-1!",
+  "shortdescription" : "subcontrabassoon",
+  "largeImage" : "subcontrabassoon.png",
+  "image" : "subcontrabassoon.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "subcontrabassoon.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0.2,0.93],
+
+  "handPosition" : [0.2,0.8],
+  "twoHanded" : true,
+  "kind" : "subcontrabassoon"
+}

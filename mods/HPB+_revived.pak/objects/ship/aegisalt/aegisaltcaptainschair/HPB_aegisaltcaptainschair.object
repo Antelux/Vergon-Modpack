@@ -1,0 +1,32 @@
+{
+  "objectName": "HPB_aegisaltcaptainschair",
+  "printable": false,
+  "rarity": "Common",
+  "objectType": "loungeable",
+  "colonyTags": [ "misc" ],
+  "description": "ENGAGE!",
+  "shortdescription": "Aegisalt Captain's Chair",
+  "race": "generic",
+  "category": "furniture",
+
+  "inventoryIcon": "captainschairicon_HPB.png",
+  "orientations": [
+    {
+      "dualImage": "captainschair_HPB.png:<color>",
+
+      "imagePosition": [-8, 0],
+      "frames": 1,
+      "animationCycle": 1.0,
+
+      "spaceScan": 0.1,
+      "anchors": [ "bottom" ]
+
+    }
+  ],
+  "interactAction": "openCockpitInterface",
+
+  "sitFlipDirection": false,
+  "sitPosition": [2, 22],
+  "soundEffect": "/sfx/objects/shipengine.ogg",
+  "soundEffectRadius": 1000
+}

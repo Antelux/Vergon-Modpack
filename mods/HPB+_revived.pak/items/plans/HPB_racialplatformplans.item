@@ -1,0 +1,25 @@
+{
+  "itemName": "HPB_racialplatformplans",
+  "category": "blueprint",
+  "rarity": "Common",
+  "inventoryIcon": "blueplans_HPB.png",
+  "description": "These plans reveal how to make racial ship platforms.",
+  "shortdescription": "Racial Platform Plans",
+  "learnBlueprintsOnPickup": [
+    "HPB_apexshipplatform2",
+    "HPB_avianshipplatform",
+    "HPB_floranshipplatform",
+    "HPB_floranpinkplatform",
+    "HPB_glitchshipplatform",
+    "HPB_humanshipplatform",
+    "HPB_humanredplatform",
+    "HPB_hylotlshipplatform",
+    "HPB_fishshipplatform",
+    "HPB_novakidbrassplatform",
+    "HPB_novakidcreamplatform",
+    "HPB_novakidcyanplatform",
+    "HPB_novakidgreenplatform",
+    "HPB_novakidredplatform",
+    "HPB_rustyshipplatform"
+  ]
+}

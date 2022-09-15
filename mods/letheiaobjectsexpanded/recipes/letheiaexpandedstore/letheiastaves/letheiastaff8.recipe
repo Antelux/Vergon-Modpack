@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "letheiastaff7", "count" : 1 },
+    { "item" : "pallasteelalloy", "count" : 2 },
+	{ "item" : "letheiaenergizerunit", "count" : 2 }
+  ],
+  "output" : { "item" : "letheiastaff8", "count" : 1 },
+  "duration" : 0.8,
+  "groups"  : [ "letheiastaves","letheiacrafting3" ]
+}

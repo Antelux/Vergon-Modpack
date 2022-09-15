@@ -1,0 +1,11 @@
+{
+  "itemName" : "MCB_durablock",
+  "rarity" : "Common",
+  "inventoryIcon" : "MCB_durablock.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A Durasteel block!",
+  "shortdescription" : "Durasteel Block",
+  "glitchDescription" : "Analysis. A durasteel block.",
+  "floranDescription" : "Durasteel block. Boring.",
+  "materialId" : 42373
+}

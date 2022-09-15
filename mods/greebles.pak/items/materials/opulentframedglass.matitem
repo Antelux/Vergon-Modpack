@@ -1,0 +1,10 @@
+{
+  "itemName" : "opulentframedglass",
+  "rarity" : "Rare",
+  "inventoryIcon" : "opulentframedglassicon.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Violium framed glass.",
+  "shortdescription" : "Opulent Window",
+
+  "materialId" : 2368
+}
