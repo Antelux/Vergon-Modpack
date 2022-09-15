@@ -1,8 +1,0 @@
-[
-  [
-    { "op": "replace", "path": "/renderTemplate", "value": "/tiles/slopedmaterialtemplate.config" }
-  ],
-  [
-    { "op": "replace", "path": "/renderParameters/texture", "value": "HPBA_feroziumhull.png" }
-  ]
-]

@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 1 },
-    { "item" : "hazard", "count" : 20 }
-  ],
-  "output" : { "item" : "HPBA_slopedgirderhazardpanel", "count" : 20 },
-  "duration" : 0.25,
-  "groups": [ "mod", "HPB_mod", "craftingfurniture", "materials", "all" ]
-}

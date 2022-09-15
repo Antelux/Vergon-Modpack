@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelbar", "count" : 18 },
-	{ "item" : "corefragmentore", "count" : 4 }
-  ],
-  "output" : { "item" : "legionsword1", "count" : 1 },
-  "duration" : 0.4,
-  "groups"  : [ "legionmain","legioncrafting1" ]
-}

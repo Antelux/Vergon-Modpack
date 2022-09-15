@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "goldbar", "count" : 1 },
-    { "item" : "solariumstar", "count" : 1 }
-  ],
-  "output" : { "item" : "solarisdoor", "count" : 1 },
-  "groups" : [ "craftingfurniture2", "doors", "all" ]
-}

@@ -1,9 +1,0 @@
-{
-  "name" : "body",
-  "category" : "letheia_boss_exemplar",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "body.png"
-  }
-}

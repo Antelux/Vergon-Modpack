@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 5 }
-  ],
-  "output" : { "item" : "Q_unwrecked_wrecktable", "count" : 1 },
-  "groups" : [ "craftingfurniture", "decoration", "all" ]
-}

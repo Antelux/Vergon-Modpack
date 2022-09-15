@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "silverbar", "count" : 1 },
-    { "item" : "goldbar", "count" : 1 }
-  ],
-  "output" : { "item" : "MCB_platinumbrick", "count" : 100},
-  "duration" : 0.0,
-  "groups" : [ "craftingfurniture2", "materials", "all" ]
-}

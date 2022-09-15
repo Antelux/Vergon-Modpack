@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedferozium", "count" : 1 },
-	{ "item" : "refinedviolium", "count" : 1 }
-  ],
-  "output" : { "item" : "nullasteelalloy", "count" : 1 },
-  "duration" : 0.1,
-  "groups"  : [ "legioncraftingmaterials","legioncrafting1" ]
-}

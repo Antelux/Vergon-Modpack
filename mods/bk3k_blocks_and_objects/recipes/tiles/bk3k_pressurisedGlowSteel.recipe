@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "durasteelore", "count" : 20 },
-    { "item" : "coalore", "count" : 2 },
-    { "item" : "solidfuel", "count" : 1 }
-    ],
-  "output" : { "item" : "bk3k_pressurisedGlowSteel", "count" : 10 },
-  "groups" : [ "mod", "bk3k", "bk3k_materials" ]
-}

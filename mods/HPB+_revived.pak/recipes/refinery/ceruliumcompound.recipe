@@ -1,9 +1,0 @@
-{
-  "input": [
-    { "item": "ceruliumcompound",
-      "count": 1 }
-  ],
-  "output": { "item": "money",
-      "count": 75 },
-  "groups": [ "mod", "HPB_mod", "refinery" ]
-}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "nullasteelalloy", "count" : 1 }
-  ],
-  "output" : { "item" : "nullasteelplate", "count" : 2 },
-  "duration" : 0.1,
-  "groups"  : [ "legioncraftingmaterials","legioncrafting1" ]
-}

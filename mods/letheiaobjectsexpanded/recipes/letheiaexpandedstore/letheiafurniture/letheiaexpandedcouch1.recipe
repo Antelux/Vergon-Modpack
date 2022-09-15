@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 250 }
-  ],
-  "output" : { "item" : "letheiaexpandedcouch1", "count" : 1 },
-  "duration" : 0.1,
-  "groups"  : [ "letheiafurniture","letheiacrafting" ]
-}

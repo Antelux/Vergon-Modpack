@@ -1,7 +1,0 @@
-{
-  "input": [
-    { "item": "HPB_goldshiphull", "count": 20 }
-  ],
-  "output": { "item": "HPBA_goldshiphulldark", "count": 20 },
-  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
-}

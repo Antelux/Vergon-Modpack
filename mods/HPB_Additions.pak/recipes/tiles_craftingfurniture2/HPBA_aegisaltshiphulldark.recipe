@@ -1,7 +1,0 @@
-{
-  "input": [
-    { "item": "HPB_aegisaltshiphull", "count": 20 }
-  ],
-  "output": { "item": "HPBA_aegisaltshiphulldark", "count": 20 },
-  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
-}

@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "diamond", "count" : 1 }
-  ],
-  "output" : { "item" : "MCB_diamondbrick", "count" : 30},
-  "duration" : 0.0,
-  "groups" : [ "craftingfurniture", "materials", "all" ]
-}

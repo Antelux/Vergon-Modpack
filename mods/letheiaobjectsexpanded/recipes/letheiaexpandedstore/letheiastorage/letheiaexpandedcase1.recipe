@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 200 }
-  ],
-  "output" : { "item" : "letheiaexpandedcase1", "count" : 1 },
-  "duration" : 0.1,
-  "groups"  : [ "letheiastorage","letheiacrafting" ]
-}

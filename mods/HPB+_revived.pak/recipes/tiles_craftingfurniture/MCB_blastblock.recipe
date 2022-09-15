@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "blaststone", "count" : 1 }
-  ],
-  "output" : { "item" : "MCB_blastblock", "count" :10 },
-  "duration" : 0.0,
-  "groups" : [ "craftingfurniture", "materials", "all" ]
-}

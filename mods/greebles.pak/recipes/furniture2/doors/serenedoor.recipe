@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedaegisalt", "count" : 1 }
-  ],
-  "output" : { "item" : "serenedoor", "count" : 1 },
-  "groups" : [ "craftingfurniture2", "doors", "all" ]
-}

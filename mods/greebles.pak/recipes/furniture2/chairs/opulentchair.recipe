@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedviolium", "count" : 1 },
-    { "item" : "leather", "count" : 5 },
-    { "item" : "purpledye", "count" : 1 }
-  ],
-  "output" : { "item" : "opulentchair", "count" : 1 },
-  "groups" : [ "craftingfurniture2", "decoration", "all" ]
-}

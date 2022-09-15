@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "direstone", "count" : 1 }
-  ],
-  "output" : { "item" : "MCB_direblock", "count" :50 },
-  "duration" : 0.0,
-  "groups" : [ "craftingfurniture", "materials", "all"  ]
-}

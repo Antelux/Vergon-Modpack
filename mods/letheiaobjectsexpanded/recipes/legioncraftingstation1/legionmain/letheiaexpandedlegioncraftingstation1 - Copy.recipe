@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "nullasteelalloy", "count" : 6 },
-	{ "item" : "crucibleprocessor", "count" : 3 }
-  ],
-  "output" : { "item" : "letheiaexpandedlegioncraftingstation1", "count" : 1 },
-  "duration" : 0.4,
-  "groups"  : [ "legionmain","legioncrafting1" ]
-}

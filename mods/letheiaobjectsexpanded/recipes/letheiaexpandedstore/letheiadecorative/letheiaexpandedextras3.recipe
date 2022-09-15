@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 2000 }
-  ],
-  "output" : { "item" : "letheiaexpandedextras3", "count" : 1 },
-  "duration" : 0.1,
-  "groups"  : [ "letheiadecorative","letheiacrafting" ]
-}

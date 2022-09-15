@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "ironbar", "count" : 1 }
-  ],
-  "output" : { "item" : "Q_unwrecked_door", "count" : 1 },
-  "groups" : [ "craftingfurniture", "doors", "all" ]
-}

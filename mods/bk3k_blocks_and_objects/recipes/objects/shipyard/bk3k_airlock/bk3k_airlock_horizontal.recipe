@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "tungstenbar", "count" : 2 }
-  ],
-  "output" : { "item" : "bk3k_airlock_horizontal", "count" : 1 },
-  "groups" : [ "mod", "bk3k", "bk3k_object" ]
-}

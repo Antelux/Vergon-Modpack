@@ -1,1 +1,0 @@
-This folder is to fix compatibility with Mad Tulip's ship mod.  They used some tiles from this mod(it was dead at the time, and open permission anyhow).  But they also use non-standard pathing.  And the internal asset names for these are changed now.  So there is no fix but this!

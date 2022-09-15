@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedferozium", "count" : 1 }
-  ],
-  "output" : { "item" : "geometricdoor", "count" : 1 },
-  "groups" : [ "craftingfurniture2", "doors", "all" ]
-}

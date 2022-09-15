@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "refinedferozium", "count" : 1 },
-	{ "item" : "solariumstar", "count" : 1 }
-  ],
-  "output" : { "item" : "MCB_rubiumblock", "count" : 50},
-  "duration" : 0.0,
-  "groups" : [ "craftingfurniture", "materials", "all" ]
-}

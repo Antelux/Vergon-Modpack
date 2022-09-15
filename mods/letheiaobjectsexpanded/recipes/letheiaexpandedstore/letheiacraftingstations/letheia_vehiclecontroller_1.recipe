@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "money", "count" : 8000 }
-  ],
-  "output" : { "item" : "letheia_vehiclecontroller_1", "count" : 1 },
-  "duration" : 0.1,
-  "groups"  : [ "letheiacraftingstations","letheiacrafting" ]
-}

@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "titaniumbar", "count" : 1 },
-    { "item" : "HPB_carbonfiberhull", "count" : 20 }
-  ],
-  "output" : { "item" : "HPBA_slopedcarbonfiberpanel", "count" : 20 },
-  "duration" : 0.25,
-  "groups": [ "mod", "HPB_mod", "craftingfurniture2", "materials", "all" ]
-}

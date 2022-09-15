@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "bk3k_chameleonDoor1x4", "count" : 1 }
-  ],
-  "output" : { "item" : "bk3k_chameleonDoor1x4_wired", "count" : 1 },
-  "groups" : [ "mod", "bk3k", "bk3k_object" ]
-}

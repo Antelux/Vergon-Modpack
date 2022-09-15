@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "tungstenbar", "count" : 1 },
-    { "item" : "glass", "count" : 3 }
-  ],
-  "output" : { "item" : "bk3k_hanging_farm_light", "count" : 1 },
-  "groups" : [ "mod", "bk3k", "bk3k_object" ]
-}
