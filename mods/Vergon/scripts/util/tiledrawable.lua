@@ -88,6 +88,12 @@ end
 
 function tileDrawable.material(materialName, paintIndex, x, y)
 
+	if not materialName then
+
+		return '/assetmissing.png', 0
+
+	end
+
 	local MaterialConfig = Materials[materialName] or root.materialConfig(materialName) or Materials.MISSING
 
 	Materials[materialName] = MaterialConfig
@@ -117,7 +123,13 @@ end
 
 -----------------------------------------------------------------------
 
-function tileDrawable.mod(modName, paintIndex)
+function tileDrawable.mod(modName, x, y)
+
+	if not materialName then
+
+		return '/assetmissing.png'
+
+	end
 
 	local ModConfig = Mods[modName] or root.modConfig(modName) or Mods.MISSING
 
@@ -129,7 +141,7 @@ function tileDrawable.mod(modName, paintIndex)
 
 	end
 
-	local Crop = GenerateCropDirectives(ModConfig, ModConfig.image, 0)
+	local Crop = GenerateCropDirectives(ModConfig, ModConfig.image, 0, x or 0, y or 0)
 
 	return ModConfig.image .. Crop
 
@@ -137,7 +149,7 @@ end
 
 -----------------------------------------------------------------------
 
-function tileDrawable.liquid(liquidName)
+function tileDrawable.liquid(liquidName, liquidLevel)
 
 	local LiquidConfig = Liquids[liquidName] or root.liquidConfig(liquidName) or Liquids.MISSING
 

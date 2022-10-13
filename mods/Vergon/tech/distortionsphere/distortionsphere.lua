@@ -30,6 +30,7 @@ local Special2_Pressed = false
 local Special3_Pressed = false
 
 local Sit_Enabled = false
+local Fly_Enabled = false
 
 local Position = {0, 0}
 local Velocity = {0, 0}
@@ -213,15 +214,29 @@ function update(args)
 	Special1_Pressed = args.moves.special1
 
 	----------------------------------------------------------------------------------------------------
-	-- Sit
+	-- Sit / Fly
 	----------------------------------------------------------------------------------------------------
 
 	if args.moves.special2 and (not Special2_Pressed) then
 
 		---------------- Sit  ----------------
 
-		-- Switch sitting on/off.
-		Sit_Enabled = not Sit_Enabled
+		if args.moves.up then
+
+			Sit_Enabled = false
+			Fly_Enabled = not Fly_Enabled
+
+		elseif args.moves.down then
+
+			Sit_Enabled = false
+			Fly_Enabled = false
+
+		else
+
+			Sit_Enabled = not Sit_Enabled
+			Fly_Enabled = false
+
+		end
 
 		if Sit_Enabled then
 			
@@ -240,35 +255,23 @@ function update(args)
 
 	Special2_Pressed = args.moves.special2
 
-	Center = (not mcontroller.onGround()) and Center or nil
+	if Sit_Enabled or Fly_Enabled then
 
-	if Sit_Enabled then
-
-		local Speed = args.moves.run and 0.1 or 0.05
+		local BaseSpeed = Fly_Enabled and 40 or 3
+		local AppliedSpeed = BaseSpeed * (args.moves.run and 1 or 0.5)
 		
-		Position = mcontroller.position()
-		Center = Center or Position
+		Velocity[1] =
+			(args.moves.left  and -AppliedSpeed or 0) +
+			(args.moves.right and  AppliedSpeed or 0)
 
-		local Left   = Center[1] - 1.5
-		local Right  = Center[1] + 1.5
-		local Bottom = Center[2] - 1.5
-		local Top    = Center[2] + 1.5
-
-		Position[1] = 
-			(args.moves.left  and math.max(Position[1] - Speed, Left)) or
-			(args.moves.right and math.min(Position[1] + Speed, Right)) or
-			Position[1]
-
-		Position[2] = 
-			(args.moves.down and math.max(Position[2] - Speed, Bottom)) or
-			(args.moves.up   and math.min(Position[2] + Speed, Top)) or
-			Position[2]
+		Velocity[2] =
+			(args.moves.down and -AppliedSpeed or 0) +
+			(args.moves.up   and  AppliedSpeed or 0)
 
 		-- Disable looking up with camera.
 		args.moves.up = false
 
 		mcontroller.setVelocity(Velocity)
-		mcontroller.setPosition(Position)
 
 	end 
   

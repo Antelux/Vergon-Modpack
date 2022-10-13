@@ -4,6 +4,16 @@ enneade cahedron
 
 
 
+Left Click -> Apply Brush
+	+ Shift -> Use Dropper
+Right Click -> Erase
+	+ Shift -> Undo
+
+Double Shift -> Change Layer
+
+
+
+
 	Tools: (All are two-handed!)
 
 		Brush: Paint the world to your liking.

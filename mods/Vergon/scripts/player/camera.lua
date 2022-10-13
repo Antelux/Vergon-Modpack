@@ -150,6 +150,8 @@ function init()
 
 	script.setUpdateDelta(1)
 
+	player.playCinematic('/cinematics/teleport/fade_in.cinematic')
+
 end
 
 -----------------------------------------------------------------------
@@ -577,8 +579,8 @@ function update()
 
 			end
 
-			local xDivisor = (ItemIsAimable and (tileWidth/2.75) or (tileWidth/2)) * ((1 - EaseInOutSine(Clamp(cameraTimer * 3, 0, 1))) + 1)
-			local yDivisor = (ItemIsAimable and (tileHeight/2.75) or (tileHeight/2)) * ((1 - EaseInOutSine(Clamp(cameraTimer * 3, 0, 1))) + 1)
+			local xDivisor = (ItemIsAimable and (tileWidth/2.75) or (tileWidth/2)) * ((1 - EaseInOutSine(Clamp(cameraTimer * 2.80, 0, 1))) + 1)
+			local yDivisor = (ItemIsAimable and (tileHeight/2.75) or (tileHeight/2)) * ((1 - EaseInOutSine(Clamp(cameraTimer * 2.80, 0, 1))) + 1)
 
 			local MinXFactor = 1 / (tileWidth * 50)
 			local MinYFactor = 1 / (tileHeight * 50)

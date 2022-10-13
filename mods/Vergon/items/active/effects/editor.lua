@@ -102,13 +102,9 @@ local function Decimals(value, decimals)
 	local Exp = 10 ^ decimals
 	local Rounded = math.floor(value * Exp) / Exp
 
-	if Rounded == (Rounded // 1) then
-
-		return math.floor(value)
-
-	end
-
-	return Rounded
+	return
+		(Rounded == math.floor(Rounded)) and
+		math.tointeger(Rounded) or Rounded
 
 end
 
@@ -141,20 +137,9 @@ function update()
 	local Alpha = (60 + (math.sin(os.clock() * 4)) * 12) // 1
 	local AlphaHex = string.format('%02x', Alpha)
 
-	-- Highlight blocks.
-	if true then
-
-		localAnimator.addDrawable({
-			image = '/interface/stmanipulator/tileglow.png?multiply=FFFFFF' .. AlphaHex .. '?scalenearest=' .. Scale .. '?border=3;FFFFFF' .. AlphaHex .. ';FFFFFF00',
-			centered = false,
-			mirrored = false,
-			rotation = 0,
-			position = AimFloored,
-			fullbright = true
-		}, 'ForegroundTile+1')
-
+	
 	-- Show stamp tool blocks.
-	else
+	if painter:getLeftTool() == 'stamp' then
 
 		local Height = #ToolInput.tiles
 		local Width = #ToolInput.tiles[1]
@@ -189,6 +174,18 @@ function update()
 			end
 
 		end
+
+	-- Highlight blocks.
+	else
+		
+		localAnimator.addDrawable({
+			image = '/interface/stmanipulator/tileglow.png?multiply=FFFFFF' .. AlphaHex .. '?scalenearest=' .. Scale .. '?border=3;FFFFFF' .. AlphaHex .. ';FFFFFF00',
+			centered = false,
+			mirrored = false,
+			rotation = 0,
+			position = AimFloored,
+			fullbright = true
+		}, 'ForegroundTile+1')
 
 	end
 
@@ -225,6 +222,12 @@ function update()
 
 		local From, To = Area[1], Area[2]
 
+		if not (From and To) then
+
+			break
+
+		end
+
 		local Width = math.abs(To[1] - From[1])
 		local Height = math.abs(To[2] - From[2])
 
@@ -232,9 +235,10 @@ function update()
 		local MinY = math.min(From[2], To[2])
 		local MaxY = math.max(From[2], To[2])
 
-		localFont:renderText(Width .. 'b ' .. Decimals(Width / 2, 1) .. 'm ' .. Decimals(Width * 1.64042, 1) .. 'f', MinX, MaxY, true)
+		localFont:setRotation(0)
+		localFont:renderText(Decimals(Width, 1) .. 'b ' .. Decimals(Width / 2, 1) .. 'm', MinX, MaxY, true) -- .. Decimals(Width * 1.64042, 1) .. 'f'
 		localFont:setRotation(90)
-		localFont:renderText(Height .. 'b ' .. Decimals(Height / 2, 1) .. 'm ' .. Decimals(Height * 1.64042, 1) .. 'f', MinX, MinY, true)
+		localFont:renderText(Decimals(Height, 1) .. 'b ' .. Decimals(Height / 2, 1) .. 'm', MinX, MinY, true) -- .. Decimals(Height * 1.64042, 1) .. 'f'
 
 		local DeltaX = To[1] - From[1]
 		local DeltaY = To[2] - From[2]

@@ -1,12 +1,43 @@
 -----------------------------------------------------------------------
 
 require '/scripts/util/json.lua'
+require '/scripts/util/pprint.lua'
 
 -----------------------------------------------------------------------
 
-local Chat   = math.__chat
+local Chat = math.__chat
+
+-----------------------------------------------------------------------
+
+local Threads = { }
 
 -- TODO: Steal more from https://starbounder.org/Commands
+
+-----------------------------------------------------------------------
+
+function UpdateCommands()
+
+	for i = 1, #Threads do
+
+		local Thread = Threads[i]
+
+		local Ok, Error = coroutine.resume(Thread.thread)
+
+		if not Ok then
+
+			Chat.clientMessage('[^lightblue;Thread^reset;] [^lightyellow;' .. Thread.id .. '^reset;] Fatal error: ^red;' .. tostring(Error))
+
+		end
+
+		if (not Ok) or (coroutine.status(Thread.thread) == 'dead') then
+
+			table.remove(Threads, i)
+
+		end
+
+	end
+
+end
 
 -----------------------------------------------------------------------
 
@@ -246,6 +277,177 @@ Chat.addCommand
 		end
 
 		Chat.clientMessage(line)
+
+	end
+)
+
+-----------------------------------------------------------------------
+
+local thread_id = 0
+
+Chat.addCommand
+(
+	'exec (script: string)',
+
+	'Run a script. Requires admin privileges.',
+
+	function(Chat, args)
+
+		local Player = math.__player
+
+		if not true then --Player.isAdmin() then
+
+			Chat.clientMessage('Must be an admin to use this command!')
+			return
+
+		end
+
+		local ID = thread_id; thread_id = thread_id + 1
+		local Environment = setmetatable({
+
+			print = function(...)
+
+				local Values = { '[^lightblue;Thread^reset;] [^lightyellow;' .. ID .. '^reset;]', ... }
+
+				for i = 1, #Values do
+
+					Values[i] = tostring(Values[i])
+
+				end
+
+				Chat.clientMessage(table.concat(Values, ' '))
+
+			end,
+
+			pretty = function(...)
+
+				local Output = { '[^lightblue;Thread^reset;] [^lightyellow;' .. ID .. '^reset;] ' }
+				local Values = { ... }
+				local index = 2
+
+				pprint.setup {
+					show_all = true;
+					wrap_array = true;
+				}
+
+				for i = 1, #Values do
+
+					pprint.pformat(Values[i], nil, function(str)
+
+						Output[index] = str
+						index = index + 1
+
+					end)
+
+				end
+
+				Chat.clientMessage(table.concat(Output))
+
+			end,
+
+			sleep = function(duration)
+
+				duration = duration or 0
+
+				if type(duration) ~= 'number' then
+
+					error('Parameter \'duration\' must be a number, got a ' .. type(duration) .. ' instead', 2)
+
+				end
+
+				local WakeupTime = os.clock() + duration
+
+				repeat
+
+					coroutine.yield()
+
+				until os.clock() >= WakeupTime
+
+			end,
+
+			player = Player
+
+		}, { __index = _ENV })
+
+		local Script = table.concat(args, ' ')
+		local Function = load('pretty(' .. Script .. ')', 'exec', 't', Environment)
+
+		if Function then
+
+			local Ok, Error = pcall(Function)
+
+			if not Ok then
+
+				Chat.clientMessage('[^lightblue;Thread^reset;] ^red;' .. Error)
+
+			end
+
+		else
+
+			local Function, Error = load(Script, 'exec', 't', Environment)
+
+			if Function then
+
+				table.insert(Threads, {
+					id = thread_id - 1;
+					thread = coroutine.create(Function);
+				})
+
+			else
+
+				Chat.clientMessage('[^lightblue;Thread^reset;] ^red;' .. Error)
+
+			end
+
+		end
+
+	end
+)
+
+-----------------------------------------------------------------------
+
+Chat.addCommand
+(
+	'stop (id: uint?)',
+
+	'Stop all running threads, or a single specified one.',
+
+	function(Chat, args)
+
+		local ThreadID = tonumber(args[1])
+
+		if ThreadID then
+
+			local ThreadIndex;
+
+			for i = 1, #Threads do
+
+				if Threads[i].id == ThreadID then
+
+					ThreadIndex = i
+					break
+
+				end
+
+			end
+
+			if ThreadIndex then
+
+				Chat.clientMessage('Killed thread ^blue;' .. ThreadID .. '^reset;.')
+				table.remove(Threads, ThreadIndex)
+
+			else
+
+				Chat.clientMessage('Thread ^blue;' .. ThreadID .. '^reset; does not exist.')
+
+			end
+
+		else
+
+			Chat.clientMessage('Killed ^blue;' .. #Threads .. '^reset; thread(s).')
+			Threads = {}
+
+		end
 
 	end
 )

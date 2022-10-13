@@ -15,7 +15,14 @@
     "detector" : "oredetector.png",
     "detectorfullbright" : "oredetectorfullbright.png"
   },
-  "animationCustom" : {},
+  "animationCustom" : {
+    "sounds": {
+      "break": [ "/sfx/tools/beamaxe.ogg" ],
+      "place": [ "/sfx/tools/atom.ogg", "/sfx/tools/atom2.ogg", "/sfx/tools/atom3.ogg", "/sfx/tools/atom4.ogg", "/sfx/tools/atom5.ogg", "/sfx/tools/atom6.ogg", "/sfx/tools/atom7.ogg" ],
+      "liquid": [ "/sfx/tools/wateringcan1.ogg", "/sfx/tools/wateringcan2.ogg", "/sfx/tools/wateringcan3.ogg", "/sfx/tools/wateringcan4.ogg" ],
+      "paint": [ "/sfx/tools/paint_splash.ogg" ]
+    }
+  },
 
   "animationScripts" : ["/items/active/effects/editor.lua"],
   "animationDelta" : 5,

@@ -21,6 +21,8 @@ if Player and ((TimeNow - OrbitalWarp.lastWarpTime) >= 5) then
 
 	OrbitalWarp.lastWarpTime = TimeNow
 
+	Player.playCinematic('/cinematics/teleport/fade_out.cinematic')
+
 	if Player.worldId():find('^ClientShipWorld:') then
 
 		Player.warp('OrbitedWorld', 'beam')

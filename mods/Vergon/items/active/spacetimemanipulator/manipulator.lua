@@ -43,7 +43,7 @@ local Tools = {
 				};
 				
 				collision = 'none';
-				paint = 0;
+				paint = false; --0;
 			}
 
 		end
@@ -55,22 +55,34 @@ local Tools = {
 
 		Apply = function(input, position, layer)
 
-			ToolInput.material.name = world.material(position, layer) or false
-			ToolInput.material.hueshift = world.materialHueShift(position, layer) or 0
-
-			ToolInput.matmod.name = world.mod(position, layer) or false
-			ToolInput.matmod.hueshift = world.modHueShift(position, layer) or 0
-
-			-- = world.
 			local Level = world.liquidAt(position) -- {width, height} of liquid within tile.
+			local Paint = world.materialColor(position, layer)
 
-			ToolInput.liquid.name = Level and root.liquidName(Level[1]) or false
-			ToolInput.liquid.amount = Level and Level[2] or 0
 
-			-- none, platform, solid
-			ToolInput.collision = 'solid'
+			ToolInput.tiles = {
+				{
+					{
+						material = {
+							name = world.material(position, layer) or false;
+							hueshift = world.materialHueShift(position, layer) or 0;
+						};
 
-			ToolInput.paint = world.materialColor(position, layer)
+						matmod = {
+							name = world.mod(position, layer) or false;
+							hueshift = world.modHueShift(position, layer) or 0;
+						};
+
+						liquid = {
+							id = Level and Level[1] or false;
+							name = Level and root.liquidName(Level[1]) or false;
+							amount =  Level and Level[2] or 0;
+						};
+						
+						collision = 'solid';
+						paint = (Paint ~= 0) and Paint or nil;
+					}
+				}
+			}
 
 		end
 
@@ -189,6 +201,11 @@ local FromPosition = {}
 function init()
 
 	painter:open()
+
+	animator.setSoundVolume('place', 0.9)
+	animator.setSoundVolume('break', 0.8)
+	animator.setSoundVolume('paint', 0.9)
+	animator.setSoundVolume('liquid', 1.5)
 	
 end
 
@@ -343,81 +360,199 @@ end
 
 -----------------------------------------------------------------------
 
-local function ApplyTool(toolName, points)
+local data = { area = {} }
 
-	local Tool = Tools[toolName]
-	if not Tool then return end
+local function ApplyTool(toolName, mouseButton, isShiftHeld, fromPosition, toPosition)
+
+	--local Tool = Tools[toolName]
+	--if not Tool then return end
 
 	-- Truthy: Apply exactly what is given.
 	-- Nil: Leave it untouched.
 	-- False: Remove/reset/default value.
 
-	local Layer = painter:getLayer()
+	if (toolName == 'brush') and (mouseButton ~= 'none') then
 
-	for _, Point in ipairs(points) do
+		local Layer = painter:getLayer()
+		local Size = painter:getBrushSize()
 
-		local Input = GetNextInput(Point)
-		local Output = Tool.Apply(Input, Point, Layer, Tool)
+		local Points = GetPointsOnLine(fromPosition, toPosition, Size)
+		local Tool =
+			(
+				(mouseButton == 'left') and 
+				(isShiftHeld and Tools.dropper or Tools.pencil)
+			) or
+			(
+				(mouseButton == 'right') and 
+				Tools.eraser
+			)
 
-		if Output then
+		local soundsToPlay = {}
 
-			--world.sendEntityMessage('SERVER', 'PLACE_MATERIAL', Point[1], Point[2])
+		for _, Point in ipairs(Points) do
 
-			--
-			if Output.material then
+			local Input = GetNextInput(Point)
+			local Output = Tool.Apply(Input, Point, Layer, Tool)
 
-				if Output.material.name ~= nil then
+			if Output then
 
-					if Output.material.name == false then
+				--world.sendEntityMessage('SERVER', 'PLACE_MATERIAL', Point[1], Point[2])
+
+				--
+				if Output.material then
+
+					if Output.material.name ~= nil then
+
+						if Output.material.name == false then
+							
+							world.damageTiles({ Point }, Layer, Point, 'beamish', 1000, 0)
+							table.insert(soundsToPlay, 'break')
+
+						else
+
+							world.placeMaterial(Point, Layer, Output.material.name, Output.material.hueshift or 0, true)
+							table.insert(soundsToPlay, 'place')
+
+						end
+
+					end
+
+				end
+
+				if Output.matmod then
+
+					if Output.matmod.name ~= nil then
+
+						if Output.matmod.name then
+
+							world.placeMod(Point, Layer, Output.matmod.name, Output.matmod.hueshift or 0, true)
+							table.insert(soundsToPlay, 'place')
+
+						end
+
+					end
+
+				end
+
+				if Output.liquid then
+					
+					if Output.liquid.id ~= nil then
+
+						world.destroyLiquid(Point)
+
+						if Output.liquid.id then
+
+							world.spawnLiquid(Point, Output.liquid.id, Output.liquid.amount or 0)
+							table.insert(soundsToPlay, 'liquid')
+
+						end
+
+					end
+
+				end
+
+				if Output.paint then
+
+					world.setMaterialColor(Point, Layer, Output.paint)
+					table.insert(soundsToPlay, 'paint')
+
+				end
+				--
+
+			end
+
+		end
+
+		for _, Sound in ipairs(soundsToPlay) do
+
+			animator.setSoundPitch(Sound, 1 + (((math.random() * 2) - 1) * 0.1))
+			animator.setSoundVolume(Sound, ((1 / #soundsToPlay) ^ 0.5) * 0.85)
+			animator.playSound(Sound)
+
+		end
+
+	elseif toolName == 'area' then
+
+		local Area = data.area
+
+		if mouseButton == 'right' then
+
+			local Area = Areas[#Areas]
+			local From, To = Area[1], Area[2]
+
+			local MinX = math.min(From[1], To[1])
+			local MinY = math.min(From[2], To[2])
+
+			local MaxX = math.max(From[1], To[1])
+			local MaxY = math.max(From[2], To[2])
+
+			local Layer = painter:getLayer()
+			local Position = {}
+			local indexY = 1
+
+			ToolInput.tiles = {}
+
+			for y = MinY, MaxY do
+
+				local Tiles = {}
+				local indexX = 1
+
+				Position[2] = y
+
+				for x = MinX, MaxX do
+
+					Position[1] = x
+
+					Tiles[indexX] = {
+						material = {
+							name = world.material(Position, Layer) or false;
+							hueshift = world.materialHueShift(Position, Layer) or 0;
+						};
+
+						matmod = {
+							name = world.mod(Position, Layer) or false;
+							hueshift = world.modHueShift(Position, Layer) or 0;
+						};
+
+						liquid = {
+							id = Level and Level[1] or false;
+							name = Level and root.liquidName(Level[1]) or false;
+							amount =  Level and Level[2] or 0;
+						};
 						
-						world.damageTiles({ Point }, Layer, Point, 'beamish', 1000, 0)
+						collision = 'solid';
+						paint = (Paint ~= 0) and Paint or nil;
+					}
 
-					else
-
-						world.placeMaterial(Point, Layer, Output.material.name, Output.material.hueshift or 0, true)
-
-					end
+					indexX = indexX + 1
 
 				end
 
-			end
+				ToolInput.tiles[indexY] = Tiles
 
-			if Output.matmod then
-
-				if Output.matmod.name ~= nil then
-
-					if Output.matmod.name then
-
-						world.placeMod(Point, Layer, Output.matmod.name, Output.matmod.hueshift or 0, true)
-
-					end
-
-				end
+				indexY = indexY + 1
 
 			end
 
-			if Output.liquid then
-				
-				if Output.liquid.name ~= nil then
+		else
 
-					world.destroyLiquid(Point)
+			if not Area[1] then
 
-					if Output.liquid.name then
+				Area[1] = {fromPosition[1], fromPosition[2]}
 
-						world.spawnLiquid(Point, Output.liquid.name, Output.liquid.amount or 0)
+			else
 
-					end
-
-				end
+				Area[2] = {toPosition[1], toPosition[2]}
 
 			end
 
-			if Output.paint then
+		end
 
-				world.setMaterialColor(Point, Layer, Output.paint)
+		if mouseButton == 'none' then
 
-			end
-			--
+			table.insert(Areas, Area)
+
+			data.area = {}
 
 		end
 
@@ -428,6 +563,8 @@ end
 -----------------------------------------------------------------------
 
 local lastShiftHeld = false
+local lastFireMode = 'none'
+local lastShiftPress = 0
 
 function update(dt, fireMode, isShiftHeld)
 
@@ -440,10 +577,26 @@ function update(dt, fireMode, isShiftHeld)
 
 	end
 
+	local FireModeChanged = false
+
+	if fireMode ~= lastFireMode then
+
+		FireModeChanged = true
+		lastFireMode = fireMode
+
+	end
+
 	-- Switch between layers.
 	if IsShiftPressed then
 
-		painter:swapLayer()
+		-- TODO: 'Both' layer.
+		if (os.clock() - lastShiftPress) <= 0.25 then
+
+			painter:swapLayer()
+
+		end
+
+		lastShiftPress = os.clock()
 
 	end
 
@@ -457,17 +610,11 @@ function update(dt, fireMode, isShiftHeld)
 
 	end
 
-	-- No tool in use.
-	if fireMode == 'none' then
-
-		FromPosition = nil
-		return
-
-	end
-
 	local ToPosition = activeItem.ownerAimPosition()
-	local ToolName = (fireMode == 'primary') and painter:getLeftTool() or painter:getRightTool()
-	local Size = painter:getBrushSize()
+	local ToolName = painter:getLeftTool() --(fireMode == 'primary') and painter:getLeftTool() or painter:getRightTool()
+	local MouseButton = 
+		((fireMode == 'primary') and 'left') or
+		((fireMode == 'alt') and 'right') or 'none'
 
 	ToPosition[1] = ToPosition[1] // 1
 	ToPosition[2] = ToPosition[2] // 1
@@ -475,19 +622,19 @@ function update(dt, fireMode, isShiftHeld)
 	if FromPosition then
 
 		-- Mouse moved.
-		if (FromPosition[1] ~= ToPosition[1]) or (FromPosition[2] ~= ToPosition[2]) then
+		if (FromPosition[1] ~= ToPosition[1]) or (FromPosition[2] ~= ToPosition[2]) or FireModeChanged then
 
-			ApplyTool(ToolName, GetPointsOnLine(FromPosition, ToPosition, Size))
+			ApplyTool(ToolName, MouseButton, isShiftHeld, FromPosition, ToPosition)
 
 		end
 
-	else
+	elseif FireModeChanged then
 
-		ApplyTool(ToolName, GetPointsOnLine(ToPosition, ToPosition, Size))
+		ApplyTool(ToolName, MouseButton, isShiftHeld, ToPosition, ToPosition)
 
 	end
 
-	FromPosition = ToPosition
+	FromPosition = (MouseButton ~= 'none') and ToPosition or false
 
 end
 

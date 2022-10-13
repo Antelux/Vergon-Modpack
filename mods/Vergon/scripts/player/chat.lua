@@ -194,6 +194,9 @@ end
 
 function Chat.stringLineCount(str, maxWidth)
 
+  -- Remove colors as they add nothing to width.
+  str = str:gsub('%^.-;', '')
+
 	local PixelWidth = Chat.stringPixelWidth
 	local Floor = math.floor
 
@@ -726,7 +729,11 @@ function update()
 	if not Event then return end
 
 	--
-	script.setUpdateDelta(0)
+
+	script.setUpdateDelta(1)
+  update = UpdateCommands
+
+  --
 
 	Event.on('uninit', function()
 

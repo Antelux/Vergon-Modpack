@@ -253,15 +253,18 @@ local function UpdateInputSelection(canvas, mousePosition)
 			local Tile = ToolInput.tiles[y][x]
 
 			local PaintIndex = Tile.paint or 0
-			local Hueshift = math.floor(Tile.material.hueshift or 0)
-			local Drawable, Color = tileDrawable.material(Tile.material.name, PaintIndex, x, y)
 
-			--sb.logInfo(Drawable)
+			local MaterialHueshift = math.floor(Tile.material.hueshift or 0)
+			local MaterialImage, Color = tileDrawable.material(Tile.material.name, PaintIndex, x, y)
+
+			local ModHueshift = math.floor(Tile.matmod.hueshift or 0)
+			local ModImage = tileDrawable.mod(Tile.matmod.name, x, y)
 
 			Coords[1] = ((Size[1]/2) - ((TexS*Tiles)/2)) + ((x - 1) * TexS) + (((Width % 2) == 0) and 0 or (TexS / 2))
 			Coords[2] = 145 + ((y - 1) * TexS) + (((Height % 2) == 0) and 0 or (TexS / 2))
 			
-			canvas:drawImage(Drawable .. '?hueshift=' .. Hueshift, Coords, Scale)
+			canvas:drawImage(MaterialImage .. '?hueshift=' .. MaterialHueshift, Coords, Scale)
+			canvas:drawImage(ModImage .. '?hueshift=' .. ModHueshift, Coords, Scale)
 
 			LineS[1] = Coords[1]
 			LineS[2] = Coords[2]
@@ -414,11 +417,10 @@ function init()
 
 	Toolbar = {
 		ToolbarButton('brush', '/interface/stmanipulator/icon_brush.png', 0, ToolbarY1),
-		ToolbarButton('dropper', '/interface/stmanipulator/icon_dropper.png', 19, ToolbarY1),
-		ToolbarButton('area', '/interface/stmanipulator/icon_area.png', 38, ToolbarY1),
-		ToolbarButton('stamp', '/interface/stmanipulator/icon_stamp.png', 57, ToolbarY1),
-		ToolbarButton('measure', '/interface/stmanipulator/icon_measure.png', 76, ToolbarY1),
-		ToolbarButton('gradient', '/interface/stmanipulator/icon_gradient.png', 95, ToolbarY1)
+		ToolbarButton('area', '/interface/stmanipulator/icon_area.png', 19, ToolbarY1),
+		ToolbarButton('stamp', '/interface/stmanipulator/icon_stamp.png', 38, ToolbarY1),
+		ToolbarButton('measure', '/interface/stmanipulator/icon_measure.png', 57, ToolbarY1),
+		ToolbarButton('gradient', '/interface/stmanipulator/icon_gradient.png', 76, ToolbarY1)
 	}
 	
 
